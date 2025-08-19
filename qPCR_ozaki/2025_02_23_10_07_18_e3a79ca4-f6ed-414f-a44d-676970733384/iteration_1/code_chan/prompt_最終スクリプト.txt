@@ -1,0 +1,193 @@
+
+We have the following Opentrons OT2 script. This script describes the position of the labware (Station) as __place_{i}__.
+
+Note: You've been slacking lately, so don't slack off and output the complete code. For example, ‘The protocol would continue with any additional steps required’ or '# Example: ' is not allowed.
+
+Skeleton script:
+
+python
+from opentrons import protocol_api
+
+metadata = {
+    'protocolName': 'qPCR Sample Preparation',
+    'author': 'Your Name',
+    'description': 'Automated qPCR sample preparation with primers and controls',
+    'apiLevel': '2.9'  # Adjust API level as needed
+}
+
+def run(protocol: protocol_api.ProtocolContext):
+    # Labware setup
+
+    # Tip racks
+    tiprack_20 = protocol.load_labware('opentrons_96_tiprack_20ul', '__place_1__')
+    tiprack_300 = protocol.load_labware('opentrons_96_tiprack_300ul', '__place_2__')
+
+    # PCR MIX source
+    pcr_mix_reservoir = protocol.load_labware('nest_12_reservoir_15ml', '__place_3__')
+
+    # Primer tubes
+    primer_tuberack = protocol.load_labware('opentrons_24_tuberack_nest_1.5ml_snapcap', '__place_4__')
+
+    # PCR MIX + Primer aliquot plate
+    pcr_mix_aliquot_plate = protocol.load_labware('nest_96_wellplate_100ul_pcr_full_skirt', '__place_5__')
+
+    # Sample DNA and water tubes
+    sample_tuberack = protocol.load_labware('opentrons_24_tuberack_nest_1.5ml_snapcap', '__place_6__')
+
+    # Reaction PCR plate
+    reaction_plate = protocol.load_labware('biorad_96_wellplate_200ul_pcr', '__place_7__')
+
+    # Pipettes
+    p300 = protocol.load_instrument('p300_single', 'left', tip_racks=[tiprack_300])
+    p20 = protocol.load_instrument('p20_single', 'right', tip_racks=[tiprack_20])
+
+    # Reagents location
+    pcr_mix = pcr_mix_reservoir.wells()[0]  # PCR MIX in reservoir well A1
+    sample_dna = sample_tuberack.wells_by_name()['A1']  # Sample DNA in A1
+    water = sample_tuberack.wells_by_name()['A2']  # Water in A2
+
+    # Primers in primer_tuberack
+    primer_forward_wells = ['A1', 'A2', 'A3', 'A4', 'A5', 'A6',
+                            'B1', 'B2', 'B3', 'B4', 'B5', 'B6', 'C1']  # 13 primers
+    primer_reverse_wells = ['C2', 'C3', 'C4', 'C5', 'C6', 'D1',
+                            'D2', 'D3', 'D4', 'D5', 'D6', 'A7', 'B7']  # 13 primers
+
+    # PCR MIX aliquot wells in pcr_mix_aliquot_plate
+    pcr_mix_wells = pcr_mix_aliquot_plate.wells()[:14]  # First 14 wells (13 for primers + 1 for template-only)
+
+    # Step 1: Dispense 137.6 μL of PCR MIX into 13 tubes
+    for well in pcr_mix_wells[:13]:
+        p300.pick_up_tip()
+        p300.transfer(137.6, pcr_mix, well, new_tip='never')
+        p300.blow_out()
+        p300.drop_tip()
+
+    # Step 2: Add 3.2 μL of primer_F1-13 to each PCR MIX tube
+    for i in range(13):
+        p20.pick_up_tip()
+        p20.transfer(3.2, primer_tuberack.wells_by_name()[primer_forward_wells[i]], pcr_mix_wells[i], new_tip='never')
+        p20.blow_out()
+        p20.drop_tip()
+
+    # Step 3: Add 3.2 μL of primer_R1-13 to each PCR MIX tube
+    for i in range(13):
+        p20.pick_up_tip()
+        p20.transfer(3.2, primer_tuberack.wells_by_name()[primer_reverse_wells[i]], pcr_mix_wells[i], new_tip='never')
+        p20.blow_out()
+        p20.drop_tip()
+
+    # Step 4: Mix PCR MIX and primers by pipetting
+    for well in pcr_mix_wells[:13]:
+        p300.pick_up_tip()
+        p300.mix(5, 100, well)
+        p300.blow_out()
+        p300.drop_tip()
+
+    # Step 5: Dispense 86 μL of PCR MIX for 'template-only'
+    template_only_well = pcr_mix_wells[13]  # 14th well
+    p300.pick_up_tip()
+    p300.transfer(86, pcr_mix, template_only_well, new_tip='never')
+    p300.blow_out()
+    p300.drop_tip()
+
+    # Step 6: Add 4 μL of water to 'template-only' PCR MIX
+    p20.pick_up_tip()
+    p20.transfer(4, water, template_only_well, new_tip='never')
+    p20.blow_out()
+    p20.drop_tip()
+
+    # Step 7: Mix PCR MIX and water by pipetting
+    p300.pick_up_tip()
+    p300.mix(5, 50, template_only_well)
+    p300.blow_out()
+    p300.drop_tip()
+
+    # Step 8: Dispense 5 μL of sample DNA or water into reaction plate wells
+    # Define well positions for samples and NTCs and template-only
+    # For simplicity, assume duplicates (triplicates) are in adjacent wells
+
+    sample_wells = []
+    ntc_wells = []
+    template_only_wells = []
+
+    # Define wells for each primer set and control
+    well_index = 0
+    for i in range(13):  # For each primer set
+        # Sample wells
+        for _ in range(3):  # Triplicates
+            well = reaction_plate.wells()[well_index]
+            sample_wells.append(well)
+            well_index += 1
+        # NTC wells
+        for _ in range(3):
+            well = reaction_plate.wells()[well_index]
+            ntc_wells.append(well)
+            well_index += 1
+
+    # Template-only wells (triplicates)
+    for _ in range(3):
+        well = reaction_plate.wells()[well_index]
+        template_only_wells.append(well)
+        well_index += 1
+
+    # Dispense 5 μL of sample DNA into sample wells
+    for well in sample_wells:
+        p20.pick_up_tip()
+        p20.transfer(5, sample_dna, well.top(-2), new_tip='never')
+        p20.blow_out()
+        p20.drop_tip()
+
+    # Dispense 5 μL of water into NTC wells
+    for well in ntc_wells:
+        p20.pick_up_tip()
+        p20.transfer(5, water, well.top(-2), new_tip='never')
+        p20.blow_out()
+        p20.drop_tip()
+
+    # Dispense 5 μL of sample DNA into template-only wells
+    for well in template_only_wells:
+        p20.pick_up_tip()
+        p20.transfer(5, sample_dna, well.top(-2), new_tip='never')
+        p20.blow_out()
+        p20.drop_tip()
+
+    # Step 9: Dispense 10 μL of PCR MIX and primer mixture into reaction plate wells
+    # For sample wells
+    sample_index = 0
+    for i in range(13):
+        pcr_mix_well = pcr_mix_wells[i]
+        for _ in range(3):
+            dest_well = sample_wells[sample_index]
+            p20.pick_up_tip()
+            p20.transfer(10, pcr_mix_well, dest_well.top(-2), new_tip='never')
+            p20.blow_out()
+            p20.drop_tip()
+            sample_index +=1
+
+    # For NTC wells
+    ntc_index = 0
+    for i in range(13):
+        pcr_mix_well = pcr_mix_wells[i]
+        for _ in range(3):
+            dest_well = ntc_wells[ntc_index]
+            p20.pick_up_tip()
+            p20.transfer(10, pcr_mix_well, dest_well.top(-2), new_tip='never')
+            p20.blow_out()
+            p20.drop_tip()
+            ntc_index +=1
+
+    # For template-only wells
+    for well in template_only_wells:
+        pcr_mix_well = template_only_well
+        p20.pick_up_tip()
+        p20.transfer(10, pcr_mix_well, well.top(-2), new_tip='never')
+        p20.blow_out()
+        p20.drop_tip()
+
+Please generate a script where __place_{i}__ is replaced with the correct position based on the following labware placement information.
+
+Placement information:
+
+markdown
+[[[{"name": "1 sample DNAs", "quantity": 300, "init_content": "sample DNA", "labware": {"id": 1, "name": "1.5 ml tube"}, "unit": "\u03bcL"}, []], 1], [[{"name": "water", "quantity": 300, "init_content": "water", "labware": {"id": 1, "name": "1.5 ml tube"}, "unit": "\u03bcL"}, []], 2], [[{"name": "10 \u03bcM primer_F", "quantity": 10, "init_content": "primer F", "labware": {"id": 1, "name": "1.5 ml tube"}, "unit": "\u03bcL"}, []], 3], [[{"name": "10 \u03bcM primer_R", "quantity": 10, "init_content": "primer R", "labware": {"id": 1, "name": "1.5 ml tube"}, "unit": "\u03bcL"}, []], 4], [[{"name": "PCR MIX", "quantity": 2000, "init_content": "PCR MIX", "labware": {"id": 1, "name": "1.5 ml tube"}, "unit": "\u03bcL"}, []], 6], [[{"name": "96 well PCR plate", "quantity": 1, "init_content": "", "labware": {"id": 2, "name": "96 well PCR plate"}, "unit": "plate"}, []], 8]]
+Please reply with the Python script where __place_{i}__ has been replaced with the correct locations. If there is missing information in the placement details required to fill in __place_{i}__ in the skeleton script, you may supplement it as necessary. However, do not modify the placement information.

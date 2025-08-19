@@ -1,0 +1,17 @@
+# Constraints for prompt
+P300_SINGLE_GEN2 is on the RIGHT in OT-2.
+
+# Process flow
+## Preparation:
+Prepare each of two types of colored water: one's init_content named Color A water and the other's init_content named Color B water. These are made by diluting food coloring with water.
+Note: Color A water and Color B water have been prepared in advance and are stored in different 6-well plates.
+
+## Preparation of the 96 well plate:
+Place an empty 96 well plate on the experimental bench.
+
+## Mixing of the colored water:
+Using a micropipette, add 300 µl of Color A water and 0 µl of Color B water to the first well.
+Then, for each subsequent well, decrease the volume of Color A water by 30 µl and increase the volume of Color B water by 30 µl.
+For example, in the second well, add 270 µl of Color A water and 30 µl of Color B water, and so on.
+Continue this pattern.
+Finally, in the 10th well, add 0 µl of Color A water and 300 µl of Color B water.

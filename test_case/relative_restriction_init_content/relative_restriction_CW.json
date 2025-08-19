@@ -1,0 +1,19 @@
+[
+    {
+      "restriction_category": "init_content",
+      "labware_id": "Color A water",
+      "restriction_type": "adjacent",
+      "adjacent_type": "around",
+      "neighbour_types": ["Color B water"],
+      "description": "周囲8マスに隣接しない"
+    },
+  
+    {
+      "restriction_category": "name",
+      "labware_id": "Color A water",
+      "restriction_type": "adjacent",
+      "adjacent_type": "around",
+      "neighbour_types": ["Color B water"],
+      "description": "周囲8マスに隣接しない"
+    }
+  ]

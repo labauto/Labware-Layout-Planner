@@ -1,0 +1,17 @@
+[
+    {
+        "labware":{
+            "name": "96 well plate"
+        }
+    },
+    {        
+        "labware":{
+            "name": "1.5 mL tube"
+        }
+    },
+    {    
+        "labware":{
+            "name": "15 mL tube"
+        }
+    }
+]

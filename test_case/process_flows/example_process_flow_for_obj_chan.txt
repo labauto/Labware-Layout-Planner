@@ -1,0 +1,4 @@
+
+1) Transfer 100 µL of {XXX} cell suspension from a 1.5 mL tube to each well in a 96 well plate.
+2) Transfer 200 µL {YYY} medium from a 15 mL tube to each well in the 96 well plate.
+3) Gently mix the contents of each well.

@@ -1,0 +1,8 @@
+[
+  {
+    "id": 2,
+    "holes_dimention": [8, 12], // 穴の数（8×12 = 96 well）
+    "top_left_coordinate": [10.0, 90.0], //左上の穴の座標、左下角が（0,0）、単位はmm
+    "bottom_right_coordinate": [90.0, 10.0]
+  }
+]

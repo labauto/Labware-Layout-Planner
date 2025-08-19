@@ -1,0 +1,116 @@
+```python
+from opentrons import protocol_api
+
+metadata = {
+    'protocolName': 'Automated PCR Setup',
+    'author': 'Your Name',
+    'description': 'Automated PCR setup using the Opentrons OT-2 robot',
+    'apiLevel': '2.13'
+}
+
+def run(protocol: protocol_api.ProtocolContext):
+
+    # Labware
+    tiprack_10ul = protocol.load_labware('opentrons_96_filtertiprack_10ul', '10')
+    tiprack_200ul = protocol.load_labware('opentrons_96_tiprack_300ul', '11')
+    
+    # Pipettes
+    p10 = protocol.load_instrument('p10_single', 'right', tip_racks=[tiprack_10ul])
+    p300 = protocol.load_instrument('p300_single', 'left', tip_racks=[tiprack_200ul])
+
+    # Labware Placement
+    # Slot assignments based on the placement information provided
+    # Reagent tubes in a 24-tube rack placed in slot 1
+    reagent_rack = protocol.load_labware('opentrons_24_tuberack_nest_1.5ml_snapcap', '1')
+
+    # Assign tubes to positions in the reagent rack
+    tb_green_premix = reagent_rack.wells_by_name()['A1']  # TB Green Premix Ex Taq GC (2×) at position 1
+    pcr_forward_primer = reagent_rack.wells_by_name()['A2']  # PCR Forward Primer (10 μM) at position 2
+    pcr_reverse_primer = reagent_rack.wells_by_name()['A3']  # PCR Reverse Primer (10 μM) at position 3
+    rox_reference_dye = reagent_rack.wells_by_name()['A4']  # ROX Reference Dye (50×) at position 4
+    template = reagent_rack.wells_by_name()['A5']  # Template at position 5
+    sterile_water = reagent_rack.wells_by_name()['A6']  # Sterile water at position 6
+    primer_F_10uM = reagent_rack.wells_by_name()['B1']  # 10 μM primer_F at position 10
+    primer_R_10uM = reagent_rack.wells_by_name()['B2']  # 10 μM primer_R at position 11
+    pcr_mix = reagent_rack.wells_by_name()['B3']  # PCR MIX at position 12
+
+    # Sample DNAs and water in another rack placed in slot 2
+    sample_rack = protocol.load_labware('opentrons_24_tuberack_nest_1.5ml_snapcap', '2')
+    sample_dnas = sample_rack.wells_by_name()['A1']  # Sample DNAs at position 7
+    water = sample_rack.wells_by_name()['A2']  # Water at position 8
+
+    # 96 well PCR plate placed in slot 9
+    pcr_plate = protocol.load_labware('nest_96_wellplate_100ul_pcr_full_skirt', '9')  # 96 well PCR plate at position 9
+
+    # Protocol Steps
+    # Example: Prepare master mix and distribute to PCR plate
+
+    # Create master mix in a new tube (e.g., in reagent rack well B4)
+    master_mix = reagent_rack.wells_by_name()['B4']
+
+    # Calculate volumes for master mix components (per reaction)
+    tb_green_premix_volume = 10.0  # μL
+    forward_primer_volume = 0.4    # μL
+    reverse_primer_volume = 0.4    # μL
+    rox_dye_volume = 0.4           # μL
+    sterile_water_volume = 6.8     # μL
+
+    # Number of reactions
+    num_reactions = 10  # Adjust as necessary
+
+    # Prepare master mix
+    total_tb_green_premix = tb_green_premix_volume * num_reactions
+    total_forward_primer = forward_primer_volume * num_reactions
+    total_reverse_primer = reverse_primer_volume * num_reactions
+    total_rox_dye = rox_dye_volume * num_reactions
+    total_sterile_water = sterile_water_volume * num_reactions
+
+    # Transfer TB Green Premix Ex Taq GC (2×)
+    p300.transfer(total_tb_green_premix, tb_green_premix, master_mix.top(), new_tip='always')
+
+    # Transfer PCR Forward Primer (10 μM)
+    p10.transfer(total_forward_primer, pcr_forward_primer, master_mix.top(), new_tip='always')
+
+    # Transfer PCR Reverse Primer (10 μM)
+    p10.transfer(total_reverse_primer, pcr_reverse_primer, master_mix.top(), new_tip='always')
+
+    # Transfer ROX Reference Dye (50×)
+    p10.transfer(total_rox_dye, rox_reference_dye, master_mix.top(), new_tip='always')
+
+    # Transfer Sterile Water
+    p300.transfer(total_sterile_water, sterile_water, master_mix.top(), new_tip='always')
+
+    # Mix the master mix
+    p300.pick_up_tip()
+    p300.mix(10, 200, master_mix)
+    p300.blow_out(master_mix.top())
+    p300.drop_tip()
+
+    # Distribute master mix to PCR plate
+    master_mix_volume_per_well = tb_green_premix_volume + forward_primer_volume + reverse_primer_volume + rox_dye_volume + sterile_water_volume
+    p300.distribute(master_mix_volume_per_well, master_mix, pcr_plate.wells()[:num_reactions], new_tip='always')
+
+    # Add template DNA to each well
+    template_volume = 2.0  # μL per reaction
+    for well in pcr_plate.wells()[:num_reactions]:
+        p10.transfer(template_volume, template, well, new_tip='always')
+
+    # The protocol would continue with any additional steps required
+
+    # Note: Ensure that all volumes and labware are appropriate for your specific protocol
+```
+
+In the above script:
+
+- **Labware placements**:
+  - `reagent_rack` is placed in __place_1__, which corresponds to slot `'1'` based on the placement information.
+  - `sample_rack` is placed in __place_2__, which corresponds to slot `'2'`.
+  - The `pcr_plate` is placed in __place_9__, which corresponds to slot `'9'`.
+ 
+- **Tubes in the racks** are assigned to well positions within the racks, corresponding to the reagents' positions:
+  - For example, `tb_green_premix` is in well `'A1'` of the reagent rack, representing position `1`.
+  - Similarly, other reagents are assigned to their respective positions within the racks.
+
+- **Pipette operations** are performed according to the volumes specified for each reagent.
+
+Please adjust the volumes, number of reactions, and labware types according to your actual experimental requirements.

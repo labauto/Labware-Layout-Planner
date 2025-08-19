@@ -1,0 +1,43 @@
+/Users/yuyaarai/.opentrons/robot_settings.json not found. Loading defaults
+Deck calibration not found.
+/Users/yuyaarai/.opentrons/deck_calibration.json not found. Loading defaults
+Traceback (most recent call last):
+  File "/Users/yuyaarai/Documents/Humanics/Project/FormationFormatter/src/formationformatter/code_chan/.venv/lib/python3.12/site-packages/opentrons/protocols/execution/execute_python.py", line 160, in exec_run
+    exec("run(__context)", new_globs)
+  File "<string>", line 1, in <module>
+  File "qPCR_ozaki/2025_02_23_10_07_18_e3a79ca4-f6ed-414f-a44d-676970733384/iteration_1/code_chan/最終スクリプト.py", line 34, in run
+    p20 = protocol.load_instrument('p20_single', 'right', tip_racks=[tiprack_20])
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/yuyaarai/Documents/Humanics/Project/FormationFormatter/src/formationformatter/code_chan/.venv/lib/python3.12/site-packages/opentrons/protocols/api_support/util.py", line 389, in _check_version_wrapper
+    return decorated_obj(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/yuyaarai/Documents/Humanics/Project/FormationFormatter/src/formationformatter/code_chan/.venv/lib/python3.12/site-packages/opentrons/protocol_api/protocol_context.py", line 954, in load_instrument
+    checked_instrument_name = validation.ensure_pipette_name(instrument_name)
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/yuyaarai/Documents/Humanics/Project/FormationFormatter/src/formationformatter/code_chan/.venv/lib/python3.12/site-packages/opentrons/protocol_api/validation.py", line 156, in ensure_pipette_name
+    raise ValueError(
+ValueError: Cannot resolve p20_single to pipette, must be given valid pipette name.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/Users/yuyaarai/Documents/Humanics/Project/FormationFormatter/src/formationformatter/code_chan/.venv/lib/python3.12/site-packages/opentrons/simulate.py", line 1061, in <module>
+    sys.exit(main())
+             ^^^^^^
+  File "/Users/yuyaarai/Documents/Humanics/Project/FormationFormatter/src/formationformatter/code_chan/.venv/lib/python3.12/site-packages/opentrons/simulate.py", line 1020, in main
+    runlog, maybe_bundle = simulate(
+                           ^^^^^^^^^
+  File "/Users/yuyaarai/Documents/Humanics/Project/FormationFormatter/src/formationformatter/code_chan/.venv/lib/python3.12/site-packages/opentrons/simulate.py", line 564, in simulate
+    return _run_file_non_pe(
+           ^^^^^^^^^^^^^^^^^
+  File "/Users/yuyaarai/Documents/Humanics/Project/FormationFormatter/src/formationformatter/code_chan/.venv/lib/python3.12/site-packages/opentrons/simulate.py", line 887, in _run_file_non_pe
+    execute.run_protocol(
+  File "/Users/yuyaarai/Documents/Humanics/Project/FormationFormatter/src/formationformatter/code_chan/.venv/lib/python3.12/site-packages/opentrons/protocols/execution/execute.py", line 39, in run_protocol
+    exec_run(
+  File "/Users/yuyaarai/Documents/Humanics/Project/FormationFormatter/src/formationformatter/code_chan/.venv/lib/python3.12/site-packages/opentrons/protocols/execution/execute_python.py", line 169, in exec_run
+    _raise_pretty_protocol_error(exception=e, filename=filename)
+  File "/Users/yuyaarai/Documents/Humanics/Project/FormationFormatter/src/formationformatter/code_chan/.venv/lib/python3.12/site-packages/opentrons/protocols/execution/execute_python.py", line 71, in _raise_pretty_protocol_error
+    raise ExceptionInProtocolError(
+opentrons.protocols.execution.errors.ExceptionInProtocolError: ValueError [line 34]: Cannot resolve p20_single to pipette, must be given valid pipette name.

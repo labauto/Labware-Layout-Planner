@@ -1,0 +1,86 @@
+from opentrons import protocol_api
+
+metadata = {
+    'protocolName': 'QPCR Sample Preparation',
+    'author': 'Your Name',
+    'description': 'Prepare samples for QPCR with multiple primers and controls',
+    'apiLevel': '2.9'  # or the latest API level
+}
+
+def run(protocol: protocol_api.ProtocolContext):
+
+    # Labware
+    # Load tip racks
+    tiprack_20ul = protocol.load_labware('opentrons_96_tiprack_20ul', '8')
+    tiprack_300ul = protocol.load_labware('opentrons_96_tiprack_300ul', '9')
+
+    # Load reagents
+    # PCR MIX in 1.5 mL tube in slot 5
+    pcr_mix_tube = protocol.load_labware('opentrons_24_tuberack_eppendorf_1.5ml_safelock_snapcap', '5').wells_by_name()['A1']
+
+    # Sample DNA in 1.5 mL tube in slot 1
+    sample_dna = protocol.load_labware('opentrons_24_tuberack_eppendorf_1.5ml_safelock_snapcap', '1').wells_by_name()['A1']
+    # Water in 1.5 mL tube in slot 2
+    water = protocol.load_labware('opentrons_24_tuberack_eppendorf_1.5ml_safelock_snapcap', '2').wells_by_name()['A1']
+
+    # Primers in 1.5 mL tubes in slots 3 and 4
+    primer_f_tube = protocol.load_labware('opentrons_24_tuberack_eppendorf_1.5ml_safelock_snapcap', '3').wells_by_name()['A1']
+    primer_r_tube = protocol.load_labware('opentrons_24_tuberack_eppendorf_1.5ml_safelock_snapcap', '4').wells_by_name()['A1']
+
+    # PCR MIX + primer mixtures in a 96 well plate in slot 6
+    mix_plate = protocol.load_labware('corning_96_wellplate_360ul_flat', '6')
+
+    # Reaction plate (96 well PCR plate) in slot 7
+    reaction_plate = protocol.load_labware('biorad_96_wellplate_200ul_pcr', '7')
+
+    # Pipettes
+    p20 = protocol.load_instrument('p20_single_gen2', 'left', tip_racks=[tiprack_20ul])
+    p300 = protocol.load_instrument('p300_single_gen2', 'right', tip_racks=[tiprack_300ul])
+
+    # Proceed with the steps
+    # Step 1: Dispense 137.6 μL of PCR MIX into well A1 in mix_plate
+    p300.transfer(137.6, pcr_mix_tube, mix_plate.wells_by_name()['A1'], new_tip='always')
+
+    # Step 2 and 3: Add 3.2 μL of primer_F and 3.2 μL of primer_R to the PCR MIX well
+    p20.transfer(3.2, primer_f_tube, mix_plate.wells_by_name()['A1'], new_tip='always')
+    p20.transfer(3.2, primer_r_tube, mix_plate.wells_by_name()['A1'], new_tip='always')
+    # Step 4: Mix by pipetting
+    p300.pick_up_tip()
+    p300.mix(5, 100, mix_plate.wells_by_name()['A1'])
+    p300.drop_tip()
+
+    # Step 5: Dispense 86 μL of PCR MIX for template only control into well B1 in mix_plate
+    p300.transfer(86, pcr_mix_tube, mix_plate.wells_by_name()['B1'], new_tip='always')
+
+    # Step 6: Add 4 μL of water to the control mix
+    p20.transfer(4, water, mix_plate.wells_by_name()['B1'], new_tip='always')
+    # Step 7: Mix by pipetting
+    p300.pick_up_tip()
+    p300.mix(5, 80, mix_plate.wells_by_name()['B1'])
+    p300.drop_tip()
+
+    # Step 8: Apply 5 μL of sample DNA or water to reaction plate wells
+    # Define wells for sample DNA, NTC, and template only
+    sample_well = reaction_plate.wells_by_name()['A1']
+    ntc_well = reaction_plate.wells_by_name()['A2']
+    template_only_well = reaction_plate.wells_by_name()['A3']
+
+    # Apply 5 μL of sample DNA to sample well
+    p20.transfer(5, sample_dna, sample_well, new_tip='always')
+
+    # Apply 5 μL of water to NTC well
+    p20.transfer(5, water, ntc_well, new_tip='always')
+
+    # Apply 5 μL of sample DNA to template only well
+    p20.transfer(5, sample_dna, template_only_well, new_tip='always')
+
+    # Step 9: Apply 10 μL of PCR MIX + primer mixture to the reaction plate
+
+    # For sample well
+    p300.transfer(10, mix_plate.wells_by_name()['A1'], sample_well, new_tip='always')
+
+    # For NTC well
+    p300.transfer(10, mix_plate.wells_by_name()['A1'], ntc_well, new_tip='always')
+
+    # Apply control mix to template only well
+    p300.transfer(10, mix_plate.wells_by_name()['B1'], template_only_well, new_tip='always')

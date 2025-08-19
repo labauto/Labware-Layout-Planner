@@ -1,0 +1,443 @@
+Picking up tip from A1 of Opentrons OT-2 96 Tip Rack 300 µL on 7
+Transferring 137.6 from A1 of Opentrons 24 Tube Rack with Generic 2 mL Screwcap on 6 to A1 of NEST 96 Well Plate 200 µL Flat on 9
+	Aspirating 137.6 uL from A1 of Opentrons 24 Tube Rack with Generic 2 mL Screwcap on 6 at 92.86 uL/sec
+	Dispensing 137.6 uL into A1 of NEST 96 Well Plate 200 µL Flat on 9 at 92.86 uL/sec
+Dropping tip into A1 of Opentrons Fixed Trash on 12
+Picking up tip from A1 of Opentrons OT-2 96 Tip Rack 20 µL on 5
+Transferring 3.2 from A1 of Opentrons 24 Tube Rack with Generic 2 mL Screwcap on 3 to A1 of NEST 96 Well Plate 200 µL Flat on 9
+	Aspirating 3.2 uL from A1 of Opentrons 24 Tube Rack with Generic 2 mL Screwcap on 3 at 7.56 uL/sec
+	Dispensing 3.2 uL into A1 of NEST 96 Well Plate 200 µL Flat on 9 at 7.56 uL/sec
+Transferring 3.2 from A1 of Opentrons 24 Tube Rack with Generic 2 mL Screwcap on 4 to A1 of NEST 96 Well Plate 200 µL Flat on 9
+	Aspirating 3.2 uL from A1 of Opentrons 24 Tube Rack with Generic 2 mL Screwcap on 4 at 7.56 uL/sec
+	Dispensing 3.2 uL into A1 of NEST 96 Well Plate 200 µL Flat on 9 at 7.56 uL/sec
+Mixing 5 times with a volume of 20.0 ul
+	Aspirating 20.0 uL from A1 of NEST 96 Well Plate 200 µL Flat on 9 at 7.56 uL/sec
+	Dispensing 20.0 uL into A1 of NEST 96 Well Plate 200 µL Flat on 9 at 7.56 uL/sec
+	Aspirating 20.0 uL from A1 of NEST 96 Well Plate 200 µL Flat on 9 at 7.56 uL/sec
+	Dispensing 20.0 uL into A1 of NEST 96 Well Plate 200 µL Flat on 9 at 7.56 uL/sec
+	Aspirating 20.0 uL from A1 of NEST 96 Well Plate 200 µL Flat on 9 at 7.56 uL/sec
+	Dispensing 20.0 uL into A1 of NEST 96 Well Plate 200 µL Flat on 9 at 7.56 uL/sec
+	Aspirating 20.0 uL from A1 of NEST 96 Well Plate 200 µL Flat on 9 at 7.56 uL/sec
+	Dispensing 20.0 uL into A1 of NEST 96 Well Plate 200 µL Flat on 9 at 7.56 uL/sec
+	Aspirating 20.0 uL from A1 of NEST 96 Well Plate 200 µL Flat on 9 at 7.56 uL/sec
+	Dispensing 20.0 uL into A1 of NEST 96 Well Plate 200 µL Flat on 9 at 7.56 uL/sec
+Dropping tip into A1 of Opentrons Fixed Trash on 12
+Picking up tip from B1 of Opentrons OT-2 96 Tip Rack 300 µL on 7
+Transferring 86.0 from A1 of Opentrons 24 Tube Rack with Generic 2 mL Screwcap on 6 to B1 of NEST 96 Well Plate 200 µL Flat on 9
+	Aspirating 86.0 uL from A1 of Opentrons 24 Tube Rack with Generic 2 mL Screwcap on 6 at 92.86 uL/sec
+	Dispensing 86.0 uL into B1 of NEST 96 Well Plate 200 µL Flat on 9 at 92.86 uL/sec
+Dropping tip into A1 of Opentrons Fixed Trash on 12
+Picking up tip from B1 of Opentrons OT-2 96 Tip Rack 20 µL on 5
+Transferring 4.0 from A1 of Opentrons 24 Tube Rack with Generic 2 mL Screwcap on 2 to B1 of NEST 96 Well Plate 200 µL Flat on 9
+	Aspirating 4.0 uL from A1 of Opentrons 24 Tube Rack with Generic 2 mL Screwcap on 2 at 7.56 uL/sec
+	Dispensing 4.0 uL into B1 of NEST 96 Well Plate 200 µL Flat on 9 at 7.56 uL/sec
+Mixing 5 times with a volume of 20.0 ul
+	Aspirating 20.0 uL from B1 of NEST 96 Well Plate 200 µL Flat on 9 at 7.56 uL/sec
+	Dispensing 20.0 uL into B1 of NEST 96 Well Plate 200 µL Flat on 9 at 7.56 uL/sec
+	Aspirating 20.0 uL from B1 of NEST 96 Well Plate 200 µL Flat on 9 at 7.56 uL/sec
+	Dispensing 20.0 uL into B1 of NEST 96 Well Plate 200 µL Flat on 9 at 7.56 uL/sec
+	Aspirating 20.0 uL from B1 of NEST 96 Well Plate 200 µL Flat on 9 at 7.56 uL/sec
+	Dispensing 20.0 uL into B1 of NEST 96 Well Plate 200 µL Flat on 9 at 7.56 uL/sec
+	Aspirating 20.0 uL from B1 of NEST 96 Well Plate 200 µL Flat on 9 at 7.56 uL/sec
+	Dispensing 20.0 uL into B1 of NEST 96 Well Plate 200 µL Flat on 9 at 7.56 uL/sec
+	Aspirating 20.0 uL from B1 of NEST 96 Well Plate 200 µL Flat on 9 at 7.56 uL/sec
+	Dispensing 20.0 uL into B1 of NEST 96 Well Plate 200 µL Flat on 9 at 7.56 uL/sec
+Dropping tip into A1 of Opentrons Fixed Trash on 12
+Distributing 5.0 from A1 of Opentrons 24 Tube Rack with Generic 2 mL Screwcap on 1 to A1 of Bio-Rad 96 Well Plate 200 µL PCR on 8
+	Transferring 5.0 from A1 of Opentrons 24 Tube Rack with Generic 2 mL Screwcap on 1 to A1 of Bio-Rad 96 Well Plate 200 µL PCR on 8
+		Picking up tip from C1 of Opentrons OT-2 96 Tip Rack 20 µL on 5
+		Aspirating 16.0 uL from A1 of Opentrons 24 Tube Rack with Generic 2 mL Screwcap on 1 at 7.56 uL/sec
+		Dispensing 5.0 uL into A1 of Bio-Rad 96 Well Plate 200 µL PCR on 8 at 7.56 uL/sec
+		Dispensing 5.0 uL into B1 of Bio-Rad 96 Well Plate 200 µL PCR on 8 at 7.56 uL/sec
+		Dispensing 5.0 uL into C1 of Bio-Rad 96 Well Plate 200 µL PCR on 8 at 7.56 uL/sec
+		Blowing out at A1 of Opentrons Fixed Trash on 12
+		Aspirating 16.0 uL from A1 of Opentrons 24 Tube Rack with Generic 2 mL Screwcap on 1 at 7.56 uL/sec
+		Dispensing 5.0 uL into D1 of Bio-Rad 96 Well Plate 200 µL PCR on 8 at 7.56 uL/sec
+		Dispensing 5.0 uL into E1 of Bio-Rad 96 Well Plate 200 µL PCR on 8 at 7.56 uL/sec
+		Dispensing 5.0 uL into F1 of Bio-Rad 96 Well Plate 200 µL PCR on 8 at 7.56 uL/sec
+		Blowing out at A1 of Opentrons Fixed Trash on 12
+		Aspirating 16.0 uL from A1 of Opentrons 24 Tube Rack with Generic 2 mL Screwcap on 1 at 7.56 uL/sec
+		Dispensing 5.0 uL into G1 of Bio-Rad 96 Well Plate 200 µL PCR on 8 at 7.56 uL/sec
+		Dispensing 5.0 uL into H1 of Bio-Rad 96 Well Plate 200 µL PCR on 8 at 7.56 uL/sec
+		Dispensing 5.0 uL into A2 of Bio-Rad 96 Well Plate 200 µL PCR on 8 at 7.56 uL/sec
+		Blowing out at A1 of Opentrons Fixed Trash on 12
+		Aspirating 16.0 uL from A1 of Opentrons 24 Tube Rack with Generic 2 mL Screwcap on 1 at 7.56 uL/sec
+		Dispensing 5.0 uL into B2 of Bio-Rad 96 Well Plate 200 µL PCR on 8 at 7.56 uL/sec
+		Dispensing 5.0 uL into C2 of Bio-Rad 96 Well Plate 200 µL PCR on 8 at 7.56 uL/sec
+		Dispensing 5.0 uL into D2 of Bio-Rad 96 Well Plate 200 µL PCR on 8 at 7.56 uL/sec
+		Blowing out at A1 of Opentrons Fixed Trash on 12
+		Aspirating 16.0 uL from A1 of Opentrons 24 Tube Rack with Generic 2 mL Screwcap on 1 at 7.56 uL/sec
+		Dispensing 5.0 uL into E2 of Bio-Rad 96 Well Plate 200 µL PCR on 8 at 7.56 uL/sec
+		Dispensing 5.0 uL into F2 of Bio-Rad 96 Well Plate 200 µL PCR on 8 at 7.56 uL/sec
+		Dispensing 5.0 uL into G2 of Bio-Rad 96 Well Plate 200 µL PCR on 8 at 7.56 uL/sec
+		Blowing out at A1 of Opentrons Fixed Trash on 12
+		Aspirating 16.0 uL from A1 of Opentrons 24 Tube Rack with Generic 2 mL Screwcap on 1 at 7.56 uL/sec
+		Dispensing 5.0 uL into H2 of Bio-Rad 96 Well Plate 200 µL PCR on 8 at 7.56 uL/sec
+		Dispensing 5.0 uL into A3 of Bio-Rad 96 Well Plate 200 µL PCR on 8 at 7.56 uL/sec
+		Dispensing 5.0 uL into B3 of Bio-Rad 96 Well Plate 200 µL PCR on 8 at 7.56 uL/sec
+		Blowing out at A1 of Opentrons Fixed Trash on 12
+		Aspirating 16.0 uL from A1 of Opentrons 24 Tube Rack with Generic 2 mL Screwcap on 1 at 7.56 uL/sec
+		Dispensing 5.0 uL into C3 of Bio-Rad 96 Well Plate 200 µL PCR on 8 at 7.56 uL/sec
+		Dispensing 5.0 uL into D3 of Bio-Rad 96 Well Plate 200 µL PCR on 8 at 7.56 uL/sec
+		Dispensing 5.0 uL into E3 of Bio-Rad 96 Well Plate 200 µL PCR on 8 at 7.56 uL/sec
+		Blowing out at A1 of Opentrons Fixed Trash on 12
+		Aspirating 16.0 uL from A1 of Opentrons 24 Tube Rack with Generic 2 mL Screwcap on 1 at 7.56 uL/sec
+		Dispensing 5.0 uL into F3 of Bio-Rad 96 Well Plate 200 µL PCR on 8 at 7.56 uL/sec
+		Dispensing 5.0 uL into G3 of Bio-Rad 96 Well Plate 200 µL PCR on 8 at 7.56 uL/sec
+		Dispensing 5.0 uL into H3 of Bio-Rad 96 Well Plate 200 µL PCR on 8 at 7.56 uL/sec
+		Blowing out at A1 of Opentrons Fixed Trash on 12
+		Aspirating 16.0 uL from A1 of Opentrons 24 Tube Rack with Generic 2 mL Screwcap on 1 at 7.56 uL/sec
+		Dispensing 5.0 uL into A4 of Bio-Rad 96 Well Plate 200 µL PCR on 8 at 7.56 uL/sec
+		Dispensing 5.0 uL into B4 of Bio-Rad 96 Well Plate 200 µL PCR on 8 at 7.56 uL/sec
+		Dispensing 5.0 uL into C4 of Bio-Rad 96 Well Plate 200 µL PCR on 8 at 7.56 uL/sec
+		Blowing out at A1 of Opentrons Fixed Trash on 12
+		Aspirating 16.0 uL from A1 of Opentrons 24 Tube Rack with Generic 2 mL Screwcap on 1 at 7.56 uL/sec
+		Dispensing 5.0 uL into D4 of Bio-Rad 96 Well Plate 200 µL PCR on 8 at 7.56 uL/sec
+		Dispensing 5.0 uL into E4 of Bio-Rad 96 Well Plate 200 µL PCR on 8 at 7.56 uL/sec
+		Dispensing 5.0 uL into F4 of Bio-Rad 96 Well Plate 200 µL PCR on 8 at 7.56 uL/sec
+		Blowing out at A1 of Opentrons Fixed Trash on 12
+		Aspirating 16.0 uL from A1 of Opentrons 24 Tube Rack with Generic 2 mL Screwcap on 1 at 7.56 uL/sec
+		Dispensing 5.0 uL into G4 of Bio-Rad 96 Well Plate 200 µL PCR on 8 at 7.56 uL/sec
+		Dispensing 5.0 uL into H4 of Bio-Rad 96 Well Plate 200 µL PCR on 8 at 7.56 uL/sec
+		Dispensing 5.0 uL into A5 of Bio-Rad 96 Well Plate 200 µL PCR on 8 at 7.56 uL/sec
+		Blowing out at A1 of Opentrons Fixed Trash on 12
+		Aspirating 16.0 uL from A1 of Opentrons 24 Tube Rack with Generic 2 mL Screwcap on 1 at 7.56 uL/sec
+		Dispensing 5.0 uL into B5 of Bio-Rad 96 Well Plate 200 µL PCR on 8 at 7.56 uL/sec
+		Dispensing 5.0 uL into C5 of Bio-Rad 96 Well Plate 200 µL PCR on 8 at 7.56 uL/sec
+		Dispensing 5.0 uL into D5 of Bio-Rad 96 Well Plate 200 µL PCR on 8 at 7.56 uL/sec
+		Blowing out at A1 of Opentrons Fixed Trash on 12
+		Aspirating 16.0 uL from A1 of Opentrons 24 Tube Rack with Generic 2 mL Screwcap on 1 at 7.56 uL/sec
+		Dispensing 5.0 uL into E5 of Bio-Rad 96 Well Plate 200 µL PCR on 8 at 7.56 uL/sec
+		Dispensing 5.0 uL into F5 of Bio-Rad 96 Well Plate 200 µL PCR on 8 at 7.56 uL/sec
+		Dispensing 5.0 uL into G5 of Bio-Rad 96 Well Plate 200 µL PCR on 8 at 7.56 uL/sec
+		Blowing out at A1 of Opentrons Fixed Trash on 12
+		Dropping tip into A1 of Opentrons Fixed Trash on 12
+Distributing 5.0 from A1 of Opentrons 24 Tube Rack with Generic 2 mL Screwcap on 2 to H5 of Bio-Rad 96 Well Plate 200 µL PCR on 8
+	Transferring 5.0 from A1 of Opentrons 24 Tube Rack with Generic 2 mL Screwcap on 2 to H5 of Bio-Rad 96 Well Plate 200 µL PCR on 8
+		Picking up tip from D1 of Opentrons OT-2 96 Tip Rack 20 µL on 5
+		Aspirating 16.0 uL from A1 of Opentrons 24 Tube Rack with Generic 2 mL Screwcap on 2 at 7.56 uL/sec
+		Dispensing 5.0 uL into H5 of Bio-Rad 96 Well Plate 200 µL PCR on 8 at 7.56 uL/sec
+		Dispensing 5.0 uL into A6 of Bio-Rad 96 Well Plate 200 µL PCR on 8 at 7.56 uL/sec
+		Dispensing 5.0 uL into B6 of Bio-Rad 96 Well Plate 200 µL PCR on 8 at 7.56 uL/sec
+		Blowing out at A1 of Opentrons Fixed Trash on 12
+		Aspirating 16.0 uL from A1 of Opentrons 24 Tube Rack with Generic 2 mL Screwcap on 2 at 7.56 uL/sec
+		Dispensing 5.0 uL into C6 of Bio-Rad 96 Well Plate 200 µL PCR on 8 at 7.56 uL/sec
+		Dispensing 5.0 uL into D6 of Bio-Rad 96 Well Plate 200 µL PCR on 8 at 7.56 uL/sec
+		Dispensing 5.0 uL into E6 of Bio-Rad 96 Well Plate 200 µL PCR on 8 at 7.56 uL/sec
+		Blowing out at A1 of Opentrons Fixed Trash on 12
+		Aspirating 16.0 uL from A1 of Opentrons 24 Tube Rack with Generic 2 mL Screwcap on 2 at 7.56 uL/sec
+		Dispensing 5.0 uL into F6 of Bio-Rad 96 Well Plate 200 µL PCR on 8 at 7.56 uL/sec
+		Dispensing 5.0 uL into G6 of Bio-Rad 96 Well Plate 200 µL PCR on 8 at 7.56 uL/sec
+		Dispensing 5.0 uL into H6 of Bio-Rad 96 Well Plate 200 µL PCR on 8 at 7.56 uL/sec
+		Blowing out at A1 of Opentrons Fixed Trash on 12
+		Aspirating 16.0 uL from A1 of Opentrons 24 Tube Rack with Generic 2 mL Screwcap on 2 at 7.56 uL/sec
+		Dispensing 5.0 uL into A7 of Bio-Rad 96 Well Plate 200 µL PCR on 8 at 7.56 uL/sec
+		Dispensing 5.0 uL into B7 of Bio-Rad 96 Well Plate 200 µL PCR on 8 at 7.56 uL/sec
+		Dispensing 5.0 uL into C7 of Bio-Rad 96 Well Plate 200 µL PCR on 8 at 7.56 uL/sec
+		Blowing out at A1 of Opentrons Fixed Trash on 12
+		Aspirating 16.0 uL from A1 of Opentrons 24 Tube Rack with Generic 2 mL Screwcap on 2 at 7.56 uL/sec
+		Dispensing 5.0 uL into D7 of Bio-Rad 96 Well Plate 200 µL PCR on 8 at 7.56 uL/sec
+		Dispensing 5.0 uL into E7 of Bio-Rad 96 Well Plate 200 µL PCR on 8 at 7.56 uL/sec
+		Dispensing 5.0 uL into F7 of Bio-Rad 96 Well Plate 200 µL PCR on 8 at 7.56 uL/sec
+		Blowing out at A1 of Opentrons Fixed Trash on 12
+		Aspirating 16.0 uL from A1 of Opentrons 24 Tube Rack with Generic 2 mL Screwcap on 2 at 7.56 uL/sec
+		Dispensing 5.0 uL into G7 of Bio-Rad 96 Well Plate 200 µL PCR on 8 at 7.56 uL/sec
+		Dispensing 5.0 uL into H7 of Bio-Rad 96 Well Plate 200 µL PCR on 8 at 7.56 uL/sec
+		Dispensing 5.0 uL into A8 of Bio-Rad 96 Well Plate 200 µL PCR on 8 at 7.56 uL/sec
+		Blowing out at A1 of Opentrons Fixed Trash on 12
+		Aspirating 16.0 uL from A1 of Opentrons 24 Tube Rack with Generic 2 mL Screwcap on 2 at 7.56 uL/sec
+		Dispensing 5.0 uL into B8 of Bio-Rad 96 Well Plate 200 µL PCR on 8 at 7.56 uL/sec
+		Dispensing 5.0 uL into C8 of Bio-Rad 96 Well Plate 200 µL PCR on 8 at 7.56 uL/sec
+		Dispensing 5.0 uL into D8 of Bio-Rad 96 Well Plate 200 µL PCR on 8 at 7.56 uL/sec
+		Blowing out at A1 of Opentrons Fixed Trash on 12
+		Aspirating 16.0 uL from A1 of Opentrons 24 Tube Rack with Generic 2 mL Screwcap on 2 at 7.56 uL/sec
+		Dispensing 5.0 uL into E8 of Bio-Rad 96 Well Plate 200 µL PCR on 8 at 7.56 uL/sec
+		Dispensing 5.0 uL into F8 of Bio-Rad 96 Well Plate 200 µL PCR on 8 at 7.56 uL/sec
+		Dispensing 5.0 uL into G8 of Bio-Rad 96 Well Plate 200 µL PCR on 8 at 7.56 uL/sec
+		Blowing out at A1 of Opentrons Fixed Trash on 12
+		Aspirating 16.0 uL from A1 of Opentrons 24 Tube Rack with Generic 2 mL Screwcap on 2 at 7.56 uL/sec
+		Dispensing 5.0 uL into H8 of Bio-Rad 96 Well Plate 200 µL PCR on 8 at 7.56 uL/sec
+		Dispensing 5.0 uL into A9 of Bio-Rad 96 Well Plate 200 µL PCR on 8 at 7.56 uL/sec
+		Dispensing 5.0 uL into B9 of Bio-Rad 96 Well Plate 200 µL PCR on 8 at 7.56 uL/sec
+		Blowing out at A1 of Opentrons Fixed Trash on 12
+		Aspirating 16.0 uL from A1 of Opentrons 24 Tube Rack with Generic 2 mL Screwcap on 2 at 7.56 uL/sec
+		Dispensing 5.0 uL into C9 of Bio-Rad 96 Well Plate 200 µL PCR on 8 at 7.56 uL/sec
+		Dispensing 5.0 uL into D9 of Bio-Rad 96 Well Plate 200 µL PCR on 8 at 7.56 uL/sec
+		Dispensing 5.0 uL into E9 of Bio-Rad 96 Well Plate 200 µL PCR on 8 at 7.56 uL/sec
+		Blowing out at A1 of Opentrons Fixed Trash on 12
+		Aspirating 16.0 uL from A1 of Opentrons 24 Tube Rack with Generic 2 mL Screwcap on 2 at 7.56 uL/sec
+		Dispensing 5.0 uL into F9 of Bio-Rad 96 Well Plate 200 µL PCR on 8 at 7.56 uL/sec
+		Dispensing 5.0 uL into G9 of Bio-Rad 96 Well Plate 200 µL PCR on 8 at 7.56 uL/sec
+		Dispensing 5.0 uL into H9 of Bio-Rad 96 Well Plate 200 µL PCR on 8 at 7.56 uL/sec
+		Blowing out at A1 of Opentrons Fixed Trash on 12
+		Aspirating 16.0 uL from A1 of Opentrons 24 Tube Rack with Generic 2 mL Screwcap on 2 at 7.56 uL/sec
+		Dispensing 5.0 uL into A10 of Bio-Rad 96 Well Plate 200 µL PCR on 8 at 7.56 uL/sec
+		Dispensing 5.0 uL into B10 of Bio-Rad 96 Well Plate 200 µL PCR on 8 at 7.56 uL/sec
+		Dispensing 5.0 uL into C10 of Bio-Rad 96 Well Plate 200 µL PCR on 8 at 7.56 uL/sec
+		Blowing out at A1 of Opentrons Fixed Trash on 12
+		Aspirating 16.0 uL from A1 of Opentrons 24 Tube Rack with Generic 2 mL Screwcap on 2 at 7.56 uL/sec
+		Dispensing 5.0 uL into D10 of Bio-Rad 96 Well Plate 200 µL PCR on 8 at 7.56 uL/sec
+		Dispensing 5.0 uL into E10 of Bio-Rad 96 Well Plate 200 µL PCR on 8 at 7.56 uL/sec
+		Dispensing 5.0 uL into F10 of Bio-Rad 96 Well Plate 200 µL PCR on 8 at 7.56 uL/sec
+		Blowing out at A1 of Opentrons Fixed Trash on 12
+		Dropping tip into A1 of Opentrons Fixed Trash on 12
+Distributing 5.0 from A1 of Opentrons 24 Tube Rack with Generic 2 mL Screwcap on 1 to G10 of Bio-Rad 96 Well Plate 200 µL PCR on 8
+	Transferring 5.0 from A1 of Opentrons 24 Tube Rack with Generic 2 mL Screwcap on 1 to G10 of Bio-Rad 96 Well Plate 200 µL PCR on 8
+		Picking up tip from E1 of Opentrons OT-2 96 Tip Rack 20 µL on 5
+		Aspirating 16.0 uL from A1 of Opentrons 24 Tube Rack with Generic 2 mL Screwcap on 1 at 7.56 uL/sec
+		Dispensing 5.0 uL into G10 of Bio-Rad 96 Well Plate 200 µL PCR on 8 at 7.56 uL/sec
+		Dispensing 5.0 uL into H10 of Bio-Rad 96 Well Plate 200 µL PCR on 8 at 7.56 uL/sec
+		Dispensing 5.0 uL into A11 of Bio-Rad 96 Well Plate 200 µL PCR on 8 at 7.56 uL/sec
+		Blowing out at A1 of Opentrons Fixed Trash on 12
+		Dropping tip into A1 of Opentrons Fixed Trash on 12
+Distributing 10.0 from A1 of NEST 96 Well Plate 200 µL Flat on 9 to A1 of Bio-Rad 96 Well Plate 200 µL PCR on 8
+	Transferring 10.0 from A1 of NEST 96 Well Plate 200 µL Flat on 9 to A1 of Bio-Rad 96 Well Plate 200 µL PCR on 8
+		Picking up tip from F1 of Opentrons OT-2 96 Tip Rack 20 µL on 5
+		Aspirating 11.0 uL from A1 of NEST 96 Well Plate 200 µL Flat on 9 at 7.56 uL/sec
+		Dispensing 10.0 uL into A1 of Bio-Rad 96 Well Plate 200 µL PCR on 8 at 7.56 uL/sec
+		Blowing out at A1 of Opentrons Fixed Trash on 12
+		Aspirating 11.0 uL from A1 of NEST 96 Well Plate 200 µL Flat on 9 at 7.56 uL/sec
+		Dispensing 10.0 uL into B1 of Bio-Rad 96 Well Plate 200 µL PCR on 8 at 7.56 uL/sec
+		Blowing out at A1 of Opentrons Fixed Trash on 12
+		Aspirating 11.0 uL from A1 of NEST 96 Well Plate 200 µL Flat on 9 at 7.56 uL/sec
+		Dispensing 10.0 uL into C1 of Bio-Rad 96 Well Plate 200 µL PCR on 8 at 7.56 uL/sec
+		Blowing out at A1 of Opentrons Fixed Trash on 12
+		Aspirating 11.0 uL from A1 of NEST 96 Well Plate 200 µL Flat on 9 at 7.56 uL/sec
+		Dispensing 10.0 uL into D1 of Bio-Rad 96 Well Plate 200 µL PCR on 8 at 7.56 uL/sec
+		Blowing out at A1 of Opentrons Fixed Trash on 12
+		Aspirating 11.0 uL from A1 of NEST 96 Well Plate 200 µL Flat on 9 at 7.56 uL/sec
+		Dispensing 10.0 uL into E1 of Bio-Rad 96 Well Plate 200 µL PCR on 8 at 7.56 uL/sec
+		Blowing out at A1 of Opentrons Fixed Trash on 12
+		Aspirating 11.0 uL from A1 of NEST 96 Well Plate 200 µL Flat on 9 at 7.56 uL/sec
+		Dispensing 10.0 uL into F1 of Bio-Rad 96 Well Plate 200 µL PCR on 8 at 7.56 uL/sec
+		Blowing out at A1 of Opentrons Fixed Trash on 12
+		Aspirating 11.0 uL from A1 of NEST 96 Well Plate 200 µL Flat on 9 at 7.56 uL/sec
+		Dispensing 10.0 uL into G1 of Bio-Rad 96 Well Plate 200 µL PCR on 8 at 7.56 uL/sec
+		Blowing out at A1 of Opentrons Fixed Trash on 12
+		Aspirating 11.0 uL from A1 of NEST 96 Well Plate 200 µL Flat on 9 at 7.56 uL/sec
+		Dispensing 10.0 uL into H1 of Bio-Rad 96 Well Plate 200 µL PCR on 8 at 7.56 uL/sec
+		Blowing out at A1 of Opentrons Fixed Trash on 12
+		Aspirating 11.0 uL from A1 of NEST 96 Well Plate 200 µL Flat on 9 at 7.56 uL/sec
+		Dispensing 10.0 uL into A2 of Bio-Rad 96 Well Plate 200 µL PCR on 8 at 7.56 uL/sec
+		Blowing out at A1 of Opentrons Fixed Trash on 12
+		Aspirating 11.0 uL from A1 of NEST 96 Well Plate 200 µL Flat on 9 at 7.56 uL/sec
+		Dispensing 10.0 uL into B2 of Bio-Rad 96 Well Plate 200 µL PCR on 8 at 7.56 uL/sec
+		Blowing out at A1 of Opentrons Fixed Trash on 12
+		Aspirating 11.0 uL from A1 of NEST 96 Well Plate 200 µL Flat on 9 at 7.56 uL/sec
+		Dispensing 10.0 uL into C2 of Bio-Rad 96 Well Plate 200 µL PCR on 8 at 7.56 uL/sec
+		Blowing out at A1 of Opentrons Fixed Trash on 12
+		Aspirating 11.0 uL from A1 of NEST 96 Well Plate 200 µL Flat on 9 at 7.56 uL/sec
+		Dispensing 10.0 uL into D2 of Bio-Rad 96 Well Plate 200 µL PCR on 8 at 7.56 uL/sec
+		Blowing out at A1 of Opentrons Fixed Trash on 12
+		Aspirating 11.0 uL from A1 of NEST 96 Well Plate 200 µL Flat on 9 at 7.56 uL/sec
+		Dispensing 10.0 uL into E2 of Bio-Rad 96 Well Plate 200 µL PCR on 8 at 7.56 uL/sec
+		Blowing out at A1 of Opentrons Fixed Trash on 12
+		Aspirating 11.0 uL from A1 of NEST 96 Well Plate 200 µL Flat on 9 at 7.56 uL/sec
+		Dispensing 10.0 uL into F2 of Bio-Rad 96 Well Plate 200 µL PCR on 8 at 7.56 uL/sec
+		Blowing out at A1 of Opentrons Fixed Trash on 12
+		Aspirating 11.0 uL from A1 of NEST 96 Well Plate 200 µL Flat on 9 at 7.56 uL/sec
+		Dispensing 10.0 uL into G2 of Bio-Rad 96 Well Plate 200 µL PCR on 8 at 7.56 uL/sec
+		Blowing out at A1 of Opentrons Fixed Trash on 12
+		Aspirating 11.0 uL from A1 of NEST 96 Well Plate 200 µL Flat on 9 at 7.56 uL/sec
+		Dispensing 10.0 uL into H2 of Bio-Rad 96 Well Plate 200 µL PCR on 8 at 7.56 uL/sec
+		Blowing out at A1 of Opentrons Fixed Trash on 12
+		Aspirating 11.0 uL from A1 of NEST 96 Well Plate 200 µL Flat on 9 at 7.56 uL/sec
+		Dispensing 10.0 uL into A3 of Bio-Rad 96 Well Plate 200 µL PCR on 8 at 7.56 uL/sec
+		Blowing out at A1 of Opentrons Fixed Trash on 12
+		Aspirating 11.0 uL from A1 of NEST 96 Well Plate 200 µL Flat on 9 at 7.56 uL/sec
+		Dispensing 10.0 uL into B3 of Bio-Rad 96 Well Plate 200 µL PCR on 8 at 7.56 uL/sec
+		Blowing out at A1 of Opentrons Fixed Trash on 12
+		Aspirating 11.0 uL from A1 of NEST 96 Well Plate 200 µL Flat on 9 at 7.56 uL/sec
+		Dispensing 10.0 uL into C3 of Bio-Rad 96 Well Plate 200 µL PCR on 8 at 7.56 uL/sec
+		Blowing out at A1 of Opentrons Fixed Trash on 12
+		Aspirating 11.0 uL from A1 of NEST 96 Well Plate 200 µL Flat on 9 at 7.56 uL/sec
+		Dispensing 10.0 uL into D3 of Bio-Rad 96 Well Plate 200 µL PCR on 8 at 7.56 uL/sec
+		Blowing out at A1 of Opentrons Fixed Trash on 12
+		Aspirating 11.0 uL from A1 of NEST 96 Well Plate 200 µL Flat on 9 at 7.56 uL/sec
+		Dispensing 10.0 uL into E3 of Bio-Rad 96 Well Plate 200 µL PCR on 8 at 7.56 uL/sec
+		Blowing out at A1 of Opentrons Fixed Trash on 12
+		Aspirating 11.0 uL from A1 of NEST 96 Well Plate 200 µL Flat on 9 at 7.56 uL/sec
+		Dispensing 10.0 uL into F3 of Bio-Rad 96 Well Plate 200 µL PCR on 8 at 7.56 uL/sec
+		Blowing out at A1 of Opentrons Fixed Trash on 12
+		Aspirating 11.0 uL from A1 of NEST 96 Well Plate 200 µL Flat on 9 at 7.56 uL/sec
+		Dispensing 10.0 uL into G3 of Bio-Rad 96 Well Plate 200 µL PCR on 8 at 7.56 uL/sec
+		Blowing out at A1 of Opentrons Fixed Trash on 12
+		Aspirating 11.0 uL from A1 of NEST 96 Well Plate 200 µL Flat on 9 at 7.56 uL/sec
+		Dispensing 10.0 uL into H3 of Bio-Rad 96 Well Plate 200 µL PCR on 8 at 7.56 uL/sec
+		Blowing out at A1 of Opentrons Fixed Trash on 12
+		Aspirating 11.0 uL from A1 of NEST 96 Well Plate 200 µL Flat on 9 at 7.56 uL/sec
+		Dispensing 10.0 uL into A4 of Bio-Rad 96 Well Plate 200 µL PCR on 8 at 7.56 uL/sec
+		Blowing out at A1 of Opentrons Fixed Trash on 12
+		Aspirating 11.0 uL from A1 of NEST 96 Well Plate 200 µL Flat on 9 at 7.56 uL/sec
+		Dispensing 10.0 uL into B4 of Bio-Rad 96 Well Plate 200 µL PCR on 8 at 7.56 uL/sec
+		Blowing out at A1 of Opentrons Fixed Trash on 12
+		Aspirating 11.0 uL from A1 of NEST 96 Well Plate 200 µL Flat on 9 at 7.56 uL/sec
+		Dispensing 10.0 uL into C4 of Bio-Rad 96 Well Plate 200 µL PCR on 8 at 7.56 uL/sec
+		Blowing out at A1 of Opentrons Fixed Trash on 12
+		Aspirating 11.0 uL from A1 of NEST 96 Well Plate 200 µL Flat on 9 at 7.56 uL/sec
+		Dispensing 10.0 uL into D4 of Bio-Rad 96 Well Plate 200 µL PCR on 8 at 7.56 uL/sec
+		Blowing out at A1 of Opentrons Fixed Trash on 12
+		Aspirating 11.0 uL from A1 of NEST 96 Well Plate 200 µL Flat on 9 at 7.56 uL/sec
+		Dispensing 10.0 uL into E4 of Bio-Rad 96 Well Plate 200 µL PCR on 8 at 7.56 uL/sec
+		Blowing out at A1 of Opentrons Fixed Trash on 12
+		Aspirating 11.0 uL from A1 of NEST 96 Well Plate 200 µL Flat on 9 at 7.56 uL/sec
+		Dispensing 10.0 uL into F4 of Bio-Rad 96 Well Plate 200 µL PCR on 8 at 7.56 uL/sec
+		Blowing out at A1 of Opentrons Fixed Trash on 12
+		Aspirating 11.0 uL from A1 of NEST 96 Well Plate 200 µL Flat on 9 at 7.56 uL/sec
+		Dispensing 10.0 uL into G4 of Bio-Rad 96 Well Plate 200 µL PCR on 8 at 7.56 uL/sec
+		Blowing out at A1 of Opentrons Fixed Trash on 12
+		Aspirating 11.0 uL from A1 of NEST 96 Well Plate 200 µL Flat on 9 at 7.56 uL/sec
+		Dispensing 10.0 uL into H4 of Bio-Rad 96 Well Plate 200 µL PCR on 8 at 7.56 uL/sec
+		Blowing out at A1 of Opentrons Fixed Trash on 12
+		Aspirating 11.0 uL from A1 of NEST 96 Well Plate 200 µL Flat on 9 at 7.56 uL/sec
+		Dispensing 10.0 uL into A5 of Bio-Rad 96 Well Plate 200 µL PCR on 8 at 7.56 uL/sec
+		Blowing out at A1 of Opentrons Fixed Trash on 12
+		Aspirating 11.0 uL from A1 of NEST 96 Well Plate 200 µL Flat on 9 at 7.56 uL/sec
+		Dispensing 10.0 uL into B5 of Bio-Rad 96 Well Plate 200 µL PCR on 8 at 7.56 uL/sec
+		Blowing out at A1 of Opentrons Fixed Trash on 12
+		Aspirating 11.0 uL from A1 of NEST 96 Well Plate 200 µL Flat on 9 at 7.56 uL/sec
+		Dispensing 10.0 uL into C5 of Bio-Rad 96 Well Plate 200 µL PCR on 8 at 7.56 uL/sec
+		Blowing out at A1 of Opentrons Fixed Trash on 12
+		Aspirating 11.0 uL from A1 of NEST 96 Well Plate 200 µL Flat on 9 at 7.56 uL/sec
+		Dispensing 10.0 uL into D5 of Bio-Rad 96 Well Plate 200 µL PCR on 8 at 7.56 uL/sec
+		Blowing out at A1 of Opentrons Fixed Trash on 12
+		Aspirating 11.0 uL from A1 of NEST 96 Well Plate 200 µL Flat on 9 at 7.56 uL/sec
+		Dispensing 10.0 uL into E5 of Bio-Rad 96 Well Plate 200 µL PCR on 8 at 7.56 uL/sec
+		Blowing out at A1 of Opentrons Fixed Trash on 12
+		Aspirating 11.0 uL from A1 of NEST 96 Well Plate 200 µL Flat on 9 at 7.56 uL/sec
+		Dispensing 10.0 uL into F5 of Bio-Rad 96 Well Plate 200 µL PCR on 8 at 7.56 uL/sec
+		Blowing out at A1 of Opentrons Fixed Trash on 12
+		Aspirating 11.0 uL from A1 of NEST 96 Well Plate 200 µL Flat on 9 at 7.56 uL/sec
+		Dispensing 10.0 uL into G5 of Bio-Rad 96 Well Plate 200 µL PCR on 8 at 7.56 uL/sec
+		Blowing out at A1 of Opentrons Fixed Trash on 12
+		Aspirating 11.0 uL from A1 of NEST 96 Well Plate 200 µL Flat on 9 at 7.56 uL/sec
+		Dispensing 10.0 uL into H5 of Bio-Rad 96 Well Plate 200 µL PCR on 8 at 7.56 uL/sec
+		Blowing out at A1 of Opentrons Fixed Trash on 12
+		Aspirating 11.0 uL from A1 of NEST 96 Well Plate 200 µL Flat on 9 at 7.56 uL/sec
+		Dispensing 10.0 uL into A6 of Bio-Rad 96 Well Plate 200 µL PCR on 8 at 7.56 uL/sec
+		Blowing out at A1 of Opentrons Fixed Trash on 12
+		Aspirating 11.0 uL from A1 of NEST 96 Well Plate 200 µL Flat on 9 at 7.56 uL/sec
+		Dispensing 10.0 uL into B6 of Bio-Rad 96 Well Plate 200 µL PCR on 8 at 7.56 uL/sec
+		Blowing out at A1 of Opentrons Fixed Trash on 12
+		Aspirating 11.0 uL from A1 of NEST 96 Well Plate 200 µL Flat on 9 at 7.56 uL/sec
+		Dispensing 10.0 uL into C6 of Bio-Rad 96 Well Plate 200 µL PCR on 8 at 7.56 uL/sec
+		Blowing out at A1 of Opentrons Fixed Trash on 12
+		Aspirating 11.0 uL from A1 of NEST 96 Well Plate 200 µL Flat on 9 at 7.56 uL/sec
+		Dispensing 10.0 uL into D6 of Bio-Rad 96 Well Plate 200 µL PCR on 8 at 7.56 uL/sec
+		Blowing out at A1 of Opentrons Fixed Trash on 12
+		Aspirating 11.0 uL from A1 of NEST 96 Well Plate 200 µL Flat on 9 at 7.56 uL/sec
+		Dispensing 10.0 uL into E6 of Bio-Rad 96 Well Plate 200 µL PCR on 8 at 7.56 uL/sec
+		Blowing out at A1 of Opentrons Fixed Trash on 12
+		Aspirating 11.0 uL from A1 of NEST 96 Well Plate 200 µL Flat on 9 at 7.56 uL/sec
+		Dispensing 10.0 uL into F6 of Bio-Rad 96 Well Plate 200 µL PCR on 8 at 7.56 uL/sec
+		Blowing out at A1 of Opentrons Fixed Trash on 12
+		Aspirating 11.0 uL from A1 of NEST 96 Well Plate 200 µL Flat on 9 at 7.56 uL/sec
+		Dispensing 10.0 uL into G6 of Bio-Rad 96 Well Plate 200 µL PCR on 8 at 7.56 uL/sec
+		Blowing out at A1 of Opentrons Fixed Trash on 12
+		Aspirating 11.0 uL from A1 of NEST 96 Well Plate 200 µL Flat on 9 at 7.56 uL/sec
+		Dispensing 10.0 uL into H6 of Bio-Rad 96 Well Plate 200 µL PCR on 8 at 7.56 uL/sec
+		Blowing out at A1 of Opentrons Fixed Trash on 12
+		Aspirating 11.0 uL from A1 of NEST 96 Well Plate 200 µL Flat on 9 at 7.56 uL/sec
+		Dispensing 10.0 uL into A7 of Bio-Rad 96 Well Plate 200 µL PCR on 8 at 7.56 uL/sec
+		Blowing out at A1 of Opentrons Fixed Trash on 12
+		Aspirating 11.0 uL from A1 of NEST 96 Well Plate 200 µL Flat on 9 at 7.56 uL/sec
+		Dispensing 10.0 uL into B7 of Bio-Rad 96 Well Plate 200 µL PCR on 8 at 7.56 uL/sec
+		Blowing out at A1 of Opentrons Fixed Trash on 12
+		Aspirating 11.0 uL from A1 of NEST 96 Well Plate 200 µL Flat on 9 at 7.56 uL/sec
+		Dispensing 10.0 uL into C7 of Bio-Rad 96 Well Plate 200 µL PCR on 8 at 7.56 uL/sec
+		Blowing out at A1 of Opentrons Fixed Trash on 12
+		Aspirating 11.0 uL from A1 of NEST 96 Well Plate 200 µL Flat on 9 at 7.56 uL/sec
+		Dispensing 10.0 uL into D7 of Bio-Rad 96 Well Plate 200 µL PCR on 8 at 7.56 uL/sec
+		Blowing out at A1 of Opentrons Fixed Trash on 12
+		Aspirating 11.0 uL from A1 of NEST 96 Well Plate 200 µL Flat on 9 at 7.56 uL/sec
+		Dispensing 10.0 uL into E7 of Bio-Rad 96 Well Plate 200 µL PCR on 8 at 7.56 uL/sec
+		Blowing out at A1 of Opentrons Fixed Trash on 12
+		Aspirating 11.0 uL from A1 of NEST 96 Well Plate 200 µL Flat on 9 at 7.56 uL/sec
+		Dispensing 10.0 uL into F7 of Bio-Rad 96 Well Plate 200 µL PCR on 8 at 7.56 uL/sec
+		Blowing out at A1 of Opentrons Fixed Trash on 12
+		Aspirating 11.0 uL from A1 of NEST 96 Well Plate 200 µL Flat on 9 at 7.56 uL/sec
+		Dispensing 10.0 uL into G7 of Bio-Rad 96 Well Plate 200 µL PCR on 8 at 7.56 uL/sec
+		Blowing out at A1 of Opentrons Fixed Trash on 12
+		Aspirating 11.0 uL from A1 of NEST 96 Well Plate 200 µL Flat on 9 at 7.56 uL/sec
+		Dispensing 10.0 uL into H7 of Bio-Rad 96 Well Plate 200 µL PCR on 8 at 7.56 uL/sec
+		Blowing out at A1 of Opentrons Fixed Trash on 12
+		Aspirating 11.0 uL from A1 of NEST 96 Well Plate 200 µL Flat on 9 at 7.56 uL/sec
+		Dispensing 10.0 uL into A8 of Bio-Rad 96 Well Plate 200 µL PCR on 8 at 7.56 uL/sec
+		Blowing out at A1 of Opentrons Fixed Trash on 12
+		Aspirating 11.0 uL from A1 of NEST 96 Well Plate 200 µL Flat on 9 at 7.56 uL/sec
+		Dispensing 10.0 uL into B8 of Bio-Rad 96 Well Plate 200 µL PCR on 8 at 7.56 uL/sec
+		Blowing out at A1 of Opentrons Fixed Trash on 12
+		Aspirating 11.0 uL from A1 of NEST 96 Well Plate 200 µL Flat on 9 at 7.56 uL/sec
+		Dispensing 10.0 uL into C8 of Bio-Rad 96 Well Plate 200 µL PCR on 8 at 7.56 uL/sec
+		Blowing out at A1 of Opentrons Fixed Trash on 12
+		Aspirating 11.0 uL from A1 of NEST 96 Well Plate 200 µL Flat on 9 at 7.56 uL/sec
+		Dispensing 10.0 uL into D8 of Bio-Rad 96 Well Plate 200 µL PCR on 8 at 7.56 uL/sec
+		Blowing out at A1 of Opentrons Fixed Trash on 12
+		Aspirating 11.0 uL from A1 of NEST 96 Well Plate 200 µL Flat on 9 at 7.56 uL/sec
+		Dispensing 10.0 uL into E8 of Bio-Rad 96 Well Plate 200 µL PCR on 8 at 7.56 uL/sec
+		Blowing out at A1 of Opentrons Fixed Trash on 12
+		Aspirating 11.0 uL from A1 of NEST 96 Well Plate 200 µL Flat on 9 at 7.56 uL/sec
+		Dispensing 10.0 uL into F8 of Bio-Rad 96 Well Plate 200 µL PCR on 8 at 7.56 uL/sec
+		Blowing out at A1 of Opentrons Fixed Trash on 12
+		Aspirating 11.0 uL from A1 of NEST 96 Well Plate 200 µL Flat on 9 at 7.56 uL/sec
+		Dispensing 10.0 uL into G8 of Bio-Rad 96 Well Plate 200 µL PCR on 8 at 7.56 uL/sec
+		Blowing out at A1 of Opentrons Fixed Trash on 12
+		Aspirating 11.0 uL from A1 of NEST 96 Well Plate 200 µL Flat on 9 at 7.56 uL/sec
+		Dispensing 10.0 uL into H8 of Bio-Rad 96 Well Plate 200 µL PCR on 8 at 7.56 uL/sec
+		Blowing out at A1 of Opentrons Fixed Trash on 12
+		Aspirating 11.0 uL from A1 of NEST 96 Well Plate 200 µL Flat on 9 at 7.56 uL/sec
+		Dispensing 10.0 uL into A9 of Bio-Rad 96 Well Plate 200 µL PCR on 8 at 7.56 uL/sec
+		Blowing out at A1 of Opentrons Fixed Trash on 12
+		Aspirating 11.0 uL from A1 of NEST 96 Well Plate 200 µL Flat on 9 at 7.56 uL/sec
+		Dispensing 10.0 uL into B9 of Bio-Rad 96 Well Plate 200 µL PCR on 8 at 7.56 uL/sec
+		Blowing out at A1 of Opentrons Fixed Trash on 12
+		Aspirating 11.0 uL from A1 of NEST 96 Well Plate 200 µL Flat on 9 at 7.56 uL/sec
+		Dispensing 10.0 uL into C9 of Bio-Rad 96 Well Plate 200 µL PCR on 8 at 7.56 uL/sec
+		Blowing out at A1 of Opentrons Fixed Trash on 12
+		Aspirating 11.0 uL from A1 of NEST 96 Well Plate 200 µL Flat on 9 at 7.56 uL/sec
+		Dispensing 10.0 uL into D9 of Bio-Rad 96 Well Plate 200 µL PCR on 8 at 7.56 uL/sec
+		Blowing out at A1 of Opentrons Fixed Trash on 12
+		Aspirating 11.0 uL from A1 of NEST 96 Well Plate 200 µL Flat on 9 at 7.56 uL/sec
+		Dispensing 10.0 uL into E9 of Bio-Rad 96 Well Plate 200 µL PCR on 8 at 7.56 uL/sec
+		Blowing out at A1 of Opentrons Fixed Trash on 12
+		Aspirating 11.0 uL from A1 of NEST 96 Well Plate 200 µL Flat on 9 at 7.56 uL/sec
+		Dispensing 10.0 uL into F9 of Bio-Rad 96 Well Plate 200 µL PCR on 8 at 7.56 uL/sec
+		Blowing out at A1 of Opentrons Fixed Trash on 12
+		Aspirating 11.0 uL from A1 of NEST 96 Well Plate 200 µL Flat on 9 at 7.56 uL/sec
+		Dispensing 10.0 uL into G9 of Bio-Rad 96 Well Plate 200 µL PCR on 8 at 7.56 uL/sec
+		Blowing out at A1 of Opentrons Fixed Trash on 12
+		Aspirating 11.0 uL from A1 of NEST 96 Well Plate 200 µL Flat on 9 at 7.56 uL/sec
+		Dispensing 10.0 uL into H9 of Bio-Rad 96 Well Plate 200 µL PCR on 8 at 7.56 uL/sec
+		Blowing out at A1 of Opentrons Fixed Trash on 12
+		Aspirating 11.0 uL from A1 of NEST 96 Well Plate 200 µL Flat on 9 at 7.56 uL/sec
+		Dispensing 10.0 uL into A10 of Bio-Rad 96 Well Plate 200 µL PCR on 8 at 7.56 uL/sec
+		Blowing out at A1 of Opentrons Fixed Trash on 12
+		Aspirating 11.0 uL from A1 of NEST 96 Well Plate 200 µL Flat on 9 at 7.56 uL/sec
+		Dispensing 10.0 uL into B10 of Bio-Rad 96 Well Plate 200 µL PCR on 8 at 7.56 uL/sec
+		Blowing out at A1 of Opentrons Fixed Trash on 12
+		Aspirating 11.0 uL from A1 of NEST 96 Well Plate 200 µL Flat on 9 at 7.56 uL/sec
+		Dispensing 10.0 uL into C10 of Bio-Rad 96 Well Plate 200 µL PCR on 8 at 7.56 uL/sec
+		Blowing out at A1 of Opentrons Fixed Trash on 12
+		Aspirating 11.0 uL from A1 of NEST 96 Well Plate 200 µL Flat on 9 at 7.56 uL/sec
+		Dispensing 10.0 uL into D10 of Bio-Rad 96 Well Plate 200 µL PCR on 8 at 7.56 uL/sec
+		Blowing out at A1 of Opentrons Fixed Trash on 12
+		Aspirating 11.0 uL from A1 of NEST 96 Well Plate 200 µL Flat on 9 at 7.56 uL/sec
+		Dispensing 10.0 uL into E10 of Bio-Rad 96 Well Plate 200 µL PCR on 8 at 7.56 uL/sec
+		Blowing out at A1 of Opentrons Fixed Trash on 12
+		Aspirating 11.0 uL from A1 of NEST 96 Well Plate 200 µL Flat on 9 at 7.56 uL/sec
+		Dispensing 10.0 uL into F10 of Bio-Rad 96 Well Plate 200 µL PCR on 8 at 7.56 uL/sec
+		Blowing out at A1 of Opentrons Fixed Trash on 12
+		Dropping tip into A1 of Opentrons Fixed Trash on 12
+Distributing 10.0 from B1 of NEST 96 Well Plate 200 µL Flat on 9 to G10 of Bio-Rad 96 Well Plate 200 µL PCR on 8
+	Transferring 10.0 from B1 of NEST 96 Well Plate 200 µL Flat on 9 to G10 of Bio-Rad 96 Well Plate 200 µL PCR on 8
+		Picking up tip from G1 of Opentrons OT-2 96 Tip Rack 20 µL on 5
+		Aspirating 11.0 uL from B1 of NEST 96 Well Plate 200 µL Flat on 9 at 7.56 uL/sec
+		Dispensing 10.0 uL into G10 of Bio-Rad 96 Well Plate 200 µL PCR on 8 at 7.56 uL/sec
+		Blowing out at A1 of Opentrons Fixed Trash on 12
+		Aspirating 11.0 uL from B1 of NEST 96 Well Plate 200 µL Flat on 9 at 7.56 uL/sec
+		Dispensing 10.0 uL into H10 of Bio-Rad 96 Well Plate 200 µL PCR on 8 at 7.56 uL/sec
+		Blowing out at A1 of Opentrons Fixed Trash on 12
+		Aspirating 11.0 uL from B1 of NEST 96 Well Plate 200 µL Flat on 9 at 7.56 uL/sec
+		Dispensing 10.0 uL into A11 of Bio-Rad 96 Well Plate 200 µL PCR on 8 at 7.56 uL/sec
+		Blowing out at A1 of Opentrons Fixed Trash on 12
+		Dropping tip into A1 of Opentrons Fixed Trash on 12

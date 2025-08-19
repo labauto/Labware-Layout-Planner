@@ -1,0 +1,7 @@
+usage: opentrons_simulate [-h] [-l {debug,info,warning,error,none}]
+                          [-L CUSTOM_LABWARE_PATH] [-D [CUSTOM_DATA_PATH]]
+                          [-s CUSTOM_HARDWARE_SIMULATOR_FILE]
+                          [-d CUSTOM_DATA_FILE] [-e] [-v]
+                          [-o {runlog,nothing}]
+                          PROTOCOL
+opentrons_simulate: error: argument PROTOCOL: can't open '': [Errno 2] No such file or directory: ''

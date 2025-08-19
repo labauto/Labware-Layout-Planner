@@ -1,0 +1,48 @@
+
+[
+    {
+        "object": {
+            "name": "name1",
+            "init_content": "DMEM",
+            "labware": {
+                "id": 3,
+                "name": "15_ml_tube"
+            }
+        },
+        "places": [
+            1,
+            2,
+            3
+        ]
+    },
+    {
+        "object": {
+            "init_content": "DMEM"
+        },
+        "places": [
+            4,
+            5,
+            6
+        ]
+    },
+    {
+        "object": {
+            "labware": {
+                "name": "tube"
+            }
+        },
+        "places": [
+            100,
+            5,
+            6
+        ]
+    },
+    {
+        "object": {
+            "name": "sample DNA or water"
+        },
+        "places": [
+            1000
+        ]
+    }
+]

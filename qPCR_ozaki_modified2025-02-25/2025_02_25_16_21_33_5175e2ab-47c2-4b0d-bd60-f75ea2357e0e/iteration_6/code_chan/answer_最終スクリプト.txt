@@ -1,0 +1,183 @@
+```python
+from opentrons import protocol_api
+
+metadata = {
+    'protocolName': 'QPCR Preparation for QuantStudio 6 Pro',
+    'author': 'Your Name',
+    'description': 'Automated preparation of QPCR samples with primers and PCR MIX',
+    'apiLevel': '2.9'
+}
+
+def run(protocol: protocol_api.ProtocolContext):
+
+    # Labware setup
+    # Load tip racks
+    tip_rack_20ul = protocol.load_labware('opentrons_96_tiprack_20ul', '8')
+    tip_rack_300ul = protocol.load_labware('opentrons_96_tiprack_300ul', '11')
+
+    # Load PCR MIX tube rack (15 mL tubes) at slot 1
+    pcr_mix_tube_rack = protocol.load_labware('opentrons_15_tuberack_falcon_15ml_conical', '1')
+
+    # Load primer F tube rack at slot 2
+    primer_f_tube_rack = protocol.load_labware('opentrons_24_tuberack_nest_1.5ml_screwcap', '2')
+
+    # Load primer R tube rack at slot 3
+    primer_r_tube_rack = protocol.load_labware('opentrons_24_tuberack_nest_1.5ml_screwcap', '3')
+
+    # Load sample DNA tube rack at slot 5
+    sample_dna_tube_rack = protocol.load_labware('opentrons_24_tuberack_nest_1.5ml_screwcap', '5')
+
+    # Load water tube rack at slot 6
+    water_tube_rack = protocol.load_labware('opentrons_24_tuberack_nest_1.5ml_screwcap', '6')
+
+    # Load PCR reaction plate at slot 9
+    pcr_plate = protocol.load_labware('nest_96_wellplate_100ul_pcr_full_skirt', '9')
+
+    # Load tube rack for PCR MIX with primers at slot 7
+    pcr_mix_primers_tube_rack = protocol.load_labware('opentrons_24_tuberack_nest_1.5ml_screwcap', '7')
+
+    # Load template-only water tube at slot 10
+    template_only_water_tube_rack = protocol.load_labware('opentrons_24_tuberack_nest_1.5ml_screwcap', '10')
+
+    # Instruments setup
+    p20 = protocol.load_instrument('p20_single_gen2', 'right', tip_racks=[tip_rack_20ul])
+    p300 = protocol.load_instrument('p300_single_gen2', 'left', tip_racks=[tip_rack_300ul])
+
+    # Reagents setup
+    # PCR MIX in a 15 mL tube in pcr_mix_tube_rack at slot 1
+    pcr_mix = pcr_mix_tube_rack.wells_by_name()['A1']
+
+    # Water in water_tube_rack at slot 6
+    water = water_tube_rack.wells_by_name()['A1']
+
+    # Sample DNA in sample_dna_tube_rack at slot 5
+    sample_dna = sample_dna_tube_rack.wells_by_name()['A1']
+
+    # Primer F tubes in primer_f_tube_rack at slot 2, wells A1 to A13
+    primer_f_wells = [primer_f_tube_rack.wells_by_name()[f'A{i+1}'] for i in range(13)]
+
+    # Primer R tubes in primer_r_tube_rack at slot 3, wells A1 to A13
+    primer_r_wells = [primer_r_tube_rack.wells_by_name()[f'A{i+1}'] for i in range(13)]
+
+    # PCR MIX aliquots for primers in pcr_mix_primers_tube_rack at slot 7
+    # Use tubes A1 to A13 for PCR MIX with primers
+    pcr_mix_primers = [pcr_mix_primers_tube_rack.wells_by_name()[f'A{i+1}'] for i in range(13)]
+
+    # Template-only PCR MIX (without primers), well B1 in pcr_mix_primers_tube_rack
+    pcr_mix_template_only = pcr_mix_primers_tube_rack.wells_by_name()['B1']
+
+    # Template-only water in template_only_water_tube_rack at slot 10
+    template_only_water = template_only_water_tube_rack.wells_by_name()['A1']
+
+    # Steps:
+
+    # 1. PCR MIXを137.6 μLずつ13個に分注する
+    for tube in pcr_mix_primers:
+        p300.pick_up_tip()
+        p300.transfer(137.6, pcr_mix, tube, new_tip='never')
+        p300.blow_out(tube.top())
+        p300.drop_tip()
+
+    # 2. PCR MIXが入ったチューブに10 μM primer_F1-13を3.2 μL添加する
+    for tube, primer in zip(pcr_mix_primers, primer_f_wells):
+        p20.pick_up_tip()
+        p20.transfer(3.2, primer, tube, new_tip='never')
+        p20.mix(3, 10, tube)
+        p20.drop_tip()
+
+    # 3. PCR MIXが入ったチューブに10 μM primer_R1-13を3.2 μL添加する
+    for tube, primer in zip(pcr_mix_primers, primer_r_wells):
+        p20.pick_up_tip()
+        p20.transfer(3.2, primer, tube, new_tip='never')
+        p20.mix(3, 10, tube)
+        p20.drop_tip()
+
+    # 4. PCR MIXとprimerをピペッティングで混合する
+    for tube in pcr_mix_primers:
+        p300.pick_up_tip()
+        p300.mix(5, 100, tube)
+        p300.drop_tip()
+
+    # 5. templateのみ用のPCR MIXを86 μL分注する
+    p300.pick_up_tip()
+    p300.transfer(86, pcr_mix, pcr_mix_template_only, new_tip='never')
+    p300.blow_out(pcr_mix_template_only.top())
+    p300.drop_tip()
+
+    # 6. templateのみ用のPCR MIXにwaterを4 μL添加する
+    p20.pick_up_tip()
+    p20.transfer(4, water, pcr_mix_template_only, new_tip='never')
+    p20.mix(3, 10, pcr_mix_template_only)
+    p20.drop_tip()
+
+    # 7. PCR MIXとwaterをピペッティングで混合する
+    p300.pick_up_tip()
+    p300.mix(5, 50, pcr_mix_template_only)
+    p300.drop_tip()
+
+    # 8. サンプル DNAまたはwater をreaction plateに5 μLずつアプライする
+    # Prepare wells for sample DNA, NTC, and template-only
+    sample_wells = []
+    ntc_wells = []
+    template_only_wells = []
+
+    # For sample DNA wells (duplicates of 3 for 13 primers)
+    for i in range(13):
+        for j in range(3):
+            well = pcr_plate.wells()[i*3 + j]
+            sample_wells.append(well)
+
+    # For NTC wells (duplicates of 3 for 13 primers)
+    for i in range(13):
+        for j in range(3):
+            index = 39 + i*3 + j
+            well = pcr_plate.wells()[index]
+            ntc_wells.append(well)
+
+    # For Template-only wells (duplicates of 3)
+    for i in range(3):
+        index = 78 + i
+        well = pcr_plate.wells()[index]
+        template_only_wells.append(well)
+
+    # Dispense sample DNA (5 μL) into sample wells
+    for well in sample_wells:
+        p20.pick_up_tip()
+        p20.transfer(5, sample_dna, well, new_tip='never')
+        p20.drop_tip()
+
+    # Dispense water (5 μL) into NTC wells
+    for well in ntc_wells:
+        p20.pick_up_tip()
+        p20.transfer(5, water, well, new_tip='never')
+        p20.drop_tip()
+
+    # Dispense sample DNA (5 μL) into template-only wells
+    for well in template_only_wells:
+        p20.pick_up_tip()
+        p20.transfer(5, sample_dna, well, new_tip='never')
+        p20.drop_tip()
+
+    # 9. PCR MIXとprimerの混合溶液を10 μLずつreaction plateにアプライする
+    # Add PCR MIX with primers to sample wells and NTC wells
+    for i in range(13):
+        primer_mix = pcr_mix_primers[i]
+        # For each primer set, add to 3 sample wells and 3 NTC wells
+        for j in range(3):
+            # Sample wells
+            sample_well = sample_wells[i*3 + j]
+            p20.pick_up_tip()
+            p20.transfer(10, primer_mix, sample_well, mix_after=(3, 15), new_tip='never')
+            p20.drop_tip()
+            # NTC wells
+            ntc_well = ntc_wells[i*3 + j]
+            p20.pick_up_tip()
+            p20.transfer(10, primer_mix, ntc_well, mix_after=(3, 15), new_tip='never')
+            p20.drop_tip()
+
+    # Add PCR MIX without primers to template-only wells
+    for well in template_only_wells:
+        p20.pick_up_tip()
+        p20.transfer(10, pcr_mix_template_only, well, mix_after=(3, 15), new_tip='never')
+        p20.drop_tip()
+```

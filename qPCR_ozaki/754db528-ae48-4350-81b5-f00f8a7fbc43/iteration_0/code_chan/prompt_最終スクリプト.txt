@@ -1,0 +1,14 @@
+
+We have the following Opentrons OT2 script. This script describes the position of the labware (Station) as __place_{i}__.
+
+Skeleton script:
+
+python
+___skeleton_script___
+Please generate a script where __place_{i}__ is replaced with the correct position based on the following labware placement information.
+
+Placement information:
+
+markdown
+[[[{"name": "TB Green Premix Ex Taq GC (2\u00d7)", "quantity": 1, "init_content": "", "labware": {"id": "", "name": "Unknown"}, "unit": "tube"}, []], 1], [[{"name": "PCR Forward Primer (10 \u03bcM)", "quantity": 0.4, "init_content": "", "labware": {"id": "", "name": "Unknown"}, "unit": "\u03bcl"}, []], 2], [[{"name": "PCR Reverse Primer (10 \u03bcM)", "quantity": 0.4, "init_content": "", "labware": {"id": "", "name": "Unknown"}, "unit": "\u03bcl"}, []], 3], [[{"name": "ROX Reference Dye (50\u00d7) or Dye II (50\u00d7)", "quantity": 0.4, "init_content": "", "labware": {"id": "", "name": "Unknown"}, "unit": "\u03bcl"}, []], 4], [[{"name": "template", "quantity": 2, "init_content": "", "labware": {"id": "", "name": "Unknown"}, "unit": "\u03bcl"}, []], 5], [[{"name": "\u6ec5\u83cc\u7cbe\u88fd\u6c34", "quantity": 6.8, "init_content": "", "labware": {"id": "", "name": "Unknown"}, "unit": "\u03bcl"}, []], 6], [[{"name": "sample DNAs", "quantity": 300, "init_content": "sample", "labware": {"id": 1, "name": "1.5_ml_tube"}, "unit": "\u03bcl"}, []], 7], [[{"name": "water", "quantity": 300, "init_content": "water", "labware": {"id": 2, "name": "Unknown"}, "unit": "\u03bcl"}, []], 8], [[{"name": "10 \u03bcM primer_F", "quantity": 10, "init_content": "10 \u03bcM primer_F", "labware": {"id": 3, "name": "Unknown"}, "unit": "\u03bcl"}, []], 10], [[{"name": "10 \u03bcM primer_R", "quantity": 10, "init_content": "10 \u03bcM primer_R", "labware": {"id": 4, "name": "Unknown"}, "unit": "\u03bcl"}, []], 11], [[{"name": "PCR MIX", "quantity": 2000, "init_content": "", "labware": {"id": 5, "name": "Unknown"}, "unit": "\u03bcL"}, []], 12], [[{"name": "96 well PCR plate", "quantity": 1, "init_content": "", "labware": {"id": 6, "name": "Unknown"}, "unit": "plate"}, []], 9]]
+Please reply with the Python script where __place_{i}__ has been replaced with the correct locations. If there is missing information in the placement details required to fill in __place_{i}__ in the skeleton script, you may supplement it as necessary. However, do not modify the placement information.

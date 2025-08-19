@@ -1,0 +1,1782 @@
+[
+    [
+        [
+            [
+                {
+                    "name": "PCR_MIX",
+                    "quantity": 2000,
+                    "init_content": "",
+                    "labware": {
+                        "id": 1,
+                        "name": "Unknown"
+                    },
+                    "unit": "\u03bcL"
+                },
+                []
+            ],
+            1
+        ],
+        [
+            [
+                {
+                    "name": "10_\u03bcM_primer_F",
+                    "quantity": 3.2,
+                    "init_content": "",
+                    "labware": {
+                        "id": 1,
+                        "name": "Unknown"
+                    },
+                    "unit": "\u03bcL"
+                },
+                []
+            ],
+            2
+        ],
+        [
+            [
+                {
+                    "name": "10_\u03bcM_primer_R",
+                    "quantity": 3.2,
+                    "init_content": "",
+                    "labware": {
+                        "id": 1,
+                        "name": "Unknown"
+                    },
+                    "unit": "\u03bcL"
+                },
+                []
+            ],
+            3
+        ],
+        [
+            [
+                {
+                    "name": "template_only_PCR_MIX",
+                    "quantity": 86,
+                    "init_content": "",
+                    "labware": {
+                        "id": 1,
+                        "name": "Unknown"
+                    },
+                    "unit": "\u03bcL"
+                },
+                []
+            ],
+            4
+        ],
+        [
+            [
+                {
+                    "name": "water",
+                    "quantity": 4,
+                    "init_content": "water",
+                    "labware": {
+                        "id": 1,
+                        "name": "Unknown"
+                    },
+                    "unit": "\u03bcL"
+                },
+                []
+            ],
+            5
+        ],
+        [
+            [
+                {
+                    "name": "sample_DNAs",
+                    "quantity": 300,
+                    "init_content": "sample",
+                    "labware": {
+                        "id": 1,
+                        "name": "Unknown"
+                    },
+                    "unit": "\u03bcL"
+                },
+                []
+            ],
+            6
+        ],
+        [
+            [
+                {
+                    "name": "water",
+                    "quantity": 300,
+                    "init_content": "water",
+                    "labware": {
+                        "id": 1,
+                        "name": "Unknown"
+                    },
+                    "unit": "\u03bcL"
+                },
+                []
+            ],
+            7
+        ],
+        [
+            [
+                {
+                    "name": "Corning_96_well_PCR_plate",
+                    "quantity": 1,
+                    "init_content": "",
+                    "labware": {
+                        "id": 1,
+                        "name": "Unknown"
+                    },
+                    "unit": "plate"
+                },
+                []
+            ],
+            8
+        ],
+        [
+            [
+                {
+                    "name": "Unknown",
+                    "quantity": 81,
+                    "init_content": "",
+                    "labware": {
+                        "id": 1,
+                        "name": "Unknown"
+                    },
+                    "unit": "well"
+                },
+                []
+            ],
+            9
+        ],
+        [
+            [
+                {
+                    "name": "1.5_ml_tube",
+                    "quantity": 0,
+                    "init_content": "",
+                    "labware": {
+                        "id": 1,
+                        "name": "Unknown"
+                    },
+                    "unit": ""
+                },
+                []
+            ],
+            10
+        ],
+        [
+            [
+                {
+                    "name": "Unknown",
+                    "quantity": 0,
+                    "init_content": "",
+                    "labware": {
+                        "id": 2,
+                        "name": "Unknown"
+                    },
+                    "unit": ""
+                },
+                []
+            ],
+            11
+        ]
+    ],
+    [
+        [
+            [
+                {
+                    "name": "PCR_MIX",
+                    "quantity": 2000,
+                    "init_content": "",
+                    "labware": {
+                        "id": 1,
+                        "name": "Unknown"
+                    },
+                    "unit": "\u03bcL"
+                },
+                []
+            ],
+            1
+        ],
+        [
+            [
+                {
+                    "name": "10_\u03bcM_primer_F",
+                    "quantity": 3.2,
+                    "init_content": "",
+                    "labware": {
+                        "id": 1,
+                        "name": "Unknown"
+                    },
+                    "unit": "\u03bcL"
+                },
+                []
+            ],
+            2
+        ],
+        [
+            [
+                {
+                    "name": "10_\u03bcM_primer_R",
+                    "quantity": 3.2,
+                    "init_content": "",
+                    "labware": {
+                        "id": 1,
+                        "name": "Unknown"
+                    },
+                    "unit": "\u03bcL"
+                },
+                []
+            ],
+            3
+        ],
+        [
+            [
+                {
+                    "name": "template_only_PCR_MIX",
+                    "quantity": 86,
+                    "init_content": "",
+                    "labware": {
+                        "id": 1,
+                        "name": "Unknown"
+                    },
+                    "unit": "\u03bcL"
+                },
+                []
+            ],
+            4
+        ],
+        [
+            [
+                {
+                    "name": "water",
+                    "quantity": 4,
+                    "init_content": "water",
+                    "labware": {
+                        "id": 1,
+                        "name": "Unknown"
+                    },
+                    "unit": "\u03bcL"
+                },
+                []
+            ],
+            5
+        ],
+        [
+            [
+                {
+                    "name": "sample_DNAs",
+                    "quantity": 300,
+                    "init_content": "sample",
+                    "labware": {
+                        "id": 1,
+                        "name": "Unknown"
+                    },
+                    "unit": "\u03bcL"
+                },
+                []
+            ],
+            6
+        ],
+        [
+            [
+                {
+                    "name": "water",
+                    "quantity": 300,
+                    "init_content": "water",
+                    "labware": {
+                        "id": 1,
+                        "name": "Unknown"
+                    },
+                    "unit": "\u03bcL"
+                },
+                []
+            ],
+            7
+        ],
+        [
+            [
+                {
+                    "name": "Corning_96_well_PCR_plate",
+                    "quantity": 1,
+                    "init_content": "",
+                    "labware": {
+                        "id": 1,
+                        "name": "Unknown"
+                    },
+                    "unit": "plate"
+                },
+                []
+            ],
+            8
+        ],
+        [
+            [
+                {
+                    "name": "Unknown",
+                    "quantity": 81,
+                    "init_content": "",
+                    "labware": {
+                        "id": 1,
+                        "name": "Unknown"
+                    },
+                    "unit": "well"
+                },
+                []
+            ],
+            9
+        ],
+        [
+            [
+                {
+                    "name": "1.5_ml_tube",
+                    "quantity": 0,
+                    "init_content": "",
+                    "labware": {
+                        "id": 1,
+                        "name": "Unknown"
+                    },
+                    "unit": ""
+                },
+                []
+            ],
+            10
+        ],
+        [
+            [
+                {
+                    "name": "Unknown",
+                    "quantity": 0,
+                    "init_content": "",
+                    "labware": {
+                        "id": 2,
+                        "name": "Unknown"
+                    },
+                    "unit": ""
+                },
+                []
+            ],
+            12
+        ]
+    ],
+    [
+        [
+            [
+                {
+                    "name": "PCR_MIX",
+                    "quantity": 2000,
+                    "init_content": "",
+                    "labware": {
+                        "id": 1,
+                        "name": "Unknown"
+                    },
+                    "unit": "\u03bcL"
+                },
+                []
+            ],
+            1
+        ],
+        [
+            [
+                {
+                    "name": "10_\u03bcM_primer_F",
+                    "quantity": 3.2,
+                    "init_content": "",
+                    "labware": {
+                        "id": 1,
+                        "name": "Unknown"
+                    },
+                    "unit": "\u03bcL"
+                },
+                []
+            ],
+            2
+        ],
+        [
+            [
+                {
+                    "name": "10_\u03bcM_primer_R",
+                    "quantity": 3.2,
+                    "init_content": "",
+                    "labware": {
+                        "id": 1,
+                        "name": "Unknown"
+                    },
+                    "unit": "\u03bcL"
+                },
+                []
+            ],
+            3
+        ],
+        [
+            [
+                {
+                    "name": "template_only_PCR_MIX",
+                    "quantity": 86,
+                    "init_content": "",
+                    "labware": {
+                        "id": 1,
+                        "name": "Unknown"
+                    },
+                    "unit": "\u03bcL"
+                },
+                []
+            ],
+            4
+        ],
+        [
+            [
+                {
+                    "name": "water",
+                    "quantity": 4,
+                    "init_content": "water",
+                    "labware": {
+                        "id": 1,
+                        "name": "Unknown"
+                    },
+                    "unit": "\u03bcL"
+                },
+                []
+            ],
+            5
+        ],
+        [
+            [
+                {
+                    "name": "sample_DNAs",
+                    "quantity": 300,
+                    "init_content": "sample",
+                    "labware": {
+                        "id": 1,
+                        "name": "Unknown"
+                    },
+                    "unit": "\u03bcL"
+                },
+                []
+            ],
+            6
+        ],
+        [
+            [
+                {
+                    "name": "water",
+                    "quantity": 300,
+                    "init_content": "water",
+                    "labware": {
+                        "id": 1,
+                        "name": "Unknown"
+                    },
+                    "unit": "\u03bcL"
+                },
+                []
+            ],
+            7
+        ],
+        [
+            [
+                {
+                    "name": "Corning_96_well_PCR_plate",
+                    "quantity": 1,
+                    "init_content": "",
+                    "labware": {
+                        "id": 1,
+                        "name": "Unknown"
+                    },
+                    "unit": "plate"
+                },
+                []
+            ],
+            8
+        ],
+        [
+            [
+                {
+                    "name": "Unknown",
+                    "quantity": 81,
+                    "init_content": "",
+                    "labware": {
+                        "id": 1,
+                        "name": "Unknown"
+                    },
+                    "unit": "well"
+                },
+                []
+            ],
+            9
+        ],
+        [
+            [
+                {
+                    "name": "1.5_ml_tube",
+                    "quantity": 0,
+                    "init_content": "",
+                    "labware": {
+                        "id": 1,
+                        "name": "Unknown"
+                    },
+                    "unit": ""
+                },
+                []
+            ],
+            11
+        ],
+        [
+            [
+                {
+                    "name": "Unknown",
+                    "quantity": 0,
+                    "init_content": "",
+                    "labware": {
+                        "id": 2,
+                        "name": "Unknown"
+                    },
+                    "unit": ""
+                },
+                []
+            ],
+            10
+        ]
+    ],
+    [
+        [
+            [
+                {
+                    "name": "PCR_MIX",
+                    "quantity": 2000,
+                    "init_content": "",
+                    "labware": {
+                        "id": 1,
+                        "name": "Unknown"
+                    },
+                    "unit": "\u03bcL"
+                },
+                []
+            ],
+            1
+        ],
+        [
+            [
+                {
+                    "name": "10_\u03bcM_primer_F",
+                    "quantity": 3.2,
+                    "init_content": "",
+                    "labware": {
+                        "id": 1,
+                        "name": "Unknown"
+                    },
+                    "unit": "\u03bcL"
+                },
+                []
+            ],
+            2
+        ],
+        [
+            [
+                {
+                    "name": "10_\u03bcM_primer_R",
+                    "quantity": 3.2,
+                    "init_content": "",
+                    "labware": {
+                        "id": 1,
+                        "name": "Unknown"
+                    },
+                    "unit": "\u03bcL"
+                },
+                []
+            ],
+            3
+        ],
+        [
+            [
+                {
+                    "name": "template_only_PCR_MIX",
+                    "quantity": 86,
+                    "init_content": "",
+                    "labware": {
+                        "id": 1,
+                        "name": "Unknown"
+                    },
+                    "unit": "\u03bcL"
+                },
+                []
+            ],
+            4
+        ],
+        [
+            [
+                {
+                    "name": "water",
+                    "quantity": 4,
+                    "init_content": "water",
+                    "labware": {
+                        "id": 1,
+                        "name": "Unknown"
+                    },
+                    "unit": "\u03bcL"
+                },
+                []
+            ],
+            5
+        ],
+        [
+            [
+                {
+                    "name": "sample_DNAs",
+                    "quantity": 300,
+                    "init_content": "sample",
+                    "labware": {
+                        "id": 1,
+                        "name": "Unknown"
+                    },
+                    "unit": "\u03bcL"
+                },
+                []
+            ],
+            6
+        ],
+        [
+            [
+                {
+                    "name": "water",
+                    "quantity": 300,
+                    "init_content": "water",
+                    "labware": {
+                        "id": 1,
+                        "name": "Unknown"
+                    },
+                    "unit": "\u03bcL"
+                },
+                []
+            ],
+            7
+        ],
+        [
+            [
+                {
+                    "name": "Corning_96_well_PCR_plate",
+                    "quantity": 1,
+                    "init_content": "",
+                    "labware": {
+                        "id": 1,
+                        "name": "Unknown"
+                    },
+                    "unit": "plate"
+                },
+                []
+            ],
+            8
+        ],
+        [
+            [
+                {
+                    "name": "Unknown",
+                    "quantity": 81,
+                    "init_content": "",
+                    "labware": {
+                        "id": 1,
+                        "name": "Unknown"
+                    },
+                    "unit": "well"
+                },
+                []
+            ],
+            9
+        ],
+        [
+            [
+                {
+                    "name": "1.5_ml_tube",
+                    "quantity": 0,
+                    "init_content": "",
+                    "labware": {
+                        "id": 1,
+                        "name": "Unknown"
+                    },
+                    "unit": ""
+                },
+                []
+            ],
+            11
+        ],
+        [
+            [
+                {
+                    "name": "Unknown",
+                    "quantity": 0,
+                    "init_content": "",
+                    "labware": {
+                        "id": 2,
+                        "name": "Unknown"
+                    },
+                    "unit": ""
+                },
+                []
+            ],
+            12
+        ]
+    ],
+    [
+        [
+            [
+                {
+                    "name": "PCR_MIX",
+                    "quantity": 2000,
+                    "init_content": "",
+                    "labware": {
+                        "id": 1,
+                        "name": "Unknown"
+                    },
+                    "unit": "\u03bcL"
+                },
+                []
+            ],
+            1
+        ],
+        [
+            [
+                {
+                    "name": "10_\u03bcM_primer_F",
+                    "quantity": 3.2,
+                    "init_content": "",
+                    "labware": {
+                        "id": 1,
+                        "name": "Unknown"
+                    },
+                    "unit": "\u03bcL"
+                },
+                []
+            ],
+            2
+        ],
+        [
+            [
+                {
+                    "name": "10_\u03bcM_primer_R",
+                    "quantity": 3.2,
+                    "init_content": "",
+                    "labware": {
+                        "id": 1,
+                        "name": "Unknown"
+                    },
+                    "unit": "\u03bcL"
+                },
+                []
+            ],
+            3
+        ],
+        [
+            [
+                {
+                    "name": "template_only_PCR_MIX",
+                    "quantity": 86,
+                    "init_content": "",
+                    "labware": {
+                        "id": 1,
+                        "name": "Unknown"
+                    },
+                    "unit": "\u03bcL"
+                },
+                []
+            ],
+            4
+        ],
+        [
+            [
+                {
+                    "name": "water",
+                    "quantity": 4,
+                    "init_content": "water",
+                    "labware": {
+                        "id": 1,
+                        "name": "Unknown"
+                    },
+                    "unit": "\u03bcL"
+                },
+                []
+            ],
+            5
+        ],
+        [
+            [
+                {
+                    "name": "sample_DNAs",
+                    "quantity": 300,
+                    "init_content": "sample",
+                    "labware": {
+                        "id": 1,
+                        "name": "Unknown"
+                    },
+                    "unit": "\u03bcL"
+                },
+                []
+            ],
+            6
+        ],
+        [
+            [
+                {
+                    "name": "water",
+                    "quantity": 300,
+                    "init_content": "water",
+                    "labware": {
+                        "id": 1,
+                        "name": "Unknown"
+                    },
+                    "unit": "\u03bcL"
+                },
+                []
+            ],
+            7
+        ],
+        [
+            [
+                {
+                    "name": "Corning_96_well_PCR_plate",
+                    "quantity": 1,
+                    "init_content": "",
+                    "labware": {
+                        "id": 1,
+                        "name": "Unknown"
+                    },
+                    "unit": "plate"
+                },
+                []
+            ],
+            8
+        ],
+        [
+            [
+                {
+                    "name": "Unknown",
+                    "quantity": 81,
+                    "init_content": "",
+                    "labware": {
+                        "id": 1,
+                        "name": "Unknown"
+                    },
+                    "unit": "well"
+                },
+                []
+            ],
+            9
+        ],
+        [
+            [
+                {
+                    "name": "1.5_ml_tube",
+                    "quantity": 0,
+                    "init_content": "",
+                    "labware": {
+                        "id": 1,
+                        "name": "Unknown"
+                    },
+                    "unit": ""
+                },
+                []
+            ],
+            12
+        ],
+        [
+            [
+                {
+                    "name": "Unknown",
+                    "quantity": 0,
+                    "init_content": "",
+                    "labware": {
+                        "id": 2,
+                        "name": "Unknown"
+                    },
+                    "unit": ""
+                },
+                []
+            ],
+            10
+        ]
+    ],
+    [
+        [
+            [
+                {
+                    "name": "PCR_MIX",
+                    "quantity": 2000,
+                    "init_content": "",
+                    "labware": {
+                        "id": 1,
+                        "name": "Unknown"
+                    },
+                    "unit": "\u03bcL"
+                },
+                []
+            ],
+            1
+        ],
+        [
+            [
+                {
+                    "name": "10_\u03bcM_primer_F",
+                    "quantity": 3.2,
+                    "init_content": "",
+                    "labware": {
+                        "id": 1,
+                        "name": "Unknown"
+                    },
+                    "unit": "\u03bcL"
+                },
+                []
+            ],
+            2
+        ],
+        [
+            [
+                {
+                    "name": "10_\u03bcM_primer_R",
+                    "quantity": 3.2,
+                    "init_content": "",
+                    "labware": {
+                        "id": 1,
+                        "name": "Unknown"
+                    },
+                    "unit": "\u03bcL"
+                },
+                []
+            ],
+            3
+        ],
+        [
+            [
+                {
+                    "name": "template_only_PCR_MIX",
+                    "quantity": 86,
+                    "init_content": "",
+                    "labware": {
+                        "id": 1,
+                        "name": "Unknown"
+                    },
+                    "unit": "\u03bcL"
+                },
+                []
+            ],
+            4
+        ],
+        [
+            [
+                {
+                    "name": "water",
+                    "quantity": 4,
+                    "init_content": "water",
+                    "labware": {
+                        "id": 1,
+                        "name": "Unknown"
+                    },
+                    "unit": "\u03bcL"
+                },
+                []
+            ],
+            5
+        ],
+        [
+            [
+                {
+                    "name": "sample_DNAs",
+                    "quantity": 300,
+                    "init_content": "sample",
+                    "labware": {
+                        "id": 1,
+                        "name": "Unknown"
+                    },
+                    "unit": "\u03bcL"
+                },
+                []
+            ],
+            6
+        ],
+        [
+            [
+                {
+                    "name": "water",
+                    "quantity": 300,
+                    "init_content": "water",
+                    "labware": {
+                        "id": 1,
+                        "name": "Unknown"
+                    },
+                    "unit": "\u03bcL"
+                },
+                []
+            ],
+            7
+        ],
+        [
+            [
+                {
+                    "name": "Corning_96_well_PCR_plate",
+                    "quantity": 1,
+                    "init_content": "",
+                    "labware": {
+                        "id": 1,
+                        "name": "Unknown"
+                    },
+                    "unit": "plate"
+                },
+                []
+            ],
+            8
+        ],
+        [
+            [
+                {
+                    "name": "Unknown",
+                    "quantity": 81,
+                    "init_content": "",
+                    "labware": {
+                        "id": 1,
+                        "name": "Unknown"
+                    },
+                    "unit": "well"
+                },
+                []
+            ],
+            9
+        ],
+        [
+            [
+                {
+                    "name": "1.5_ml_tube",
+                    "quantity": 0,
+                    "init_content": "",
+                    "labware": {
+                        "id": 1,
+                        "name": "Unknown"
+                    },
+                    "unit": ""
+                },
+                []
+            ],
+            12
+        ],
+        [
+            [
+                {
+                    "name": "Unknown",
+                    "quantity": 0,
+                    "init_content": "",
+                    "labware": {
+                        "id": 2,
+                        "name": "Unknown"
+                    },
+                    "unit": ""
+                },
+                []
+            ],
+            11
+        ]
+    ],
+    [
+        [
+            [
+                {
+                    "name": "PCR_MIX",
+                    "quantity": 2000,
+                    "init_content": "",
+                    "labware": {
+                        "id": 1,
+                        "name": "Unknown"
+                    },
+                    "unit": "\u03bcL"
+                },
+                []
+            ],
+            1
+        ],
+        [
+            [
+                {
+                    "name": "10_\u03bcM_primer_F",
+                    "quantity": 3.2,
+                    "init_content": "",
+                    "labware": {
+                        "id": 1,
+                        "name": "Unknown"
+                    },
+                    "unit": "\u03bcL"
+                },
+                []
+            ],
+            2
+        ],
+        [
+            [
+                {
+                    "name": "10_\u03bcM_primer_R",
+                    "quantity": 3.2,
+                    "init_content": "",
+                    "labware": {
+                        "id": 1,
+                        "name": "Unknown"
+                    },
+                    "unit": "\u03bcL"
+                },
+                []
+            ],
+            3
+        ],
+        [
+            [
+                {
+                    "name": "template_only_PCR_MIX",
+                    "quantity": 86,
+                    "init_content": "",
+                    "labware": {
+                        "id": 1,
+                        "name": "Unknown"
+                    },
+                    "unit": "\u03bcL"
+                },
+                []
+            ],
+            4
+        ],
+        [
+            [
+                {
+                    "name": "water",
+                    "quantity": 4,
+                    "init_content": "water",
+                    "labware": {
+                        "id": 1,
+                        "name": "Unknown"
+                    },
+                    "unit": "\u03bcL"
+                },
+                []
+            ],
+            5
+        ],
+        [
+            [
+                {
+                    "name": "sample_DNAs",
+                    "quantity": 300,
+                    "init_content": "sample",
+                    "labware": {
+                        "id": 1,
+                        "name": "Unknown"
+                    },
+                    "unit": "\u03bcL"
+                },
+                []
+            ],
+            6
+        ],
+        [
+            [
+                {
+                    "name": "water",
+                    "quantity": 300,
+                    "init_content": "water",
+                    "labware": {
+                        "id": 1,
+                        "name": "Unknown"
+                    },
+                    "unit": "\u03bcL"
+                },
+                []
+            ],
+            7
+        ],
+        [
+            [
+                {
+                    "name": "Corning_96_well_PCR_plate",
+                    "quantity": 1,
+                    "init_content": "",
+                    "labware": {
+                        "id": 1,
+                        "name": "Unknown"
+                    },
+                    "unit": "plate"
+                },
+                []
+            ],
+            8
+        ],
+        [
+            [
+                {
+                    "name": "Unknown",
+                    "quantity": 81,
+                    "init_content": "",
+                    "labware": {
+                        "id": 1,
+                        "name": "Unknown"
+                    },
+                    "unit": "well"
+                },
+                []
+            ],
+            10
+        ],
+        [
+            [
+                {
+                    "name": "1.5_ml_tube",
+                    "quantity": 0,
+                    "init_content": "",
+                    "labware": {
+                        "id": 1,
+                        "name": "Unknown"
+                    },
+                    "unit": ""
+                },
+                []
+            ],
+            9
+        ],
+        [
+            [
+                {
+                    "name": "Unknown",
+                    "quantity": 0,
+                    "init_content": "",
+                    "labware": {
+                        "id": 2,
+                        "name": "Unknown"
+                    },
+                    "unit": ""
+                },
+                []
+            ],
+            11
+        ]
+    ],
+    [
+        [
+            [
+                {
+                    "name": "PCR_MIX",
+                    "quantity": 2000,
+                    "init_content": "",
+                    "labware": {
+                        "id": 1,
+                        "name": "Unknown"
+                    },
+                    "unit": "\u03bcL"
+                },
+                []
+            ],
+            1
+        ],
+        [
+            [
+                {
+                    "name": "10_\u03bcM_primer_F",
+                    "quantity": 3.2,
+                    "init_content": "",
+                    "labware": {
+                        "id": 1,
+                        "name": "Unknown"
+                    },
+                    "unit": "\u03bcL"
+                },
+                []
+            ],
+            2
+        ],
+        [
+            [
+                {
+                    "name": "10_\u03bcM_primer_R",
+                    "quantity": 3.2,
+                    "init_content": "",
+                    "labware": {
+                        "id": 1,
+                        "name": "Unknown"
+                    },
+                    "unit": "\u03bcL"
+                },
+                []
+            ],
+            3
+        ],
+        [
+            [
+                {
+                    "name": "template_only_PCR_MIX",
+                    "quantity": 86,
+                    "init_content": "",
+                    "labware": {
+                        "id": 1,
+                        "name": "Unknown"
+                    },
+                    "unit": "\u03bcL"
+                },
+                []
+            ],
+            4
+        ],
+        [
+            [
+                {
+                    "name": "water",
+                    "quantity": 4,
+                    "init_content": "water",
+                    "labware": {
+                        "id": 1,
+                        "name": "Unknown"
+                    },
+                    "unit": "\u03bcL"
+                },
+                []
+            ],
+            5
+        ],
+        [
+            [
+                {
+                    "name": "sample_DNAs",
+                    "quantity": 300,
+                    "init_content": "sample",
+                    "labware": {
+                        "id": 1,
+                        "name": "Unknown"
+                    },
+                    "unit": "\u03bcL"
+                },
+                []
+            ],
+            6
+        ],
+        [
+            [
+                {
+                    "name": "water",
+                    "quantity": 300,
+                    "init_content": "water",
+                    "labware": {
+                        "id": 1,
+                        "name": "Unknown"
+                    },
+                    "unit": "\u03bcL"
+                },
+                []
+            ],
+            7
+        ],
+        [
+            [
+                {
+                    "name": "Corning_96_well_PCR_plate",
+                    "quantity": 1,
+                    "init_content": "",
+                    "labware": {
+                        "id": 1,
+                        "name": "Unknown"
+                    },
+                    "unit": "plate"
+                },
+                []
+            ],
+            8
+        ],
+        [
+            [
+                {
+                    "name": "Unknown",
+                    "quantity": 81,
+                    "init_content": "",
+                    "labware": {
+                        "id": 1,
+                        "name": "Unknown"
+                    },
+                    "unit": "well"
+                },
+                []
+            ],
+            10
+        ],
+        [
+            [
+                {
+                    "name": "1.5_ml_tube",
+                    "quantity": 0,
+                    "init_content": "",
+                    "labware": {
+                        "id": 1,
+                        "name": "Unknown"
+                    },
+                    "unit": ""
+                },
+                []
+            ],
+            9
+        ],
+        [
+            [
+                {
+                    "name": "Unknown",
+                    "quantity": 0,
+                    "init_content": "",
+                    "labware": {
+                        "id": 2,
+                        "name": "Unknown"
+                    },
+                    "unit": ""
+                },
+                []
+            ],
+            12
+        ]
+    ],
+    [
+        [
+            [
+                {
+                    "name": "PCR_MIX",
+                    "quantity": 2000,
+                    "init_content": "",
+                    "labware": {
+                        "id": 1,
+                        "name": "Unknown"
+                    },
+                    "unit": "\u03bcL"
+                },
+                []
+            ],
+            1
+        ],
+        [
+            [
+                {
+                    "name": "10_\u03bcM_primer_F",
+                    "quantity": 3.2,
+                    "init_content": "",
+                    "labware": {
+                        "id": 1,
+                        "name": "Unknown"
+                    },
+                    "unit": "\u03bcL"
+                },
+                []
+            ],
+            2
+        ],
+        [
+            [
+                {
+                    "name": "10_\u03bcM_primer_R",
+                    "quantity": 3.2,
+                    "init_content": "",
+                    "labware": {
+                        "id": 1,
+                        "name": "Unknown"
+                    },
+                    "unit": "\u03bcL"
+                },
+                []
+            ],
+            3
+        ],
+        [
+            [
+                {
+                    "name": "template_only_PCR_MIX",
+                    "quantity": 86,
+                    "init_content": "",
+                    "labware": {
+                        "id": 1,
+                        "name": "Unknown"
+                    },
+                    "unit": "\u03bcL"
+                },
+                []
+            ],
+            4
+        ],
+        [
+            [
+                {
+                    "name": "water",
+                    "quantity": 4,
+                    "init_content": "water",
+                    "labware": {
+                        "id": 1,
+                        "name": "Unknown"
+                    },
+                    "unit": "\u03bcL"
+                },
+                []
+            ],
+            5
+        ],
+        [
+            [
+                {
+                    "name": "sample_DNAs",
+                    "quantity": 300,
+                    "init_content": "sample",
+                    "labware": {
+                        "id": 1,
+                        "name": "Unknown"
+                    },
+                    "unit": "\u03bcL"
+                },
+                []
+            ],
+            6
+        ],
+        [
+            [
+                {
+                    "name": "water",
+                    "quantity": 300,
+                    "init_content": "water",
+                    "labware": {
+                        "id": 1,
+                        "name": "Unknown"
+                    },
+                    "unit": "\u03bcL"
+                },
+                []
+            ],
+            7
+        ],
+        [
+            [
+                {
+                    "name": "Corning_96_well_PCR_plate",
+                    "quantity": 1,
+                    "init_content": "",
+                    "labware": {
+                        "id": 1,
+                        "name": "Unknown"
+                    },
+                    "unit": "plate"
+                },
+                []
+            ],
+            8
+        ],
+        [
+            [
+                {
+                    "name": "Unknown",
+                    "quantity": 81,
+                    "init_content": "",
+                    "labware": {
+                        "id": 1,
+                        "name": "Unknown"
+                    },
+                    "unit": "well"
+                },
+                []
+            ],
+            10
+        ],
+        [
+            [
+                {
+                    "name": "1.5_ml_tube",
+                    "quantity": 0,
+                    "init_content": "",
+                    "labware": {
+                        "id": 1,
+                        "name": "Unknown"
+                    },
+                    "unit": ""
+                },
+                []
+            ],
+            11
+        ],
+        [
+            [
+                {
+                    "name": "Unknown",
+                    "quantity": 0,
+                    "init_content": "",
+                    "labware": {
+                        "id": 2,
+                        "name": "Unknown"
+                    },
+                    "unit": ""
+                },
+                []
+            ],
+            9
+        ]
+    ],
+    [
+        [
+            [
+                {
+                    "name": "PCR_MIX",
+                    "quantity": 2000,
+                    "init_content": "",
+                    "labware": {
+                        "id": 1,
+                        "name": "Unknown"
+                    },
+                    "unit": "\u03bcL"
+                },
+                []
+            ],
+            1
+        ],
+        [
+            [
+                {
+                    "name": "10_\u03bcM_primer_F",
+                    "quantity": 3.2,
+                    "init_content": "",
+                    "labware": {
+                        "id": 1,
+                        "name": "Unknown"
+                    },
+                    "unit": "\u03bcL"
+                },
+                []
+            ],
+            2
+        ],
+        [
+            [
+                {
+                    "name": "10_\u03bcM_primer_R",
+                    "quantity": 3.2,
+                    "init_content": "",
+                    "labware": {
+                        "id": 1,
+                        "name": "Unknown"
+                    },
+                    "unit": "\u03bcL"
+                },
+                []
+            ],
+            3
+        ],
+        [
+            [
+                {
+                    "name": "template_only_PCR_MIX",
+                    "quantity": 86,
+                    "init_content": "",
+                    "labware": {
+                        "id": 1,
+                        "name": "Unknown"
+                    },
+                    "unit": "\u03bcL"
+                },
+                []
+            ],
+            4
+        ],
+        [
+            [
+                {
+                    "name": "water",
+                    "quantity": 4,
+                    "init_content": "water",
+                    "labware": {
+                        "id": 1,
+                        "name": "Unknown"
+                    },
+                    "unit": "\u03bcL"
+                },
+                []
+            ],
+            5
+        ],
+        [
+            [
+                {
+                    "name": "sample_DNAs",
+                    "quantity": 300,
+                    "init_content": "sample",
+                    "labware": {
+                        "id": 1,
+                        "name": "Unknown"
+                    },
+                    "unit": "\u03bcL"
+                },
+                []
+            ],
+            6
+        ],
+        [
+            [
+                {
+                    "name": "water",
+                    "quantity": 300,
+                    "init_content": "water",
+                    "labware": {
+                        "id": 1,
+                        "name": "Unknown"
+                    },
+                    "unit": "\u03bcL"
+                },
+                []
+            ],
+            7
+        ],
+        [
+            [
+                {
+                    "name": "Corning_96_well_PCR_plate",
+                    "quantity": 1,
+                    "init_content": "",
+                    "labware": {
+                        "id": 1,
+                        "name": "Unknown"
+                    },
+                    "unit": "plate"
+                },
+                []
+            ],
+            8
+        ],
+        [
+            [
+                {
+                    "name": "Unknown",
+                    "quantity": 81,
+                    "init_content": "",
+                    "labware": {
+                        "id": 1,
+                        "name": "Unknown"
+                    },
+                    "unit": "well"
+                },
+                []
+            ],
+            10
+        ],
+        [
+            [
+                {
+                    "name": "1.5_ml_tube",
+                    "quantity": 0,
+                    "init_content": "",
+                    "labware": {
+                        "id": 1,
+                        "name": "Unknown"
+                    },
+                    "unit": ""
+                },
+                []
+            ],
+            11
+        ],
+        [
+            [
+                {
+                    "name": "Unknown",
+                    "quantity": 0,
+                    "init_content": "",
+                    "labware": {
+                        "id": 2,
+                        "name": "Unknown"
+                    },
+                    "unit": ""
+                },
+                []
+            ],
+            12
+        ]
+    ]
+]

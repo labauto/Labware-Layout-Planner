@@ -1,0 +1,158 @@
+Here is the Python script with the `__place_{i}__` placeholders replaced with the correct deck positions based on your placement information:
+
+```python
+# Import necessary modules
+from opentrons import protocol_api
+
+# Metadata
+metadata = {
+    'protocolName': 'Automated PCR Setup',
+    'author': 'Your Name',
+    'description': 'An automated protocol for setting up PCR reactions.',
+    'apiLevel': '2.11'
+}
+
+def run(protocol: protocol_api.ProtocolContext):
+
+    # Labware Definitions
+    # Position 1: 1.5 ml tube (reagent)
+    reagent_tube_rack = protocol.load_labware(
+        'opentrons_24_tuberack_eppendorf_1.5ml_safelock_snapcap',
+        location='1',
+        label='1.5 ml Tube Rack'
+    )
+
+    # Position 2: Water
+    water_reservoir = protocol.load_labware(
+        'nest_12_reservoir_15ml',
+        location='2',
+        label='Water Reservoir'
+    )
+
+    # Position 3: 10 µM Primer_F
+    primer_F_tube_rack = protocol.load_labware(
+        'opentrons_24_tuberack_nest_1.5ml_snapcap',
+        location='3',
+        label='Primer_F Tube Rack'
+    )
+
+    # Position 4: 10 µM Primer_R
+    primer_R_tube_rack = protocol.load_labware(
+        'opentrons_24_tuberack_nest_1.5ml_snapcap',
+        location='4',
+        label='Primer_R Tube Rack'
+    )
+
+    # Position 6: PCR MIX
+    pcr_mix_reservoir = protocol.load_labware(
+        'nest_12_reservoir_15ml',
+        location='6',
+        label='PCR MIX Reservoir'
+    )
+
+    # Position 8: 96 Well PCR Plate
+    pcr_plate = protocol.load_labware(
+        'nest_96_wellplate_100ul_pcr_full_skirt',
+        location='8',
+        label='96 Well PCR Plate'
+    )
+
+    # Pipettes
+    left_pipette = protocol.load_instrument(
+        'p20_single_gen2', mount='left', tip_racks=[
+            protocol.load_labware(
+                'opentrons_96_tiprack_20ul', location='5')
+        ])
+
+    right_pipette = protocol.load_instrument(
+        'p300_single_gen2', mount='right', tip_racks=[
+            protocol.load_labware(
+                'opentrons_96_tiprack_300ul', location='7')
+        ])
+
+    # Reagents and Samples
+    reagent_tube = reagent_tube_rack.wells_by_name()['A1']
+    water = water_reservoir.wells_by_name()['A1']
+    primer_F = primer_F_tube_rack.wells_by_name()['A1']
+    primer_R = primer_R_tube_rack.wells_by_name()['A1']
+    pcr_mix = pcr_mix_reservoir.wells_by_name()['A1']
+
+    # Protocol Steps
+    # Step 1: Transfer PCR MIX to PCR Plate
+    right_pipette.pick_up_tip()
+    right_pipette.distribute(
+        25,  # volume in µL
+        pcr_mix,
+        [well.bottom() for well in pcr_plate.wells()],
+        new_tip='never'
+    )
+    right_pipette.drop_tip()
+
+    # Step 2: Add Water to PCR Plate
+    right_pipette.pick_up_tip()
+    right_pipette.distribute(
+        5,  # volume in µL
+        water,
+        [well.bottom() for well in pcr_plate.wells()],
+        new_tip='never'
+    )
+    right_pipette.drop_tip()
+
+    # Step 3: Add Primer_F to PCR Plate
+    left_pipette.pick_up_tip()
+    left_pipette.distribute(
+        10,  # volume in µL
+        primer_F,
+        [well.bottom() for well in pcr_plate.wells()],
+        new_tip='never'
+    )
+    left_pipette.drop_tip()
+
+    # Step 4: Add Primer_R to PCR Plate
+    left_pipette.pick_up_tip()
+    left_pipette.distribute(
+        10,  # volume in µL
+        primer_R,
+        [well.bottom() for well in pcr_plate.wells()],
+        new_tip='never'
+    )
+    left_pipette.drop_tip()
+
+    # Additional steps can be added as required
+```
+
+**Explanation of Deck Positions and Labware:**
+
+- **Position 1** (`location='1'`): Loaded with an Eppendorf 1.5 mL Safe-Lock tube rack containing the 1.5 mL tube (reagent). Labware definition used: `'opentrons_24_tuberack_eppendorf_1.5ml_safelock_snapcap'`.
+  
+- **Position 2** (`location='2'`): Loaded with a 12-channel reservoir containing water. Labware definition used: `'nest_12_reservoir_15ml'`.
+  
+- **Position 3** (`location='3'`): Loaded with a Nest 1.5 mL snap-cap tube rack containing 10 µM Primer_F. Labware definition used: `'opentrons_24_tuberack_nest_1.5ml_snapcap'`.
+  
+- **Position 4** (`location='4'`): Loaded with a Nest 1.5 mL snap-cap tube rack containing 10 µM Primer_R. Labware definition used: `'opentrons_24_tuberack_nest_1.5ml_snapcap'`.
+  
+- **Position 6** (`location='6'`): Loaded with a 12-channel reservoir containing PCR MIX. Labware definition used: `'nest_12_reservoir_15ml'`.
+  
+- **Position 8** (`location='8'`): Loaded with a 96-well PCR plate. Labware definition used: `'nest_96_wellplate_100ul_pcr_full_skirt'`.
+
+**Notes:**
+
+- I have assumed standard labware definitions for the "Unknown" labware names based on common practice. If your lab uses different labware, please replace the labware definitions with the correct ones.
+  
+- The volume values in the protocol steps are placeholders. Please adjust them according to your experimental requirements.
+
+- Tip racks have been loaded in positions **5** and **7** for the left and right pipettes, respectively.
+
+- The `wells_by_name()['A1']` method is used to specify the first well in each labware. If your reagents are in different wells, please adjust accordingly.
+
+- Remember to calibrate your labware and pipettes before running the protocol to ensure accurate liquid handling.
+
+**Supplemented Information:**
+
+- Since specific labware definitions were not provided for some items, I have supplemented them with standard labware commonly used with the Opentrons OT-2 robot.
+
+- The "Unknown" labware with `labware id: 2` has been associated with the following standard labware:
+  - `'nest_12_reservoir_15ml'` for reservoirs (water and PCR MIX).
+  - `'opentrons_24_tuberack_nest_1.5ml_snapcap'` for tube racks (primers).
+
+Please review the script and adjust any labware definitions or protocol steps as necessary to match your laboratory setup and experimental protocol.

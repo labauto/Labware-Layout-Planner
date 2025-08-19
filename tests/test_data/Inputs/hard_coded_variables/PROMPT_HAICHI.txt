@@ -1,0 +1,10 @@
+
+I want to write a Python script that runs Opentrons OT2 machine. This robot can be used to automate laboratory experiment, and is used by many researchers in biology.
+
+Can you write down a Python script that does the following experiment?
+
+___processflow___
+
+Please keep in mind that when you set the place of objects on OT2, use this information:
+
+__haichi__

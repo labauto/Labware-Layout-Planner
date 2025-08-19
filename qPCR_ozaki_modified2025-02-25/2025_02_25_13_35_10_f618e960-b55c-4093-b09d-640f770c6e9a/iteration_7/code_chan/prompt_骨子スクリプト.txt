@@ -1,0 +1,111 @@
+
+I want to write a Python script that runs the Opentrons OT2 machine. This robot can be used to automate laboratory experiments and is widely used by many researchers in biology.
+
+Can you write a Python script for the following experiment?
+However, please replace the position of the objects with __place_{i}__ and store the object and position pair like this: {{"__place_{i}__": "{obj}"}}.
+
+Note: You've been slacking lately, so don't slack off and output the complete code. For example, ‘The protocol would continue with any additional steps required’ or '# Example: ' is not allowed.
+
+For example, for this script:
+
+```python
+from opentrons import protocol_api
+
+metadata = {
+    'protocolName': 'Liquid transfer across multiple labware',
+    'author': 'Your Name',
+    'description': 'Transfer liquid from one 96-well plate to another 96-well plate and a 12-well plate',
+    'apiLevel': '2.9'  # Specify the API level for this code
+}
+
+def run(protocol: protocol_api.ProtocolContext):
+    # Set up labware
+    tip_rack1 = protocol.load_labware('opentrons_96_tiprack_300ul', 1)
+    tip_rack2 = protocol.load_labware('opentrons_96_tiprack_300ul',  2)  # Second tip rack
+    plate_source_96 = protocol.load_labware('corning_96_wellplate_360ul_flat', 3)
+    plate_destination_96 = protocol.load_labware('corning_96_wellplate_360ul_flat',  4)
+    plate_destination_12 = protocol.load_labware('corning_12_wellplate_6.9ml_flat',  5)
+
+    # Set up pipette
+    pipette = protocol.load_instrument('p300_single', 'right', tip_racks=[tip_rack1, tip_rack2])  # Specify two tip racks
+    pass
+You should replace the positions of the objects with __place_1__, __place_2__, __place_3__, __place_4__, and __place_5__ like this:
+
+```python
+from opentrons import protocol_api
+
+metadata = {
+    'protocolName': 'Liquid transfer across multiple labware',
+    'author': 'Your Name',
+    'description': 'Transfer liquid from one 96-well plate to another 96-well plate and a 12-well plate',
+    'apiLevel': '2.9'  # Specify the API level for this code
+}
+
+def run(protocol: protocol_api.ProtocolContext):
+    # Set up labware
+    tip_rack1 = protocol.load_labware('opentrons_96_tiprack_300ul', '__place_1__')
+    tip_rack2 = protocol.load_labware('opentrons_96_tiprack_300ul', '__place_2__')  # Second tip rack
+    plate_source_96 = protocol.load_labware('corning_96_wellplate_360ul_flat', '__place_3__')
+    plate_destination_96 = protocol.load_labware('corning_96_wellplate_360ul_flat', '__place_4__')
+    plate_destination_12 = protocol.load_labware('corning_12_wellplate_6.9ml_flat', '__place_5__')
+
+    # Set up pipette
+    pipette = protocol.load_instrument('p300_single', 'right', tip_racks=[tip_rack1, tip_rack2])  # Specify two tip racks
+    pass
+```
+
+
+And please provide the object and position pairs like this:
+
+```json
+{"__place_1__": "{obj1}", "__place_2__": "{obj2}", "__place_3__": "{obj3}", "__place_4__": "{obj4}", "__place_5__": "{obj5}"}
+So, your output should include:
+```
+
+The template Python script
+The object and position pairs
+Here is the process flow of the experiment: QPCR
+QuantStudio 6 Proで測定するサンプルprepを行う
+1サンプルあってそれぞれ13プライマー x duplicate(3)で試験するイメージ
+NTCは13プライマー x duplicate(3)用意する
+その他、PrimerなしのTemplateのみを1 x duplicate(3)用意する
+
+
+Input：試薬類の容器はチューブまたはプレート
+1 sample DNAs			300 μL
+water					300 μL
+10 μM primer_F			各10 μL
+10 μM primer_R			各10 μL
+PCR MIX				2000 μL
+96 well PCR  plate			1 plate
+その他液体混合に必要なチューブまたはプレートなど
+output
+sample DNA, primer, PCR MIXの混合溶液が入った96 well PCR plate x 1
+procedure
+1. PCR MIXを137.6 μLずつ13個に分注する
+2. PCR MIXが入ったチューブに10 μM primer_F1-13を3.2 μL添加する
+3. PCR MIXが入ったチューブに10 μM primer_R1-13を3.2 μL添加する
+4. PCR MIXとprimerをピペッティングで混合する
+5. templateのみ用のPCR MIXを86 μL分注する
+6. templateのみ用のPCR MIXにwaterを4 μL添加する
+7. templateのみ用のPCR MIXとwaterをピペッティングで混合する
+8. サンプル DNAまたはwater をreaction plateに5 μLずつアプライする
+下記plate mapの列を埋めていくイメージ
+9. PCR MIXとprimerの混合溶液を10 μLずつreaction plateにアプライする
+下記plate mapの行を埋めていくイメージ
+plate map
+81 well使用する
+S_n = sample_n
+今回はヒト標準cDNA1つ
+NTC = no template control：水＝ネガティブコントロール（全primerについて置く）
+P_m = primer set_m：forward primerとreverse primerのセット
+今回は13種類
+Templateのみも置く
+OT-2のピペット
+20 μLと300 μL 
+
+Note: 
+10 μMprimer_Fと10 μM primer_Rを 1つのCorning 96 Well Plate 360 µL Flatを用いて同じウェルプレート上に準備する
+1 sample DNAsやwaterなど、同じ容器で保存できるものはまとめた名称をつけたプレートでできるだけまとめて用意する。
+PCRMixは15 mLに準備せよ
+

@@ -1,0 +1,892 @@
+Transferring 137.6 from A1 of Opentrons 15 Tube Rack with Falcon 15 mL Conical on 5 to A1 of Corning 96 Well Plate 360 µL Flat on 8
+	Picking up tip from A1 of Opentrons OT-2 96 Tip Rack 300 µL on 9
+	Aspirating 137.6 uL from A1 of Opentrons 15 Tube Rack with Falcon 15 mL Conical on 5 at 92.86 uL/sec
+	Dispensing 137.6 uL into A1 of Corning 96 Well Plate 360 µL Flat on 8 at 92.86 uL/sec
+	Dropping tip into A1 of Opentrons Fixed Trash on 12
+Transferring 137.6 from A1 of Opentrons 15 Tube Rack with Falcon 15 mL Conical on 5 to B1 of Corning 96 Well Plate 360 µL Flat on 8
+	Picking up tip from B1 of Opentrons OT-2 96 Tip Rack 300 µL on 9
+	Aspirating 137.6 uL from A1 of Opentrons 15 Tube Rack with Falcon 15 mL Conical on 5 at 92.86 uL/sec
+	Dispensing 137.6 uL into B1 of Corning 96 Well Plate 360 µL Flat on 8 at 92.86 uL/sec
+	Dropping tip into A1 of Opentrons Fixed Trash on 12
+Transferring 137.6 from A1 of Opentrons 15 Tube Rack with Falcon 15 mL Conical on 5 to C1 of Corning 96 Well Plate 360 µL Flat on 8
+	Picking up tip from C1 of Opentrons OT-2 96 Tip Rack 300 µL on 9
+	Aspirating 137.6 uL from A1 of Opentrons 15 Tube Rack with Falcon 15 mL Conical on 5 at 92.86 uL/sec
+	Dispensing 137.6 uL into C1 of Corning 96 Well Plate 360 µL Flat on 8 at 92.86 uL/sec
+	Dropping tip into A1 of Opentrons Fixed Trash on 12
+Transferring 137.6 from A1 of Opentrons 15 Tube Rack with Falcon 15 mL Conical on 5 to D1 of Corning 96 Well Plate 360 µL Flat on 8
+	Picking up tip from D1 of Opentrons OT-2 96 Tip Rack 300 µL on 9
+	Aspirating 137.6 uL from A1 of Opentrons 15 Tube Rack with Falcon 15 mL Conical on 5 at 92.86 uL/sec
+	Dispensing 137.6 uL into D1 of Corning 96 Well Plate 360 µL Flat on 8 at 92.86 uL/sec
+	Dropping tip into A1 of Opentrons Fixed Trash on 12
+Transferring 137.6 from A1 of Opentrons 15 Tube Rack with Falcon 15 mL Conical on 5 to E1 of Corning 96 Well Plate 360 µL Flat on 8
+	Picking up tip from E1 of Opentrons OT-2 96 Tip Rack 300 µL on 9
+	Aspirating 137.6 uL from A1 of Opentrons 15 Tube Rack with Falcon 15 mL Conical on 5 at 92.86 uL/sec
+	Dispensing 137.6 uL into E1 of Corning 96 Well Plate 360 µL Flat on 8 at 92.86 uL/sec
+	Dropping tip into A1 of Opentrons Fixed Trash on 12
+Transferring 137.6 from A1 of Opentrons 15 Tube Rack with Falcon 15 mL Conical on 5 to F1 of Corning 96 Well Plate 360 µL Flat on 8
+	Picking up tip from F1 of Opentrons OT-2 96 Tip Rack 300 µL on 9
+	Aspirating 137.6 uL from A1 of Opentrons 15 Tube Rack with Falcon 15 mL Conical on 5 at 92.86 uL/sec
+	Dispensing 137.6 uL into F1 of Corning 96 Well Plate 360 µL Flat on 8 at 92.86 uL/sec
+	Dropping tip into A1 of Opentrons Fixed Trash on 12
+Transferring 137.6 from A1 of Opentrons 15 Tube Rack with Falcon 15 mL Conical on 5 to G1 of Corning 96 Well Plate 360 µL Flat on 8
+	Picking up tip from G1 of Opentrons OT-2 96 Tip Rack 300 µL on 9
+	Aspirating 137.6 uL from A1 of Opentrons 15 Tube Rack with Falcon 15 mL Conical on 5 at 92.86 uL/sec
+	Dispensing 137.6 uL into G1 of Corning 96 Well Plate 360 µL Flat on 8 at 92.86 uL/sec
+	Dropping tip into A1 of Opentrons Fixed Trash on 12
+Transferring 137.6 from A1 of Opentrons 15 Tube Rack with Falcon 15 mL Conical on 5 to H1 of Corning 96 Well Plate 360 µL Flat on 8
+	Picking up tip from H1 of Opentrons OT-2 96 Tip Rack 300 µL on 9
+	Aspirating 137.6 uL from A1 of Opentrons 15 Tube Rack with Falcon 15 mL Conical on 5 at 92.86 uL/sec
+	Dispensing 137.6 uL into H1 of Corning 96 Well Plate 360 µL Flat on 8 at 92.86 uL/sec
+	Dropping tip into A1 of Opentrons Fixed Trash on 12
+Transferring 137.6 from A1 of Opentrons 15 Tube Rack with Falcon 15 mL Conical on 5 to A2 of Corning 96 Well Plate 360 µL Flat on 8
+	Picking up tip from A2 of Opentrons OT-2 96 Tip Rack 300 µL on 9
+	Aspirating 137.6 uL from A1 of Opentrons 15 Tube Rack with Falcon 15 mL Conical on 5 at 92.86 uL/sec
+	Dispensing 137.6 uL into A2 of Corning 96 Well Plate 360 µL Flat on 8 at 92.86 uL/sec
+	Dropping tip into A1 of Opentrons Fixed Trash on 12
+Transferring 137.6 from A1 of Opentrons 15 Tube Rack with Falcon 15 mL Conical on 5 to B2 of Corning 96 Well Plate 360 µL Flat on 8
+	Picking up tip from B2 of Opentrons OT-2 96 Tip Rack 300 µL on 9
+	Aspirating 137.6 uL from A1 of Opentrons 15 Tube Rack with Falcon 15 mL Conical on 5 at 92.86 uL/sec
+	Dispensing 137.6 uL into B2 of Corning 96 Well Plate 360 µL Flat on 8 at 92.86 uL/sec
+	Dropping tip into A1 of Opentrons Fixed Trash on 12
+Transferring 137.6 from A1 of Opentrons 15 Tube Rack with Falcon 15 mL Conical on 5 to C2 of Corning 96 Well Plate 360 µL Flat on 8
+	Picking up tip from C2 of Opentrons OT-2 96 Tip Rack 300 µL on 9
+	Aspirating 137.6 uL from A1 of Opentrons 15 Tube Rack with Falcon 15 mL Conical on 5 at 92.86 uL/sec
+	Dispensing 137.6 uL into C2 of Corning 96 Well Plate 360 µL Flat on 8 at 92.86 uL/sec
+	Dropping tip into A1 of Opentrons Fixed Trash on 12
+Transferring 137.6 from A1 of Opentrons 15 Tube Rack with Falcon 15 mL Conical on 5 to D2 of Corning 96 Well Plate 360 µL Flat on 8
+	Picking up tip from D2 of Opentrons OT-2 96 Tip Rack 300 µL on 9
+	Aspirating 137.6 uL from A1 of Opentrons 15 Tube Rack with Falcon 15 mL Conical on 5 at 92.86 uL/sec
+	Dispensing 137.6 uL into D2 of Corning 96 Well Plate 360 µL Flat on 8 at 92.86 uL/sec
+	Dropping tip into A1 of Opentrons Fixed Trash on 12
+Transferring 137.6 from A1 of Opentrons 15 Tube Rack with Falcon 15 mL Conical on 5 to E2 of Corning 96 Well Plate 360 µL Flat on 8
+	Picking up tip from E2 of Opentrons OT-2 96 Tip Rack 300 µL on 9
+	Aspirating 137.6 uL from A1 of Opentrons 15 Tube Rack with Falcon 15 mL Conical on 5 at 92.86 uL/sec
+	Dispensing 137.6 uL into E2 of Corning 96 Well Plate 360 µL Flat on 8 at 92.86 uL/sec
+	Dropping tip into A1 of Opentrons Fixed Trash on 12
+Transferring 3.2 from A1 of Opentrons 24 Tube Rack with Generic 2 mL Screwcap on 3 to A1 of Corning 96 Well Plate 360 µL Flat on 8
+	Picking up tip from A1 of Opentrons OT-2 96 Tip Rack 20 µL on 6
+	Aspirating 3.2 uL from A1 of Opentrons 24 Tube Rack with Generic 2 mL Screwcap on 3 at 7.56 uL/sec
+	Dispensing 3.2 uL into A1 of Corning 96 Well Plate 360 µL Flat on 8 at 7.56 uL/sec
+	Mixing 3 times with a volume of 10.0 ul
+		Aspirating 10.0 uL from A1 of Corning 96 Well Plate 360 µL Flat on 8 at 7.56 uL/sec
+		Dispensing 10.0 uL into A1 of Corning 96 Well Plate 360 µL Flat on 8 at 7.56 uL/sec
+		Aspirating 10.0 uL from A1 of Corning 96 Well Plate 360 µL Flat on 8 at 7.56 uL/sec
+		Dispensing 10.0 uL into A1 of Corning 96 Well Plate 360 µL Flat on 8 at 7.56 uL/sec
+		Aspirating 10.0 uL from A1 of Corning 96 Well Plate 360 µL Flat on 8 at 7.56 uL/sec
+		Dispensing 10.0 uL into A1 of Corning 96 Well Plate 360 µL Flat on 8 at 7.56 uL/sec
+	Dropping tip into A1 of Opentrons Fixed Trash on 12
+Transferring 3.2 from A1 of Opentrons 24 Tube Rack with Generic 2 mL Screwcap on 4 to A1 of Corning 96 Well Plate 360 µL Flat on 8
+	Picking up tip from B1 of Opentrons OT-2 96 Tip Rack 20 µL on 6
+	Aspirating 3.2 uL from A1 of Opentrons 24 Tube Rack with Generic 2 mL Screwcap on 4 at 7.56 uL/sec
+	Dispensing 3.2 uL into A1 of Corning 96 Well Plate 360 µL Flat on 8 at 7.56 uL/sec
+	Mixing 3 times with a volume of 10.0 ul
+		Aspirating 10.0 uL from A1 of Corning 96 Well Plate 360 µL Flat on 8 at 7.56 uL/sec
+		Dispensing 10.0 uL into A1 of Corning 96 Well Plate 360 µL Flat on 8 at 7.56 uL/sec
+		Aspirating 10.0 uL from A1 of Corning 96 Well Plate 360 µL Flat on 8 at 7.56 uL/sec
+		Dispensing 10.0 uL into A1 of Corning 96 Well Plate 360 µL Flat on 8 at 7.56 uL/sec
+		Aspirating 10.0 uL from A1 of Corning 96 Well Plate 360 µL Flat on 8 at 7.56 uL/sec
+		Dispensing 10.0 uL into A1 of Corning 96 Well Plate 360 µL Flat on 8 at 7.56 uL/sec
+	Dropping tip into A1 of Opentrons Fixed Trash on 12
+Transferring 3.2 from B1 of Opentrons 24 Tube Rack with Generic 2 mL Screwcap on 3 to B1 of Corning 96 Well Plate 360 µL Flat on 8
+	Picking up tip from C1 of Opentrons OT-2 96 Tip Rack 20 µL on 6
+	Aspirating 3.2 uL from B1 of Opentrons 24 Tube Rack with Generic 2 mL Screwcap on 3 at 7.56 uL/sec
+	Dispensing 3.2 uL into B1 of Corning 96 Well Plate 360 µL Flat on 8 at 7.56 uL/sec
+	Mixing 3 times with a volume of 10.0 ul
+		Aspirating 10.0 uL from B1 of Corning 96 Well Plate 360 µL Flat on 8 at 7.56 uL/sec
+		Dispensing 10.0 uL into B1 of Corning 96 Well Plate 360 µL Flat on 8 at 7.56 uL/sec
+		Aspirating 10.0 uL from B1 of Corning 96 Well Plate 360 µL Flat on 8 at 7.56 uL/sec
+		Dispensing 10.0 uL into B1 of Corning 96 Well Plate 360 µL Flat on 8 at 7.56 uL/sec
+		Aspirating 10.0 uL from B1 of Corning 96 Well Plate 360 µL Flat on 8 at 7.56 uL/sec
+		Dispensing 10.0 uL into B1 of Corning 96 Well Plate 360 µL Flat on 8 at 7.56 uL/sec
+	Dropping tip into A1 of Opentrons Fixed Trash on 12
+Transferring 3.2 from B1 of Opentrons 24 Tube Rack with Generic 2 mL Screwcap on 4 to B1 of Corning 96 Well Plate 360 µL Flat on 8
+	Picking up tip from D1 of Opentrons OT-2 96 Tip Rack 20 µL on 6
+	Aspirating 3.2 uL from B1 of Opentrons 24 Tube Rack with Generic 2 mL Screwcap on 4 at 7.56 uL/sec
+	Dispensing 3.2 uL into B1 of Corning 96 Well Plate 360 µL Flat on 8 at 7.56 uL/sec
+	Mixing 3 times with a volume of 10.0 ul
+		Aspirating 10.0 uL from B1 of Corning 96 Well Plate 360 µL Flat on 8 at 7.56 uL/sec
+		Dispensing 10.0 uL into B1 of Corning 96 Well Plate 360 µL Flat on 8 at 7.56 uL/sec
+		Aspirating 10.0 uL from B1 of Corning 96 Well Plate 360 µL Flat on 8 at 7.56 uL/sec
+		Dispensing 10.0 uL into B1 of Corning 96 Well Plate 360 µL Flat on 8 at 7.56 uL/sec
+		Aspirating 10.0 uL from B1 of Corning 96 Well Plate 360 µL Flat on 8 at 7.56 uL/sec
+		Dispensing 10.0 uL into B1 of Corning 96 Well Plate 360 µL Flat on 8 at 7.56 uL/sec
+	Dropping tip into A1 of Opentrons Fixed Trash on 12
+Transferring 3.2 from C1 of Opentrons 24 Tube Rack with Generic 2 mL Screwcap on 3 to C1 of Corning 96 Well Plate 360 µL Flat on 8
+	Picking up tip from E1 of Opentrons OT-2 96 Tip Rack 20 µL on 6
+	Aspirating 3.2 uL from C1 of Opentrons 24 Tube Rack with Generic 2 mL Screwcap on 3 at 7.56 uL/sec
+	Dispensing 3.2 uL into C1 of Corning 96 Well Plate 360 µL Flat on 8 at 7.56 uL/sec
+	Mixing 3 times with a volume of 10.0 ul
+		Aspirating 10.0 uL from C1 of Corning 96 Well Plate 360 µL Flat on 8 at 7.56 uL/sec
+		Dispensing 10.0 uL into C1 of Corning 96 Well Plate 360 µL Flat on 8 at 7.56 uL/sec
+		Aspirating 10.0 uL from C1 of Corning 96 Well Plate 360 µL Flat on 8 at 7.56 uL/sec
+		Dispensing 10.0 uL into C1 of Corning 96 Well Plate 360 µL Flat on 8 at 7.56 uL/sec
+		Aspirating 10.0 uL from C1 of Corning 96 Well Plate 360 µL Flat on 8 at 7.56 uL/sec
+		Dispensing 10.0 uL into C1 of Corning 96 Well Plate 360 µL Flat on 8 at 7.56 uL/sec
+	Dropping tip into A1 of Opentrons Fixed Trash on 12
+Transferring 3.2 from C1 of Opentrons 24 Tube Rack with Generic 2 mL Screwcap on 4 to C1 of Corning 96 Well Plate 360 µL Flat on 8
+	Picking up tip from F1 of Opentrons OT-2 96 Tip Rack 20 µL on 6
+	Aspirating 3.2 uL from C1 of Opentrons 24 Tube Rack with Generic 2 mL Screwcap on 4 at 7.56 uL/sec
+	Dispensing 3.2 uL into C1 of Corning 96 Well Plate 360 µL Flat on 8 at 7.56 uL/sec
+	Mixing 3 times with a volume of 10.0 ul
+		Aspirating 10.0 uL from C1 of Corning 96 Well Plate 360 µL Flat on 8 at 7.56 uL/sec
+		Dispensing 10.0 uL into C1 of Corning 96 Well Plate 360 µL Flat on 8 at 7.56 uL/sec
+		Aspirating 10.0 uL from C1 of Corning 96 Well Plate 360 µL Flat on 8 at 7.56 uL/sec
+		Dispensing 10.0 uL into C1 of Corning 96 Well Plate 360 µL Flat on 8 at 7.56 uL/sec
+		Aspirating 10.0 uL from C1 of Corning 96 Well Plate 360 µL Flat on 8 at 7.56 uL/sec
+		Dispensing 10.0 uL into C1 of Corning 96 Well Plate 360 µL Flat on 8 at 7.56 uL/sec
+	Dropping tip into A1 of Opentrons Fixed Trash on 12
+Transferring 3.2 from D1 of Opentrons 24 Tube Rack with Generic 2 mL Screwcap on 3 to D1 of Corning 96 Well Plate 360 µL Flat on 8
+	Picking up tip from G1 of Opentrons OT-2 96 Tip Rack 20 µL on 6
+	Aspirating 3.2 uL from D1 of Opentrons 24 Tube Rack with Generic 2 mL Screwcap on 3 at 7.56 uL/sec
+	Dispensing 3.2 uL into D1 of Corning 96 Well Plate 360 µL Flat on 8 at 7.56 uL/sec
+	Mixing 3 times with a volume of 10.0 ul
+		Aspirating 10.0 uL from D1 of Corning 96 Well Plate 360 µL Flat on 8 at 7.56 uL/sec
+		Dispensing 10.0 uL into D1 of Corning 96 Well Plate 360 µL Flat on 8 at 7.56 uL/sec
+		Aspirating 10.0 uL from D1 of Corning 96 Well Plate 360 µL Flat on 8 at 7.56 uL/sec
+		Dispensing 10.0 uL into D1 of Corning 96 Well Plate 360 µL Flat on 8 at 7.56 uL/sec
+		Aspirating 10.0 uL from D1 of Corning 96 Well Plate 360 µL Flat on 8 at 7.56 uL/sec
+		Dispensing 10.0 uL into D1 of Corning 96 Well Plate 360 µL Flat on 8 at 7.56 uL/sec
+	Dropping tip into A1 of Opentrons Fixed Trash on 12
+Transferring 3.2 from D1 of Opentrons 24 Tube Rack with Generic 2 mL Screwcap on 4 to D1 of Corning 96 Well Plate 360 µL Flat on 8
+	Picking up tip from H1 of Opentrons OT-2 96 Tip Rack 20 µL on 6
+	Aspirating 3.2 uL from D1 of Opentrons 24 Tube Rack with Generic 2 mL Screwcap on 4 at 7.56 uL/sec
+	Dispensing 3.2 uL into D1 of Corning 96 Well Plate 360 µL Flat on 8 at 7.56 uL/sec
+	Mixing 3 times with a volume of 10.0 ul
+		Aspirating 10.0 uL from D1 of Corning 96 Well Plate 360 µL Flat on 8 at 7.56 uL/sec
+		Dispensing 10.0 uL into D1 of Corning 96 Well Plate 360 µL Flat on 8 at 7.56 uL/sec
+		Aspirating 10.0 uL from D1 of Corning 96 Well Plate 360 µL Flat on 8 at 7.56 uL/sec
+		Dispensing 10.0 uL into D1 of Corning 96 Well Plate 360 µL Flat on 8 at 7.56 uL/sec
+		Aspirating 10.0 uL from D1 of Corning 96 Well Plate 360 µL Flat on 8 at 7.56 uL/sec
+		Dispensing 10.0 uL into D1 of Corning 96 Well Plate 360 µL Flat on 8 at 7.56 uL/sec
+	Dropping tip into A1 of Opentrons Fixed Trash on 12
+Transferring 3.2 from A2 of Opentrons 24 Tube Rack with Generic 2 mL Screwcap on 3 to E1 of Corning 96 Well Plate 360 µL Flat on 8
+	Picking up tip from A2 of Opentrons OT-2 96 Tip Rack 20 µL on 6
+	Aspirating 3.2 uL from A2 of Opentrons 24 Tube Rack with Generic 2 mL Screwcap on 3 at 7.56 uL/sec
+	Dispensing 3.2 uL into E1 of Corning 96 Well Plate 360 µL Flat on 8 at 7.56 uL/sec
+	Mixing 3 times with a volume of 10.0 ul
+		Aspirating 10.0 uL from E1 of Corning 96 Well Plate 360 µL Flat on 8 at 7.56 uL/sec
+		Dispensing 10.0 uL into E1 of Corning 96 Well Plate 360 µL Flat on 8 at 7.56 uL/sec
+		Aspirating 10.0 uL from E1 of Corning 96 Well Plate 360 µL Flat on 8 at 7.56 uL/sec
+		Dispensing 10.0 uL into E1 of Corning 96 Well Plate 360 µL Flat on 8 at 7.56 uL/sec
+		Aspirating 10.0 uL from E1 of Corning 96 Well Plate 360 µL Flat on 8 at 7.56 uL/sec
+		Dispensing 10.0 uL into E1 of Corning 96 Well Plate 360 µL Flat on 8 at 7.56 uL/sec
+	Dropping tip into A1 of Opentrons Fixed Trash on 12
+Transferring 3.2 from A2 of Opentrons 24 Tube Rack with Generic 2 mL Screwcap on 4 to E1 of Corning 96 Well Plate 360 µL Flat on 8
+	Picking up tip from B2 of Opentrons OT-2 96 Tip Rack 20 µL on 6
+	Aspirating 3.2 uL from A2 of Opentrons 24 Tube Rack with Generic 2 mL Screwcap on 4 at 7.56 uL/sec
+	Dispensing 3.2 uL into E1 of Corning 96 Well Plate 360 µL Flat on 8 at 7.56 uL/sec
+	Mixing 3 times with a volume of 10.0 ul
+		Aspirating 10.0 uL from E1 of Corning 96 Well Plate 360 µL Flat on 8 at 7.56 uL/sec
+		Dispensing 10.0 uL into E1 of Corning 96 Well Plate 360 µL Flat on 8 at 7.56 uL/sec
+		Aspirating 10.0 uL from E1 of Corning 96 Well Plate 360 µL Flat on 8 at 7.56 uL/sec
+		Dispensing 10.0 uL into E1 of Corning 96 Well Plate 360 µL Flat on 8 at 7.56 uL/sec
+		Aspirating 10.0 uL from E1 of Corning 96 Well Plate 360 µL Flat on 8 at 7.56 uL/sec
+		Dispensing 10.0 uL into E1 of Corning 96 Well Plate 360 µL Flat on 8 at 7.56 uL/sec
+	Dropping tip into A1 of Opentrons Fixed Trash on 12
+Transferring 3.2 from B2 of Opentrons 24 Tube Rack with Generic 2 mL Screwcap on 3 to F1 of Corning 96 Well Plate 360 µL Flat on 8
+	Picking up tip from C2 of Opentrons OT-2 96 Tip Rack 20 µL on 6
+	Aspirating 3.2 uL from B2 of Opentrons 24 Tube Rack with Generic 2 mL Screwcap on 3 at 7.56 uL/sec
+	Dispensing 3.2 uL into F1 of Corning 96 Well Plate 360 µL Flat on 8 at 7.56 uL/sec
+	Mixing 3 times with a volume of 10.0 ul
+		Aspirating 10.0 uL from F1 of Corning 96 Well Plate 360 µL Flat on 8 at 7.56 uL/sec
+		Dispensing 10.0 uL into F1 of Corning 96 Well Plate 360 µL Flat on 8 at 7.56 uL/sec
+		Aspirating 10.0 uL from F1 of Corning 96 Well Plate 360 µL Flat on 8 at 7.56 uL/sec
+		Dispensing 10.0 uL into F1 of Corning 96 Well Plate 360 µL Flat on 8 at 7.56 uL/sec
+		Aspirating 10.0 uL from F1 of Corning 96 Well Plate 360 µL Flat on 8 at 7.56 uL/sec
+		Dispensing 10.0 uL into F1 of Corning 96 Well Plate 360 µL Flat on 8 at 7.56 uL/sec
+	Dropping tip into A1 of Opentrons Fixed Trash on 12
+Transferring 3.2 from B2 of Opentrons 24 Tube Rack with Generic 2 mL Screwcap on 4 to F1 of Corning 96 Well Plate 360 µL Flat on 8
+	Picking up tip from D2 of Opentrons OT-2 96 Tip Rack 20 µL on 6
+	Aspirating 3.2 uL from B2 of Opentrons 24 Tube Rack with Generic 2 mL Screwcap on 4 at 7.56 uL/sec
+	Dispensing 3.2 uL into F1 of Corning 96 Well Plate 360 µL Flat on 8 at 7.56 uL/sec
+	Mixing 3 times with a volume of 10.0 ul
+		Aspirating 10.0 uL from F1 of Corning 96 Well Plate 360 µL Flat on 8 at 7.56 uL/sec
+		Dispensing 10.0 uL into F1 of Corning 96 Well Plate 360 µL Flat on 8 at 7.56 uL/sec
+		Aspirating 10.0 uL from F1 of Corning 96 Well Plate 360 µL Flat on 8 at 7.56 uL/sec
+		Dispensing 10.0 uL into F1 of Corning 96 Well Plate 360 µL Flat on 8 at 7.56 uL/sec
+		Aspirating 10.0 uL from F1 of Corning 96 Well Plate 360 µL Flat on 8 at 7.56 uL/sec
+		Dispensing 10.0 uL into F1 of Corning 96 Well Plate 360 µL Flat on 8 at 7.56 uL/sec
+	Dropping tip into A1 of Opentrons Fixed Trash on 12
+Transferring 3.2 from C2 of Opentrons 24 Tube Rack with Generic 2 mL Screwcap on 3 to G1 of Corning 96 Well Plate 360 µL Flat on 8
+	Picking up tip from E2 of Opentrons OT-2 96 Tip Rack 20 µL on 6
+	Aspirating 3.2 uL from C2 of Opentrons 24 Tube Rack with Generic 2 mL Screwcap on 3 at 7.56 uL/sec
+	Dispensing 3.2 uL into G1 of Corning 96 Well Plate 360 µL Flat on 8 at 7.56 uL/sec
+	Mixing 3 times with a volume of 10.0 ul
+		Aspirating 10.0 uL from G1 of Corning 96 Well Plate 360 µL Flat on 8 at 7.56 uL/sec
+		Dispensing 10.0 uL into G1 of Corning 96 Well Plate 360 µL Flat on 8 at 7.56 uL/sec
+		Aspirating 10.0 uL from G1 of Corning 96 Well Plate 360 µL Flat on 8 at 7.56 uL/sec
+		Dispensing 10.0 uL into G1 of Corning 96 Well Plate 360 µL Flat on 8 at 7.56 uL/sec
+		Aspirating 10.0 uL from G1 of Corning 96 Well Plate 360 µL Flat on 8 at 7.56 uL/sec
+		Dispensing 10.0 uL into G1 of Corning 96 Well Plate 360 µL Flat on 8 at 7.56 uL/sec
+	Dropping tip into A1 of Opentrons Fixed Trash on 12
+Transferring 3.2 from C2 of Opentrons 24 Tube Rack with Generic 2 mL Screwcap on 4 to G1 of Corning 96 Well Plate 360 µL Flat on 8
+	Picking up tip from F2 of Opentrons OT-2 96 Tip Rack 20 µL on 6
+	Aspirating 3.2 uL from C2 of Opentrons 24 Tube Rack with Generic 2 mL Screwcap on 4 at 7.56 uL/sec
+	Dispensing 3.2 uL into G1 of Corning 96 Well Plate 360 µL Flat on 8 at 7.56 uL/sec
+	Mixing 3 times with a volume of 10.0 ul
+		Aspirating 10.0 uL from G1 of Corning 96 Well Plate 360 µL Flat on 8 at 7.56 uL/sec
+		Dispensing 10.0 uL into G1 of Corning 96 Well Plate 360 µL Flat on 8 at 7.56 uL/sec
+		Aspirating 10.0 uL from G1 of Corning 96 Well Plate 360 µL Flat on 8 at 7.56 uL/sec
+		Dispensing 10.0 uL into G1 of Corning 96 Well Plate 360 µL Flat on 8 at 7.56 uL/sec
+		Aspirating 10.0 uL from G1 of Corning 96 Well Plate 360 µL Flat on 8 at 7.56 uL/sec
+		Dispensing 10.0 uL into G1 of Corning 96 Well Plate 360 µL Flat on 8 at 7.56 uL/sec
+	Dropping tip into A1 of Opentrons Fixed Trash on 12
+Transferring 3.2 from D2 of Opentrons 24 Tube Rack with Generic 2 mL Screwcap on 3 to H1 of Corning 96 Well Plate 360 µL Flat on 8
+	Picking up tip from G2 of Opentrons OT-2 96 Tip Rack 20 µL on 6
+	Aspirating 3.2 uL from D2 of Opentrons 24 Tube Rack with Generic 2 mL Screwcap on 3 at 7.56 uL/sec
+	Dispensing 3.2 uL into H1 of Corning 96 Well Plate 360 µL Flat on 8 at 7.56 uL/sec
+	Mixing 3 times with a volume of 10.0 ul
+		Aspirating 10.0 uL from H1 of Corning 96 Well Plate 360 µL Flat on 8 at 7.56 uL/sec
+		Dispensing 10.0 uL into H1 of Corning 96 Well Plate 360 µL Flat on 8 at 7.56 uL/sec
+		Aspirating 10.0 uL from H1 of Corning 96 Well Plate 360 µL Flat on 8 at 7.56 uL/sec
+		Dispensing 10.0 uL into H1 of Corning 96 Well Plate 360 µL Flat on 8 at 7.56 uL/sec
+		Aspirating 10.0 uL from H1 of Corning 96 Well Plate 360 µL Flat on 8 at 7.56 uL/sec
+		Dispensing 10.0 uL into H1 of Corning 96 Well Plate 360 µL Flat on 8 at 7.56 uL/sec
+	Dropping tip into A1 of Opentrons Fixed Trash on 12
+Transferring 3.2 from D2 of Opentrons 24 Tube Rack with Generic 2 mL Screwcap on 4 to H1 of Corning 96 Well Plate 360 µL Flat on 8
+	Picking up tip from H2 of Opentrons OT-2 96 Tip Rack 20 µL on 6
+	Aspirating 3.2 uL from D2 of Opentrons 24 Tube Rack with Generic 2 mL Screwcap on 4 at 7.56 uL/sec
+	Dispensing 3.2 uL into H1 of Corning 96 Well Plate 360 µL Flat on 8 at 7.56 uL/sec
+	Mixing 3 times with a volume of 10.0 ul
+		Aspirating 10.0 uL from H1 of Corning 96 Well Plate 360 µL Flat on 8 at 7.56 uL/sec
+		Dispensing 10.0 uL into H1 of Corning 96 Well Plate 360 µL Flat on 8 at 7.56 uL/sec
+		Aspirating 10.0 uL from H1 of Corning 96 Well Plate 360 µL Flat on 8 at 7.56 uL/sec
+		Dispensing 10.0 uL into H1 of Corning 96 Well Plate 360 µL Flat on 8 at 7.56 uL/sec
+		Aspirating 10.0 uL from H1 of Corning 96 Well Plate 360 µL Flat on 8 at 7.56 uL/sec
+		Dispensing 10.0 uL into H1 of Corning 96 Well Plate 360 µL Flat on 8 at 7.56 uL/sec
+	Dropping tip into A1 of Opentrons Fixed Trash on 12
+Transferring 3.2 from A3 of Opentrons 24 Tube Rack with Generic 2 mL Screwcap on 3 to A2 of Corning 96 Well Plate 360 µL Flat on 8
+	Picking up tip from A3 of Opentrons OT-2 96 Tip Rack 20 µL on 6
+	Aspirating 3.2 uL from A3 of Opentrons 24 Tube Rack with Generic 2 mL Screwcap on 3 at 7.56 uL/sec
+	Dispensing 3.2 uL into A2 of Corning 96 Well Plate 360 µL Flat on 8 at 7.56 uL/sec
+	Mixing 3 times with a volume of 10.0 ul
+		Aspirating 10.0 uL from A2 of Corning 96 Well Plate 360 µL Flat on 8 at 7.56 uL/sec
+		Dispensing 10.0 uL into A2 of Corning 96 Well Plate 360 µL Flat on 8 at 7.56 uL/sec
+		Aspirating 10.0 uL from A2 of Corning 96 Well Plate 360 µL Flat on 8 at 7.56 uL/sec
+		Dispensing 10.0 uL into A2 of Corning 96 Well Plate 360 µL Flat on 8 at 7.56 uL/sec
+		Aspirating 10.0 uL from A2 of Corning 96 Well Plate 360 µL Flat on 8 at 7.56 uL/sec
+		Dispensing 10.0 uL into A2 of Corning 96 Well Plate 360 µL Flat on 8 at 7.56 uL/sec
+	Dropping tip into A1 of Opentrons Fixed Trash on 12
+Transferring 3.2 from A3 of Opentrons 24 Tube Rack with Generic 2 mL Screwcap on 4 to A2 of Corning 96 Well Plate 360 µL Flat on 8
+	Picking up tip from B3 of Opentrons OT-2 96 Tip Rack 20 µL on 6
+	Aspirating 3.2 uL from A3 of Opentrons 24 Tube Rack with Generic 2 mL Screwcap on 4 at 7.56 uL/sec
+	Dispensing 3.2 uL into A2 of Corning 96 Well Plate 360 µL Flat on 8 at 7.56 uL/sec
+	Mixing 3 times with a volume of 10.0 ul
+		Aspirating 10.0 uL from A2 of Corning 96 Well Plate 360 µL Flat on 8 at 7.56 uL/sec
+		Dispensing 10.0 uL into A2 of Corning 96 Well Plate 360 µL Flat on 8 at 7.56 uL/sec
+		Aspirating 10.0 uL from A2 of Corning 96 Well Plate 360 µL Flat on 8 at 7.56 uL/sec
+		Dispensing 10.0 uL into A2 of Corning 96 Well Plate 360 µL Flat on 8 at 7.56 uL/sec
+		Aspirating 10.0 uL from A2 of Corning 96 Well Plate 360 µL Flat on 8 at 7.56 uL/sec
+		Dispensing 10.0 uL into A2 of Corning 96 Well Plate 360 µL Flat on 8 at 7.56 uL/sec
+	Dropping tip into A1 of Opentrons Fixed Trash on 12
+Transferring 3.2 from B3 of Opentrons 24 Tube Rack with Generic 2 mL Screwcap on 3 to B2 of Corning 96 Well Plate 360 µL Flat on 8
+	Picking up tip from C3 of Opentrons OT-2 96 Tip Rack 20 µL on 6
+	Aspirating 3.2 uL from B3 of Opentrons 24 Tube Rack with Generic 2 mL Screwcap on 3 at 7.56 uL/sec
+	Dispensing 3.2 uL into B2 of Corning 96 Well Plate 360 µL Flat on 8 at 7.56 uL/sec
+	Mixing 3 times with a volume of 10.0 ul
+		Aspirating 10.0 uL from B2 of Corning 96 Well Plate 360 µL Flat on 8 at 7.56 uL/sec
+		Dispensing 10.0 uL into B2 of Corning 96 Well Plate 360 µL Flat on 8 at 7.56 uL/sec
+		Aspirating 10.0 uL from B2 of Corning 96 Well Plate 360 µL Flat on 8 at 7.56 uL/sec
+		Dispensing 10.0 uL into B2 of Corning 96 Well Plate 360 µL Flat on 8 at 7.56 uL/sec
+		Aspirating 10.0 uL from B2 of Corning 96 Well Plate 360 µL Flat on 8 at 7.56 uL/sec
+		Dispensing 10.0 uL into B2 of Corning 96 Well Plate 360 µL Flat on 8 at 7.56 uL/sec
+	Dropping tip into A1 of Opentrons Fixed Trash on 12
+Transferring 3.2 from B3 of Opentrons 24 Tube Rack with Generic 2 mL Screwcap on 4 to B2 of Corning 96 Well Plate 360 µL Flat on 8
+	Picking up tip from D3 of Opentrons OT-2 96 Tip Rack 20 µL on 6
+	Aspirating 3.2 uL from B3 of Opentrons 24 Tube Rack with Generic 2 mL Screwcap on 4 at 7.56 uL/sec
+	Dispensing 3.2 uL into B2 of Corning 96 Well Plate 360 µL Flat on 8 at 7.56 uL/sec
+	Mixing 3 times with a volume of 10.0 ul
+		Aspirating 10.0 uL from B2 of Corning 96 Well Plate 360 µL Flat on 8 at 7.56 uL/sec
+		Dispensing 10.0 uL into B2 of Corning 96 Well Plate 360 µL Flat on 8 at 7.56 uL/sec
+		Aspirating 10.0 uL from B2 of Corning 96 Well Plate 360 µL Flat on 8 at 7.56 uL/sec
+		Dispensing 10.0 uL into B2 of Corning 96 Well Plate 360 µL Flat on 8 at 7.56 uL/sec
+		Aspirating 10.0 uL from B2 of Corning 96 Well Plate 360 µL Flat on 8 at 7.56 uL/sec
+		Dispensing 10.0 uL into B2 of Corning 96 Well Plate 360 µL Flat on 8 at 7.56 uL/sec
+	Dropping tip into A1 of Opentrons Fixed Trash on 12
+Transferring 3.2 from C3 of Opentrons 24 Tube Rack with Generic 2 mL Screwcap on 3 to C2 of Corning 96 Well Plate 360 µL Flat on 8
+	Picking up tip from E3 of Opentrons OT-2 96 Tip Rack 20 µL on 6
+	Aspirating 3.2 uL from C3 of Opentrons 24 Tube Rack with Generic 2 mL Screwcap on 3 at 7.56 uL/sec
+	Dispensing 3.2 uL into C2 of Corning 96 Well Plate 360 µL Flat on 8 at 7.56 uL/sec
+	Mixing 3 times with a volume of 10.0 ul
+		Aspirating 10.0 uL from C2 of Corning 96 Well Plate 360 µL Flat on 8 at 7.56 uL/sec
+		Dispensing 10.0 uL into C2 of Corning 96 Well Plate 360 µL Flat on 8 at 7.56 uL/sec
+		Aspirating 10.0 uL from C2 of Corning 96 Well Plate 360 µL Flat on 8 at 7.56 uL/sec
+		Dispensing 10.0 uL into C2 of Corning 96 Well Plate 360 µL Flat on 8 at 7.56 uL/sec
+		Aspirating 10.0 uL from C2 of Corning 96 Well Plate 360 µL Flat on 8 at 7.56 uL/sec
+		Dispensing 10.0 uL into C2 of Corning 96 Well Plate 360 µL Flat on 8 at 7.56 uL/sec
+	Dropping tip into A1 of Opentrons Fixed Trash on 12
+Transferring 3.2 from C3 of Opentrons 24 Tube Rack with Generic 2 mL Screwcap on 4 to C2 of Corning 96 Well Plate 360 µL Flat on 8
+	Picking up tip from F3 of Opentrons OT-2 96 Tip Rack 20 µL on 6
+	Aspirating 3.2 uL from C3 of Opentrons 24 Tube Rack with Generic 2 mL Screwcap on 4 at 7.56 uL/sec
+	Dispensing 3.2 uL into C2 of Corning 96 Well Plate 360 µL Flat on 8 at 7.56 uL/sec
+	Mixing 3 times with a volume of 10.0 ul
+		Aspirating 10.0 uL from C2 of Corning 96 Well Plate 360 µL Flat on 8 at 7.56 uL/sec
+		Dispensing 10.0 uL into C2 of Corning 96 Well Plate 360 µL Flat on 8 at 7.56 uL/sec
+		Aspirating 10.0 uL from C2 of Corning 96 Well Plate 360 µL Flat on 8 at 7.56 uL/sec
+		Dispensing 10.0 uL into C2 of Corning 96 Well Plate 360 µL Flat on 8 at 7.56 uL/sec
+		Aspirating 10.0 uL from C2 of Corning 96 Well Plate 360 µL Flat on 8 at 7.56 uL/sec
+		Dispensing 10.0 uL into C2 of Corning 96 Well Plate 360 µL Flat on 8 at 7.56 uL/sec
+	Dropping tip into A1 of Opentrons Fixed Trash on 12
+Transferring 3.2 from D3 of Opentrons 24 Tube Rack with Generic 2 mL Screwcap on 3 to D2 of Corning 96 Well Plate 360 µL Flat on 8
+	Picking up tip from G3 of Opentrons OT-2 96 Tip Rack 20 µL on 6
+	Aspirating 3.2 uL from D3 of Opentrons 24 Tube Rack with Generic 2 mL Screwcap on 3 at 7.56 uL/sec
+	Dispensing 3.2 uL into D2 of Corning 96 Well Plate 360 µL Flat on 8 at 7.56 uL/sec
+	Mixing 3 times with a volume of 10.0 ul
+		Aspirating 10.0 uL from D2 of Corning 96 Well Plate 360 µL Flat on 8 at 7.56 uL/sec
+		Dispensing 10.0 uL into D2 of Corning 96 Well Plate 360 µL Flat on 8 at 7.56 uL/sec
+		Aspirating 10.0 uL from D2 of Corning 96 Well Plate 360 µL Flat on 8 at 7.56 uL/sec
+		Dispensing 10.0 uL into D2 of Corning 96 Well Plate 360 µL Flat on 8 at 7.56 uL/sec
+		Aspirating 10.0 uL from D2 of Corning 96 Well Plate 360 µL Flat on 8 at 7.56 uL/sec
+		Dispensing 10.0 uL into D2 of Corning 96 Well Plate 360 µL Flat on 8 at 7.56 uL/sec
+	Dropping tip into A1 of Opentrons Fixed Trash on 12
+Transferring 3.2 from D3 of Opentrons 24 Tube Rack with Generic 2 mL Screwcap on 4 to D2 of Corning 96 Well Plate 360 µL Flat on 8
+	Picking up tip from H3 of Opentrons OT-2 96 Tip Rack 20 µL on 6
+	Aspirating 3.2 uL from D3 of Opentrons 24 Tube Rack with Generic 2 mL Screwcap on 4 at 7.56 uL/sec
+	Dispensing 3.2 uL into D2 of Corning 96 Well Plate 360 µL Flat on 8 at 7.56 uL/sec
+	Mixing 3 times with a volume of 10.0 ul
+		Aspirating 10.0 uL from D2 of Corning 96 Well Plate 360 µL Flat on 8 at 7.56 uL/sec
+		Dispensing 10.0 uL into D2 of Corning 96 Well Plate 360 µL Flat on 8 at 7.56 uL/sec
+		Aspirating 10.0 uL from D2 of Corning 96 Well Plate 360 µL Flat on 8 at 7.56 uL/sec
+		Dispensing 10.0 uL into D2 of Corning 96 Well Plate 360 µL Flat on 8 at 7.56 uL/sec
+		Aspirating 10.0 uL from D2 of Corning 96 Well Plate 360 µL Flat on 8 at 7.56 uL/sec
+		Dispensing 10.0 uL into D2 of Corning 96 Well Plate 360 µL Flat on 8 at 7.56 uL/sec
+	Dropping tip into A1 of Opentrons Fixed Trash on 12
+Transferring 3.2 from A4 of Opentrons 24 Tube Rack with Generic 2 mL Screwcap on 3 to E2 of Corning 96 Well Plate 360 µL Flat on 8
+	Picking up tip from A4 of Opentrons OT-2 96 Tip Rack 20 µL on 6
+	Aspirating 3.2 uL from A4 of Opentrons 24 Tube Rack with Generic 2 mL Screwcap on 3 at 7.56 uL/sec
+	Dispensing 3.2 uL into E2 of Corning 96 Well Plate 360 µL Flat on 8 at 7.56 uL/sec
+	Mixing 3 times with a volume of 10.0 ul
+		Aspirating 10.0 uL from E2 of Corning 96 Well Plate 360 µL Flat on 8 at 7.56 uL/sec
+		Dispensing 10.0 uL into E2 of Corning 96 Well Plate 360 µL Flat on 8 at 7.56 uL/sec
+		Aspirating 10.0 uL from E2 of Corning 96 Well Plate 360 µL Flat on 8 at 7.56 uL/sec
+		Dispensing 10.0 uL into E2 of Corning 96 Well Plate 360 µL Flat on 8 at 7.56 uL/sec
+		Aspirating 10.0 uL from E2 of Corning 96 Well Plate 360 µL Flat on 8 at 7.56 uL/sec
+		Dispensing 10.0 uL into E2 of Corning 96 Well Plate 360 µL Flat on 8 at 7.56 uL/sec
+	Dropping tip into A1 of Opentrons Fixed Trash on 12
+Transferring 3.2 from A4 of Opentrons 24 Tube Rack with Generic 2 mL Screwcap on 4 to E2 of Corning 96 Well Plate 360 µL Flat on 8
+	Picking up tip from B4 of Opentrons OT-2 96 Tip Rack 20 µL on 6
+	Aspirating 3.2 uL from A4 of Opentrons 24 Tube Rack with Generic 2 mL Screwcap on 4 at 7.56 uL/sec
+	Dispensing 3.2 uL into E2 of Corning 96 Well Plate 360 µL Flat on 8 at 7.56 uL/sec
+	Mixing 3 times with a volume of 10.0 ul
+		Aspirating 10.0 uL from E2 of Corning 96 Well Plate 360 µL Flat on 8 at 7.56 uL/sec
+		Dispensing 10.0 uL into E2 of Corning 96 Well Plate 360 µL Flat on 8 at 7.56 uL/sec
+		Aspirating 10.0 uL from E2 of Corning 96 Well Plate 360 µL Flat on 8 at 7.56 uL/sec
+		Dispensing 10.0 uL into E2 of Corning 96 Well Plate 360 µL Flat on 8 at 7.56 uL/sec
+		Aspirating 10.0 uL from E2 of Corning 96 Well Plate 360 µL Flat on 8 at 7.56 uL/sec
+		Dispensing 10.0 uL into E2 of Corning 96 Well Plate 360 µL Flat on 8 at 7.56 uL/sec
+	Dropping tip into A1 of Opentrons Fixed Trash on 12
+Transferring 86.0 from A1 of Opentrons 15 Tube Rack with Falcon 15 mL Conical on 5 to F2 of Corning 96 Well Plate 360 µL Flat on 8
+	Picking up tip from F2 of Opentrons OT-2 96 Tip Rack 300 µL on 9
+	Aspirating 86.0 uL from A1 of Opentrons 15 Tube Rack with Falcon 15 mL Conical on 5 at 92.86 uL/sec
+	Dispensing 86.0 uL into F2 of Corning 96 Well Plate 360 µL Flat on 8 at 92.86 uL/sec
+	Dropping tip into A1 of Opentrons Fixed Trash on 12
+Transferring 4.0 from A2 of Opentrons 24 Tube Rack with Eppendorf 1.5 mL Safe-Lock Snapcap on 1 to F2 of Corning 96 Well Plate 360 µL Flat on 8
+	Picking up tip from C4 of Opentrons OT-2 96 Tip Rack 20 µL on 6
+	Aspirating 4.0 uL from A2 of Opentrons 24 Tube Rack with Eppendorf 1.5 mL Safe-Lock Snapcap on 1 at 7.56 uL/sec
+	Dispensing 4.0 uL into F2 of Corning 96 Well Plate 360 µL Flat on 8 at 7.56 uL/sec
+	Mixing 3 times with a volume of 10.0 ul
+		Aspirating 10.0 uL from F2 of Corning 96 Well Plate 360 µL Flat on 8 at 7.56 uL/sec
+		Dispensing 10.0 uL into F2 of Corning 96 Well Plate 360 µL Flat on 8 at 7.56 uL/sec
+		Aspirating 10.0 uL from F2 of Corning 96 Well Plate 360 µL Flat on 8 at 7.56 uL/sec
+		Dispensing 10.0 uL into F2 of Corning 96 Well Plate 360 µL Flat on 8 at 7.56 uL/sec
+		Aspirating 10.0 uL from F2 of Corning 96 Well Plate 360 µL Flat on 8 at 7.56 uL/sec
+		Dispensing 10.0 uL into F2 of Corning 96 Well Plate 360 µL Flat on 8 at 7.56 uL/sec
+	Dropping tip into A1 of Opentrons Fixed Trash on 12
+Distributing 5.0 from A1 of Opentrons 24 Tube Rack with Eppendorf 1.5 mL Safe-Lock Snapcap on 1 to A1 of Bio-Rad 96 Well Plate 200 µL PCR on 7
+	Transferring 5.0 from A1 of Opentrons 24 Tube Rack with Eppendorf 1.5 mL Safe-Lock Snapcap on 1 to A1 of Bio-Rad 96 Well Plate 200 µL PCR on 7
+		Picking up tip from D4 of Opentrons OT-2 96 Tip Rack 20 µL on 6
+		Aspirating 16.0 uL from A1 of Opentrons 24 Tube Rack with Eppendorf 1.5 mL Safe-Lock Snapcap on 1 at 7.56 uL/sec
+		Dispensing 5.0 uL into A1 of Bio-Rad 96 Well Plate 200 µL PCR on 7 at 7.56 uL/sec
+		Dispensing 5.0 uL into C1 of Bio-Rad 96 Well Plate 200 µL PCR on 7 at 7.56 uL/sec
+		Dispensing 5.0 uL into E1 of Bio-Rad 96 Well Plate 200 µL PCR on 7 at 7.56 uL/sec
+		Blowing out at A1 of Opentrons Fixed Trash on 12
+		Aspirating 16.0 uL from A1 of Opentrons 24 Tube Rack with Eppendorf 1.5 mL Safe-Lock Snapcap on 1 at 7.56 uL/sec
+		Dispensing 5.0 uL into G1 of Bio-Rad 96 Well Plate 200 µL PCR on 7 at 7.56 uL/sec
+		Dispensing 5.0 uL into A2 of Bio-Rad 96 Well Plate 200 µL PCR on 7 at 7.56 uL/sec
+		Dispensing 5.0 uL into C2 of Bio-Rad 96 Well Plate 200 µL PCR on 7 at 7.56 uL/sec
+		Blowing out at A1 of Opentrons Fixed Trash on 12
+		Aspirating 16.0 uL from A1 of Opentrons 24 Tube Rack with Eppendorf 1.5 mL Safe-Lock Snapcap on 1 at 7.56 uL/sec
+		Dispensing 5.0 uL into E2 of Bio-Rad 96 Well Plate 200 µL PCR on 7 at 7.56 uL/sec
+		Dispensing 5.0 uL into G2 of Bio-Rad 96 Well Plate 200 µL PCR on 7 at 7.56 uL/sec
+		Dispensing 5.0 uL into A3 of Bio-Rad 96 Well Plate 200 µL PCR on 7 at 7.56 uL/sec
+		Blowing out at A1 of Opentrons Fixed Trash on 12
+		Aspirating 16.0 uL from A1 of Opentrons 24 Tube Rack with Eppendorf 1.5 mL Safe-Lock Snapcap on 1 at 7.56 uL/sec
+		Dispensing 5.0 uL into C3 of Bio-Rad 96 Well Plate 200 µL PCR on 7 at 7.56 uL/sec
+		Dispensing 5.0 uL into E3 of Bio-Rad 96 Well Plate 200 µL PCR on 7 at 7.56 uL/sec
+		Dispensing 5.0 uL into G3 of Bio-Rad 96 Well Plate 200 µL PCR on 7 at 7.56 uL/sec
+		Blowing out at A1 of Opentrons Fixed Trash on 12
+		Aspirating 16.0 uL from A1 of Opentrons 24 Tube Rack with Eppendorf 1.5 mL Safe-Lock Snapcap on 1 at 7.56 uL/sec
+		Dispensing 5.0 uL into A4 of Bio-Rad 96 Well Plate 200 µL PCR on 7 at 7.56 uL/sec
+		Dispensing 5.0 uL into C4 of Bio-Rad 96 Well Plate 200 µL PCR on 7 at 7.56 uL/sec
+		Dispensing 5.0 uL into E4 of Bio-Rad 96 Well Plate 200 µL PCR on 7 at 7.56 uL/sec
+		Blowing out at A1 of Opentrons Fixed Trash on 12
+		Aspirating 16.0 uL from A1 of Opentrons 24 Tube Rack with Eppendorf 1.5 mL Safe-Lock Snapcap on 1 at 7.56 uL/sec
+		Dispensing 5.0 uL into G4 of Bio-Rad 96 Well Plate 200 µL PCR on 7 at 7.56 uL/sec
+		Dispensing 5.0 uL into A5 of Bio-Rad 96 Well Plate 200 µL PCR on 7 at 7.56 uL/sec
+		Dispensing 5.0 uL into C5 of Bio-Rad 96 Well Plate 200 µL PCR on 7 at 7.56 uL/sec
+		Blowing out at A1 of Opentrons Fixed Trash on 12
+		Aspirating 16.0 uL from A1 of Opentrons 24 Tube Rack with Eppendorf 1.5 mL Safe-Lock Snapcap on 1 at 7.56 uL/sec
+		Dispensing 5.0 uL into E5 of Bio-Rad 96 Well Plate 200 µL PCR on 7 at 7.56 uL/sec
+		Dispensing 5.0 uL into G5 of Bio-Rad 96 Well Plate 200 µL PCR on 7 at 7.56 uL/sec
+		Dispensing 5.0 uL into A6 of Bio-Rad 96 Well Plate 200 µL PCR on 7 at 7.56 uL/sec
+		Blowing out at A1 of Opentrons Fixed Trash on 12
+		Aspirating 16.0 uL from A1 of Opentrons 24 Tube Rack with Eppendorf 1.5 mL Safe-Lock Snapcap on 1 at 7.56 uL/sec
+		Dispensing 5.0 uL into C6 of Bio-Rad 96 Well Plate 200 µL PCR on 7 at 7.56 uL/sec
+		Dispensing 5.0 uL into E6 of Bio-Rad 96 Well Plate 200 µL PCR on 7 at 7.56 uL/sec
+		Dispensing 5.0 uL into G6 of Bio-Rad 96 Well Plate 200 µL PCR on 7 at 7.56 uL/sec
+		Blowing out at A1 of Opentrons Fixed Trash on 12
+		Aspirating 16.0 uL from A1 of Opentrons 24 Tube Rack with Eppendorf 1.5 mL Safe-Lock Snapcap on 1 at 7.56 uL/sec
+		Dispensing 5.0 uL into A7 of Bio-Rad 96 Well Plate 200 µL PCR on 7 at 7.56 uL/sec
+		Dispensing 5.0 uL into C7 of Bio-Rad 96 Well Plate 200 µL PCR on 7 at 7.56 uL/sec
+		Dispensing 5.0 uL into E7 of Bio-Rad 96 Well Plate 200 µL PCR on 7 at 7.56 uL/sec
+		Blowing out at A1 of Opentrons Fixed Trash on 12
+		Aspirating 16.0 uL from A1 of Opentrons 24 Tube Rack with Eppendorf 1.5 mL Safe-Lock Snapcap on 1 at 7.56 uL/sec
+		Dispensing 5.0 uL into G7 of Bio-Rad 96 Well Plate 200 µL PCR on 7 at 7.56 uL/sec
+		Dispensing 5.0 uL into A8 of Bio-Rad 96 Well Plate 200 µL PCR on 7 at 7.56 uL/sec
+		Dispensing 5.0 uL into C8 of Bio-Rad 96 Well Plate 200 µL PCR on 7 at 7.56 uL/sec
+		Blowing out at A1 of Opentrons Fixed Trash on 12
+		Aspirating 16.0 uL from A1 of Opentrons 24 Tube Rack with Eppendorf 1.5 mL Safe-Lock Snapcap on 1 at 7.56 uL/sec
+		Dispensing 5.0 uL into E8 of Bio-Rad 96 Well Plate 200 µL PCR on 7 at 7.56 uL/sec
+		Dispensing 5.0 uL into G8 of Bio-Rad 96 Well Plate 200 µL PCR on 7 at 7.56 uL/sec
+		Dispensing 5.0 uL into A9 of Bio-Rad 96 Well Plate 200 µL PCR on 7 at 7.56 uL/sec
+		Blowing out at A1 of Opentrons Fixed Trash on 12
+		Aspirating 16.0 uL from A1 of Opentrons 24 Tube Rack with Eppendorf 1.5 mL Safe-Lock Snapcap on 1 at 7.56 uL/sec
+		Dispensing 5.0 uL into C9 of Bio-Rad 96 Well Plate 200 µL PCR on 7 at 7.56 uL/sec
+		Dispensing 5.0 uL into E9 of Bio-Rad 96 Well Plate 200 µL PCR on 7 at 7.56 uL/sec
+		Dispensing 5.0 uL into G9 of Bio-Rad 96 Well Plate 200 µL PCR on 7 at 7.56 uL/sec
+		Blowing out at A1 of Opentrons Fixed Trash on 12
+		Aspirating 16.0 uL from A1 of Opentrons 24 Tube Rack with Eppendorf 1.5 mL Safe-Lock Snapcap on 1 at 7.56 uL/sec
+		Dispensing 5.0 uL into A10 of Bio-Rad 96 Well Plate 200 µL PCR on 7 at 7.56 uL/sec
+		Dispensing 5.0 uL into C10 of Bio-Rad 96 Well Plate 200 µL PCR on 7 at 7.56 uL/sec
+		Dispensing 5.0 uL into E10 of Bio-Rad 96 Well Plate 200 µL PCR on 7 at 7.56 uL/sec
+		Blowing out at A1 of Opentrons Fixed Trash on 12
+		Dropping tip into A1 of Opentrons Fixed Trash on 12
+Distributing 5.0 from A2 of Opentrons 24 Tube Rack with Eppendorf 1.5 mL Safe-Lock Snapcap on 1 to B1 of Bio-Rad 96 Well Plate 200 µL PCR on 7
+	Transferring 5.0 from A2 of Opentrons 24 Tube Rack with Eppendorf 1.5 mL Safe-Lock Snapcap on 1 to B1 of Bio-Rad 96 Well Plate 200 µL PCR on 7
+		Picking up tip from E4 of Opentrons OT-2 96 Tip Rack 20 µL on 6
+		Aspirating 16.0 uL from A2 of Opentrons 24 Tube Rack with Eppendorf 1.5 mL Safe-Lock Snapcap on 1 at 7.56 uL/sec
+		Dispensing 5.0 uL into B1 of Bio-Rad 96 Well Plate 200 µL PCR on 7 at 7.56 uL/sec
+		Dispensing 5.0 uL into D1 of Bio-Rad 96 Well Plate 200 µL PCR on 7 at 7.56 uL/sec
+		Dispensing 5.0 uL into F1 of Bio-Rad 96 Well Plate 200 µL PCR on 7 at 7.56 uL/sec
+		Blowing out at A1 of Opentrons Fixed Trash on 12
+		Aspirating 16.0 uL from A2 of Opentrons 24 Tube Rack with Eppendorf 1.5 mL Safe-Lock Snapcap on 1 at 7.56 uL/sec
+		Dispensing 5.0 uL into H1 of Bio-Rad 96 Well Plate 200 µL PCR on 7 at 7.56 uL/sec
+		Dispensing 5.0 uL into B2 of Bio-Rad 96 Well Plate 200 µL PCR on 7 at 7.56 uL/sec
+		Dispensing 5.0 uL into D2 of Bio-Rad 96 Well Plate 200 µL PCR on 7 at 7.56 uL/sec
+		Blowing out at A1 of Opentrons Fixed Trash on 12
+		Aspirating 16.0 uL from A2 of Opentrons 24 Tube Rack with Eppendorf 1.5 mL Safe-Lock Snapcap on 1 at 7.56 uL/sec
+		Dispensing 5.0 uL into F2 of Bio-Rad 96 Well Plate 200 µL PCR on 7 at 7.56 uL/sec
+		Dispensing 5.0 uL into H2 of Bio-Rad 96 Well Plate 200 µL PCR on 7 at 7.56 uL/sec
+		Dispensing 5.0 uL into B3 of Bio-Rad 96 Well Plate 200 µL PCR on 7 at 7.56 uL/sec
+		Blowing out at A1 of Opentrons Fixed Trash on 12
+		Aspirating 16.0 uL from A2 of Opentrons 24 Tube Rack with Eppendorf 1.5 mL Safe-Lock Snapcap on 1 at 7.56 uL/sec
+		Dispensing 5.0 uL into D3 of Bio-Rad 96 Well Plate 200 µL PCR on 7 at 7.56 uL/sec
+		Dispensing 5.0 uL into F3 of Bio-Rad 96 Well Plate 200 µL PCR on 7 at 7.56 uL/sec
+		Dispensing 5.0 uL into H3 of Bio-Rad 96 Well Plate 200 µL PCR on 7 at 7.56 uL/sec
+		Blowing out at A1 of Opentrons Fixed Trash on 12
+		Aspirating 16.0 uL from A2 of Opentrons 24 Tube Rack with Eppendorf 1.5 mL Safe-Lock Snapcap on 1 at 7.56 uL/sec
+		Dispensing 5.0 uL into B4 of Bio-Rad 96 Well Plate 200 µL PCR on 7 at 7.56 uL/sec
+		Dispensing 5.0 uL into D4 of Bio-Rad 96 Well Plate 200 µL PCR on 7 at 7.56 uL/sec
+		Dispensing 5.0 uL into F4 of Bio-Rad 96 Well Plate 200 µL PCR on 7 at 7.56 uL/sec
+		Blowing out at A1 of Opentrons Fixed Trash on 12
+		Aspirating 16.0 uL from A2 of Opentrons 24 Tube Rack with Eppendorf 1.5 mL Safe-Lock Snapcap on 1 at 7.56 uL/sec
+		Dispensing 5.0 uL into H4 of Bio-Rad 96 Well Plate 200 µL PCR on 7 at 7.56 uL/sec
+		Dispensing 5.0 uL into B5 of Bio-Rad 96 Well Plate 200 µL PCR on 7 at 7.56 uL/sec
+		Dispensing 5.0 uL into D5 of Bio-Rad 96 Well Plate 200 µL PCR on 7 at 7.56 uL/sec
+		Blowing out at A1 of Opentrons Fixed Trash on 12
+		Aspirating 16.0 uL from A2 of Opentrons 24 Tube Rack with Eppendorf 1.5 mL Safe-Lock Snapcap on 1 at 7.56 uL/sec
+		Dispensing 5.0 uL into F5 of Bio-Rad 96 Well Plate 200 µL PCR on 7 at 7.56 uL/sec
+		Dispensing 5.0 uL into H5 of Bio-Rad 96 Well Plate 200 µL PCR on 7 at 7.56 uL/sec
+		Dispensing 5.0 uL into B6 of Bio-Rad 96 Well Plate 200 µL PCR on 7 at 7.56 uL/sec
+		Blowing out at A1 of Opentrons Fixed Trash on 12
+		Aspirating 16.0 uL from A2 of Opentrons 24 Tube Rack with Eppendorf 1.5 mL Safe-Lock Snapcap on 1 at 7.56 uL/sec
+		Dispensing 5.0 uL into D6 of Bio-Rad 96 Well Plate 200 µL PCR on 7 at 7.56 uL/sec
+		Dispensing 5.0 uL into F6 of Bio-Rad 96 Well Plate 200 µL PCR on 7 at 7.56 uL/sec
+		Dispensing 5.0 uL into H6 of Bio-Rad 96 Well Plate 200 µL PCR on 7 at 7.56 uL/sec
+		Blowing out at A1 of Opentrons Fixed Trash on 12
+		Aspirating 16.0 uL from A2 of Opentrons 24 Tube Rack with Eppendorf 1.5 mL Safe-Lock Snapcap on 1 at 7.56 uL/sec
+		Dispensing 5.0 uL into B7 of Bio-Rad 96 Well Plate 200 µL PCR on 7 at 7.56 uL/sec
+		Dispensing 5.0 uL into D7 of Bio-Rad 96 Well Plate 200 µL PCR on 7 at 7.56 uL/sec
+		Dispensing 5.0 uL into F7 of Bio-Rad 96 Well Plate 200 µL PCR on 7 at 7.56 uL/sec
+		Blowing out at A1 of Opentrons Fixed Trash on 12
+		Aspirating 16.0 uL from A2 of Opentrons 24 Tube Rack with Eppendorf 1.5 mL Safe-Lock Snapcap on 1 at 7.56 uL/sec
+		Dispensing 5.0 uL into H7 of Bio-Rad 96 Well Plate 200 µL PCR on 7 at 7.56 uL/sec
+		Dispensing 5.0 uL into B8 of Bio-Rad 96 Well Plate 200 µL PCR on 7 at 7.56 uL/sec
+		Dispensing 5.0 uL into D8 of Bio-Rad 96 Well Plate 200 µL PCR on 7 at 7.56 uL/sec
+		Blowing out at A1 of Opentrons Fixed Trash on 12
+		Aspirating 16.0 uL from A2 of Opentrons 24 Tube Rack with Eppendorf 1.5 mL Safe-Lock Snapcap on 1 at 7.56 uL/sec
+		Dispensing 5.0 uL into F8 of Bio-Rad 96 Well Plate 200 µL PCR on 7 at 7.56 uL/sec
+		Dispensing 5.0 uL into H8 of Bio-Rad 96 Well Plate 200 µL PCR on 7 at 7.56 uL/sec
+		Dispensing 5.0 uL into B9 of Bio-Rad 96 Well Plate 200 µL PCR on 7 at 7.56 uL/sec
+		Blowing out at A1 of Opentrons Fixed Trash on 12
+		Aspirating 16.0 uL from A2 of Opentrons 24 Tube Rack with Eppendorf 1.5 mL Safe-Lock Snapcap on 1 at 7.56 uL/sec
+		Dispensing 5.0 uL into D9 of Bio-Rad 96 Well Plate 200 µL PCR on 7 at 7.56 uL/sec
+		Dispensing 5.0 uL into F9 of Bio-Rad 96 Well Plate 200 µL PCR on 7 at 7.56 uL/sec
+		Dispensing 5.0 uL into H9 of Bio-Rad 96 Well Plate 200 µL PCR on 7 at 7.56 uL/sec
+		Blowing out at A1 of Opentrons Fixed Trash on 12
+		Aspirating 16.0 uL from A2 of Opentrons 24 Tube Rack with Eppendorf 1.5 mL Safe-Lock Snapcap on 1 at 7.56 uL/sec
+		Dispensing 5.0 uL into B10 of Bio-Rad 96 Well Plate 200 µL PCR on 7 at 7.56 uL/sec
+		Dispensing 5.0 uL into D10 of Bio-Rad 96 Well Plate 200 µL PCR on 7 at 7.56 uL/sec
+		Dispensing 5.0 uL into F10 of Bio-Rad 96 Well Plate 200 µL PCR on 7 at 7.56 uL/sec
+		Blowing out at A1 of Opentrons Fixed Trash on 12
+		Dropping tip into A1 of Opentrons Fixed Trash on 12
+Distributing 5.0 from A1 of Opentrons 24 Tube Rack with Eppendorf 1.5 mL Safe-Lock Snapcap on 1 to G10 of Bio-Rad 96 Well Plate 200 µL PCR on 7
+	Transferring 5.0 from A1 of Opentrons 24 Tube Rack with Eppendorf 1.5 mL Safe-Lock Snapcap on 1 to G10 of Bio-Rad 96 Well Plate 200 µL PCR on 7
+		Picking up tip from F4 of Opentrons OT-2 96 Tip Rack 20 µL on 6
+		Aspirating 16.0 uL from A1 of Opentrons 24 Tube Rack with Eppendorf 1.5 mL Safe-Lock Snapcap on 1 at 7.56 uL/sec
+		Dispensing 5.0 uL into G10 of Bio-Rad 96 Well Plate 200 µL PCR on 7 at 7.56 uL/sec
+		Dispensing 5.0 uL into H10 of Bio-Rad 96 Well Plate 200 µL PCR on 7 at 7.56 uL/sec
+		Dispensing 5.0 uL into A11 of Bio-Rad 96 Well Plate 200 µL PCR on 7 at 7.56 uL/sec
+		Blowing out at A1 of Opentrons Fixed Trash on 12
+		Dropping tip into A1 of Opentrons Fixed Trash on 12
+Distributing 10.0 from A1 of Corning 96 Well Plate 360 µL Flat on 8 to A1 of Bio-Rad 96 Well Plate 200 µL PCR on 7
+	Transferring 10.0 from A1 of Corning 96 Well Plate 360 µL Flat on 8 to A1 of Bio-Rad 96 Well Plate 200 µL PCR on 7
+		Picking up tip from G4 of Opentrons OT-2 96 Tip Rack 20 µL on 6
+		Aspirating 11.0 uL from A1 of Corning 96 Well Plate 360 µL Flat on 8 at 7.56 uL/sec
+		Dispensing 10.0 uL into A1 of Bio-Rad 96 Well Plate 200 µL PCR on 7 at 7.56 uL/sec
+		Blowing out at A1 of Opentrons Fixed Trash on 12
+		Aspirating 11.0 uL from A1 of Corning 96 Well Plate 360 µL Flat on 8 at 7.56 uL/sec
+		Dispensing 10.0 uL into C1 of Bio-Rad 96 Well Plate 200 µL PCR on 7 at 7.56 uL/sec
+		Blowing out at A1 of Opentrons Fixed Trash on 12
+		Aspirating 11.0 uL from A1 of Corning 96 Well Plate 360 µL Flat on 8 at 7.56 uL/sec
+		Dispensing 10.0 uL into E1 of Bio-Rad 96 Well Plate 200 µL PCR on 7 at 7.56 uL/sec
+		Blowing out at A1 of Opentrons Fixed Trash on 12
+		Dropping tip into A1 of Opentrons Fixed Trash on 12
+Distributing 10.0 from A1 of Corning 96 Well Plate 360 µL Flat on 8 to B1 of Bio-Rad 96 Well Plate 200 µL PCR on 7
+	Transferring 10.0 from A1 of Corning 96 Well Plate 360 µL Flat on 8 to B1 of Bio-Rad 96 Well Plate 200 µL PCR on 7
+		Picking up tip from H4 of Opentrons OT-2 96 Tip Rack 20 µL on 6
+		Aspirating 11.0 uL from A1 of Corning 96 Well Plate 360 µL Flat on 8 at 7.56 uL/sec
+		Dispensing 10.0 uL into B1 of Bio-Rad 96 Well Plate 200 µL PCR on 7 at 7.56 uL/sec
+		Blowing out at A1 of Opentrons Fixed Trash on 12
+		Aspirating 11.0 uL from A1 of Corning 96 Well Plate 360 µL Flat on 8 at 7.56 uL/sec
+		Dispensing 10.0 uL into D1 of Bio-Rad 96 Well Plate 200 µL PCR on 7 at 7.56 uL/sec
+		Blowing out at A1 of Opentrons Fixed Trash on 12
+		Aspirating 11.0 uL from A1 of Corning 96 Well Plate 360 µL Flat on 8 at 7.56 uL/sec
+		Dispensing 10.0 uL into F1 of Bio-Rad 96 Well Plate 200 µL PCR on 7 at 7.56 uL/sec
+		Blowing out at A1 of Opentrons Fixed Trash on 12
+		Dropping tip into A1 of Opentrons Fixed Trash on 12
+Distributing 10.0 from B1 of Corning 96 Well Plate 360 µL Flat on 8 to G1 of Bio-Rad 96 Well Plate 200 µL PCR on 7
+	Transferring 10.0 from B1 of Corning 96 Well Plate 360 µL Flat on 8 to G1 of Bio-Rad 96 Well Plate 200 µL PCR on 7
+		Picking up tip from A5 of Opentrons OT-2 96 Tip Rack 20 µL on 6
+		Aspirating 11.0 uL from B1 of Corning 96 Well Plate 360 µL Flat on 8 at 7.56 uL/sec
+		Dispensing 10.0 uL into G1 of Bio-Rad 96 Well Plate 200 µL PCR on 7 at 7.56 uL/sec
+		Blowing out at A1 of Opentrons Fixed Trash on 12
+		Aspirating 11.0 uL from B1 of Corning 96 Well Plate 360 µL Flat on 8 at 7.56 uL/sec
+		Dispensing 10.0 uL into A2 of Bio-Rad 96 Well Plate 200 µL PCR on 7 at 7.56 uL/sec
+		Blowing out at A1 of Opentrons Fixed Trash on 12
+		Aspirating 11.0 uL from B1 of Corning 96 Well Plate 360 µL Flat on 8 at 7.56 uL/sec
+		Dispensing 10.0 uL into C2 of Bio-Rad 96 Well Plate 200 µL PCR on 7 at 7.56 uL/sec
+		Blowing out at A1 of Opentrons Fixed Trash on 12
+		Dropping tip into A1 of Opentrons Fixed Trash on 12
+Distributing 10.0 from B1 of Corning 96 Well Plate 360 µL Flat on 8 to H1 of Bio-Rad 96 Well Plate 200 µL PCR on 7
+	Transferring 10.0 from B1 of Corning 96 Well Plate 360 µL Flat on 8 to H1 of Bio-Rad 96 Well Plate 200 µL PCR on 7
+		Picking up tip from B5 of Opentrons OT-2 96 Tip Rack 20 µL on 6
+		Aspirating 11.0 uL from B1 of Corning 96 Well Plate 360 µL Flat on 8 at 7.56 uL/sec
+		Dispensing 10.0 uL into H1 of Bio-Rad 96 Well Plate 200 µL PCR on 7 at 7.56 uL/sec
+		Blowing out at A1 of Opentrons Fixed Trash on 12
+		Aspirating 11.0 uL from B1 of Corning 96 Well Plate 360 µL Flat on 8 at 7.56 uL/sec
+		Dispensing 10.0 uL into B2 of Bio-Rad 96 Well Plate 200 µL PCR on 7 at 7.56 uL/sec
+		Blowing out at A1 of Opentrons Fixed Trash on 12
+		Aspirating 11.0 uL from B1 of Corning 96 Well Plate 360 µL Flat on 8 at 7.56 uL/sec
+		Dispensing 10.0 uL into D2 of Bio-Rad 96 Well Plate 200 µL PCR on 7 at 7.56 uL/sec
+		Blowing out at A1 of Opentrons Fixed Trash on 12
+		Dropping tip into A1 of Opentrons Fixed Trash on 12
+Distributing 10.0 from C1 of Corning 96 Well Plate 360 µL Flat on 8 to E2 of Bio-Rad 96 Well Plate 200 µL PCR on 7
+	Transferring 10.0 from C1 of Corning 96 Well Plate 360 µL Flat on 8 to E2 of Bio-Rad 96 Well Plate 200 µL PCR on 7
+		Picking up tip from C5 of Opentrons OT-2 96 Tip Rack 20 µL on 6
+		Aspirating 11.0 uL from C1 of Corning 96 Well Plate 360 µL Flat on 8 at 7.56 uL/sec
+		Dispensing 10.0 uL into E2 of Bio-Rad 96 Well Plate 200 µL PCR on 7 at 7.56 uL/sec
+		Blowing out at A1 of Opentrons Fixed Trash on 12
+		Aspirating 11.0 uL from C1 of Corning 96 Well Plate 360 µL Flat on 8 at 7.56 uL/sec
+		Dispensing 10.0 uL into G2 of Bio-Rad 96 Well Plate 200 µL PCR on 7 at 7.56 uL/sec
+		Blowing out at A1 of Opentrons Fixed Trash on 12
+		Aspirating 11.0 uL from C1 of Corning 96 Well Plate 360 µL Flat on 8 at 7.56 uL/sec
+		Dispensing 10.0 uL into A3 of Bio-Rad 96 Well Plate 200 µL PCR on 7 at 7.56 uL/sec
+		Blowing out at A1 of Opentrons Fixed Trash on 12
+		Dropping tip into A1 of Opentrons Fixed Trash on 12
+Distributing 10.0 from C1 of Corning 96 Well Plate 360 µL Flat on 8 to F2 of Bio-Rad 96 Well Plate 200 µL PCR on 7
+	Transferring 10.0 from C1 of Corning 96 Well Plate 360 µL Flat on 8 to F2 of Bio-Rad 96 Well Plate 200 µL PCR on 7
+		Picking up tip from D5 of Opentrons OT-2 96 Tip Rack 20 µL on 6
+		Aspirating 11.0 uL from C1 of Corning 96 Well Plate 360 µL Flat on 8 at 7.56 uL/sec
+		Dispensing 10.0 uL into F2 of Bio-Rad 96 Well Plate 200 µL PCR on 7 at 7.56 uL/sec
+		Blowing out at A1 of Opentrons Fixed Trash on 12
+		Aspirating 11.0 uL from C1 of Corning 96 Well Plate 360 µL Flat on 8 at 7.56 uL/sec
+		Dispensing 10.0 uL into H2 of Bio-Rad 96 Well Plate 200 µL PCR on 7 at 7.56 uL/sec
+		Blowing out at A1 of Opentrons Fixed Trash on 12
+		Aspirating 11.0 uL from C1 of Corning 96 Well Plate 360 µL Flat on 8 at 7.56 uL/sec
+		Dispensing 10.0 uL into B3 of Bio-Rad 96 Well Plate 200 µL PCR on 7 at 7.56 uL/sec
+		Blowing out at A1 of Opentrons Fixed Trash on 12
+		Dropping tip into A1 of Opentrons Fixed Trash on 12
+Distributing 10.0 from D1 of Corning 96 Well Plate 360 µL Flat on 8 to C3 of Bio-Rad 96 Well Plate 200 µL PCR on 7
+	Transferring 10.0 from D1 of Corning 96 Well Plate 360 µL Flat on 8 to C3 of Bio-Rad 96 Well Plate 200 µL PCR on 7
+		Picking up tip from E5 of Opentrons OT-2 96 Tip Rack 20 µL on 6
+		Aspirating 11.0 uL from D1 of Corning 96 Well Plate 360 µL Flat on 8 at 7.56 uL/sec
+		Dispensing 10.0 uL into C3 of Bio-Rad 96 Well Plate 200 µL PCR on 7 at 7.56 uL/sec
+		Blowing out at A1 of Opentrons Fixed Trash on 12
+		Aspirating 11.0 uL from D1 of Corning 96 Well Plate 360 µL Flat on 8 at 7.56 uL/sec
+		Dispensing 10.0 uL into E3 of Bio-Rad 96 Well Plate 200 µL PCR on 7 at 7.56 uL/sec
+		Blowing out at A1 of Opentrons Fixed Trash on 12
+		Aspirating 11.0 uL from D1 of Corning 96 Well Plate 360 µL Flat on 8 at 7.56 uL/sec
+		Dispensing 10.0 uL into G3 of Bio-Rad 96 Well Plate 200 µL PCR on 7 at 7.56 uL/sec
+		Blowing out at A1 of Opentrons Fixed Trash on 12
+		Dropping tip into A1 of Opentrons Fixed Trash on 12
+Distributing 10.0 from D1 of Corning 96 Well Plate 360 µL Flat on 8 to D3 of Bio-Rad 96 Well Plate 200 µL PCR on 7
+	Transferring 10.0 from D1 of Corning 96 Well Plate 360 µL Flat on 8 to D3 of Bio-Rad 96 Well Plate 200 µL PCR on 7
+		Picking up tip from F5 of Opentrons OT-2 96 Tip Rack 20 µL on 6
+		Aspirating 11.0 uL from D1 of Corning 96 Well Plate 360 µL Flat on 8 at 7.56 uL/sec
+		Dispensing 10.0 uL into D3 of Bio-Rad 96 Well Plate 200 µL PCR on 7 at 7.56 uL/sec
+		Blowing out at A1 of Opentrons Fixed Trash on 12
+		Aspirating 11.0 uL from D1 of Corning 96 Well Plate 360 µL Flat on 8 at 7.56 uL/sec
+		Dispensing 10.0 uL into F3 of Bio-Rad 96 Well Plate 200 µL PCR on 7 at 7.56 uL/sec
+		Blowing out at A1 of Opentrons Fixed Trash on 12
+		Aspirating 11.0 uL from D1 of Corning 96 Well Plate 360 µL Flat on 8 at 7.56 uL/sec
+		Dispensing 10.0 uL into H3 of Bio-Rad 96 Well Plate 200 µL PCR on 7 at 7.56 uL/sec
+		Blowing out at A1 of Opentrons Fixed Trash on 12
+		Dropping tip into A1 of Opentrons Fixed Trash on 12
+Distributing 10.0 from E1 of Corning 96 Well Plate 360 µL Flat on 8 to A4 of Bio-Rad 96 Well Plate 200 µL PCR on 7
+	Transferring 10.0 from E1 of Corning 96 Well Plate 360 µL Flat on 8 to A4 of Bio-Rad 96 Well Plate 200 µL PCR on 7
+		Picking up tip from G5 of Opentrons OT-2 96 Tip Rack 20 µL on 6
+		Aspirating 11.0 uL from E1 of Corning 96 Well Plate 360 µL Flat on 8 at 7.56 uL/sec
+		Dispensing 10.0 uL into A4 of Bio-Rad 96 Well Plate 200 µL PCR on 7 at 7.56 uL/sec
+		Blowing out at A1 of Opentrons Fixed Trash on 12
+		Aspirating 11.0 uL from E1 of Corning 96 Well Plate 360 µL Flat on 8 at 7.56 uL/sec
+		Dispensing 10.0 uL into C4 of Bio-Rad 96 Well Plate 200 µL PCR on 7 at 7.56 uL/sec
+		Blowing out at A1 of Opentrons Fixed Trash on 12
+		Aspirating 11.0 uL from E1 of Corning 96 Well Plate 360 µL Flat on 8 at 7.56 uL/sec
+		Dispensing 10.0 uL into E4 of Bio-Rad 96 Well Plate 200 µL PCR on 7 at 7.56 uL/sec
+		Blowing out at A1 of Opentrons Fixed Trash on 12
+		Dropping tip into A1 of Opentrons Fixed Trash on 12
+Distributing 10.0 from E1 of Corning 96 Well Plate 360 µL Flat on 8 to B4 of Bio-Rad 96 Well Plate 200 µL PCR on 7
+	Transferring 10.0 from E1 of Corning 96 Well Plate 360 µL Flat on 8 to B4 of Bio-Rad 96 Well Plate 200 µL PCR on 7
+		Picking up tip from H5 of Opentrons OT-2 96 Tip Rack 20 µL on 6
+		Aspirating 11.0 uL from E1 of Corning 96 Well Plate 360 µL Flat on 8 at 7.56 uL/sec
+		Dispensing 10.0 uL into B4 of Bio-Rad 96 Well Plate 200 µL PCR on 7 at 7.56 uL/sec
+		Blowing out at A1 of Opentrons Fixed Trash on 12
+		Aspirating 11.0 uL from E1 of Corning 96 Well Plate 360 µL Flat on 8 at 7.56 uL/sec
+		Dispensing 10.0 uL into D4 of Bio-Rad 96 Well Plate 200 µL PCR on 7 at 7.56 uL/sec
+		Blowing out at A1 of Opentrons Fixed Trash on 12
+		Aspirating 11.0 uL from E1 of Corning 96 Well Plate 360 µL Flat on 8 at 7.56 uL/sec
+		Dispensing 10.0 uL into F4 of Bio-Rad 96 Well Plate 200 µL PCR on 7 at 7.56 uL/sec
+		Blowing out at A1 of Opentrons Fixed Trash on 12
+		Dropping tip into A1 of Opentrons Fixed Trash on 12
+Distributing 10.0 from F1 of Corning 96 Well Plate 360 µL Flat on 8 to G4 of Bio-Rad 96 Well Plate 200 µL PCR on 7
+	Transferring 10.0 from F1 of Corning 96 Well Plate 360 µL Flat on 8 to G4 of Bio-Rad 96 Well Plate 200 µL PCR on 7
+		Picking up tip from A6 of Opentrons OT-2 96 Tip Rack 20 µL on 6
+		Aspirating 11.0 uL from F1 of Corning 96 Well Plate 360 µL Flat on 8 at 7.56 uL/sec
+		Dispensing 10.0 uL into G4 of Bio-Rad 96 Well Plate 200 µL PCR on 7 at 7.56 uL/sec
+		Blowing out at A1 of Opentrons Fixed Trash on 12
+		Aspirating 11.0 uL from F1 of Corning 96 Well Plate 360 µL Flat on 8 at 7.56 uL/sec
+		Dispensing 10.0 uL into A5 of Bio-Rad 96 Well Plate 200 µL PCR on 7 at 7.56 uL/sec
+		Blowing out at A1 of Opentrons Fixed Trash on 12
+		Aspirating 11.0 uL from F1 of Corning 96 Well Plate 360 µL Flat on 8 at 7.56 uL/sec
+		Dispensing 10.0 uL into C5 of Bio-Rad 96 Well Plate 200 µL PCR on 7 at 7.56 uL/sec
+		Blowing out at A1 of Opentrons Fixed Trash on 12
+		Dropping tip into A1 of Opentrons Fixed Trash on 12
+Distributing 10.0 from F1 of Corning 96 Well Plate 360 µL Flat on 8 to H4 of Bio-Rad 96 Well Plate 200 µL PCR on 7
+	Transferring 10.0 from F1 of Corning 96 Well Plate 360 µL Flat on 8 to H4 of Bio-Rad 96 Well Plate 200 µL PCR on 7
+		Picking up tip from B6 of Opentrons OT-2 96 Tip Rack 20 µL on 6
+		Aspirating 11.0 uL from F1 of Corning 96 Well Plate 360 µL Flat on 8 at 7.56 uL/sec
+		Dispensing 10.0 uL into H4 of Bio-Rad 96 Well Plate 200 µL PCR on 7 at 7.56 uL/sec
+		Blowing out at A1 of Opentrons Fixed Trash on 12
+		Aspirating 11.0 uL from F1 of Corning 96 Well Plate 360 µL Flat on 8 at 7.56 uL/sec
+		Dispensing 10.0 uL into B5 of Bio-Rad 96 Well Plate 200 µL PCR on 7 at 7.56 uL/sec
+		Blowing out at A1 of Opentrons Fixed Trash on 12
+		Aspirating 11.0 uL from F1 of Corning 96 Well Plate 360 µL Flat on 8 at 7.56 uL/sec
+		Dispensing 10.0 uL into D5 of Bio-Rad 96 Well Plate 200 µL PCR on 7 at 7.56 uL/sec
+		Blowing out at A1 of Opentrons Fixed Trash on 12
+		Dropping tip into A1 of Opentrons Fixed Trash on 12
+Distributing 10.0 from G1 of Corning 96 Well Plate 360 µL Flat on 8 to E5 of Bio-Rad 96 Well Plate 200 µL PCR on 7
+	Transferring 10.0 from G1 of Corning 96 Well Plate 360 µL Flat on 8 to E5 of Bio-Rad 96 Well Plate 200 µL PCR on 7
+		Picking up tip from C6 of Opentrons OT-2 96 Tip Rack 20 µL on 6
+		Aspirating 11.0 uL from G1 of Corning 96 Well Plate 360 µL Flat on 8 at 7.56 uL/sec
+		Dispensing 10.0 uL into E5 of Bio-Rad 96 Well Plate 200 µL PCR on 7 at 7.56 uL/sec
+		Blowing out at A1 of Opentrons Fixed Trash on 12
+		Aspirating 11.0 uL from G1 of Corning 96 Well Plate 360 µL Flat on 8 at 7.56 uL/sec
+		Dispensing 10.0 uL into G5 of Bio-Rad 96 Well Plate 200 µL PCR on 7 at 7.56 uL/sec
+		Blowing out at A1 of Opentrons Fixed Trash on 12
+		Aspirating 11.0 uL from G1 of Corning 96 Well Plate 360 µL Flat on 8 at 7.56 uL/sec
+		Dispensing 10.0 uL into A6 of Bio-Rad 96 Well Plate 200 µL PCR on 7 at 7.56 uL/sec
+		Blowing out at A1 of Opentrons Fixed Trash on 12
+		Dropping tip into A1 of Opentrons Fixed Trash on 12
+Distributing 10.0 from G1 of Corning 96 Well Plate 360 µL Flat on 8 to F5 of Bio-Rad 96 Well Plate 200 µL PCR on 7
+	Transferring 10.0 from G1 of Corning 96 Well Plate 360 µL Flat on 8 to F5 of Bio-Rad 96 Well Plate 200 µL PCR on 7
+		Picking up tip from D6 of Opentrons OT-2 96 Tip Rack 20 µL on 6
+		Aspirating 11.0 uL from G1 of Corning 96 Well Plate 360 µL Flat on 8 at 7.56 uL/sec
+		Dispensing 10.0 uL into F5 of Bio-Rad 96 Well Plate 200 µL PCR on 7 at 7.56 uL/sec
+		Blowing out at A1 of Opentrons Fixed Trash on 12
+		Aspirating 11.0 uL from G1 of Corning 96 Well Plate 360 µL Flat on 8 at 7.56 uL/sec
+		Dispensing 10.0 uL into H5 of Bio-Rad 96 Well Plate 200 µL PCR on 7 at 7.56 uL/sec
+		Blowing out at A1 of Opentrons Fixed Trash on 12
+		Aspirating 11.0 uL from G1 of Corning 96 Well Plate 360 µL Flat on 8 at 7.56 uL/sec
+		Dispensing 10.0 uL into B6 of Bio-Rad 96 Well Plate 200 µL PCR on 7 at 7.56 uL/sec
+		Blowing out at A1 of Opentrons Fixed Trash on 12
+		Dropping tip into A1 of Opentrons Fixed Trash on 12
+Distributing 10.0 from H1 of Corning 96 Well Plate 360 µL Flat on 8 to C6 of Bio-Rad 96 Well Plate 200 µL PCR on 7
+	Transferring 10.0 from H1 of Corning 96 Well Plate 360 µL Flat on 8 to C6 of Bio-Rad 96 Well Plate 200 µL PCR on 7
+		Picking up tip from E6 of Opentrons OT-2 96 Tip Rack 20 µL on 6
+		Aspirating 11.0 uL from H1 of Corning 96 Well Plate 360 µL Flat on 8 at 7.56 uL/sec
+		Dispensing 10.0 uL into C6 of Bio-Rad 96 Well Plate 200 µL PCR on 7 at 7.56 uL/sec
+		Blowing out at A1 of Opentrons Fixed Trash on 12
+		Aspirating 11.0 uL from H1 of Corning 96 Well Plate 360 µL Flat on 8 at 7.56 uL/sec
+		Dispensing 10.0 uL into E6 of Bio-Rad 96 Well Plate 200 µL PCR on 7 at 7.56 uL/sec
+		Blowing out at A1 of Opentrons Fixed Trash on 12
+		Aspirating 11.0 uL from H1 of Corning 96 Well Plate 360 µL Flat on 8 at 7.56 uL/sec
+		Dispensing 10.0 uL into G6 of Bio-Rad 96 Well Plate 200 µL PCR on 7 at 7.56 uL/sec
+		Blowing out at A1 of Opentrons Fixed Trash on 12
+		Dropping tip into A1 of Opentrons Fixed Trash on 12
+Distributing 10.0 from H1 of Corning 96 Well Plate 360 µL Flat on 8 to D6 of Bio-Rad 96 Well Plate 200 µL PCR on 7
+	Transferring 10.0 from H1 of Corning 96 Well Plate 360 µL Flat on 8 to D6 of Bio-Rad 96 Well Plate 200 µL PCR on 7
+		Picking up tip from F6 of Opentrons OT-2 96 Tip Rack 20 µL on 6
+		Aspirating 11.0 uL from H1 of Corning 96 Well Plate 360 µL Flat on 8 at 7.56 uL/sec
+		Dispensing 10.0 uL into D6 of Bio-Rad 96 Well Plate 200 µL PCR on 7 at 7.56 uL/sec
+		Blowing out at A1 of Opentrons Fixed Trash on 12
+		Aspirating 11.0 uL from H1 of Corning 96 Well Plate 360 µL Flat on 8 at 7.56 uL/sec
+		Dispensing 10.0 uL into F6 of Bio-Rad 96 Well Plate 200 µL PCR on 7 at 7.56 uL/sec
+		Blowing out at A1 of Opentrons Fixed Trash on 12
+		Aspirating 11.0 uL from H1 of Corning 96 Well Plate 360 µL Flat on 8 at 7.56 uL/sec
+		Dispensing 10.0 uL into H6 of Bio-Rad 96 Well Plate 200 µL PCR on 7 at 7.56 uL/sec
+		Blowing out at A1 of Opentrons Fixed Trash on 12
+		Dropping tip into A1 of Opentrons Fixed Trash on 12
+Distributing 10.0 from A2 of Corning 96 Well Plate 360 µL Flat on 8 to A7 of Bio-Rad 96 Well Plate 200 µL PCR on 7
+	Transferring 10.0 from A2 of Corning 96 Well Plate 360 µL Flat on 8 to A7 of Bio-Rad 96 Well Plate 200 µL PCR on 7
+		Picking up tip from G6 of Opentrons OT-2 96 Tip Rack 20 µL on 6
+		Aspirating 11.0 uL from A2 of Corning 96 Well Plate 360 µL Flat on 8 at 7.56 uL/sec
+		Dispensing 10.0 uL into A7 of Bio-Rad 96 Well Plate 200 µL PCR on 7 at 7.56 uL/sec
+		Blowing out at A1 of Opentrons Fixed Trash on 12
+		Aspirating 11.0 uL from A2 of Corning 96 Well Plate 360 µL Flat on 8 at 7.56 uL/sec
+		Dispensing 10.0 uL into C7 of Bio-Rad 96 Well Plate 200 µL PCR on 7 at 7.56 uL/sec
+		Blowing out at A1 of Opentrons Fixed Trash on 12
+		Aspirating 11.0 uL from A2 of Corning 96 Well Plate 360 µL Flat on 8 at 7.56 uL/sec
+		Dispensing 10.0 uL into E7 of Bio-Rad 96 Well Plate 200 µL PCR on 7 at 7.56 uL/sec
+		Blowing out at A1 of Opentrons Fixed Trash on 12
+		Dropping tip into A1 of Opentrons Fixed Trash on 12
+Distributing 10.0 from A2 of Corning 96 Well Plate 360 µL Flat on 8 to B7 of Bio-Rad 96 Well Plate 200 µL PCR on 7
+	Transferring 10.0 from A2 of Corning 96 Well Plate 360 µL Flat on 8 to B7 of Bio-Rad 96 Well Plate 200 µL PCR on 7
+		Picking up tip from H6 of Opentrons OT-2 96 Tip Rack 20 µL on 6
+		Aspirating 11.0 uL from A2 of Corning 96 Well Plate 360 µL Flat on 8 at 7.56 uL/sec
+		Dispensing 10.0 uL into B7 of Bio-Rad 96 Well Plate 200 µL PCR on 7 at 7.56 uL/sec
+		Blowing out at A1 of Opentrons Fixed Trash on 12
+		Aspirating 11.0 uL from A2 of Corning 96 Well Plate 360 µL Flat on 8 at 7.56 uL/sec
+		Dispensing 10.0 uL into D7 of Bio-Rad 96 Well Plate 200 µL PCR on 7 at 7.56 uL/sec
+		Blowing out at A1 of Opentrons Fixed Trash on 12
+		Aspirating 11.0 uL from A2 of Corning 96 Well Plate 360 µL Flat on 8 at 7.56 uL/sec
+		Dispensing 10.0 uL into F7 of Bio-Rad 96 Well Plate 200 µL PCR on 7 at 7.56 uL/sec
+		Blowing out at A1 of Opentrons Fixed Trash on 12
+		Dropping tip into A1 of Opentrons Fixed Trash on 12
+Distributing 10.0 from B2 of Corning 96 Well Plate 360 µL Flat on 8 to G7 of Bio-Rad 96 Well Plate 200 µL PCR on 7
+	Transferring 10.0 from B2 of Corning 96 Well Plate 360 µL Flat on 8 to G7 of Bio-Rad 96 Well Plate 200 µL PCR on 7
+		Picking up tip from A7 of Opentrons OT-2 96 Tip Rack 20 µL on 6
+		Aspirating 11.0 uL from B2 of Corning 96 Well Plate 360 µL Flat on 8 at 7.56 uL/sec
+		Dispensing 10.0 uL into G7 of Bio-Rad 96 Well Plate 200 µL PCR on 7 at 7.56 uL/sec
+		Blowing out at A1 of Opentrons Fixed Trash on 12
+		Aspirating 11.0 uL from B2 of Corning 96 Well Plate 360 µL Flat on 8 at 7.56 uL/sec
+		Dispensing 10.0 uL into A8 of Bio-Rad 96 Well Plate 200 µL PCR on 7 at 7.56 uL/sec
+		Blowing out at A1 of Opentrons Fixed Trash on 12
+		Aspirating 11.0 uL from B2 of Corning 96 Well Plate 360 µL Flat on 8 at 7.56 uL/sec
+		Dispensing 10.0 uL into C8 of Bio-Rad 96 Well Plate 200 µL PCR on 7 at 7.56 uL/sec
+		Blowing out at A1 of Opentrons Fixed Trash on 12
+		Dropping tip into A1 of Opentrons Fixed Trash on 12
+Distributing 10.0 from B2 of Corning 96 Well Plate 360 µL Flat on 8 to H7 of Bio-Rad 96 Well Plate 200 µL PCR on 7
+	Transferring 10.0 from B2 of Corning 96 Well Plate 360 µL Flat on 8 to H7 of Bio-Rad 96 Well Plate 200 µL PCR on 7
+		Picking up tip from B7 of Opentrons OT-2 96 Tip Rack 20 µL on 6
+		Aspirating 11.0 uL from B2 of Corning 96 Well Plate 360 µL Flat on 8 at 7.56 uL/sec
+		Dispensing 10.0 uL into H7 of Bio-Rad 96 Well Plate 200 µL PCR on 7 at 7.56 uL/sec
+		Blowing out at A1 of Opentrons Fixed Trash on 12
+		Aspirating 11.0 uL from B2 of Corning 96 Well Plate 360 µL Flat on 8 at 7.56 uL/sec
+		Dispensing 10.0 uL into B8 of Bio-Rad 96 Well Plate 200 µL PCR on 7 at 7.56 uL/sec
+		Blowing out at A1 of Opentrons Fixed Trash on 12
+		Aspirating 11.0 uL from B2 of Corning 96 Well Plate 360 µL Flat on 8 at 7.56 uL/sec
+		Dispensing 10.0 uL into D8 of Bio-Rad 96 Well Plate 200 µL PCR on 7 at 7.56 uL/sec
+		Blowing out at A1 of Opentrons Fixed Trash on 12
+		Dropping tip into A1 of Opentrons Fixed Trash on 12
+Distributing 10.0 from C2 of Corning 96 Well Plate 360 µL Flat on 8 to E8 of Bio-Rad 96 Well Plate 200 µL PCR on 7
+	Transferring 10.0 from C2 of Corning 96 Well Plate 360 µL Flat on 8 to E8 of Bio-Rad 96 Well Plate 200 µL PCR on 7
+		Picking up tip from C7 of Opentrons OT-2 96 Tip Rack 20 µL on 6
+		Aspirating 11.0 uL from C2 of Corning 96 Well Plate 360 µL Flat on 8 at 7.56 uL/sec
+		Dispensing 10.0 uL into E8 of Bio-Rad 96 Well Plate 200 µL PCR on 7 at 7.56 uL/sec
+		Blowing out at A1 of Opentrons Fixed Trash on 12
+		Aspirating 11.0 uL from C2 of Corning 96 Well Plate 360 µL Flat on 8 at 7.56 uL/sec
+		Dispensing 10.0 uL into G8 of Bio-Rad 96 Well Plate 200 µL PCR on 7 at 7.56 uL/sec
+		Blowing out at A1 of Opentrons Fixed Trash on 12
+		Aspirating 11.0 uL from C2 of Corning 96 Well Plate 360 µL Flat on 8 at 7.56 uL/sec
+		Dispensing 10.0 uL into A9 of Bio-Rad 96 Well Plate 200 µL PCR on 7 at 7.56 uL/sec
+		Blowing out at A1 of Opentrons Fixed Trash on 12
+		Dropping tip into A1 of Opentrons Fixed Trash on 12
+Distributing 10.0 from C2 of Corning 96 Well Plate 360 µL Flat on 8 to F8 of Bio-Rad 96 Well Plate 200 µL PCR on 7
+	Transferring 10.0 from C2 of Corning 96 Well Plate 360 µL Flat on 8 to F8 of Bio-Rad 96 Well Plate 200 µL PCR on 7
+		Picking up tip from D7 of Opentrons OT-2 96 Tip Rack 20 µL on 6
+		Aspirating 11.0 uL from C2 of Corning 96 Well Plate 360 µL Flat on 8 at 7.56 uL/sec
+		Dispensing 10.0 uL into F8 of Bio-Rad 96 Well Plate 200 µL PCR on 7 at 7.56 uL/sec
+		Blowing out at A1 of Opentrons Fixed Trash on 12
+		Aspirating 11.0 uL from C2 of Corning 96 Well Plate 360 µL Flat on 8 at 7.56 uL/sec
+		Dispensing 10.0 uL into H8 of Bio-Rad 96 Well Plate 200 µL PCR on 7 at 7.56 uL/sec
+		Blowing out at A1 of Opentrons Fixed Trash on 12
+		Aspirating 11.0 uL from C2 of Corning 96 Well Plate 360 µL Flat on 8 at 7.56 uL/sec
+		Dispensing 10.0 uL into B9 of Bio-Rad 96 Well Plate 200 µL PCR on 7 at 7.56 uL/sec
+		Blowing out at A1 of Opentrons Fixed Trash on 12
+		Dropping tip into A1 of Opentrons Fixed Trash on 12
+Distributing 10.0 from D2 of Corning 96 Well Plate 360 µL Flat on 8 to C9 of Bio-Rad 96 Well Plate 200 µL PCR on 7
+	Transferring 10.0 from D2 of Corning 96 Well Plate 360 µL Flat on 8 to C9 of Bio-Rad 96 Well Plate 200 µL PCR on 7
+		Picking up tip from E7 of Opentrons OT-2 96 Tip Rack 20 µL on 6
+		Aspirating 11.0 uL from D2 of Corning 96 Well Plate 360 µL Flat on 8 at 7.56 uL/sec
+		Dispensing 10.0 uL into C9 of Bio-Rad 96 Well Plate 200 µL PCR on 7 at 7.56 uL/sec
+		Blowing out at A1 of Opentrons Fixed Trash on 12
+		Aspirating 11.0 uL from D2 of Corning 96 Well Plate 360 µL Flat on 8 at 7.56 uL/sec
+		Dispensing 10.0 uL into E9 of Bio-Rad 96 Well Plate 200 µL PCR on 7 at 7.56 uL/sec
+		Blowing out at A1 of Opentrons Fixed Trash on 12
+		Aspirating 11.0 uL from D2 of Corning 96 Well Plate 360 µL Flat on 8 at 7.56 uL/sec
+		Dispensing 10.0 uL into G9 of Bio-Rad 96 Well Plate 200 µL PCR on 7 at 7.56 uL/sec
+		Blowing out at A1 of Opentrons Fixed Trash on 12
+		Dropping tip into A1 of Opentrons Fixed Trash on 12
+Distributing 10.0 from D2 of Corning 96 Well Plate 360 µL Flat on 8 to D9 of Bio-Rad 96 Well Plate 200 µL PCR on 7
+	Transferring 10.0 from D2 of Corning 96 Well Plate 360 µL Flat on 8 to D9 of Bio-Rad 96 Well Plate 200 µL PCR on 7
+		Picking up tip from F7 of Opentrons OT-2 96 Tip Rack 20 µL on 6
+		Aspirating 11.0 uL from D2 of Corning 96 Well Plate 360 µL Flat on 8 at 7.56 uL/sec
+		Dispensing 10.0 uL into D9 of Bio-Rad 96 Well Plate 200 µL PCR on 7 at 7.56 uL/sec
+		Blowing out at A1 of Opentrons Fixed Trash on 12
+		Aspirating 11.0 uL from D2 of Corning 96 Well Plate 360 µL Flat on 8 at 7.56 uL/sec
+		Dispensing 10.0 uL into F9 of Bio-Rad 96 Well Plate 200 µL PCR on 7 at 7.56 uL/sec
+		Blowing out at A1 of Opentrons Fixed Trash on 12
+		Aspirating 11.0 uL from D2 of Corning 96 Well Plate 360 µL Flat on 8 at 7.56 uL/sec
+		Dispensing 10.0 uL into H9 of Bio-Rad 96 Well Plate 200 µL PCR on 7 at 7.56 uL/sec
+		Blowing out at A1 of Opentrons Fixed Trash on 12
+		Dropping tip into A1 of Opentrons Fixed Trash on 12
+Distributing 10.0 from E2 of Corning 96 Well Plate 360 µL Flat on 8 to A10 of Bio-Rad 96 Well Plate 200 µL PCR on 7
+	Transferring 10.0 from E2 of Corning 96 Well Plate 360 µL Flat on 8 to A10 of Bio-Rad 96 Well Plate 200 µL PCR on 7
+		Picking up tip from G7 of Opentrons OT-2 96 Tip Rack 20 µL on 6
+		Aspirating 11.0 uL from E2 of Corning 96 Well Plate 360 µL Flat on 8 at 7.56 uL/sec
+		Dispensing 10.0 uL into A10 of Bio-Rad 96 Well Plate 200 µL PCR on 7 at 7.56 uL/sec
+		Blowing out at A1 of Opentrons Fixed Trash on 12
+		Aspirating 11.0 uL from E2 of Corning 96 Well Plate 360 µL Flat on 8 at 7.56 uL/sec
+		Dispensing 10.0 uL into C10 of Bio-Rad 96 Well Plate 200 µL PCR on 7 at 7.56 uL/sec
+		Blowing out at A1 of Opentrons Fixed Trash on 12
+		Aspirating 11.0 uL from E2 of Corning 96 Well Plate 360 µL Flat on 8 at 7.56 uL/sec
+		Dispensing 10.0 uL into E10 of Bio-Rad 96 Well Plate 200 µL PCR on 7 at 7.56 uL/sec
+		Blowing out at A1 of Opentrons Fixed Trash on 12
+		Dropping tip into A1 of Opentrons Fixed Trash on 12
+Distributing 10.0 from E2 of Corning 96 Well Plate 360 µL Flat on 8 to B10 of Bio-Rad 96 Well Plate 200 µL PCR on 7
+	Transferring 10.0 from E2 of Corning 96 Well Plate 360 µL Flat on 8 to B10 of Bio-Rad 96 Well Plate 200 µL PCR on 7
+		Picking up tip from H7 of Opentrons OT-2 96 Tip Rack 20 µL on 6
+		Aspirating 11.0 uL from E2 of Corning 96 Well Plate 360 µL Flat on 8 at 7.56 uL/sec
+		Dispensing 10.0 uL into B10 of Bio-Rad 96 Well Plate 200 µL PCR on 7 at 7.56 uL/sec
+		Blowing out at A1 of Opentrons Fixed Trash on 12
+		Aspirating 11.0 uL from E2 of Corning 96 Well Plate 360 µL Flat on 8 at 7.56 uL/sec
+		Dispensing 10.0 uL into D10 of Bio-Rad 96 Well Plate 200 µL PCR on 7 at 7.56 uL/sec
+		Blowing out at A1 of Opentrons Fixed Trash on 12
+		Aspirating 11.0 uL from E2 of Corning 96 Well Plate 360 µL Flat on 8 at 7.56 uL/sec
+		Dispensing 10.0 uL into F10 of Bio-Rad 96 Well Plate 200 µL PCR on 7 at 7.56 uL/sec
+		Blowing out at A1 of Opentrons Fixed Trash on 12
+		Dropping tip into A1 of Opentrons Fixed Trash on 12
+Distributing 10.0 from F2 of Corning 96 Well Plate 360 µL Flat on 8 to G10 of Bio-Rad 96 Well Plate 200 µL PCR on 7
+	Transferring 10.0 from F2 of Corning 96 Well Plate 360 µL Flat on 8 to G10 of Bio-Rad 96 Well Plate 200 µL PCR on 7
+		Picking up tip from A8 of Opentrons OT-2 96 Tip Rack 20 µL on 6
+		Aspirating 11.0 uL from F2 of Corning 96 Well Plate 360 µL Flat on 8 at 7.56 uL/sec
+		Dispensing 10.0 uL into G10 of Bio-Rad 96 Well Plate 200 µL PCR on 7 at 7.56 uL/sec
+		Blowing out at A1 of Opentrons Fixed Trash on 12
+		Aspirating 11.0 uL from F2 of Corning 96 Well Plate 360 µL Flat on 8 at 7.56 uL/sec
+		Dispensing 10.0 uL into H10 of Bio-Rad 96 Well Plate 200 µL PCR on 7 at 7.56 uL/sec
+		Blowing out at A1 of Opentrons Fixed Trash on 12
+		Aspirating 11.0 uL from F2 of Corning 96 Well Plate 360 µL Flat on 8 at 7.56 uL/sec
+		Dispensing 10.0 uL into A11 of Bio-Rad 96 Well Plate 200 µL PCR on 7 at 7.56 uL/sec
+		Blowing out at A1 of Opentrons Fixed Trash on 12
+		Dropping tip into A1 of Opentrons Fixed Trash on 12

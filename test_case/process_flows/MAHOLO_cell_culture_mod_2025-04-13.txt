@@ -1,0 +1,33 @@
+# Purpose
+Conduct the Mahoro experiment as part of the FF paper. This experiment documents the natural language version in order to generate an object list and initial configuration from natural language.
+
+# Available materials (any number of them)
+## "labware"
+### "name"
+- "50 ml tube"
+- "6-well plate"
+- "1.5 mL tube"
+
+## "init_content"
+- "PBS"
+- "medium"
+- "trypsin"
+- "HEK293A cells"
+
+# Plan
+## Completed Pre-Work (-2 days)
+- HEK293A cells have been seeded into one well of a 6-well plate at a density of 1×10⁵ cells per well and cultured in a CO₂ incubator (37°C, 5%).
+
+## (Day 0)
+- Perform microscopic observation to assess the state of the cells, then carry out the following passage procedures:
+  1. Prepare PBS (30 mL in a 50 mL tube), medium (30 mL in a 50 mL tube), and trypsin (30 mL in a 50 mL tube).
+  2. Heat the PBS and medium in an aluminum bath at 37°C for 15 minutes.
+  3. Remove the 6-well plate from the CO₂ incubator and aspirate the medium from the well containing the cells.
+  4. Add 2 mL of PBS.
+  5. Aspirate and remove the added PBS.
+  6. Add 1.5 mL of trypsin and incubate in the CO₂ incubator (37°C, 5%) for 10 minutes.
+  7. Add an additional 1.5 mL of medium to the incubated well and pipette to suspend the cells.
+  8. In a new 6-well plate, add 2.625 μL of medium to one well.
+  9. Add 375 μL of the cell suspension prepared in step (7) to the well from step (8) and tilt the plate to mix.
+  10. Place the plate into the CO₂ incubator (37°C, 5%).
+  11. Aspirate and discard the cell suspension from the old plate and from the 1.5 mL tube, then dispose of both the plate and the tube.

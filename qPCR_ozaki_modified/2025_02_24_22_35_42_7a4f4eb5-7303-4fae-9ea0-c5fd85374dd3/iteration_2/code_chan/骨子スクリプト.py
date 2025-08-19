@@ -1,0 +1,135 @@
+from opentrons import protocol_api
+
+metadata = {
+    'protocolName': 'QPCR Preparation with Opentrons OT-2',
+    'author': 'Your Name',
+    'description': 'Prepare QPCR samples with sample DNA, primers, and PCR mix',
+    'apiLevel': '2.9'
+}
+
+def run(protocol: protocol_api.ProtocolContext):
+    # Labware setup
+    # Load tip racks
+    tiprack_20 = protocol.load_labware('opentrons_96_tiprack_20ul', '__place_1__')
+    tiprack_300 = protocol.load_labware('opentrons_96_tiprack_300ul', '__place_2__')
+
+    # Load sample DNA and water tubes
+    sample_tubes = protocol.load_labware('opentrons_24_tuberack_nest_1.5ml_snapcap', '__place_3__')
+
+    # Load primer plate (primers F and R in a 96 well plate)
+    primer_plate = protocol.load_labware('nest_96_wellplate_2ml_deep', '__place_4__')  # Deep well plate
+
+    # Load PCR MIX reservoir
+    pcr_mix_reservoir = protocol.load_labware('nest_12_reservoir_15ml', '__place_5__')
+
+    # Mixing plate for PCR MIX + primers
+    mixing_plate = protocol.load_labware('nest_96_wellplate_2ml_deep', '__place_6__')  # Deep well plate for mixing
+
+    # Output 96 well PCR reaction plate
+    pcr_plate = protocol.load_labware('biorad_96_wellplate_200ul_pcr', '__place_7__')
+
+    # Load pipettes
+    p20 = protocol.load_instrument('p20_single_gen2', 'left', tip_racks=[tiprack_20])
+    p300 = protocol.load_instrument('p300_single_gen2', 'right', tip_racks=[tiprack_300])
+
+    # Reagents
+    sample_dna = sample_tubes.wells_by_name()['A1']
+    water = sample_tubes.wells_by_name()['B1']
+    pcr_mix = pcr_mix_reservoir.wells()[0]
+
+    # Procedure
+
+    # Step 1: Dispense 137.6 μL of PCR MIX into 13 wells in mixing_plate
+    for i in range(13):
+        dest_well = mixing_plate.wells()[i]
+        p300.pick_up_tip()
+        p300.transfer(137.6, pcr_mix, dest_well, new_tip='never')
+        p300.drop_tip()
+
+    # Step 2 & 3: Add 3.2 μL of primer_F and primer_R to respective PCR MIX wells
+    for i in range(13):
+        mix_well = mixing_plate.wells()[i]
+        primer_f_well = primer_plate.wells()[i]  # Forward primers in column 1-13
+        primer_r_well = primer_plate.wells()[i + 13]  # Reverse primers in column 14-26
+        p20.pick_up_tip()
+        p20.transfer(3.2, primer_f_well, mix_well, new_tip='never')
+        p20.drop_tip()
+        p20.pick_up_tip()
+        p20.transfer(3.2, primer_r_well, mix_well, new_tip='never')
+        p20.drop_tip()
+
+    # Step 4: Mix the PCR MIX and primers by pipetting
+    for i in range(13):
+        mix_well = mixing_plate.wells()[i]
+        p300.pick_up_tip()
+        p300.mix(5, 100, mix_well)
+        p300.drop_tip()
+
+    # Step 5: For "template only" control, dispense 86 μL of PCR MIX into a new well
+    template_only_well = mixing_plate.wells()[13]
+    p300.pick_up_tip()
+    p300.transfer(86, pcr_mix, template_only_well, new_tip='never')
+    p300.drop_tip()
+
+    # Step 6: Add 4 μL of water to the "template only" PCR MIX
+    p20.pick_up_tip()
+    p20.transfer(4, water, template_only_well, new_tip='never')
+    p20.drop_tip()
+
+    # Step 7: Mix the "template only" PCR MIX and water by pipetting
+    p300.pick_up_tip()
+    p300.mix(5, 80, template_only_well)
+    p300.drop_tip()
+
+    # Step 8: Apply 5 μL of sample DNA or water (for NTC) to each well in the reaction plate
+    well_counter = 0
+    for primer_index in range(13):
+        # Sample DNA wells (triplicates)
+        for replicate in range(3):
+            dest_well = pcr_plate.wells()[well_counter]
+            p20.pick_up_tip()
+            p20.transfer(5, sample_dna, dest_well, new_tip='never')
+            p20.drop_tip()
+            well_counter += 1
+        # NTC wells (triplicates)
+        for replicate in range(3):
+            dest_well = pcr_plate.wells()[well_counter]
+            p20.pick_up_tip()
+            p20.transfer(5, water, dest_well, new_tip='never')
+            p20.drop_tip()
+            well_counter += 1
+
+    # Template only wells (triplicates)
+    for replicate in range(3):
+        dest_well = pcr_plate.wells()[well_counter]
+        p20.pick_up_tip()
+        p20.transfer(5, sample_dna, dest_well, new_tip='never')
+        p20.drop_tip()
+        well_counter += 1
+
+    # Step 9: Apply 10 μL of the PCR MIX + primers to each well in the reaction plate
+    well_counter = 0
+    for primer_index in range(13):
+        mix_well = mixing_plate.wells()[primer_index]
+        # Add to sample DNA wells
+        for replicate in range(3):
+            dest_well = pcr_plate.wells()[well_counter]
+            p20.pick_up_tip()
+            p20.transfer(10, mix_well, dest_well, new_tip='never')
+            p20.drop_tip()
+            well_counter += 1
+        # Add to NTC wells
+        for replicate in range(3):
+            dest_well = pcr_plate.wells()[well_counter]
+            p20.pick_up_tip()
+            p20.transfer(10, mix_well, dest_well, new_tip='never')
+            p20.drop_tip()
+            well_counter += 1
+
+    # Add PCR MIX for template only wells
+    for replicate in range(3):
+        dest_well = pcr_plate.wells()[well_counter]
+        p20.pick_up_tip()
+        p20.transfer(10, template_only_well, dest_well, new_tip='never')
+        p20.drop_tip()
+        well_counter += 1

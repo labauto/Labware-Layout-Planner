@@ -1,0 +1,14 @@
+
+We have the following Opentrons OT2 script. This script describes the position of the labware (Station) as __place_{i}__.
+
+Skeleton script:
+
+python
+___skeleton_script___
+Please generate a script where __place_{i}__ is replaced with the correct position based on the following labware placement information.
+
+Placement information:
+
+markdown
+[[[{"name": "PCR MIX tube", "quantity": 221, "init_content": "", "labware": {"id": 1, "name": "tube"}, "unit": "\u03bcL"}, []], 1], [[{"name": "10 \u03bcM primer_F1-4 tube", "quantity": 19.5, "init_content": "", "labware": {"id": 1, "name": "tube"}, "unit": "\u03bcL"}, []], 2], [[{"name": "10 \u03bcM primer_R1-4 tube", "quantity": 19.5, "init_content": "", "labware": {"id": 1, "name": "tube"}, "unit": "\u03bcL"}, []], 3], [[{"name": "sample DNA or water", "quantity": 5, "init_content": "", "labware": {"id": 2, "name": "96-well PCR plate"}, "unit": "\u03bcL"}, []], 5], [[{"name": "PCR MIX and primer mixture", "quantity": 10, "init_content": "", "labware": {"id": 2, "name": "96-well PCR plate"}, "unit": "\u03bcL"}, []], 6]]
+Please reply with the Python script where __place_{i}__ has been replaced with the correct locations. If there is missing information in the placement details required to fill in __place_{i}__ in the skeleton script, you may supplement it as necessary. However, do not modify the placement information.

@@ -1,0 +1,35 @@
+/Users/yuyaarai/.opentrons/robot_settings.json not found. Loading defaults
+Deck calibration not found.
+/Users/yuyaarai/.opentrons/deck_calibration.json not found. Loading defaults
+Traceback (most recent call last):
+  File "/Users/yuyaarai/Documents/Humanics/Project/FormationFormatter/src/formationformatter/code_chan/.venv/lib/python3.12/site-packages/opentrons/protocols/execution/execute_python.py", line 160, in exec_run
+    exec("run(__context)", new_globs)
+  File "<string>", line 1, in <module>
+  File "qPCR_ozaki_modified/2025_02_24_22_35_42_7a4f4eb5-7303-4fae-9ea0-c5fd85374dd3/iteration_6/code_chan/最終スクリプト.py", line 46, in run
+    p20.transfer(3.2, primer_f_wells[i], mix_tube_wells[i], new_tip='never', mix_after=(3, 15))
+                      ~~~~~~~~~~~~~~^^^
+IndexError: list index out of range
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/Users/yuyaarai/Documents/Humanics/Project/FormationFormatter/src/formationformatter/code_chan/.venv/lib/python3.12/site-packages/opentrons/simulate.py", line 1061, in <module>
+    sys.exit(main())
+             ^^^^^^
+  File "/Users/yuyaarai/Documents/Humanics/Project/FormationFormatter/src/formationformatter/code_chan/.venv/lib/python3.12/site-packages/opentrons/simulate.py", line 1020, in main
+    runlog, maybe_bundle = simulate(
+                           ^^^^^^^^^
+  File "/Users/yuyaarai/Documents/Humanics/Project/FormationFormatter/src/formationformatter/code_chan/.venv/lib/python3.12/site-packages/opentrons/simulate.py", line 564, in simulate
+    return _run_file_non_pe(
+           ^^^^^^^^^^^^^^^^^
+  File "/Users/yuyaarai/Documents/Humanics/Project/FormationFormatter/src/formationformatter/code_chan/.venv/lib/python3.12/site-packages/opentrons/simulate.py", line 887, in _run_file_non_pe
+    execute.run_protocol(
+  File "/Users/yuyaarai/Documents/Humanics/Project/FormationFormatter/src/formationformatter/code_chan/.venv/lib/python3.12/site-packages/opentrons/protocols/execution/execute.py", line 39, in run_protocol
+    exec_run(
+  File "/Users/yuyaarai/Documents/Humanics/Project/FormationFormatter/src/formationformatter/code_chan/.venv/lib/python3.12/site-packages/opentrons/protocols/execution/execute_python.py", line 169, in exec_run
+    _raise_pretty_protocol_error(exception=e, filename=filename)
+  File "/Users/yuyaarai/Documents/Humanics/Project/FormationFormatter/src/formationformatter/code_chan/.venv/lib/python3.12/site-packages/opentrons/protocols/execution/execute_python.py", line 71, in _raise_pretty_protocol_error
+    raise ExceptionInProtocolError(
+opentrons.protocols.execution.errors.ExceptionInProtocolError: IndexError [line 46]: list index out of range

@@ -1,0 +1,60 @@
+サンプル数・プライマー数
+サンプル数を減らしてプライマーを増やすとかはできる（あまり大規模な変更でなければ）
+ヒト標準cDNAに対して森本研のヒト用プライマー（13セット）を使用してみるのが良いのでは？
+n=3で実施する（NTCも3 well）
+primerなし＝templateのみも置く
+13 * 3 * 1 + 13 * 3 * 1 (NTC) + 3 * 1 (Templateのみ) = 81 well
+比率
+| 試薬 | 使用量 | 使用量 | 最終濃度 |
+| --- | --- | --- | --- |
+| TB Green Premix Ex Taq GC (2×) | 10 μl | 25 μl | 1× |
+| PCR Forward Primer (10 μM) | 0.4 μl | 1 μl | 0.2 μM*1 |
+| PCR Reverse Primer (10 μM) | 0.4 μl | 1 μl | 0.2 μM*1 |
+| ROX Reference Dye (50×) or Dye II (50×)*2 | 0.4 μl | 1 μl | 1× |
+| template | 2 μl | 4 μl | *3 |
+| 滅菌精製水 | 6.8 μl | 18 μl |  |
+| Total | 20 μl*4 | 50 μl*4 |  |
+
+
+入力プロトコル
+
+
+QPCR
+QuantStudio 6 Proで測定するサンプルprepを行う
+1サンプルあってそれぞれ13プライマー x duplicate(3)で試験するイメージ
+NTCは13プライマー x duplicate(3)用意する
+その他、PrimerなしのTemplateのみを1 x duplicate(3)用意する
+
+
+Input：試薬類の容器はチューブまたはプレート
+1 sample DNAs			300 μL
+water					300 μL
+10 μM primer_F			各10 μL
+10 μM primer_R			各10 μL
+PCR MIX				2000 μL
+96 well PCR  plate			1 plate
+その他液体混合に必要なチューブまたはプレートなど
+output
+sample DNA, primer, PCR MIXの混合溶液が入った96 well PCR plate x 1
+procedure
+1. PCR MIXを137.6 μLずつ13個に分注する
+2. PCR MIXが入ったチューブに10 μM primer_F1-13を3.2 μL添加する
+3. PCR MIXが入ったチューブに10 μM primer_R1-13を3.2 μL添加する
+4. PCR MIXとprimerをピペッティングで混合する
+5. templateのみ用のPCR MIXを86 μL分注する
+6. templateのみ用のPCR MIXにwaterを4 μL添加する
+7. templateのみ用のPCR MIXとwaterをピペッティングで混合する
+8. サンプル DNAまたはwater をreaction plateに5 μLずつアプライする
+下記plate mapの列を埋めていくイメージ
+9. PCR MIXとprimerの混合溶液を10 μLずつreaction plateにアプライする
+下記plate mapの行を埋めていくイメージ
+plate map
+81 well使用する
+S_n = sample_n
+今回はヒト標準cDNA1つ
+NTC = no template control：水＝ネガティブコントロール（全primerについて置く）
+P_m = primer set_m：forward primerとreverse primerのセット
+今回は13種類
+Templateのみも置く
+OT-2のピペット
+20 μLと300 μL 

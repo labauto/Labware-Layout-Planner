@@ -1,0 +1,22 @@
+[
+  {
+    "labware_id": 1,
+    "restriction_type": "adjacent",
+    "adjacent_type": "grid",
+    "neighbour_types": [2, 3],
+    "description": "上下4マスに隣接しない"
+  },
+  {
+    "labware_id": 2,
+    "restriction_type": "adjacent",
+    "adjacent_type": "around",
+    "neighbour_types": [2, 3],
+    "description": "周囲8マスに隣接しない"
+  },
+  {
+    "labware_id": 2,
+    "restriction_type": "air_superiority",
+    "neighbour_types": [2, 3],
+    "description": "labware_id は neighbour_types の上を通ってはいけない"
+  }
+]

@@ -1,0 +1,1462 @@
+[
+    [
+        [
+            [
+                {
+                    "name": "1 sample DNA tube",
+                    "quantity": 300,
+                    "init_content": "sample DNA",
+                    "labware": {
+                        "id": 1,
+                        "name": "tube_1_5_ml"
+                    },
+                    "unit": "ul"
+                },
+                []
+            ],
+            1
+        ],
+        [
+            [
+                {
+                    "name": "water tube",
+                    "quantity": 300,
+                    "init_content": "water",
+                    "labware": {
+                        "id": 1,
+                        "name": "tube_1_5_ml"
+                    },
+                    "unit": "ul"
+                },
+                []
+            ],
+            2
+        ],
+        [
+            [
+                {
+                    "name": "10 uM forward primer tube",
+                    "quantity": 130,
+                    "init_content": "",
+                    "labware": {
+                        "id": 1,
+                        "name": "tube_1_5_ml"
+                    },
+                    "unit": "ul"
+                },
+                []
+            ],
+            3
+        ],
+        [
+            [
+                {
+                    "name": "10 uM reverse primer tube",
+                    "quantity": 130,
+                    "init_content": "",
+                    "labware": {
+                        "id": 1,
+                        "name": "tube_1_5_ml"
+                    },
+                    "unit": "ul"
+                },
+                []
+            ],
+            4
+        ],
+        [
+            [
+                {
+                    "name": "PCR MIX tube",
+                    "quantity": 2000,
+                    "init_content": "PCR MIX",
+                    "labware": {
+                        "id": 1,
+                        "name": "tube_1_5_ml"
+                    },
+                    "unit": "ul"
+                },
+                []
+            ],
+            5
+        ],
+        [
+            [
+                {
+                    "name": "96 well PCR plate",
+                    "quantity": 1,
+                    "init_content": "",
+                    "labware": {
+                        "id": 2,
+                        "name": "corning_96_wellplate_360ul_flat"
+                    },
+                    "unit": ""
+                },
+                []
+            ],
+            6
+        ],
+        [
+            [
+                {
+                    "name": "template-only PCR MIX tube",
+                    "quantity": 86,
+                    "init_content": "template-only PCR MIX",
+                    "labware": {
+                        "id": 1,
+                        "name": "tube_1_5_ml"
+                    },
+                    "unit": "ul"
+                },
+                []
+            ],
+            7
+        ],
+        [
+            [
+                {
+                    "name": "water tube for template-only PCR MIX",
+                    "quantity": 4,
+                    "init_content": "water",
+                    "labware": {
+                        "id": 1,
+                        "name": "tube_1_5_ml"
+                    },
+                    "unit": "ul"
+                },
+                []
+            ],
+            8
+        ],
+        [
+            [
+                {
+                    "name": "template PCR plate",
+                    "quantity": 1,
+                    "init_content": "",
+                    "labware": {
+                        "id": 2,
+                        "name": "corning_96_wellplate_360ul_flat"
+                    },
+                    "unit": ""
+                },
+                []
+            ],
+            9
+        ]
+    ],
+    [
+        [
+            [
+                {
+                    "name": "1 sample DNA tube",
+                    "quantity": 300,
+                    "init_content": "sample DNA",
+                    "labware": {
+                        "id": 1,
+                        "name": "tube_1_5_ml"
+                    },
+                    "unit": "ul"
+                },
+                []
+            ],
+            1
+        ],
+        [
+            [
+                {
+                    "name": "water tube",
+                    "quantity": 300,
+                    "init_content": "water",
+                    "labware": {
+                        "id": 1,
+                        "name": "tube_1_5_ml"
+                    },
+                    "unit": "ul"
+                },
+                []
+            ],
+            2
+        ],
+        [
+            [
+                {
+                    "name": "10 uM forward primer tube",
+                    "quantity": 130,
+                    "init_content": "",
+                    "labware": {
+                        "id": 1,
+                        "name": "tube_1_5_ml"
+                    },
+                    "unit": "ul"
+                },
+                []
+            ],
+            3
+        ],
+        [
+            [
+                {
+                    "name": "10 uM reverse primer tube",
+                    "quantity": 130,
+                    "init_content": "",
+                    "labware": {
+                        "id": 1,
+                        "name": "tube_1_5_ml"
+                    },
+                    "unit": "ul"
+                },
+                []
+            ],
+            4
+        ],
+        [
+            [
+                {
+                    "name": "PCR MIX tube",
+                    "quantity": 2000,
+                    "init_content": "PCR MIX",
+                    "labware": {
+                        "id": 1,
+                        "name": "tube_1_5_ml"
+                    },
+                    "unit": "ul"
+                },
+                []
+            ],
+            5
+        ],
+        [
+            [
+                {
+                    "name": "96 well PCR plate",
+                    "quantity": 1,
+                    "init_content": "",
+                    "labware": {
+                        "id": 2,
+                        "name": "corning_96_wellplate_360ul_flat"
+                    },
+                    "unit": ""
+                },
+                []
+            ],
+            6
+        ],
+        [
+            [
+                {
+                    "name": "template-only PCR MIX tube",
+                    "quantity": 86,
+                    "init_content": "template-only PCR MIX",
+                    "labware": {
+                        "id": 1,
+                        "name": "tube_1_5_ml"
+                    },
+                    "unit": "ul"
+                },
+                []
+            ],
+            7
+        ],
+        [
+            [
+                {
+                    "name": "water tube for template-only PCR MIX",
+                    "quantity": 4,
+                    "init_content": "water",
+                    "labware": {
+                        "id": 1,
+                        "name": "tube_1_5_ml"
+                    },
+                    "unit": "ul"
+                },
+                []
+            ],
+            8
+        ],
+        [
+            [
+                {
+                    "name": "template PCR plate",
+                    "quantity": 1,
+                    "init_content": "",
+                    "labware": {
+                        "id": 2,
+                        "name": "corning_96_wellplate_360ul_flat"
+                    },
+                    "unit": ""
+                },
+                []
+            ],
+            10
+        ]
+    ],
+    [
+        [
+            [
+                {
+                    "name": "1 sample DNA tube",
+                    "quantity": 300,
+                    "init_content": "sample DNA",
+                    "labware": {
+                        "id": 1,
+                        "name": "tube_1_5_ml"
+                    },
+                    "unit": "ul"
+                },
+                []
+            ],
+            1
+        ],
+        [
+            [
+                {
+                    "name": "water tube",
+                    "quantity": 300,
+                    "init_content": "water",
+                    "labware": {
+                        "id": 1,
+                        "name": "tube_1_5_ml"
+                    },
+                    "unit": "ul"
+                },
+                []
+            ],
+            2
+        ],
+        [
+            [
+                {
+                    "name": "10 uM forward primer tube",
+                    "quantity": 130,
+                    "init_content": "",
+                    "labware": {
+                        "id": 1,
+                        "name": "tube_1_5_ml"
+                    },
+                    "unit": "ul"
+                },
+                []
+            ],
+            3
+        ],
+        [
+            [
+                {
+                    "name": "10 uM reverse primer tube",
+                    "quantity": 130,
+                    "init_content": "",
+                    "labware": {
+                        "id": 1,
+                        "name": "tube_1_5_ml"
+                    },
+                    "unit": "ul"
+                },
+                []
+            ],
+            4
+        ],
+        [
+            [
+                {
+                    "name": "PCR MIX tube",
+                    "quantity": 2000,
+                    "init_content": "PCR MIX",
+                    "labware": {
+                        "id": 1,
+                        "name": "tube_1_5_ml"
+                    },
+                    "unit": "ul"
+                },
+                []
+            ],
+            5
+        ],
+        [
+            [
+                {
+                    "name": "96 well PCR plate",
+                    "quantity": 1,
+                    "init_content": "",
+                    "labware": {
+                        "id": 2,
+                        "name": "corning_96_wellplate_360ul_flat"
+                    },
+                    "unit": ""
+                },
+                []
+            ],
+            6
+        ],
+        [
+            [
+                {
+                    "name": "template-only PCR MIX tube",
+                    "quantity": 86,
+                    "init_content": "template-only PCR MIX",
+                    "labware": {
+                        "id": 1,
+                        "name": "tube_1_5_ml"
+                    },
+                    "unit": "ul"
+                },
+                []
+            ],
+            7
+        ],
+        [
+            [
+                {
+                    "name": "water tube for template-only PCR MIX",
+                    "quantity": 4,
+                    "init_content": "water",
+                    "labware": {
+                        "id": 1,
+                        "name": "tube_1_5_ml"
+                    },
+                    "unit": "ul"
+                },
+                []
+            ],
+            8
+        ],
+        [
+            [
+                {
+                    "name": "template PCR plate",
+                    "quantity": 1,
+                    "init_content": "",
+                    "labware": {
+                        "id": 2,
+                        "name": "corning_96_wellplate_360ul_flat"
+                    },
+                    "unit": ""
+                },
+                []
+            ],
+            11
+        ]
+    ],
+    [
+        [
+            [
+                {
+                    "name": "1 sample DNA tube",
+                    "quantity": 300,
+                    "init_content": "sample DNA",
+                    "labware": {
+                        "id": 1,
+                        "name": "tube_1_5_ml"
+                    },
+                    "unit": "ul"
+                },
+                []
+            ],
+            1
+        ],
+        [
+            [
+                {
+                    "name": "water tube",
+                    "quantity": 300,
+                    "init_content": "water",
+                    "labware": {
+                        "id": 1,
+                        "name": "tube_1_5_ml"
+                    },
+                    "unit": "ul"
+                },
+                []
+            ],
+            2
+        ],
+        [
+            [
+                {
+                    "name": "10 uM forward primer tube",
+                    "quantity": 130,
+                    "init_content": "",
+                    "labware": {
+                        "id": 1,
+                        "name": "tube_1_5_ml"
+                    },
+                    "unit": "ul"
+                },
+                []
+            ],
+            3
+        ],
+        [
+            [
+                {
+                    "name": "10 uM reverse primer tube",
+                    "quantity": 130,
+                    "init_content": "",
+                    "labware": {
+                        "id": 1,
+                        "name": "tube_1_5_ml"
+                    },
+                    "unit": "ul"
+                },
+                []
+            ],
+            4
+        ],
+        [
+            [
+                {
+                    "name": "PCR MIX tube",
+                    "quantity": 2000,
+                    "init_content": "PCR MIX",
+                    "labware": {
+                        "id": 1,
+                        "name": "tube_1_5_ml"
+                    },
+                    "unit": "ul"
+                },
+                []
+            ],
+            5
+        ],
+        [
+            [
+                {
+                    "name": "96 well PCR plate",
+                    "quantity": 1,
+                    "init_content": "",
+                    "labware": {
+                        "id": 2,
+                        "name": "corning_96_wellplate_360ul_flat"
+                    },
+                    "unit": ""
+                },
+                []
+            ],
+            6
+        ],
+        [
+            [
+                {
+                    "name": "template-only PCR MIX tube",
+                    "quantity": 86,
+                    "init_content": "template-only PCR MIX",
+                    "labware": {
+                        "id": 1,
+                        "name": "tube_1_5_ml"
+                    },
+                    "unit": "ul"
+                },
+                []
+            ],
+            7
+        ],
+        [
+            [
+                {
+                    "name": "water tube for template-only PCR MIX",
+                    "quantity": 4,
+                    "init_content": "water",
+                    "labware": {
+                        "id": 1,
+                        "name": "tube_1_5_ml"
+                    },
+                    "unit": "ul"
+                },
+                []
+            ],
+            8
+        ],
+        [
+            [
+                {
+                    "name": "template PCR plate",
+                    "quantity": 1,
+                    "init_content": "",
+                    "labware": {
+                        "id": 2,
+                        "name": "corning_96_wellplate_360ul_flat"
+                    },
+                    "unit": ""
+                },
+                []
+            ],
+            12
+        ]
+    ],
+    [
+        [
+            [
+                {
+                    "name": "1 sample DNA tube",
+                    "quantity": 300,
+                    "init_content": "sample DNA",
+                    "labware": {
+                        "id": 1,
+                        "name": "tube_1_5_ml"
+                    },
+                    "unit": "ul"
+                },
+                []
+            ],
+            1
+        ],
+        [
+            [
+                {
+                    "name": "water tube",
+                    "quantity": 300,
+                    "init_content": "water",
+                    "labware": {
+                        "id": 1,
+                        "name": "tube_1_5_ml"
+                    },
+                    "unit": "ul"
+                },
+                []
+            ],
+            2
+        ],
+        [
+            [
+                {
+                    "name": "10 uM forward primer tube",
+                    "quantity": 130,
+                    "init_content": "",
+                    "labware": {
+                        "id": 1,
+                        "name": "tube_1_5_ml"
+                    },
+                    "unit": "ul"
+                },
+                []
+            ],
+            3
+        ],
+        [
+            [
+                {
+                    "name": "10 uM reverse primer tube",
+                    "quantity": 130,
+                    "init_content": "",
+                    "labware": {
+                        "id": 1,
+                        "name": "tube_1_5_ml"
+                    },
+                    "unit": "ul"
+                },
+                []
+            ],
+            4
+        ],
+        [
+            [
+                {
+                    "name": "PCR MIX tube",
+                    "quantity": 2000,
+                    "init_content": "PCR MIX",
+                    "labware": {
+                        "id": 1,
+                        "name": "tube_1_5_ml"
+                    },
+                    "unit": "ul"
+                },
+                []
+            ],
+            5
+        ],
+        [
+            [
+                {
+                    "name": "96 well PCR plate",
+                    "quantity": 1,
+                    "init_content": "",
+                    "labware": {
+                        "id": 2,
+                        "name": "corning_96_wellplate_360ul_flat"
+                    },
+                    "unit": ""
+                },
+                []
+            ],
+            6
+        ],
+        [
+            [
+                {
+                    "name": "template-only PCR MIX tube",
+                    "quantity": 86,
+                    "init_content": "template-only PCR MIX",
+                    "labware": {
+                        "id": 1,
+                        "name": "tube_1_5_ml"
+                    },
+                    "unit": "ul"
+                },
+                []
+            ],
+            7
+        ],
+        [
+            [
+                {
+                    "name": "water tube for template-only PCR MIX",
+                    "quantity": 4,
+                    "init_content": "water",
+                    "labware": {
+                        "id": 1,
+                        "name": "tube_1_5_ml"
+                    },
+                    "unit": "ul"
+                },
+                []
+            ],
+            9
+        ],
+        [
+            [
+                {
+                    "name": "template PCR plate",
+                    "quantity": 1,
+                    "init_content": "",
+                    "labware": {
+                        "id": 2,
+                        "name": "corning_96_wellplate_360ul_flat"
+                    },
+                    "unit": ""
+                },
+                []
+            ],
+            8
+        ]
+    ],
+    [
+        [
+            [
+                {
+                    "name": "1 sample DNA tube",
+                    "quantity": 300,
+                    "init_content": "sample DNA",
+                    "labware": {
+                        "id": 1,
+                        "name": "tube_1_5_ml"
+                    },
+                    "unit": "ul"
+                },
+                []
+            ],
+            1
+        ],
+        [
+            [
+                {
+                    "name": "water tube",
+                    "quantity": 300,
+                    "init_content": "water",
+                    "labware": {
+                        "id": 1,
+                        "name": "tube_1_5_ml"
+                    },
+                    "unit": "ul"
+                },
+                []
+            ],
+            2
+        ],
+        [
+            [
+                {
+                    "name": "10 uM forward primer tube",
+                    "quantity": 130,
+                    "init_content": "",
+                    "labware": {
+                        "id": 1,
+                        "name": "tube_1_5_ml"
+                    },
+                    "unit": "ul"
+                },
+                []
+            ],
+            3
+        ],
+        [
+            [
+                {
+                    "name": "10 uM reverse primer tube",
+                    "quantity": 130,
+                    "init_content": "",
+                    "labware": {
+                        "id": 1,
+                        "name": "tube_1_5_ml"
+                    },
+                    "unit": "ul"
+                },
+                []
+            ],
+            4
+        ],
+        [
+            [
+                {
+                    "name": "PCR MIX tube",
+                    "quantity": 2000,
+                    "init_content": "PCR MIX",
+                    "labware": {
+                        "id": 1,
+                        "name": "tube_1_5_ml"
+                    },
+                    "unit": "ul"
+                },
+                []
+            ],
+            5
+        ],
+        [
+            [
+                {
+                    "name": "96 well PCR plate",
+                    "quantity": 1,
+                    "init_content": "",
+                    "labware": {
+                        "id": 2,
+                        "name": "corning_96_wellplate_360ul_flat"
+                    },
+                    "unit": ""
+                },
+                []
+            ],
+            6
+        ],
+        [
+            [
+                {
+                    "name": "template-only PCR MIX tube",
+                    "quantity": 86,
+                    "init_content": "template-only PCR MIX",
+                    "labware": {
+                        "id": 1,
+                        "name": "tube_1_5_ml"
+                    },
+                    "unit": "ul"
+                },
+                []
+            ],
+            7
+        ],
+        [
+            [
+                {
+                    "name": "water tube for template-only PCR MIX",
+                    "quantity": 4,
+                    "init_content": "water",
+                    "labware": {
+                        "id": 1,
+                        "name": "tube_1_5_ml"
+                    },
+                    "unit": "ul"
+                },
+                []
+            ],
+            9
+        ],
+        [
+            [
+                {
+                    "name": "template PCR plate",
+                    "quantity": 1,
+                    "init_content": "",
+                    "labware": {
+                        "id": 2,
+                        "name": "corning_96_wellplate_360ul_flat"
+                    },
+                    "unit": ""
+                },
+                []
+            ],
+            10
+        ]
+    ],
+    [
+        [
+            [
+                {
+                    "name": "1 sample DNA tube",
+                    "quantity": 300,
+                    "init_content": "sample DNA",
+                    "labware": {
+                        "id": 1,
+                        "name": "tube_1_5_ml"
+                    },
+                    "unit": "ul"
+                },
+                []
+            ],
+            1
+        ],
+        [
+            [
+                {
+                    "name": "water tube",
+                    "quantity": 300,
+                    "init_content": "water",
+                    "labware": {
+                        "id": 1,
+                        "name": "tube_1_5_ml"
+                    },
+                    "unit": "ul"
+                },
+                []
+            ],
+            2
+        ],
+        [
+            [
+                {
+                    "name": "10 uM forward primer tube",
+                    "quantity": 130,
+                    "init_content": "",
+                    "labware": {
+                        "id": 1,
+                        "name": "tube_1_5_ml"
+                    },
+                    "unit": "ul"
+                },
+                []
+            ],
+            3
+        ],
+        [
+            [
+                {
+                    "name": "10 uM reverse primer tube",
+                    "quantity": 130,
+                    "init_content": "",
+                    "labware": {
+                        "id": 1,
+                        "name": "tube_1_5_ml"
+                    },
+                    "unit": "ul"
+                },
+                []
+            ],
+            4
+        ],
+        [
+            [
+                {
+                    "name": "PCR MIX tube",
+                    "quantity": 2000,
+                    "init_content": "PCR MIX",
+                    "labware": {
+                        "id": 1,
+                        "name": "tube_1_5_ml"
+                    },
+                    "unit": "ul"
+                },
+                []
+            ],
+            5
+        ],
+        [
+            [
+                {
+                    "name": "96 well PCR plate",
+                    "quantity": 1,
+                    "init_content": "",
+                    "labware": {
+                        "id": 2,
+                        "name": "corning_96_wellplate_360ul_flat"
+                    },
+                    "unit": ""
+                },
+                []
+            ],
+            6
+        ],
+        [
+            [
+                {
+                    "name": "template-only PCR MIX tube",
+                    "quantity": 86,
+                    "init_content": "template-only PCR MIX",
+                    "labware": {
+                        "id": 1,
+                        "name": "tube_1_5_ml"
+                    },
+                    "unit": "ul"
+                },
+                []
+            ],
+            7
+        ],
+        [
+            [
+                {
+                    "name": "water tube for template-only PCR MIX",
+                    "quantity": 4,
+                    "init_content": "water",
+                    "labware": {
+                        "id": 1,
+                        "name": "tube_1_5_ml"
+                    },
+                    "unit": "ul"
+                },
+                []
+            ],
+            9
+        ],
+        [
+            [
+                {
+                    "name": "template PCR plate",
+                    "quantity": 1,
+                    "init_content": "",
+                    "labware": {
+                        "id": 2,
+                        "name": "corning_96_wellplate_360ul_flat"
+                    },
+                    "unit": ""
+                },
+                []
+            ],
+            11
+        ]
+    ],
+    [
+        [
+            [
+                {
+                    "name": "1 sample DNA tube",
+                    "quantity": 300,
+                    "init_content": "sample DNA",
+                    "labware": {
+                        "id": 1,
+                        "name": "tube_1_5_ml"
+                    },
+                    "unit": "ul"
+                },
+                []
+            ],
+            1
+        ],
+        [
+            [
+                {
+                    "name": "water tube",
+                    "quantity": 300,
+                    "init_content": "water",
+                    "labware": {
+                        "id": 1,
+                        "name": "tube_1_5_ml"
+                    },
+                    "unit": "ul"
+                },
+                []
+            ],
+            2
+        ],
+        [
+            [
+                {
+                    "name": "10 uM forward primer tube",
+                    "quantity": 130,
+                    "init_content": "",
+                    "labware": {
+                        "id": 1,
+                        "name": "tube_1_5_ml"
+                    },
+                    "unit": "ul"
+                },
+                []
+            ],
+            3
+        ],
+        [
+            [
+                {
+                    "name": "10 uM reverse primer tube",
+                    "quantity": 130,
+                    "init_content": "",
+                    "labware": {
+                        "id": 1,
+                        "name": "tube_1_5_ml"
+                    },
+                    "unit": "ul"
+                },
+                []
+            ],
+            4
+        ],
+        [
+            [
+                {
+                    "name": "PCR MIX tube",
+                    "quantity": 2000,
+                    "init_content": "PCR MIX",
+                    "labware": {
+                        "id": 1,
+                        "name": "tube_1_5_ml"
+                    },
+                    "unit": "ul"
+                },
+                []
+            ],
+            5
+        ],
+        [
+            [
+                {
+                    "name": "96 well PCR plate",
+                    "quantity": 1,
+                    "init_content": "",
+                    "labware": {
+                        "id": 2,
+                        "name": "corning_96_wellplate_360ul_flat"
+                    },
+                    "unit": ""
+                },
+                []
+            ],
+            6
+        ],
+        [
+            [
+                {
+                    "name": "template-only PCR MIX tube",
+                    "quantity": 86,
+                    "init_content": "template-only PCR MIX",
+                    "labware": {
+                        "id": 1,
+                        "name": "tube_1_5_ml"
+                    },
+                    "unit": "ul"
+                },
+                []
+            ],
+            7
+        ],
+        [
+            [
+                {
+                    "name": "water tube for template-only PCR MIX",
+                    "quantity": 4,
+                    "init_content": "water",
+                    "labware": {
+                        "id": 1,
+                        "name": "tube_1_5_ml"
+                    },
+                    "unit": "ul"
+                },
+                []
+            ],
+            9
+        ],
+        [
+            [
+                {
+                    "name": "template PCR plate",
+                    "quantity": 1,
+                    "init_content": "",
+                    "labware": {
+                        "id": 2,
+                        "name": "corning_96_wellplate_360ul_flat"
+                    },
+                    "unit": ""
+                },
+                []
+            ],
+            12
+        ]
+    ],
+    [
+        [
+            [
+                {
+                    "name": "1 sample DNA tube",
+                    "quantity": 300,
+                    "init_content": "sample DNA",
+                    "labware": {
+                        "id": 1,
+                        "name": "tube_1_5_ml"
+                    },
+                    "unit": "ul"
+                },
+                []
+            ],
+            1
+        ],
+        [
+            [
+                {
+                    "name": "water tube",
+                    "quantity": 300,
+                    "init_content": "water",
+                    "labware": {
+                        "id": 1,
+                        "name": "tube_1_5_ml"
+                    },
+                    "unit": "ul"
+                },
+                []
+            ],
+            2
+        ],
+        [
+            [
+                {
+                    "name": "10 uM forward primer tube",
+                    "quantity": 130,
+                    "init_content": "",
+                    "labware": {
+                        "id": 1,
+                        "name": "tube_1_5_ml"
+                    },
+                    "unit": "ul"
+                },
+                []
+            ],
+            3
+        ],
+        [
+            [
+                {
+                    "name": "10 uM reverse primer tube",
+                    "quantity": 130,
+                    "init_content": "",
+                    "labware": {
+                        "id": 1,
+                        "name": "tube_1_5_ml"
+                    },
+                    "unit": "ul"
+                },
+                []
+            ],
+            4
+        ],
+        [
+            [
+                {
+                    "name": "PCR MIX tube",
+                    "quantity": 2000,
+                    "init_content": "PCR MIX",
+                    "labware": {
+                        "id": 1,
+                        "name": "tube_1_5_ml"
+                    },
+                    "unit": "ul"
+                },
+                []
+            ],
+            5
+        ],
+        [
+            [
+                {
+                    "name": "96 well PCR plate",
+                    "quantity": 1,
+                    "init_content": "",
+                    "labware": {
+                        "id": 2,
+                        "name": "corning_96_wellplate_360ul_flat"
+                    },
+                    "unit": ""
+                },
+                []
+            ],
+            6
+        ],
+        [
+            [
+                {
+                    "name": "template-only PCR MIX tube",
+                    "quantity": 86,
+                    "init_content": "template-only PCR MIX",
+                    "labware": {
+                        "id": 1,
+                        "name": "tube_1_5_ml"
+                    },
+                    "unit": "ul"
+                },
+                []
+            ],
+            7
+        ],
+        [
+            [
+                {
+                    "name": "water tube for template-only PCR MIX",
+                    "quantity": 4,
+                    "init_content": "water",
+                    "labware": {
+                        "id": 1,
+                        "name": "tube_1_5_ml"
+                    },
+                    "unit": "ul"
+                },
+                []
+            ],
+            10
+        ],
+        [
+            [
+                {
+                    "name": "template PCR plate",
+                    "quantity": 1,
+                    "init_content": "",
+                    "labware": {
+                        "id": 2,
+                        "name": "corning_96_wellplate_360ul_flat"
+                    },
+                    "unit": ""
+                },
+                []
+            ],
+            8
+        ]
+    ],
+    [
+        [
+            [
+                {
+                    "name": "1 sample DNA tube",
+                    "quantity": 300,
+                    "init_content": "sample DNA",
+                    "labware": {
+                        "id": 1,
+                        "name": "tube_1_5_ml"
+                    },
+                    "unit": "ul"
+                },
+                []
+            ],
+            1
+        ],
+        [
+            [
+                {
+                    "name": "water tube",
+                    "quantity": 300,
+                    "init_content": "water",
+                    "labware": {
+                        "id": 1,
+                        "name": "tube_1_5_ml"
+                    },
+                    "unit": "ul"
+                },
+                []
+            ],
+            2
+        ],
+        [
+            [
+                {
+                    "name": "10 uM forward primer tube",
+                    "quantity": 130,
+                    "init_content": "",
+                    "labware": {
+                        "id": 1,
+                        "name": "tube_1_5_ml"
+                    },
+                    "unit": "ul"
+                },
+                []
+            ],
+            3
+        ],
+        [
+            [
+                {
+                    "name": "10 uM reverse primer tube",
+                    "quantity": 130,
+                    "init_content": "",
+                    "labware": {
+                        "id": 1,
+                        "name": "tube_1_5_ml"
+                    },
+                    "unit": "ul"
+                },
+                []
+            ],
+            4
+        ],
+        [
+            [
+                {
+                    "name": "PCR MIX tube",
+                    "quantity": 2000,
+                    "init_content": "PCR MIX",
+                    "labware": {
+                        "id": 1,
+                        "name": "tube_1_5_ml"
+                    },
+                    "unit": "ul"
+                },
+                []
+            ],
+            5
+        ],
+        [
+            [
+                {
+                    "name": "96 well PCR plate",
+                    "quantity": 1,
+                    "init_content": "",
+                    "labware": {
+                        "id": 2,
+                        "name": "corning_96_wellplate_360ul_flat"
+                    },
+                    "unit": ""
+                },
+                []
+            ],
+            6
+        ],
+        [
+            [
+                {
+                    "name": "template-only PCR MIX tube",
+                    "quantity": 86,
+                    "init_content": "template-only PCR MIX",
+                    "labware": {
+                        "id": 1,
+                        "name": "tube_1_5_ml"
+                    },
+                    "unit": "ul"
+                },
+                []
+            ],
+            7
+        ],
+        [
+            [
+                {
+                    "name": "water tube for template-only PCR MIX",
+                    "quantity": 4,
+                    "init_content": "water",
+                    "labware": {
+                        "id": 1,
+                        "name": "tube_1_5_ml"
+                    },
+                    "unit": "ul"
+                },
+                []
+            ],
+            10
+        ],
+        [
+            [
+                {
+                    "name": "template PCR plate",
+                    "quantity": 1,
+                    "init_content": "",
+                    "labware": {
+                        "id": 2,
+                        "name": "corning_96_wellplate_360ul_flat"
+                    },
+                    "unit": ""
+                },
+                []
+            ],
+            9
+        ]
+    ]
+]

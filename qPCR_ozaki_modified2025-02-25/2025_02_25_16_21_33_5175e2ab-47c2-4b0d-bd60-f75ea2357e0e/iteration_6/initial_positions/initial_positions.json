@@ -1,0 +1,1462 @@
+[
+    [
+        [
+            [
+                {
+                    "name": "PCR_MIX_tube",
+                    "quantity": 13,
+                    "init_content": "",
+                    "labware": {
+                        "id": 1,
+                        "name": "tube"
+                    },
+                    "unit": "tube"
+                },
+                []
+            ],
+            1
+        ],
+        [
+            [
+                {
+                    "name": "10uM_primer_F_tube",
+                    "quantity": 13,
+                    "init_content": "",
+                    "labware": {
+                        "id": 1,
+                        "name": "tube"
+                    },
+                    "unit": "tube"
+                },
+                []
+            ],
+            2
+        ],
+        [
+            [
+                {
+                    "name": "10uM_primer_R_tube",
+                    "quantity": 13,
+                    "init_content": "",
+                    "labware": {
+                        "id": 1,
+                        "name": "tube"
+                    },
+                    "unit": "tube"
+                },
+                []
+            ],
+            3
+        ],
+        [
+            [
+                {
+                    "name": "PCR_MIX_PCR_plate",
+                    "quantity": 1,
+                    "init_content": "",
+                    "labware": {
+                        "id": 2,
+                        "name": "96_well_PCR_plate"
+                    },
+                    "unit": "plate"
+                },
+                []
+            ],
+            4
+        ],
+        [
+            [
+                {
+                    "name": "sample_DNAs_tube",
+                    "quantity": 1,
+                    "init_content": "sample",
+                    "labware": {
+                        "id": 1,
+                        "name": "tube"
+                    },
+                    "unit": "tube"
+                },
+                []
+            ],
+            5
+        ],
+        [
+            [
+                {
+                    "name": "water_tube",
+                    "quantity": 1,
+                    "init_content": "water",
+                    "labware": {
+                        "id": 1,
+                        "name": "tube"
+                    },
+                    "unit": "tube"
+                },
+                []
+            ],
+            6
+        ],
+        [
+            [
+                {
+                    "name": "template_only_PCR_MIX_tube",
+                    "quantity": 1,
+                    "init_content": "",
+                    "labware": {
+                        "id": 1,
+                        "name": "tube"
+                    },
+                    "unit": "tube"
+                },
+                []
+            ],
+            7
+        ],
+        [
+            [
+                {
+                    "name": "template_only_water_tube",
+                    "quantity": 1,
+                    "init_content": "water",
+                    "labware": {
+                        "id": 1,
+                        "name": "tube"
+                    },
+                    "unit": "tube"
+                },
+                []
+            ],
+            8
+        ],
+        [
+            [
+                {
+                    "name": "reaction_plate",
+                    "quantity": 1,
+                    "init_content": "",
+                    "labware": {
+                        "id": 3,
+                        "name": "reaction_plate"
+                    },
+                    "unit": "plate"
+                },
+                []
+            ],
+            9
+        ]
+    ],
+    [
+        [
+            [
+                {
+                    "name": "PCR_MIX_tube",
+                    "quantity": 13,
+                    "init_content": "",
+                    "labware": {
+                        "id": 1,
+                        "name": "tube"
+                    },
+                    "unit": "tube"
+                },
+                []
+            ],
+            1
+        ],
+        [
+            [
+                {
+                    "name": "10uM_primer_F_tube",
+                    "quantity": 13,
+                    "init_content": "",
+                    "labware": {
+                        "id": 1,
+                        "name": "tube"
+                    },
+                    "unit": "tube"
+                },
+                []
+            ],
+            2
+        ],
+        [
+            [
+                {
+                    "name": "10uM_primer_R_tube",
+                    "quantity": 13,
+                    "init_content": "",
+                    "labware": {
+                        "id": 1,
+                        "name": "tube"
+                    },
+                    "unit": "tube"
+                },
+                []
+            ],
+            3
+        ],
+        [
+            [
+                {
+                    "name": "PCR_MIX_PCR_plate",
+                    "quantity": 1,
+                    "init_content": "",
+                    "labware": {
+                        "id": 2,
+                        "name": "96_well_PCR_plate"
+                    },
+                    "unit": "plate"
+                },
+                []
+            ],
+            4
+        ],
+        [
+            [
+                {
+                    "name": "sample_DNAs_tube",
+                    "quantity": 1,
+                    "init_content": "sample",
+                    "labware": {
+                        "id": 1,
+                        "name": "tube"
+                    },
+                    "unit": "tube"
+                },
+                []
+            ],
+            5
+        ],
+        [
+            [
+                {
+                    "name": "water_tube",
+                    "quantity": 1,
+                    "init_content": "water",
+                    "labware": {
+                        "id": 1,
+                        "name": "tube"
+                    },
+                    "unit": "tube"
+                },
+                []
+            ],
+            6
+        ],
+        [
+            [
+                {
+                    "name": "template_only_PCR_MIX_tube",
+                    "quantity": 1,
+                    "init_content": "",
+                    "labware": {
+                        "id": 1,
+                        "name": "tube"
+                    },
+                    "unit": "tube"
+                },
+                []
+            ],
+            7
+        ],
+        [
+            [
+                {
+                    "name": "template_only_water_tube",
+                    "quantity": 1,
+                    "init_content": "water",
+                    "labware": {
+                        "id": 1,
+                        "name": "tube"
+                    },
+                    "unit": "tube"
+                },
+                []
+            ],
+            8
+        ],
+        [
+            [
+                {
+                    "name": "reaction_plate",
+                    "quantity": 1,
+                    "init_content": "",
+                    "labware": {
+                        "id": 3,
+                        "name": "reaction_plate"
+                    },
+                    "unit": "plate"
+                },
+                []
+            ],
+            10
+        ]
+    ],
+    [
+        [
+            [
+                {
+                    "name": "PCR_MIX_tube",
+                    "quantity": 13,
+                    "init_content": "",
+                    "labware": {
+                        "id": 1,
+                        "name": "tube"
+                    },
+                    "unit": "tube"
+                },
+                []
+            ],
+            1
+        ],
+        [
+            [
+                {
+                    "name": "10uM_primer_F_tube",
+                    "quantity": 13,
+                    "init_content": "",
+                    "labware": {
+                        "id": 1,
+                        "name": "tube"
+                    },
+                    "unit": "tube"
+                },
+                []
+            ],
+            2
+        ],
+        [
+            [
+                {
+                    "name": "10uM_primer_R_tube",
+                    "quantity": 13,
+                    "init_content": "",
+                    "labware": {
+                        "id": 1,
+                        "name": "tube"
+                    },
+                    "unit": "tube"
+                },
+                []
+            ],
+            3
+        ],
+        [
+            [
+                {
+                    "name": "PCR_MIX_PCR_plate",
+                    "quantity": 1,
+                    "init_content": "",
+                    "labware": {
+                        "id": 2,
+                        "name": "96_well_PCR_plate"
+                    },
+                    "unit": "plate"
+                },
+                []
+            ],
+            4
+        ],
+        [
+            [
+                {
+                    "name": "sample_DNAs_tube",
+                    "quantity": 1,
+                    "init_content": "sample",
+                    "labware": {
+                        "id": 1,
+                        "name": "tube"
+                    },
+                    "unit": "tube"
+                },
+                []
+            ],
+            5
+        ],
+        [
+            [
+                {
+                    "name": "water_tube",
+                    "quantity": 1,
+                    "init_content": "water",
+                    "labware": {
+                        "id": 1,
+                        "name": "tube"
+                    },
+                    "unit": "tube"
+                },
+                []
+            ],
+            6
+        ],
+        [
+            [
+                {
+                    "name": "template_only_PCR_MIX_tube",
+                    "quantity": 1,
+                    "init_content": "",
+                    "labware": {
+                        "id": 1,
+                        "name": "tube"
+                    },
+                    "unit": "tube"
+                },
+                []
+            ],
+            7
+        ],
+        [
+            [
+                {
+                    "name": "template_only_water_tube",
+                    "quantity": 1,
+                    "init_content": "water",
+                    "labware": {
+                        "id": 1,
+                        "name": "tube"
+                    },
+                    "unit": "tube"
+                },
+                []
+            ],
+            8
+        ],
+        [
+            [
+                {
+                    "name": "reaction_plate",
+                    "quantity": 1,
+                    "init_content": "",
+                    "labware": {
+                        "id": 3,
+                        "name": "reaction_plate"
+                    },
+                    "unit": "plate"
+                },
+                []
+            ],
+            11
+        ]
+    ],
+    [
+        [
+            [
+                {
+                    "name": "PCR_MIX_tube",
+                    "quantity": 13,
+                    "init_content": "",
+                    "labware": {
+                        "id": 1,
+                        "name": "tube"
+                    },
+                    "unit": "tube"
+                },
+                []
+            ],
+            1
+        ],
+        [
+            [
+                {
+                    "name": "10uM_primer_F_tube",
+                    "quantity": 13,
+                    "init_content": "",
+                    "labware": {
+                        "id": 1,
+                        "name": "tube"
+                    },
+                    "unit": "tube"
+                },
+                []
+            ],
+            2
+        ],
+        [
+            [
+                {
+                    "name": "10uM_primer_R_tube",
+                    "quantity": 13,
+                    "init_content": "",
+                    "labware": {
+                        "id": 1,
+                        "name": "tube"
+                    },
+                    "unit": "tube"
+                },
+                []
+            ],
+            3
+        ],
+        [
+            [
+                {
+                    "name": "PCR_MIX_PCR_plate",
+                    "quantity": 1,
+                    "init_content": "",
+                    "labware": {
+                        "id": 2,
+                        "name": "96_well_PCR_plate"
+                    },
+                    "unit": "plate"
+                },
+                []
+            ],
+            4
+        ],
+        [
+            [
+                {
+                    "name": "sample_DNAs_tube",
+                    "quantity": 1,
+                    "init_content": "sample",
+                    "labware": {
+                        "id": 1,
+                        "name": "tube"
+                    },
+                    "unit": "tube"
+                },
+                []
+            ],
+            5
+        ],
+        [
+            [
+                {
+                    "name": "water_tube",
+                    "quantity": 1,
+                    "init_content": "water",
+                    "labware": {
+                        "id": 1,
+                        "name": "tube"
+                    },
+                    "unit": "tube"
+                },
+                []
+            ],
+            6
+        ],
+        [
+            [
+                {
+                    "name": "template_only_PCR_MIX_tube",
+                    "quantity": 1,
+                    "init_content": "",
+                    "labware": {
+                        "id": 1,
+                        "name": "tube"
+                    },
+                    "unit": "tube"
+                },
+                []
+            ],
+            7
+        ],
+        [
+            [
+                {
+                    "name": "template_only_water_tube",
+                    "quantity": 1,
+                    "init_content": "water",
+                    "labware": {
+                        "id": 1,
+                        "name": "tube"
+                    },
+                    "unit": "tube"
+                },
+                []
+            ],
+            8
+        ],
+        [
+            [
+                {
+                    "name": "reaction_plate",
+                    "quantity": 1,
+                    "init_content": "",
+                    "labware": {
+                        "id": 3,
+                        "name": "reaction_plate"
+                    },
+                    "unit": "plate"
+                },
+                []
+            ],
+            12
+        ]
+    ],
+    [
+        [
+            [
+                {
+                    "name": "PCR_MIX_tube",
+                    "quantity": 13,
+                    "init_content": "",
+                    "labware": {
+                        "id": 1,
+                        "name": "tube"
+                    },
+                    "unit": "tube"
+                },
+                []
+            ],
+            1
+        ],
+        [
+            [
+                {
+                    "name": "10uM_primer_F_tube",
+                    "quantity": 13,
+                    "init_content": "",
+                    "labware": {
+                        "id": 1,
+                        "name": "tube"
+                    },
+                    "unit": "tube"
+                },
+                []
+            ],
+            2
+        ],
+        [
+            [
+                {
+                    "name": "10uM_primer_R_tube",
+                    "quantity": 13,
+                    "init_content": "",
+                    "labware": {
+                        "id": 1,
+                        "name": "tube"
+                    },
+                    "unit": "tube"
+                },
+                []
+            ],
+            3
+        ],
+        [
+            [
+                {
+                    "name": "PCR_MIX_PCR_plate",
+                    "quantity": 1,
+                    "init_content": "",
+                    "labware": {
+                        "id": 2,
+                        "name": "96_well_PCR_plate"
+                    },
+                    "unit": "plate"
+                },
+                []
+            ],
+            4
+        ],
+        [
+            [
+                {
+                    "name": "sample_DNAs_tube",
+                    "quantity": 1,
+                    "init_content": "sample",
+                    "labware": {
+                        "id": 1,
+                        "name": "tube"
+                    },
+                    "unit": "tube"
+                },
+                []
+            ],
+            5
+        ],
+        [
+            [
+                {
+                    "name": "water_tube",
+                    "quantity": 1,
+                    "init_content": "water",
+                    "labware": {
+                        "id": 1,
+                        "name": "tube"
+                    },
+                    "unit": "tube"
+                },
+                []
+            ],
+            6
+        ],
+        [
+            [
+                {
+                    "name": "template_only_PCR_MIX_tube",
+                    "quantity": 1,
+                    "init_content": "",
+                    "labware": {
+                        "id": 1,
+                        "name": "tube"
+                    },
+                    "unit": "tube"
+                },
+                []
+            ],
+            7
+        ],
+        [
+            [
+                {
+                    "name": "template_only_water_tube",
+                    "quantity": 1,
+                    "init_content": "water",
+                    "labware": {
+                        "id": 1,
+                        "name": "tube"
+                    },
+                    "unit": "tube"
+                },
+                []
+            ],
+            9
+        ],
+        [
+            [
+                {
+                    "name": "reaction_plate",
+                    "quantity": 1,
+                    "init_content": "",
+                    "labware": {
+                        "id": 3,
+                        "name": "reaction_plate"
+                    },
+                    "unit": "plate"
+                },
+                []
+            ],
+            8
+        ]
+    ],
+    [
+        [
+            [
+                {
+                    "name": "PCR_MIX_tube",
+                    "quantity": 13,
+                    "init_content": "",
+                    "labware": {
+                        "id": 1,
+                        "name": "tube"
+                    },
+                    "unit": "tube"
+                },
+                []
+            ],
+            1
+        ],
+        [
+            [
+                {
+                    "name": "10uM_primer_F_tube",
+                    "quantity": 13,
+                    "init_content": "",
+                    "labware": {
+                        "id": 1,
+                        "name": "tube"
+                    },
+                    "unit": "tube"
+                },
+                []
+            ],
+            2
+        ],
+        [
+            [
+                {
+                    "name": "10uM_primer_R_tube",
+                    "quantity": 13,
+                    "init_content": "",
+                    "labware": {
+                        "id": 1,
+                        "name": "tube"
+                    },
+                    "unit": "tube"
+                },
+                []
+            ],
+            3
+        ],
+        [
+            [
+                {
+                    "name": "PCR_MIX_PCR_plate",
+                    "quantity": 1,
+                    "init_content": "",
+                    "labware": {
+                        "id": 2,
+                        "name": "96_well_PCR_plate"
+                    },
+                    "unit": "plate"
+                },
+                []
+            ],
+            4
+        ],
+        [
+            [
+                {
+                    "name": "sample_DNAs_tube",
+                    "quantity": 1,
+                    "init_content": "sample",
+                    "labware": {
+                        "id": 1,
+                        "name": "tube"
+                    },
+                    "unit": "tube"
+                },
+                []
+            ],
+            5
+        ],
+        [
+            [
+                {
+                    "name": "water_tube",
+                    "quantity": 1,
+                    "init_content": "water",
+                    "labware": {
+                        "id": 1,
+                        "name": "tube"
+                    },
+                    "unit": "tube"
+                },
+                []
+            ],
+            6
+        ],
+        [
+            [
+                {
+                    "name": "template_only_PCR_MIX_tube",
+                    "quantity": 1,
+                    "init_content": "",
+                    "labware": {
+                        "id": 1,
+                        "name": "tube"
+                    },
+                    "unit": "tube"
+                },
+                []
+            ],
+            7
+        ],
+        [
+            [
+                {
+                    "name": "template_only_water_tube",
+                    "quantity": 1,
+                    "init_content": "water",
+                    "labware": {
+                        "id": 1,
+                        "name": "tube"
+                    },
+                    "unit": "tube"
+                },
+                []
+            ],
+            9
+        ],
+        [
+            [
+                {
+                    "name": "reaction_plate",
+                    "quantity": 1,
+                    "init_content": "",
+                    "labware": {
+                        "id": 3,
+                        "name": "reaction_plate"
+                    },
+                    "unit": "plate"
+                },
+                []
+            ],
+            10
+        ]
+    ],
+    [
+        [
+            [
+                {
+                    "name": "PCR_MIX_tube",
+                    "quantity": 13,
+                    "init_content": "",
+                    "labware": {
+                        "id": 1,
+                        "name": "tube"
+                    },
+                    "unit": "tube"
+                },
+                []
+            ],
+            1
+        ],
+        [
+            [
+                {
+                    "name": "10uM_primer_F_tube",
+                    "quantity": 13,
+                    "init_content": "",
+                    "labware": {
+                        "id": 1,
+                        "name": "tube"
+                    },
+                    "unit": "tube"
+                },
+                []
+            ],
+            2
+        ],
+        [
+            [
+                {
+                    "name": "10uM_primer_R_tube",
+                    "quantity": 13,
+                    "init_content": "",
+                    "labware": {
+                        "id": 1,
+                        "name": "tube"
+                    },
+                    "unit": "tube"
+                },
+                []
+            ],
+            3
+        ],
+        [
+            [
+                {
+                    "name": "PCR_MIX_PCR_plate",
+                    "quantity": 1,
+                    "init_content": "",
+                    "labware": {
+                        "id": 2,
+                        "name": "96_well_PCR_plate"
+                    },
+                    "unit": "plate"
+                },
+                []
+            ],
+            4
+        ],
+        [
+            [
+                {
+                    "name": "sample_DNAs_tube",
+                    "quantity": 1,
+                    "init_content": "sample",
+                    "labware": {
+                        "id": 1,
+                        "name": "tube"
+                    },
+                    "unit": "tube"
+                },
+                []
+            ],
+            5
+        ],
+        [
+            [
+                {
+                    "name": "water_tube",
+                    "quantity": 1,
+                    "init_content": "water",
+                    "labware": {
+                        "id": 1,
+                        "name": "tube"
+                    },
+                    "unit": "tube"
+                },
+                []
+            ],
+            6
+        ],
+        [
+            [
+                {
+                    "name": "template_only_PCR_MIX_tube",
+                    "quantity": 1,
+                    "init_content": "",
+                    "labware": {
+                        "id": 1,
+                        "name": "tube"
+                    },
+                    "unit": "tube"
+                },
+                []
+            ],
+            7
+        ],
+        [
+            [
+                {
+                    "name": "template_only_water_tube",
+                    "quantity": 1,
+                    "init_content": "water",
+                    "labware": {
+                        "id": 1,
+                        "name": "tube"
+                    },
+                    "unit": "tube"
+                },
+                []
+            ],
+            9
+        ],
+        [
+            [
+                {
+                    "name": "reaction_plate",
+                    "quantity": 1,
+                    "init_content": "",
+                    "labware": {
+                        "id": 3,
+                        "name": "reaction_plate"
+                    },
+                    "unit": "plate"
+                },
+                []
+            ],
+            11
+        ]
+    ],
+    [
+        [
+            [
+                {
+                    "name": "PCR_MIX_tube",
+                    "quantity": 13,
+                    "init_content": "",
+                    "labware": {
+                        "id": 1,
+                        "name": "tube"
+                    },
+                    "unit": "tube"
+                },
+                []
+            ],
+            1
+        ],
+        [
+            [
+                {
+                    "name": "10uM_primer_F_tube",
+                    "quantity": 13,
+                    "init_content": "",
+                    "labware": {
+                        "id": 1,
+                        "name": "tube"
+                    },
+                    "unit": "tube"
+                },
+                []
+            ],
+            2
+        ],
+        [
+            [
+                {
+                    "name": "10uM_primer_R_tube",
+                    "quantity": 13,
+                    "init_content": "",
+                    "labware": {
+                        "id": 1,
+                        "name": "tube"
+                    },
+                    "unit": "tube"
+                },
+                []
+            ],
+            3
+        ],
+        [
+            [
+                {
+                    "name": "PCR_MIX_PCR_plate",
+                    "quantity": 1,
+                    "init_content": "",
+                    "labware": {
+                        "id": 2,
+                        "name": "96_well_PCR_plate"
+                    },
+                    "unit": "plate"
+                },
+                []
+            ],
+            4
+        ],
+        [
+            [
+                {
+                    "name": "sample_DNAs_tube",
+                    "quantity": 1,
+                    "init_content": "sample",
+                    "labware": {
+                        "id": 1,
+                        "name": "tube"
+                    },
+                    "unit": "tube"
+                },
+                []
+            ],
+            5
+        ],
+        [
+            [
+                {
+                    "name": "water_tube",
+                    "quantity": 1,
+                    "init_content": "water",
+                    "labware": {
+                        "id": 1,
+                        "name": "tube"
+                    },
+                    "unit": "tube"
+                },
+                []
+            ],
+            6
+        ],
+        [
+            [
+                {
+                    "name": "template_only_PCR_MIX_tube",
+                    "quantity": 1,
+                    "init_content": "",
+                    "labware": {
+                        "id": 1,
+                        "name": "tube"
+                    },
+                    "unit": "tube"
+                },
+                []
+            ],
+            7
+        ],
+        [
+            [
+                {
+                    "name": "template_only_water_tube",
+                    "quantity": 1,
+                    "init_content": "water",
+                    "labware": {
+                        "id": 1,
+                        "name": "tube"
+                    },
+                    "unit": "tube"
+                },
+                []
+            ],
+            9
+        ],
+        [
+            [
+                {
+                    "name": "reaction_plate",
+                    "quantity": 1,
+                    "init_content": "",
+                    "labware": {
+                        "id": 3,
+                        "name": "reaction_plate"
+                    },
+                    "unit": "plate"
+                },
+                []
+            ],
+            12
+        ]
+    ],
+    [
+        [
+            [
+                {
+                    "name": "PCR_MIX_tube",
+                    "quantity": 13,
+                    "init_content": "",
+                    "labware": {
+                        "id": 1,
+                        "name": "tube"
+                    },
+                    "unit": "tube"
+                },
+                []
+            ],
+            1
+        ],
+        [
+            [
+                {
+                    "name": "10uM_primer_F_tube",
+                    "quantity": 13,
+                    "init_content": "",
+                    "labware": {
+                        "id": 1,
+                        "name": "tube"
+                    },
+                    "unit": "tube"
+                },
+                []
+            ],
+            2
+        ],
+        [
+            [
+                {
+                    "name": "10uM_primer_R_tube",
+                    "quantity": 13,
+                    "init_content": "",
+                    "labware": {
+                        "id": 1,
+                        "name": "tube"
+                    },
+                    "unit": "tube"
+                },
+                []
+            ],
+            3
+        ],
+        [
+            [
+                {
+                    "name": "PCR_MIX_PCR_plate",
+                    "quantity": 1,
+                    "init_content": "",
+                    "labware": {
+                        "id": 2,
+                        "name": "96_well_PCR_plate"
+                    },
+                    "unit": "plate"
+                },
+                []
+            ],
+            4
+        ],
+        [
+            [
+                {
+                    "name": "sample_DNAs_tube",
+                    "quantity": 1,
+                    "init_content": "sample",
+                    "labware": {
+                        "id": 1,
+                        "name": "tube"
+                    },
+                    "unit": "tube"
+                },
+                []
+            ],
+            5
+        ],
+        [
+            [
+                {
+                    "name": "water_tube",
+                    "quantity": 1,
+                    "init_content": "water",
+                    "labware": {
+                        "id": 1,
+                        "name": "tube"
+                    },
+                    "unit": "tube"
+                },
+                []
+            ],
+            6
+        ],
+        [
+            [
+                {
+                    "name": "template_only_PCR_MIX_tube",
+                    "quantity": 1,
+                    "init_content": "",
+                    "labware": {
+                        "id": 1,
+                        "name": "tube"
+                    },
+                    "unit": "tube"
+                },
+                []
+            ],
+            7
+        ],
+        [
+            [
+                {
+                    "name": "template_only_water_tube",
+                    "quantity": 1,
+                    "init_content": "water",
+                    "labware": {
+                        "id": 1,
+                        "name": "tube"
+                    },
+                    "unit": "tube"
+                },
+                []
+            ],
+            10
+        ],
+        [
+            [
+                {
+                    "name": "reaction_plate",
+                    "quantity": 1,
+                    "init_content": "",
+                    "labware": {
+                        "id": 3,
+                        "name": "reaction_plate"
+                    },
+                    "unit": "plate"
+                },
+                []
+            ],
+            8
+        ]
+    ],
+    [
+        [
+            [
+                {
+                    "name": "PCR_MIX_tube",
+                    "quantity": 13,
+                    "init_content": "",
+                    "labware": {
+                        "id": 1,
+                        "name": "tube"
+                    },
+                    "unit": "tube"
+                },
+                []
+            ],
+            1
+        ],
+        [
+            [
+                {
+                    "name": "10uM_primer_F_tube",
+                    "quantity": 13,
+                    "init_content": "",
+                    "labware": {
+                        "id": 1,
+                        "name": "tube"
+                    },
+                    "unit": "tube"
+                },
+                []
+            ],
+            2
+        ],
+        [
+            [
+                {
+                    "name": "10uM_primer_R_tube",
+                    "quantity": 13,
+                    "init_content": "",
+                    "labware": {
+                        "id": 1,
+                        "name": "tube"
+                    },
+                    "unit": "tube"
+                },
+                []
+            ],
+            3
+        ],
+        [
+            [
+                {
+                    "name": "PCR_MIX_PCR_plate",
+                    "quantity": 1,
+                    "init_content": "",
+                    "labware": {
+                        "id": 2,
+                        "name": "96_well_PCR_plate"
+                    },
+                    "unit": "plate"
+                },
+                []
+            ],
+            4
+        ],
+        [
+            [
+                {
+                    "name": "sample_DNAs_tube",
+                    "quantity": 1,
+                    "init_content": "sample",
+                    "labware": {
+                        "id": 1,
+                        "name": "tube"
+                    },
+                    "unit": "tube"
+                },
+                []
+            ],
+            5
+        ],
+        [
+            [
+                {
+                    "name": "water_tube",
+                    "quantity": 1,
+                    "init_content": "water",
+                    "labware": {
+                        "id": 1,
+                        "name": "tube"
+                    },
+                    "unit": "tube"
+                },
+                []
+            ],
+            6
+        ],
+        [
+            [
+                {
+                    "name": "template_only_PCR_MIX_tube",
+                    "quantity": 1,
+                    "init_content": "",
+                    "labware": {
+                        "id": 1,
+                        "name": "tube"
+                    },
+                    "unit": "tube"
+                },
+                []
+            ],
+            7
+        ],
+        [
+            [
+                {
+                    "name": "template_only_water_tube",
+                    "quantity": 1,
+                    "init_content": "water",
+                    "labware": {
+                        "id": 1,
+                        "name": "tube"
+                    },
+                    "unit": "tube"
+                },
+                []
+            ],
+            10
+        ],
+        [
+            [
+                {
+                    "name": "reaction_plate",
+                    "quantity": 1,
+                    "init_content": "",
+                    "labware": {
+                        "id": 3,
+                        "name": "reaction_plate"
+                    },
+                    "unit": "plate"
+                },
+                []
+            ],
+            9
+        ]
+    ]
+]

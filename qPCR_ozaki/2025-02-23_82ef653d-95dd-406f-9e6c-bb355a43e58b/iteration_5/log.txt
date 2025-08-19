@@ -1,0 +1,313 @@
+***2025-02-22 15:59:10.694613+00:00***: os.path.join(BASE_DIR, f'{id}')='qPCR_ozaki/82ef653d-95dd-406f-9e6c-bb355a43e58b/iteration_5'***2025-02-22 15:59:10.695571+00:00***: *********************** 82ef653d-95dd-406f-9e6c-bb355a43e58b/iteration_5 *****************************2025-02-22 15:59:10.696009+00:00***: *********************************************************2025-02-22 15:59:15.384465+00:00***: obj-chan preprocess result:
+{
+  "labware": [
+    {
+      "name": "1_sample_DNAs",
+      "quantity": 300,
+      "unit": "µL",
+      "init_content": "",
+      "labware": {
+        "id": 1,
+        "name": "Unknown"
+      }
+    },
+    {
+      "name": "water",
+      "quantity": 300,
+      "unit": "µL",
+      "init_content": "",
+      "labware": {
+        "id": 1,
+        "name": "Unknown"
+      }
+    },
+    {
+      "name": "10_µM_primer_F",
+      "quantity": 130,
+      "unit": "µL",
+      "init_content": "",
+      "labware": {
+        "id": 1,
+        "name": "Unknown"
+      }
+    },
+    {
+      "name": "10_µM_primer_R",
+      "quantity": 130,
+      "unit": "µL",
+      "init_content": "",
+      "labware": {
+        "id": 1,
+        "name": "Unknown"
+      }
+    },
+    {
+      "name": "PCR_MIX",
+      "quantity": 2000,
+      "unit": "µL",
+      "init_content": "",
+      "labware": {
+        "id": 1,
+        "name": "Unknown"
+      }
+    },
+    {
+      "name": "96_well_PCR_plate",
+      "quantity": 1,
+      "unit": "plate",
+      "init_content": "",
+      "labware": {
+        "id": 2,
+        "name": "Unknown"
+      }
+    },
+    {
+      "name": "empty_tube",
+      "quantity": 0,
+      "unit": "",
+      "init_content": "",
+      "labware": {
+        "id": 3,
+        "name": "Unknown"
+      }
+    }
+  ]
+}***2025-02-22 15:59:15.386309+00:00***: obj-chan postprocess result:
+{
+  "labware": [
+    {
+      "name": "1_sample_DNAs",
+      "quantity": 300,
+      "unit": "µL",
+      "init_content": "",
+      "labware": {
+        "id": 1,
+        "name": "Unknown"
+      }
+    },
+    {
+      "name": "water",
+      "quantity": 300,
+      "unit": "µL",
+      "init_content": "",
+      "labware": {
+        "id": 1,
+        "name": "Unknown"
+      }
+    },
+    {
+      "name": "10_µM_primer_F",
+      "quantity": 130,
+      "unit": "µL",
+      "init_content": "",
+      "labware": {
+        "id": 1,
+        "name": "Unknown"
+      }
+    },
+    {
+      "name": "10_µM_primer_R",
+      "quantity": 130,
+      "unit": "µL",
+      "init_content": "",
+      "labware": {
+        "id": 1,
+        "name": "Unknown"
+      }
+    },
+    {
+      "name": "PCR_MIX",
+      "quantity": 2000,
+      "unit": "µL",
+      "init_content": "",
+      "labware": {
+        "id": 1,
+        "name": "Unknown"
+      }
+    },
+    {
+      "name": "96_well_PCR_plate",
+      "quantity": 1,
+      "unit": "plate",
+      "init_content": "",
+      "labware": {
+        "id": 2,
+        "name": "Unknown"
+      }
+    },
+    {
+      "name": "empty_tube",
+      "quantity": 0,
+      "unit": "",
+      "init_content": "",
+      "labware": {
+        "id": 3,
+        "name": "Unknown"
+      }
+    }
+  ]
+}***2025-02-22 15:59:15.387163+00:00***: 
+
+Process Flow ******************
+QPCR
+QuantStudio 6 Proで測定するサンプルprepを行う
+1サンプルあってそれぞれ13プライマー x duplicate(3)で試験するイメージ
+NTCは13プライマー x duplicate(3)用意する
+その他、PrimerなしのTemplateのみを1 x duplicate(3)用意する
+
+
+Input：試薬類の容器はチューブまたはプレート
+1 sample DNAs			300 μL
+water					300 μL
+10 μM primer_F			各10 μL
+10 μM primer_R			各10 μL
+PCR MIX				2000 μL
+96 well PCR  plate			1 plate
+その他液体混合に必要なチューブまたはプレートなど
+output
+sample DNA, primer, PCR MIXの混合溶液が入った96 well PCR plate x 1
+procedure
+1. PCR MIXを137.6 μLずつ13個に分注する
+2. PCR MIXが入ったチューブに10 μM primer_F1-13を3.2 μL添加する
+3. PCR MIXが入ったチューブに10 μM primer_R1-13を3.2 μL添加する
+4. PCR MIXとprimerをピペッティングで混合する
+5. templateのみ用のPCR MIXを86 μL分注する
+6. templateのみ用のPCR MIXにwaterを4 μL添加する
+7. templateのみ用のPCR MIXとwaterをピペッティングで混合する
+8. サンプル DNAまたはwater をreaction plateに5 μLずつアプライする
+下記plate mapの列を埋めていくイメージ
+9. PCR MIXとprimerの混合溶液を10 μLずつreaction plateにアプライする
+下記plate mapの行を埋めていくイメージ
+plate map
+81 well使用する
+S_n = sample_n
+今回はヒト標準cDNA1つ
+NTC = no template control：水＝ネガティブコントロール（全primerについて置く）
+P_m = primer set_m：forward primerとreverse primerのセット
+今回は13種類
+Templateのみも置く
+OT-2のピペット
+20 μLと300 μL 
+
+
+Constraints ******************
+Constraints(allowed_objects=[Object(name='Unknown', quantity=0, init_content='Unknown', labware={'name': '96 well plate'}, unit='unitless'), Object(name='Unknown', quantity=0, init_content='Unknown', labware={'name': '1.5 mL tube'}, unit='unitless'), Object(name='Unknown', quantity=0, init_content='Unknown', labware={'name': '15 mL tube'}, unit='unitless')])
+
+Extracted Object List******************
+[Object(name='1_sample_DNAs', quantity=300, init_content='', labware={'id': 1, 'name': 'Unknown'}, unit='µL'), Object(name='water', quantity=300, init_content='', labware={'id': 1, 'name': 'Unknown'}, unit='µL'), Object(name='10_µM_primer_F', quantity=130, init_content='', labware={'id': 1, 'name': 'Unknown'}, unit='µL'), Object(name='10_µM_primer_R', quantity=130, init_content='', labware={'id': 1, 'name': 'Unknown'}, unit='µL'), Object(name='PCR_MIX', quantity=2000, init_content='', labware={'id': 1, 'name': 'Unknown'}, unit='µL'), Object(name='96_well_PCR_plate', quantity=1, init_content='', labware={'id': 2, 'name': 'Unknown'}, unit='plate'), Object(name='empty_tube', quantity=0, init_content='', labware={'id': 3, 'name': 'Unknown'}, unit='')]***2025-02-22 15:59:15.387578+00:00***: ************ Obj-chan result ***************2025-02-22 15:59:15.387909+00:00***: object_list: [Object(name='1_sample_DNAs', quantity=300, init_content='', labware={'id': 1, 'name': 'Unknown'}, unit='µL'), Object(name='water', quantity=300, init_content='', labware={'id': 1, 'name': 'Unknown'}, unit='µL'), Object(name='10_µM_primer_F', quantity=130, init_content='', labware={'id': 1, 'name': 'Unknown'}, unit='µL'), Object(name='10_µM_primer_R', quantity=130, init_content='', labware={'id': 1, 'name': 'Unknown'}, unit='µL'), Object(name='PCR_MIX', quantity=2000, init_content='', labware={'id': 1, 'name': 'Unknown'}, unit='µL'), Object(name='96_well_PCR_plate', quantity=1, init_content='', labware={'id': 2, 'name': 'Unknown'}, unit='plate'), Object(name='empty_tube', quantity=0, init_content='', labware={'id': 3, 'name': 'Unknown'}, unit='')]***2025-02-22 15:59:15.388802+00:00***: object_list_num: 7***2025-02-22 15:59:15.389639+00:00***: all_num: 32***2025-02-22 15:59:15.389902+00:00***: ************ haichi-kun result ***************2025-02-22 15:59:15.392745+00:00***: all_results[:10]=[[((Object(name='1_sample_DNAs', quantity=300, init_content='', labware={'id': 1, 'name': 'Unknown'}, unit='µL'), []), 1), ((Object(name='water', quantity=300, init_content='', labware={'id': 1, 'name': 'Unknown'}, unit='µL'), []), 2), ((Object(name='10_µM_primer_F', quantity=130, init_content='', labware={'id': 1, 'name': 'Unknown'}, unit='µL'), []), 3), ((Object(name='10_µM_primer_R', quantity=130, init_content='', labware={'id': 1, 'name': 'Unknown'}, unit='µL'), []), 4), ((Object(name='PCR_MIX', quantity=2000, init_content='', labware={'id': 1, 'name': 'Unknown'}, unit='µL'), []), 5), ((Object(name='96_well_PCR_plate', quantity=1, init_content='', labware={'id': 2, 'name': 'Unknown'}, unit='plate'), []), 6), ((Object(name='empty_tube', quantity=0, init_content='', labware={'id': 3, 'name': 'Unknown'}, unit=''), []), 7)], [((Object(name='1_sample_DNAs', quantity=300, init_content='', labware={'id': 1, 'name': 'Unknown'}, unit='µL'), []), 1), ((Object(name='water', quantity=300, init_content='', labware={'id': 1, 'name': 'Unknown'}, unit='µL'), []), 2), ((Object(name='10_µM_primer_F', quantity=130, init_content='', labware={'id': 1, 'name': 'Unknown'}, unit='µL'), []), 3), ((Object(name='10_µM_primer_R', quantity=130, init_content='', labware={'id': 1, 'name': 'Unknown'}, unit='µL'), []), 4), ((Object(name='PCR_MIX', quantity=2000, init_content='', labware={'id': 1, 'name': 'Unknown'}, unit='µL'), []), 5), ((Object(name='96_well_PCR_plate', quantity=1, init_content='', labware={'id': 2, 'name': 'Unknown'}, unit='plate'), []), 6), ((Object(name='empty_tube', quantity=0, init_content='', labware={'id': 3, 'name': 'Unknown'}, unit=''), []), 8)], [((Object(name='1_sample_DNAs', quantity=300, init_content='', labware={'id': 1, 'name': 'Unknown'}, unit='µL'), []), 1), ((Object(name='water', quantity=300, init_content='', labware={'id': 1, 'name': 'Unknown'}, unit='µL'), []), 2), ((Object(name='10_µM_primer_F', quantity=130, init_content='', labware={'id': 1, 'name': 'Unknown'}, unit='µL'), []), 3), ((Object(name='10_µM_primer_R', quantity=130, init_content='', labware={'id': 1, 'name': 'Unknown'}, unit='µL'), []), 4), ((Object(name='PCR_MIX', quantity=2000, init_content='', labware={'id': 1, 'name': 'Unknown'}, unit='µL'), []), 5), ((Object(name='96_well_PCR_plate', quantity=1, init_content='', labware={'id': 2, 'name': 'Unknown'}, unit='plate'), []), 6), ((Object(name='empty_tube', quantity=0, init_content='', labware={'id': 3, 'name': 'Unknown'}, unit=''), []), 9)], [((Object(name='1_sample_DNAs', quantity=300, init_content='', labware={'id': 1, 'name': 'Unknown'}, unit='µL'), []), 1), ((Object(name='water', quantity=300, init_content='', labware={'id': 1, 'name': 'Unknown'}, unit='µL'), []), 2), ((Object(name='10_µM_primer_F', quantity=130, init_content='', labware={'id': 1, 'name': 'Unknown'}, unit='µL'), []), 3), ((Object(name='10_µM_primer_R', quantity=130, init_content='', labware={'id': 1, 'name': 'Unknown'}, unit='µL'), []), 4), ((Object(name='PCR_MIX', quantity=2000, init_content='', labware={'id': 1, 'name': 'Unknown'}, unit='µL'), []), 5), ((Object(name='96_well_PCR_plate', quantity=1, init_content='', labware={'id': 2, 'name': 'Unknown'}, unit='plate'), []), 6), ((Object(name='empty_tube', quantity=0, init_content='', labware={'id': 3, 'name': 'Unknown'}, unit=''), []), 10)], [((Object(name='1_sample_DNAs', quantity=300, init_content='', labware={'id': 1, 'name': 'Unknown'}, unit='µL'), []), 1), ((Object(name='water', quantity=300, init_content='', labware={'id': 1, 'name': 'Unknown'}, unit='µL'), []), 2), ((Object(name='10_µM_primer_F', quantity=130, init_content='', labware={'id': 1, 'name': 'Unknown'}, unit='µL'), []), 3), ((Object(name='10_µM_primer_R', quantity=130, init_content='', labware={'id': 1, 'name': 'Unknown'}, unit='µL'), []), 4), ((Object(name='PCR_MIX', quantity=2000, init_content='', labware={'id': 1, 'name': 'Unknown'}, unit='µL'), []), 5), ((Object(name='96_well_PCR_plate', quantity=1, init_content='', labware={'id': 2, 'name': 'Unknown'}, unit='plate'), []), 6), ((Object(name='empty_tube', quantity=0, init_content='', labware={'id': 3, 'name': 'Unknown'}, unit=''), []), 11)], [((Object(name='1_sample_DNAs', quantity=300, init_content='', labware={'id': 1, 'name': 'Unknown'}, unit='µL'), []), 1), ((Object(name='water', quantity=300, init_content='', labware={'id': 1, 'name': 'Unknown'}, unit='µL'), []), 2), ((Object(name='10_µM_primer_F', quantity=130, init_content='', labware={'id': 1, 'name': 'Unknown'}, unit='µL'), []), 3), ((Object(name='10_µM_primer_R', quantity=130, init_content='', labware={'id': 1, 'name': 'Unknown'}, unit='µL'), []), 4), ((Object(name='PCR_MIX', quantity=2000, init_content='', labware={'id': 1, 'name': 'Unknown'}, unit='µL'), []), 5), ((Object(name='96_well_PCR_plate', quantity=1, init_content='', labware={'id': 2, 'name': 'Unknown'}, unit='plate'), []), 6), ((Object(name='empty_tube', quantity=0, init_content='', labware={'id': 3, 'name': 'Unknown'}, unit=''), []), 12)], [((Object(name='1_sample_DNAs', quantity=300, init_content='', labware={'id': 1, 'name': 'Unknown'}, unit='µL'), []), 1), ((Object(name='water', quantity=300, init_content='', labware={'id': 1, 'name': 'Unknown'}, unit='µL'), []), 2), ((Object(name='10_µM_primer_F', quantity=130, init_content='', labware={'id': 1, 'name': 'Unknown'}, unit='µL'), []), 3), ((Object(name='10_µM_primer_R', quantity=130, init_content='', labware={'id': 1, 'name': 'Unknown'}, unit='µL'), []), 4), ((Object(name='PCR_MIX', quantity=2000, init_content='', labware={'id': 1, 'name': 'Unknown'}, unit='µL'), []), 5), ((Object(name='96_well_PCR_plate', quantity=1, init_content='', labware={'id': 2, 'name': 'Unknown'}, unit='plate'), []), 7), ((Object(name='empty_tube', quantity=0, init_content='', labware={'id': 3, 'name': 'Unknown'}, unit=''), []), 6)], [((Object(name='1_sample_DNAs', quantity=300, init_content='', labware={'id': 1, 'name': 'Unknown'}, unit='µL'), []), 1), ((Object(name='water', quantity=300, init_content='', labware={'id': 1, 'name': 'Unknown'}, unit='µL'), []), 2), ((Object(name='10_µM_primer_F', quantity=130, init_content='', labware={'id': 1, 'name': 'Unknown'}, unit='µL'), []), 3), ((Object(name='10_µM_primer_R', quantity=130, init_content='', labware={'id': 1, 'name': 'Unknown'}, unit='µL'), []), 4), ((Object(name='PCR_MIX', quantity=2000, init_content='', labware={'id': 1, 'name': 'Unknown'}, unit='µL'), []), 5), ((Object(name='96_well_PCR_plate', quantity=1, init_content='', labware={'id': 2, 'name': 'Unknown'}, unit='plate'), []), 7), ((Object(name='empty_tube', quantity=0, init_content='', labware={'id': 3, 'name': 'Unknown'}, unit=''), []), 8)], [((Object(name='1_sample_DNAs', quantity=300, init_content='', labware={'id': 1, 'name': 'Unknown'}, unit='µL'), []), 1), ((Object(name='water', quantity=300, init_content='', labware={'id': 1, 'name': 'Unknown'}, unit='µL'), []), 2), ((Object(name='10_µM_primer_F', quantity=130, init_content='', labware={'id': 1, 'name': 'Unknown'}, unit='µL'), []), 3), ((Object(name='10_µM_primer_R', quantity=130, init_content='', labware={'id': 1, 'name': 'Unknown'}, unit='µL'), []), 4), ((Object(name='PCR_MIX', quantity=2000, init_content='', labware={'id': 1, 'name': 'Unknown'}, unit='µL'), []), 5), ((Object(name='96_well_PCR_plate', quantity=1, init_content='', labware={'id': 2, 'name': 'Unknown'}, unit='plate'), []), 7), ((Object(name='empty_tube', quantity=0, init_content='', labware={'id': 3, 'name': 'Unknown'}, unit=''), []), 9)], [((Object(name='1_sample_DNAs', quantity=300, init_content='', labware={'id': 1, 'name': 'Unknown'}, unit='µL'), []), 1), ((Object(name='water', quantity=300, init_content='', labware={'id': 1, 'name': 'Unknown'}, unit='µL'), []), 2), ((Object(name='10_µM_primer_F', quantity=130, init_content='', labware={'id': 1, 'name': 'Unknown'}, unit='µL'), []), 3), ((Object(name='10_µM_primer_R', quantity=130, init_content='', labware={'id': 1, 'name': 'Unknown'}, unit='µL'), []), 4), ((Object(name='PCR_MIX', quantity=2000, init_content='', labware={'id': 1, 'name': 'Unknown'}, unit='µL'), []), 5), ((Object(name='96_well_PCR_plate', quantity=1, init_content='', labware={'id': 2, 'name': 'Unknown'}, unit='plate'), []), 7), ((Object(name='empty_tube', quantity=0, init_content='', labware={'id': 3, 'name': 'Unknown'}, unit=''), []), 10)]]***2025-02-22 15:59:15.396684+00:00***: ************ Check-chan result ***************2025-02-22 15:59:15.396939+00:00***: object_list: [(Object(name='1_sample_DNAs', quantity=300, init_content='', labware={'id': 1, 'name': 'Unknown'}, unit='µL'), []), (Object(name='water', quantity=300, init_content='', labware={'id': 1, 'name': 'Unknown'}, unit='µL'), []), (Object(name='10_µM_primer_F', quantity=130, init_content='', labware={'id': 1, 'name': 'Unknown'}, unit='µL'), []), (Object(name='10_µM_primer_R', quantity=130, init_content='', labware={'id': 1, 'name': 'Unknown'}, unit='µL'), []), (Object(name='PCR_MIX', quantity=2000, init_content='', labware={'id': 1, 'name': 'Unknown'}, unit='µL'), []), (Object(name='96_well_PCR_plate', quantity=1, init_content='', labware={'id': 2, 'name': 'Unknown'}, unit='plate'), []), (Object(name='empty_tube', quantity=0, init_content='', labware={'id': 3, 'name': 'Unknown'}, unit=''), [])]***2025-02-22 15:59:15.397225+00:00***: haichi: [((Object(name='1_sample_DNAs', quantity=300, init_content='', labware={'id': 1, 'name': 'Unknown'}, unit='µL'), []), 1), ((Object(name='water', quantity=300, init_content='', labware={'id': 1, 'name': 'Unknown'}, unit='µL'), []), 2), ((Object(name='10_µM_primer_F', quantity=130, init_content='', labware={'id': 1, 'name': 'Unknown'}, unit='µL'), []), 3), ((Object(name='10_µM_primer_R', quantity=130, init_content='', labware={'id': 1, 'name': 'Unknown'}, unit='µL'), []), 4), ((Object(name='PCR_MIX', quantity=2000, init_content='', labware={'id': 1, 'name': 'Unknown'}, unit='µL'), []), 5), ((Object(name='96_well_PCR_plate', quantity=1, init_content='', labware={'id': 2, 'name': 'Unknown'}, unit='plate'), []), 6), ((Object(name='empty_tube', quantity=0, init_content='', labware={'id': 3, 'name': 'Unknown'}, unit=''), []), 7)]***2025-02-22 15:59:15.397589+00:00***: object: ((Object(name='1_sample_DNAs', quantity=300, init_content='', labware={'id': 1, 'name': 'Unknown'}, unit='µL'), []), 1)***2025-02-22 15:59:15.397785+00:00***: place: 1***2025-02-22 15:59:15.398193+00:00***: object: ((Object(name='water', quantity=300, init_content='', labware={'id': 1, 'name': 'Unknown'}, unit='µL'), []), 2)***2025-02-22 15:59:15.400988+00:00***: place: 2***2025-02-22 15:59:15.401838+00:00***: object: ((Object(name='10_µM_primer_F', quantity=130, init_content='', labware={'id': 1, 'name': 'Unknown'}, unit='µL'), []), 3)***2025-02-22 15:59:15.402208+00:00***: place: 3***2025-02-22 15:59:15.402467+00:00***: object: ((Object(name='10_µM_primer_R', quantity=130, init_content='', labware={'id': 1, 'name': 'Unknown'}, unit='µL'), []), 4)***2025-02-22 15:59:15.402695+00:00***: place: 4***2025-02-22 15:59:15.402955+00:00***: object: ((Object(name='PCR_MIX', quantity=2000, init_content='', labware={'id': 1, 'name': 'Unknown'}, unit='µL'), []), 5)***2025-02-22 15:59:15.403214+00:00***: place: 5***2025-02-22 15:59:15.403457+00:00***: object: ((Object(name='96_well_PCR_plate', quantity=1, init_content='', labware={'id': 2, 'name': 'Unknown'}, unit='plate'), []), 6)***2025-02-22 15:59:15.403697+00:00***: place: 6***2025-02-22 15:59:15.403935+00:00***: object: ((Object(name='empty_tube', quantity=0, init_content='', labware={'id': 3, 'name': 'Unknown'}, unit=''), []), 7)***2025-02-22 15:59:15.404170+00:00***: place: 7***2025-02-22 15:59:15.404404+00:00***: ***Station info*** from***2025-02-22 15:59:15.404640+00:00***: ||||
+|----|----|----|
+|void|void|void|
+|empty_tube:empty_tube|void|void|
+|10_µM_primer_R:10_µM_primer_R|PCR_MIX:PCR_MIX|96_well_PCR_plate:96_well_PCR_plate|
+|1_sample_DNAs:1_sample_DNAs|water:water|10_µM_primer_F:10_µM_primer_F|
+***2025-02-22 15:59:15.404865+00:00***: ***Station info*** to***2025-02-22 15:59:15.405157+00:00***: relative_restriction: test_case/relative_restriction_init_content/ng_position1.json***2025-02-22 15:59:15.410933+00:00***: []***2025-02-22 15:59:15.412621+00:00***: ************ Check-chan result ***************2025-02-22 15:59:15.412867+00:00***: object_list: [(Object(name='1_sample_DNAs', quantity=300, init_content='', labware={'id': 1, 'name': 'Unknown'}, unit='µL'), []), (Object(name='water', quantity=300, init_content='', labware={'id': 1, 'name': 'Unknown'}, unit='µL'), []), (Object(name='10_µM_primer_F', quantity=130, init_content='', labware={'id': 1, 'name': 'Unknown'}, unit='µL'), []), (Object(name='10_µM_primer_R', quantity=130, init_content='', labware={'id': 1, 'name': 'Unknown'}, unit='µL'), []), (Object(name='PCR_MIX', quantity=2000, init_content='', labware={'id': 1, 'name': 'Unknown'}, unit='µL'), []), (Object(name='96_well_PCR_plate', quantity=1, init_content='', labware={'id': 2, 'name': 'Unknown'}, unit='plate'), []), (Object(name='empty_tube', quantity=0, init_content='', labware={'id': 3, 'name': 'Unknown'}, unit=''), [])]***2025-02-22 15:59:15.413121+00:00***: haichi: [((Object(name='1_sample_DNAs', quantity=300, init_content='', labware={'id': 1, 'name': 'Unknown'}, unit='µL'), []), 1), ((Object(name='water', quantity=300, init_content='', labware={'id': 1, 'name': 'Unknown'}, unit='µL'), []), 2), ((Object(name='10_µM_primer_F', quantity=130, init_content='', labware={'id': 1, 'name': 'Unknown'}, unit='µL'), []), 3), ((Object(name='10_µM_primer_R', quantity=130, init_content='', labware={'id': 1, 'name': 'Unknown'}, unit='µL'), []), 4), ((Object(name='PCR_MIX', quantity=2000, init_content='', labware={'id': 1, 'name': 'Unknown'}, unit='µL'), []), 5), ((Object(name='96_well_PCR_plate', quantity=1, init_content='', labware={'id': 2, 'name': 'Unknown'}, unit='plate'), []), 6), ((Object(name='empty_tube', quantity=0, init_content='', labware={'id': 3, 'name': 'Unknown'}, unit=''), []), 8)]***2025-02-22 15:59:15.413358+00:00***: object: ((Object(name='1_sample_DNAs', quantity=300, init_content='', labware={'id': 1, 'name': 'Unknown'}, unit='µL'), []), 1)***2025-02-22 15:59:15.413598+00:00***: place: 1***2025-02-22 15:59:15.413840+00:00***: object: ((Object(name='water', quantity=300, init_content='', labware={'id': 1, 'name': 'Unknown'}, unit='µL'), []), 2)***2025-02-22 15:59:15.414064+00:00***: place: 2***2025-02-22 15:59:15.414446+00:00***: object: ((Object(name='10_µM_primer_F', quantity=130, init_content='', labware={'id': 1, 'name': 'Unknown'}, unit='µL'), []), 3)***2025-02-22 15:59:15.414728+00:00***: place: 3***2025-02-22 15:59:15.415245+00:00***: object: ((Object(name='10_µM_primer_R', quantity=130, init_content='', labware={'id': 1, 'name': 'Unknown'}, unit='µL'), []), 4)***2025-02-22 15:59:15.416715+00:00***: place: 4***2025-02-22 15:59:15.418610+00:00***: object: ((Object(name='PCR_MIX', quantity=2000, init_content='', labware={'id': 1, 'name': 'Unknown'}, unit='µL'), []), 5)***2025-02-22 15:59:15.421220+00:00***: place: 5***2025-02-22 15:59:15.422423+00:00***: object: ((Object(name='96_well_PCR_plate', quantity=1, init_content='', labware={'id': 2, 'name': 'Unknown'}, unit='plate'), []), 6)***2025-02-22 15:59:15.425616+00:00***: place: 6***2025-02-22 15:59:15.426064+00:00***: object: ((Object(name='empty_tube', quantity=0, init_content='', labware={'id': 3, 'name': 'Unknown'}, unit=''), []), 8)***2025-02-22 15:59:15.426778+00:00***: place: 8***2025-02-22 15:59:15.428516+00:00***: ***Station info*** from***2025-02-22 15:59:15.429345+00:00***: ||||
+|----|----|----|
+|void|void|void|
+|void|empty_tube:empty_tube|void|
+|10_µM_primer_R:10_µM_primer_R|PCR_MIX:PCR_MIX|96_well_PCR_plate:96_well_PCR_plate|
+|1_sample_DNAs:1_sample_DNAs|water:water|10_µM_primer_F:10_µM_primer_F|
+***2025-02-22 15:59:15.429795+00:00***: ***Station info*** to***2025-02-22 15:59:15.430578+00:00***: relative_restriction: test_case/relative_restriction_init_content/ng_position1.json***2025-02-22 15:59:15.432007+00:00***: []***2025-02-22 15:59:15.437245+00:00***: ************ Check-chan result ***************2025-02-22 15:59:15.438039+00:00***: object_list: [(Object(name='1_sample_DNAs', quantity=300, init_content='', labware={'id': 1, 'name': 'Unknown'}, unit='µL'), []), (Object(name='water', quantity=300, init_content='', labware={'id': 1, 'name': 'Unknown'}, unit='µL'), []), (Object(name='10_µM_primer_F', quantity=130, init_content='', labware={'id': 1, 'name': 'Unknown'}, unit='µL'), []), (Object(name='10_µM_primer_R', quantity=130, init_content='', labware={'id': 1, 'name': 'Unknown'}, unit='µL'), []), (Object(name='PCR_MIX', quantity=2000, init_content='', labware={'id': 1, 'name': 'Unknown'}, unit='µL'), []), (Object(name='96_well_PCR_plate', quantity=1, init_content='', labware={'id': 2, 'name': 'Unknown'}, unit='plate'), []), (Object(name='empty_tube', quantity=0, init_content='', labware={'id': 3, 'name': 'Unknown'}, unit=''), [])]***2025-02-22 15:59:15.438912+00:00***: haichi: [((Object(name='1_sample_DNAs', quantity=300, init_content='', labware={'id': 1, 'name': 'Unknown'}, unit='µL'), []), 1), ((Object(name='water', quantity=300, init_content='', labware={'id': 1, 'name': 'Unknown'}, unit='µL'), []), 2), ((Object(name='10_µM_primer_F', quantity=130, init_content='', labware={'id': 1, 'name': 'Unknown'}, unit='µL'), []), 3), ((Object(name='10_µM_primer_R', quantity=130, init_content='', labware={'id': 1, 'name': 'Unknown'}, unit='µL'), []), 4), ((Object(name='PCR_MIX', quantity=2000, init_content='', labware={'id': 1, 'name': 'Unknown'}, unit='µL'), []), 5), ((Object(name='96_well_PCR_plate', quantity=1, init_content='', labware={'id': 2, 'name': 'Unknown'}, unit='plate'), []), 6), ((Object(name='empty_tube', quantity=0, init_content='', labware={'id': 3, 'name': 'Unknown'}, unit=''), []), 9)]***2025-02-22 15:59:15.440177+00:00***: object: ((Object(name='1_sample_DNAs', quantity=300, init_content='', labware={'id': 1, 'name': 'Unknown'}, unit='µL'), []), 1)***2025-02-22 15:59:15.440923+00:00***: place: 1***2025-02-22 15:59:15.442086+00:00***: object: ((Object(name='water', quantity=300, init_content='', labware={'id': 1, 'name': 'Unknown'}, unit='µL'), []), 2)***2025-02-22 15:59:15.444767+00:00***: place: 2***2025-02-22 15:59:15.445606+00:00***: object: ((Object(name='10_µM_primer_F', quantity=130, init_content='', labware={'id': 1, 'name': 'Unknown'}, unit='µL'), []), 3)***2025-02-22 15:59:15.446425+00:00***: place: 3***2025-02-22 15:59:15.448542+00:00***: object: ((Object(name='10_µM_primer_R', quantity=130, init_content='', labware={'id': 1, 'name': 'Unknown'}, unit='µL'), []), 4)***2025-02-22 15:59:15.451501+00:00***: place: 4***2025-02-22 15:59:15.453026+00:00***: object: ((Object(name='PCR_MIX', quantity=2000, init_content='', labware={'id': 1, 'name': 'Unknown'}, unit='µL'), []), 5)***2025-02-22 15:59:15.453474+00:00***: place: 5***2025-02-22 15:59:15.454560+00:00***: object: ((Object(name='96_well_PCR_plate', quantity=1, init_content='', labware={'id': 2, 'name': 'Unknown'}, unit='plate'), []), 6)***2025-02-22 15:59:15.455585+00:00***: place: 6***2025-02-22 15:59:15.455953+00:00***: object: ((Object(name='empty_tube', quantity=0, init_content='', labware={'id': 3, 'name': 'Unknown'}, unit=''), []), 9)***2025-02-22 15:59:15.456202+00:00***: place: 9***2025-02-22 15:59:15.456467+00:00***: ***Station info*** from***2025-02-22 15:59:15.456725+00:00***: ||||
+|----|----|----|
+|void|void|void|
+|void|void|empty_tube:empty_tube|
+|10_µM_primer_R:10_µM_primer_R|PCR_MIX:PCR_MIX|96_well_PCR_plate:96_well_PCR_plate|
+|1_sample_DNAs:1_sample_DNAs|water:water|10_µM_primer_F:10_µM_primer_F|
+***2025-02-22 15:59:15.457063+00:00***: ***Station info*** to***2025-02-22 15:59:15.457362+00:00***: relative_restriction: test_case/relative_restriction_init_content/ng_position1.json***2025-02-22 15:59:15.457846+00:00***: []***2025-02-22 15:59:15.458690+00:00***: ************ Check-chan result ***************2025-02-22 15:59:15.459003+00:00***: object_list: [(Object(name='1_sample_DNAs', quantity=300, init_content='', labware={'id': 1, 'name': 'Unknown'}, unit='µL'), []), (Object(name='water', quantity=300, init_content='', labware={'id': 1, 'name': 'Unknown'}, unit='µL'), []), (Object(name='10_µM_primer_F', quantity=130, init_content='', labware={'id': 1, 'name': 'Unknown'}, unit='µL'), []), (Object(name='10_µM_primer_R', quantity=130, init_content='', labware={'id': 1, 'name': 'Unknown'}, unit='µL'), []), (Object(name='PCR_MIX', quantity=2000, init_content='', labware={'id': 1, 'name': 'Unknown'}, unit='µL'), []), (Object(name='96_well_PCR_plate', quantity=1, init_content='', labware={'id': 2, 'name': 'Unknown'}, unit='plate'), []), (Object(name='empty_tube', quantity=0, init_content='', labware={'id': 3, 'name': 'Unknown'}, unit=''), [])]***2025-02-22 15:59:15.459369+00:00***: haichi: [((Object(name='1_sample_DNAs', quantity=300, init_content='', labware={'id': 1, 'name': 'Unknown'}, unit='µL'), []), 1), ((Object(name='water', quantity=300, init_content='', labware={'id': 1, 'name': 'Unknown'}, unit='µL'), []), 2), ((Object(name='10_µM_primer_F', quantity=130, init_content='', labware={'id': 1, 'name': 'Unknown'}, unit='µL'), []), 3), ((Object(name='10_µM_primer_R', quantity=130, init_content='', labware={'id': 1, 'name': 'Unknown'}, unit='µL'), []), 4), ((Object(name='PCR_MIX', quantity=2000, init_content='', labware={'id': 1, 'name': 'Unknown'}, unit='µL'), []), 5), ((Object(name='96_well_PCR_plate', quantity=1, init_content='', labware={'id': 2, 'name': 'Unknown'}, unit='plate'), []), 6), ((Object(name='empty_tube', quantity=0, init_content='', labware={'id': 3, 'name': 'Unknown'}, unit=''), []), 10)]***2025-02-22 15:59:15.459993+00:00***: object: ((Object(name='1_sample_DNAs', quantity=300, init_content='', labware={'id': 1, 'name': 'Unknown'}, unit='µL'), []), 1)***2025-02-22 15:59:15.460277+00:00***: place: 1***2025-02-22 15:59:15.460551+00:00***: object: ((Object(name='water', quantity=300, init_content='', labware={'id': 1, 'name': 'Unknown'}, unit='µL'), []), 2)***2025-02-22 15:59:15.460792+00:00***: place: 2***2025-02-22 15:59:15.461081+00:00***: object: ((Object(name='10_µM_primer_F', quantity=130, init_content='', labware={'id': 1, 'name': 'Unknown'}, unit='µL'), []), 3)***2025-02-22 15:59:15.461400+00:00***: place: 3***2025-02-22 15:59:15.461845+00:00***: object: ((Object(name='10_µM_primer_R', quantity=130, init_content='', labware={'id': 1, 'name': 'Unknown'}, unit='µL'), []), 4)***2025-02-22 15:59:15.462271+00:00***: place: 4***2025-02-22 15:59:15.462744+00:00***: object: ((Object(name='PCR_MIX', quantity=2000, init_content='', labware={'id': 1, 'name': 'Unknown'}, unit='µL'), []), 5)***2025-02-22 15:59:15.463267+00:00***: place: 5***2025-02-22 15:59:15.463782+00:00***: object: ((Object(name='96_well_PCR_plate', quantity=1, init_content='', labware={'id': 2, 'name': 'Unknown'}, unit='plate'), []), 6)***2025-02-22 15:59:15.464046+00:00***: place: 6***2025-02-22 15:59:15.464317+00:00***: object: ((Object(name='empty_tube', quantity=0, init_content='', labware={'id': 3, 'name': 'Unknown'}, unit=''), []), 10)***2025-02-22 15:59:15.464555+00:00***: place: 10***2025-02-22 15:59:15.464946+00:00***: ***Station info*** from***2025-02-22 15:59:15.468873+00:00***: ||||
+|----|----|----|
+|empty_tube:empty_tube|void|void|
+|void|void|void|
+|10_µM_primer_R:10_µM_primer_R|PCR_MIX:PCR_MIX|96_well_PCR_plate:96_well_PCR_plate|
+|1_sample_DNAs:1_sample_DNAs|water:water|10_µM_primer_F:10_µM_primer_F|
+***2025-02-22 15:59:15.469290+00:00***: ***Station info*** to***2025-02-22 15:59:15.469626+00:00***: relative_restriction: test_case/relative_restriction_init_content/ng_position1.json***2025-02-22 15:59:15.470136+00:00***: []***2025-02-22 15:59:15.471217+00:00***: ************ Check-chan result ***************2025-02-22 15:59:15.471734+00:00***: object_list: [(Object(name='1_sample_DNAs', quantity=300, init_content='', labware={'id': 1, 'name': 'Unknown'}, unit='µL'), []), (Object(name='water', quantity=300, init_content='', labware={'id': 1, 'name': 'Unknown'}, unit='µL'), []), (Object(name='10_µM_primer_F', quantity=130, init_content='', labware={'id': 1, 'name': 'Unknown'}, unit='µL'), []), (Object(name='10_µM_primer_R', quantity=130, init_content='', labware={'id': 1, 'name': 'Unknown'}, unit='µL'), []), (Object(name='PCR_MIX', quantity=2000, init_content='', labware={'id': 1, 'name': 'Unknown'}, unit='µL'), []), (Object(name='96_well_PCR_plate', quantity=1, init_content='', labware={'id': 2, 'name': 'Unknown'}, unit='plate'), []), (Object(name='empty_tube', quantity=0, init_content='', labware={'id': 3, 'name': 'Unknown'}, unit=''), [])]***2025-02-22 15:59:15.472002+00:00***: haichi: [((Object(name='1_sample_DNAs', quantity=300, init_content='', labware={'id': 1, 'name': 'Unknown'}, unit='µL'), []), 1), ((Object(name='water', quantity=300, init_content='', labware={'id': 1, 'name': 'Unknown'}, unit='µL'), []), 2), ((Object(name='10_µM_primer_F', quantity=130, init_content='', labware={'id': 1, 'name': 'Unknown'}, unit='µL'), []), 3), ((Object(name='10_µM_primer_R', quantity=130, init_content='', labware={'id': 1, 'name': 'Unknown'}, unit='µL'), []), 4), ((Object(name='PCR_MIX', quantity=2000, init_content='', labware={'id': 1, 'name': 'Unknown'}, unit='µL'), []), 5), ((Object(name='96_well_PCR_plate', quantity=1, init_content='', labware={'id': 2, 'name': 'Unknown'}, unit='plate'), []), 6), ((Object(name='empty_tube', quantity=0, init_content='', labware={'id': 3, 'name': 'Unknown'}, unit=''), []), 11)]***2025-02-22 15:59:15.472335+00:00***: object: ((Object(name='1_sample_DNAs', quantity=300, init_content='', labware={'id': 1, 'name': 'Unknown'}, unit='µL'), []), 1)***2025-02-22 15:59:15.472600+00:00***: place: 1***2025-02-22 15:59:15.472849+00:00***: object: ((Object(name='water', quantity=300, init_content='', labware={'id': 1, 'name': 'Unknown'}, unit='µL'), []), 2)***2025-02-22 15:59:15.473075+00:00***: place: 2***2025-02-22 15:59:15.473404+00:00***: object: ((Object(name='10_µM_primer_F', quantity=130, init_content='', labware={'id': 1, 'name': 'Unknown'}, unit='µL'), []), 3)***2025-02-22 15:59:15.473931+00:00***: place: 3***2025-02-22 15:59:15.474161+00:00***: object: ((Object(name='10_µM_primer_R', quantity=130, init_content='', labware={'id': 1, 'name': 'Unknown'}, unit='µL'), []), 4)***2025-02-22 15:59:15.474414+00:00***: place: 4***2025-02-22 15:59:15.474670+00:00***: object: ((Object(name='PCR_MIX', quantity=2000, init_content='', labware={'id': 1, 'name': 'Unknown'}, unit='µL'), []), 5)***2025-02-22 15:59:15.474925+00:00***: place: 5***2025-02-22 15:59:15.475245+00:00***: object: ((Object(name='96_well_PCR_plate', quantity=1, init_content='', labware={'id': 2, 'name': 'Unknown'}, unit='plate'), []), 6)***2025-02-22 15:59:15.475484+00:00***: place: 6***2025-02-22 15:59:15.475709+00:00***: object: ((Object(name='empty_tube', quantity=0, init_content='', labware={'id': 3, 'name': 'Unknown'}, unit=''), []), 11)***2025-02-22 15:59:15.475932+00:00***: place: 11***2025-02-22 15:59:15.476138+00:00***: ***Station info*** from***2025-02-22 15:59:15.476351+00:00***: ||||
+|----|----|----|
+|void|empty_tube:empty_tube|void|
+|void|void|void|
+|10_µM_primer_R:10_µM_primer_R|PCR_MIX:PCR_MIX|96_well_PCR_plate:96_well_PCR_plate|
+|1_sample_DNAs:1_sample_DNAs|water:water|10_µM_primer_F:10_µM_primer_F|
+***2025-02-22 15:59:15.476652+00:00***: ***Station info*** to***2025-02-22 15:59:15.477360+00:00***: relative_restriction: test_case/relative_restriction_init_content/ng_position1.json***2025-02-22 15:59:15.477721+00:00***: []***2025-02-22 15:59:15.478515+00:00***: ************ Check-chan result ***************2025-02-22 15:59:15.478841+00:00***: object_list: [(Object(name='1_sample_DNAs', quantity=300, init_content='', labware={'id': 1, 'name': 'Unknown'}, unit='µL'), []), (Object(name='water', quantity=300, init_content='', labware={'id': 1, 'name': 'Unknown'}, unit='µL'), []), (Object(name='10_µM_primer_F', quantity=130, init_content='', labware={'id': 1, 'name': 'Unknown'}, unit='µL'), []), (Object(name='10_µM_primer_R', quantity=130, init_content='', labware={'id': 1, 'name': 'Unknown'}, unit='µL'), []), (Object(name='PCR_MIX', quantity=2000, init_content='', labware={'id': 1, 'name': 'Unknown'}, unit='µL'), []), (Object(name='96_well_PCR_plate', quantity=1, init_content='', labware={'id': 2, 'name': 'Unknown'}, unit='plate'), []), (Object(name='empty_tube', quantity=0, init_content='', labware={'id': 3, 'name': 'Unknown'}, unit=''), [])]***2025-02-22 15:59:15.479096+00:00***: haichi: [((Object(name='1_sample_DNAs', quantity=300, init_content='', labware={'id': 1, 'name': 'Unknown'}, unit='µL'), []), 1), ((Object(name='water', quantity=300, init_content='', labware={'id': 1, 'name': 'Unknown'}, unit='µL'), []), 2), ((Object(name='10_µM_primer_F', quantity=130, init_content='', labware={'id': 1, 'name': 'Unknown'}, unit='µL'), []), 3), ((Object(name='10_µM_primer_R', quantity=130, init_content='', labware={'id': 1, 'name': 'Unknown'}, unit='µL'), []), 4), ((Object(name='PCR_MIX', quantity=2000, init_content='', labware={'id': 1, 'name': 'Unknown'}, unit='µL'), []), 5), ((Object(name='96_well_PCR_plate', quantity=1, init_content='', labware={'id': 2, 'name': 'Unknown'}, unit='plate'), []), 6), ((Object(name='empty_tube', quantity=0, init_content='', labware={'id': 3, 'name': 'Unknown'}, unit=''), []), 12)]***2025-02-22 15:59:15.479357+00:00***: object: ((Object(name='1_sample_DNAs', quantity=300, init_content='', labware={'id': 1, 'name': 'Unknown'}, unit='µL'), []), 1)***2025-02-22 15:59:15.479595+00:00***: place: 1***2025-02-22 15:59:15.479823+00:00***: object: ((Object(name='water', quantity=300, init_content='', labware={'id': 1, 'name': 'Unknown'}, unit='µL'), []), 2)***2025-02-22 15:59:15.481283+00:00***: place: 2***2025-02-22 15:59:15.481594+00:00***: object: ((Object(name='10_µM_primer_F', quantity=130, init_content='', labware={'id': 1, 'name': 'Unknown'}, unit='µL'), []), 3)***2025-02-22 15:59:15.482202+00:00***: place: 3***2025-02-22 15:59:15.482579+00:00***: object: ((Object(name='10_µM_primer_R', quantity=130, init_content='', labware={'id': 1, 'name': 'Unknown'}, unit='µL'), []), 4)***2025-02-22 15:59:15.482810+00:00***: place: 4***2025-02-22 15:59:15.483081+00:00***: object: ((Object(name='PCR_MIX', quantity=2000, init_content='', labware={'id': 1, 'name': 'Unknown'}, unit='µL'), []), 5)***2025-02-22 15:59:15.483369+00:00***: place: 5***2025-02-22 15:59:15.483681+00:00***: object: ((Object(name='96_well_PCR_plate', quantity=1, init_content='', labware={'id': 2, 'name': 'Unknown'}, unit='plate'), []), 6)***2025-02-22 15:59:15.483945+00:00***: place: 6***2025-02-22 15:59:15.484170+00:00***: object: ((Object(name='empty_tube', quantity=0, init_content='', labware={'id': 3, 'name': 'Unknown'}, unit=''), []), 12)***2025-02-22 15:59:15.484386+00:00***: place: 12***2025-02-22 15:59:15.484603+00:00***: ***Station info*** from***2025-02-22 15:59:15.484827+00:00***: ||||
+|----|----|----|
+|void|void|empty_tube:empty_tube|
+|void|void|void|
+|10_µM_primer_R:10_µM_primer_R|PCR_MIX:PCR_MIX|96_well_PCR_plate:96_well_PCR_plate|
+|1_sample_DNAs:1_sample_DNAs|water:water|10_µM_primer_F:10_µM_primer_F|
+***2025-02-22 15:59:15.485040+00:00***: ***Station info*** to***2025-02-22 15:59:15.485268+00:00***: relative_restriction: test_case/relative_restriction_init_content/ng_position1.json***2025-02-22 15:59:15.485731+00:00***: []***2025-02-22 15:59:15.486186+00:00***: ************ Check-chan result ***************2025-02-22 15:59:15.486318+00:00***: object_list: [(Object(name='1_sample_DNAs', quantity=300, init_content='', labware={'id': 1, 'name': 'Unknown'}, unit='µL'), []), (Object(name='water', quantity=300, init_content='', labware={'id': 1, 'name': 'Unknown'}, unit='µL'), []), (Object(name='10_µM_primer_F', quantity=130, init_content='', labware={'id': 1, 'name': 'Unknown'}, unit='µL'), []), (Object(name='10_µM_primer_R', quantity=130, init_content='', labware={'id': 1, 'name': 'Unknown'}, unit='µL'), []), (Object(name='PCR_MIX', quantity=2000, init_content='', labware={'id': 1, 'name': 'Unknown'}, unit='µL'), []), (Object(name='96_well_PCR_plate', quantity=1, init_content='', labware={'id': 2, 'name': 'Unknown'}, unit='plate'), []), (Object(name='empty_tube', quantity=0, init_content='', labware={'id': 3, 'name': 'Unknown'}, unit=''), [])]***2025-02-22 15:59:15.486500+00:00***: haichi: [((Object(name='1_sample_DNAs', quantity=300, init_content='', labware={'id': 1, 'name': 'Unknown'}, unit='µL'), []), 1), ((Object(name='water', quantity=300, init_content='', labware={'id': 1, 'name': 'Unknown'}, unit='µL'), []), 2), ((Object(name='10_µM_primer_F', quantity=130, init_content='', labware={'id': 1, 'name': 'Unknown'}, unit='µL'), []), 3), ((Object(name='10_µM_primer_R', quantity=130, init_content='', labware={'id': 1, 'name': 'Unknown'}, unit='µL'), []), 4), ((Object(name='PCR_MIX', quantity=2000, init_content='', labware={'id': 1, 'name': 'Unknown'}, unit='µL'), []), 5), ((Object(name='96_well_PCR_plate', quantity=1, init_content='', labware={'id': 2, 'name': 'Unknown'}, unit='plate'), []), 7), ((Object(name='empty_tube', quantity=0, init_content='', labware={'id': 3, 'name': 'Unknown'}, unit=''), []), 6)]***2025-02-22 15:59:15.486625+00:00***: object: ((Object(name='1_sample_DNAs', quantity=300, init_content='', labware={'id': 1, 'name': 'Unknown'}, unit='µL'), []), 1)***2025-02-22 15:59:15.486755+00:00***: place: 1***2025-02-22 15:59:15.486890+00:00***: object: ((Object(name='water', quantity=300, init_content='', labware={'id': 1, 'name': 'Unknown'}, unit='µL'), []), 2)***2025-02-22 15:59:15.487002+00:00***: place: 2***2025-02-22 15:59:15.487222+00:00***: object: ((Object(name='10_µM_primer_F', quantity=130, init_content='', labware={'id': 1, 'name': 'Unknown'}, unit='µL'), []), 3)***2025-02-22 15:59:15.487406+00:00***: place: 3***2025-02-22 15:59:15.487573+00:00***: object: ((Object(name='10_µM_primer_R', quantity=130, init_content='', labware={'id': 1, 'name': 'Unknown'}, unit='µL'), []), 4)***2025-02-22 15:59:15.487686+00:00***: place: 4***2025-02-22 15:59:15.487801+00:00***: object: ((Object(name='PCR_MIX', quantity=2000, init_content='', labware={'id': 1, 'name': 'Unknown'}, unit='µL'), []), 5)***2025-02-22 15:59:15.487913+00:00***: place: 5***2025-02-22 15:59:15.488107+00:00***: object: ((Object(name='96_well_PCR_plate', quantity=1, init_content='', labware={'id': 2, 'name': 'Unknown'}, unit='plate'), []), 7)***2025-02-22 15:59:15.488279+00:00***: place: 7***2025-02-22 15:59:15.488415+00:00***: object: ((Object(name='empty_tube', quantity=0, init_content='', labware={'id': 3, 'name': 'Unknown'}, unit=''), []), 6)***2025-02-22 15:59:15.488557+00:00***: place: 6***2025-02-22 15:59:15.488676+00:00***: ***Station info*** from***2025-02-22 15:59:15.488799+00:00***: ||||
+|----|----|----|
+|void|void|void|
+|96_well_PCR_plate:96_well_PCR_plate|void|void|
+|10_µM_primer_R:10_µM_primer_R|PCR_MIX:PCR_MIX|empty_tube:empty_tube|
+|1_sample_DNAs:1_sample_DNAs|water:water|10_µM_primer_F:10_µM_primer_F|
+***2025-02-22 15:59:15.488927+00:00***: ***Station info*** to***2025-02-22 15:59:15.489083+00:00***: relative_restriction: test_case/relative_restriction_init_content/ng_position1.json***2025-02-22 15:59:15.489280+00:00***: []***2025-02-22 15:59:15.489757+00:00***: ************ Check-chan result ***************2025-02-22 15:59:15.489901+00:00***: object_list: [(Object(name='1_sample_DNAs', quantity=300, init_content='', labware={'id': 1, 'name': 'Unknown'}, unit='µL'), []), (Object(name='water', quantity=300, init_content='', labware={'id': 1, 'name': 'Unknown'}, unit='µL'), []), (Object(name='10_µM_primer_F', quantity=130, init_content='', labware={'id': 1, 'name': 'Unknown'}, unit='µL'), []), (Object(name='10_µM_primer_R', quantity=130, init_content='', labware={'id': 1, 'name': 'Unknown'}, unit='µL'), []), (Object(name='PCR_MIX', quantity=2000, init_content='', labware={'id': 1, 'name': 'Unknown'}, unit='µL'), []), (Object(name='96_well_PCR_plate', quantity=1, init_content='', labware={'id': 2, 'name': 'Unknown'}, unit='plate'), []), (Object(name='empty_tube', quantity=0, init_content='', labware={'id': 3, 'name': 'Unknown'}, unit=''), [])]***2025-02-22 15:59:15.490044+00:00***: haichi: [((Object(name='1_sample_DNAs', quantity=300, init_content='', labware={'id': 1, 'name': 'Unknown'}, unit='µL'), []), 1), ((Object(name='water', quantity=300, init_content='', labware={'id': 1, 'name': 'Unknown'}, unit='µL'), []), 2), ((Object(name='10_µM_primer_F', quantity=130, init_content='', labware={'id': 1, 'name': 'Unknown'}, unit='µL'), []), 3), ((Object(name='10_µM_primer_R', quantity=130, init_content='', labware={'id': 1, 'name': 'Unknown'}, unit='µL'), []), 4), ((Object(name='PCR_MIX', quantity=2000, init_content='', labware={'id': 1, 'name': 'Unknown'}, unit='µL'), []), 5), ((Object(name='96_well_PCR_plate', quantity=1, init_content='', labware={'id': 2, 'name': 'Unknown'}, unit='plate'), []), 7), ((Object(name='empty_tube', quantity=0, init_content='', labware={'id': 3, 'name': 'Unknown'}, unit=''), []), 8)]***2025-02-22 15:59:15.490165+00:00***: object: ((Object(name='1_sample_DNAs', quantity=300, init_content='', labware={'id': 1, 'name': 'Unknown'}, unit='µL'), []), 1)***2025-02-22 15:59:15.490290+00:00***: place: 1***2025-02-22 15:59:15.490421+00:00***: object: ((Object(name='water', quantity=300, init_content='', labware={'id': 1, 'name': 'Unknown'}, unit='µL'), []), 2)***2025-02-22 15:59:15.490555+00:00***: place: 2***2025-02-22 15:59:15.490678+00:00***: object: ((Object(name='10_µM_primer_F', quantity=130, init_content='', labware={'id': 1, 'name': 'Unknown'}, unit='µL'), []), 3)***2025-02-22 15:59:15.490808+00:00***: place: 3***2025-02-22 15:59:15.490928+00:00***: object: ((Object(name='10_µM_primer_R', quantity=130, init_content='', labware={'id': 1, 'name': 'Unknown'}, unit='µL'), []), 4)***2025-02-22 15:59:15.491042+00:00***: place: 4***2025-02-22 15:59:15.491180+00:00***: object: ((Object(name='PCR_MIX', quantity=2000, init_content='', labware={'id': 1, 'name': 'Unknown'}, unit='µL'), []), 5)***2025-02-22 15:59:15.491301+00:00***: place: 5***2025-02-22 15:59:15.491414+00:00***: object: ((Object(name='96_well_PCR_plate', quantity=1, init_content='', labware={'id': 2, 'name': 'Unknown'}, unit='plate'), []), 7)***2025-02-22 15:59:15.491529+00:00***: place: 7***2025-02-22 15:59:15.491646+00:00***: object: ((Object(name='empty_tube', quantity=0, init_content='', labware={'id': 3, 'name': 'Unknown'}, unit=''), []), 8)***2025-02-22 15:59:15.491759+00:00***: place: 8***2025-02-22 15:59:15.491863+00:00***: ***Station info*** from***2025-02-22 15:59:15.491974+00:00***: ||||
+|----|----|----|
+|void|void|void|
+|96_well_PCR_plate:96_well_PCR_plate|empty_tube:empty_tube|void|
+|10_µM_primer_R:10_µM_primer_R|PCR_MIX:PCR_MIX|void|
+|1_sample_DNAs:1_sample_DNAs|water:water|10_µM_primer_F:10_µM_primer_F|
+***2025-02-22 15:59:15.492082+00:00***: ***Station info*** to***2025-02-22 15:59:15.492196+00:00***: relative_restriction: test_case/relative_restriction_init_content/ng_position1.json***2025-02-22 15:59:15.492370+00:00***: []***2025-02-22 15:59:15.492780+00:00***: ************ Check-chan result ***************2025-02-22 15:59:15.492917+00:00***: object_list: [(Object(name='1_sample_DNAs', quantity=300, init_content='', labware={'id': 1, 'name': 'Unknown'}, unit='µL'), []), (Object(name='water', quantity=300, init_content='', labware={'id': 1, 'name': 'Unknown'}, unit='µL'), []), (Object(name='10_µM_primer_F', quantity=130, init_content='', labware={'id': 1, 'name': 'Unknown'}, unit='µL'), []), (Object(name='10_µM_primer_R', quantity=130, init_content='', labware={'id': 1, 'name': 'Unknown'}, unit='µL'), []), (Object(name='PCR_MIX', quantity=2000, init_content='', labware={'id': 1, 'name': 'Unknown'}, unit='µL'), []), (Object(name='96_well_PCR_plate', quantity=1, init_content='', labware={'id': 2, 'name': 'Unknown'}, unit='plate'), []), (Object(name='empty_tube', quantity=0, init_content='', labware={'id': 3, 'name': 'Unknown'}, unit=''), [])]***2025-02-22 15:59:15.493062+00:00***: haichi: [((Object(name='1_sample_DNAs', quantity=300, init_content='', labware={'id': 1, 'name': 'Unknown'}, unit='µL'), []), 1), ((Object(name='water', quantity=300, init_content='', labware={'id': 1, 'name': 'Unknown'}, unit='µL'), []), 2), ((Object(name='10_µM_primer_F', quantity=130, init_content='', labware={'id': 1, 'name': 'Unknown'}, unit='µL'), []), 3), ((Object(name='10_µM_primer_R', quantity=130, init_content='', labware={'id': 1, 'name': 'Unknown'}, unit='µL'), []), 4), ((Object(name='PCR_MIX', quantity=2000, init_content='', labware={'id': 1, 'name': 'Unknown'}, unit='µL'), []), 5), ((Object(name='96_well_PCR_plate', quantity=1, init_content='', labware={'id': 2, 'name': 'Unknown'}, unit='plate'), []), 7), ((Object(name='empty_tube', quantity=0, init_content='', labware={'id': 3, 'name': 'Unknown'}, unit=''), []), 9)]***2025-02-22 15:59:15.493221+00:00***: object: ((Object(name='1_sample_DNAs', quantity=300, init_content='', labware={'id': 1, 'name': 'Unknown'}, unit='µL'), []), 1)***2025-02-22 15:59:15.493346+00:00***: place: 1***2025-02-22 15:59:15.493824+00:00***: object: ((Object(name='water', quantity=300, init_content='', labware={'id': 1, 'name': 'Unknown'}, unit='µL'), []), 2)***2025-02-22 15:59:15.493950+00:00***: place: 2***2025-02-22 15:59:15.494068+00:00***: object: ((Object(name='10_µM_primer_F', quantity=130, init_content='', labware={'id': 1, 'name': 'Unknown'}, unit='µL'), []), 3)***2025-02-22 15:59:15.494216+00:00***: place: 3***2025-02-22 15:59:15.494349+00:00***: object: ((Object(name='10_µM_primer_R', quantity=130, init_content='', labware={'id': 1, 'name': 'Unknown'}, unit='µL'), []), 4)***2025-02-22 15:59:15.494453+00:00***: place: 4***2025-02-22 15:59:15.494570+00:00***: object: ((Object(name='PCR_MIX', quantity=2000, init_content='', labware={'id': 1, 'name': 'Unknown'}, unit='µL'), []), 5)***2025-02-22 15:59:15.494666+00:00***: place: 5***2025-02-22 15:59:15.494789+00:00***: object: ((Object(name='96_well_PCR_plate', quantity=1, init_content='', labware={'id': 2, 'name': 'Unknown'}, unit='plate'), []), 7)***2025-02-22 15:59:15.494895+00:00***: place: 7***2025-02-22 15:59:15.495013+00:00***: object: ((Object(name='empty_tube', quantity=0, init_content='', labware={'id': 3, 'name': 'Unknown'}, unit=''), []), 9)***2025-02-22 15:59:15.495125+00:00***: place: 9***2025-02-22 15:59:15.495238+00:00***: ***Station info*** from***2025-02-22 15:59:15.495341+00:00***: ||||
+|----|----|----|
+|void|void|void|
+|96_well_PCR_plate:96_well_PCR_plate|void|empty_tube:empty_tube|
+|10_µM_primer_R:10_µM_primer_R|PCR_MIX:PCR_MIX|void|
+|1_sample_DNAs:1_sample_DNAs|water:water|10_µM_primer_F:10_µM_primer_F|
+***2025-02-22 15:59:15.495440+00:00***: ***Station info*** to***2025-02-22 15:59:15.495554+00:00***: relative_restriction: test_case/relative_restriction_init_content/ng_position1.json***2025-02-22 15:59:15.495720+00:00***: []***2025-02-22 15:59:15.496239+00:00***: ************ Check-chan result ***************2025-02-22 15:59:15.496354+00:00***: object_list: [(Object(name='1_sample_DNAs', quantity=300, init_content='', labware={'id': 1, 'name': 'Unknown'}, unit='µL'), []), (Object(name='water', quantity=300, init_content='', labware={'id': 1, 'name': 'Unknown'}, unit='µL'), []), (Object(name='10_µM_primer_F', quantity=130, init_content='', labware={'id': 1, 'name': 'Unknown'}, unit='µL'), []), (Object(name='10_µM_primer_R', quantity=130, init_content='', labware={'id': 1, 'name': 'Unknown'}, unit='µL'), []), (Object(name='PCR_MIX', quantity=2000, init_content='', labware={'id': 1, 'name': 'Unknown'}, unit='µL'), []), (Object(name='96_well_PCR_plate', quantity=1, init_content='', labware={'id': 2, 'name': 'Unknown'}, unit='plate'), []), (Object(name='empty_tube', quantity=0, init_content='', labware={'id': 3, 'name': 'Unknown'}, unit=''), [])]***2025-02-22 15:59:15.496466+00:00***: haichi: [((Object(name='1_sample_DNAs', quantity=300, init_content='', labware={'id': 1, 'name': 'Unknown'}, unit='µL'), []), 1), ((Object(name='water', quantity=300, init_content='', labware={'id': 1, 'name': 'Unknown'}, unit='µL'), []), 2), ((Object(name='10_µM_primer_F', quantity=130, init_content='', labware={'id': 1, 'name': 'Unknown'}, unit='µL'), []), 3), ((Object(name='10_µM_primer_R', quantity=130, init_content='', labware={'id': 1, 'name': 'Unknown'}, unit='µL'), []), 4), ((Object(name='PCR_MIX', quantity=2000, init_content='', labware={'id': 1, 'name': 'Unknown'}, unit='µL'), []), 5), ((Object(name='96_well_PCR_plate', quantity=1, init_content='', labware={'id': 2, 'name': 'Unknown'}, unit='plate'), []), 7), ((Object(name='empty_tube', quantity=0, init_content='', labware={'id': 3, 'name': 'Unknown'}, unit=''), []), 10)]***2025-02-22 15:59:15.496568+00:00***: object: ((Object(name='1_sample_DNAs', quantity=300, init_content='', labware={'id': 1, 'name': 'Unknown'}, unit='µL'), []), 1)***2025-02-22 15:59:15.496679+00:00***: place: 1***2025-02-22 15:59:15.496795+00:00***: object: ((Object(name='water', quantity=300, init_content='', labware={'id': 1, 'name': 'Unknown'}, unit='µL'), []), 2)***2025-02-22 15:59:15.496903+00:00***: place: 2***2025-02-22 15:59:15.497009+00:00***: object: ((Object(name='10_µM_primer_F', quantity=130, init_content='', labware={'id': 1, 'name': 'Unknown'}, unit='µL'), []), 3)***2025-02-22 15:59:15.497108+00:00***: place: 3***2025-02-22 15:59:15.497214+00:00***: object: ((Object(name='10_µM_primer_R', quantity=130, init_content='', labware={'id': 1, 'name': 'Unknown'}, unit='µL'), []), 4)***2025-02-22 15:59:15.497344+00:00***: place: 4***2025-02-22 15:59:15.497484+00:00***: object: ((Object(name='PCR_MIX', quantity=2000, init_content='', labware={'id': 1, 'name': 'Unknown'}, unit='µL'), []), 5)***2025-02-22 15:59:15.497624+00:00***: place: 5***2025-02-22 15:59:15.497752+00:00***: object: ((Object(name='96_well_PCR_plate', quantity=1, init_content='', labware={'id': 2, 'name': 'Unknown'}, unit='plate'), []), 7)***2025-02-22 15:59:15.497855+00:00***: place: 7***2025-02-22 15:59:15.497989+00:00***: object: ((Object(name='empty_tube', quantity=0, init_content='', labware={'id': 3, 'name': 'Unknown'}, unit=''), []), 10)***2025-02-22 15:59:15.498174+00:00***: place: 10***2025-02-22 15:59:15.498353+00:00***: ***Station info*** from***2025-02-22 15:59:15.498517+00:00***: ||||
+|----|----|----|
+|empty_tube:empty_tube|void|void|
+|96_well_PCR_plate:96_well_PCR_plate|void|void|
+|10_µM_primer_R:10_µM_primer_R|PCR_MIX:PCR_MIX|void|
+|1_sample_DNAs:1_sample_DNAs|water:water|10_µM_primer_F:10_µM_primer_F|
+***2025-02-22 15:59:15.498633+00:00***: ***Station info*** to***2025-02-22 15:59:15.498747+00:00***: relative_restriction: test_case/relative_restriction_init_content/ng_position1.json***2025-02-22 15:59:15.498924+00:00***: []***2025-02-22 15:59:21.853331+00:00***: *********************************************************2025-02-22 15:59:21.854726+00:00***: save initial position of objects as txt file: qPCR_ozaki/82ef653d-95dd-406f-9e6c-bb355a43e58b/iteration_5/representative_initial_position.txt***2025-02-22 15:59:21.856040+00:00***: *********************************************************2025-02-22 15:59:21.857467+00:00***: OK: [((Object(name='1_sample_DNAs', quantity=300, init_content='', labware={'id': 1, 'name': 'Unknown'}, unit='µL'), []), 1), ((Object(name='water', quantity=300, init_content='', labware={'id': 1, 'name': 'Unknown'}, unit='µL'), []), 2), ((Object(name='10_µM_primer_F', quantity=130, init_content='', labware={'id': 1, 'name': 'Unknown'}, unit='µL'), []), 3), ((Object(name='10_µM_primer_R', quantity=130, init_content='', labware={'id': 1, 'name': 'Unknown'}, unit='µL'), []), 4), ((Object(name='PCR_MIX', quantity=2000, init_content='', labware={'id': 1, 'name': 'Unknown'}, unit='µL'), []), 5), ((Object(name='96_well_PCR_plate', quantity=1, init_content='', labware={'id': 2, 'name': 'Unknown'}, unit='plate'), []), 7), ((Object(name='empty_tube', quantity=0, init_content='', labware={'id': 3, 'name': 'Unknown'}, unit=''), []), 10)]***2025-02-22 15:59:21.858232+00:00***: Generate 骨子スクリプト from 
+~~~~~~~~~~
+QPCR
+QuantStudio 6 Proで測定するサンプルprepを行う
+1サンプルあってそれぞれ13プライマー x duplicate(3)で試験するイメージ
+NTCは13プライマー x duplicate(3)用意する
+その他、PrimerなしのTemplateのみを1 x duplicate(3)用意する
+
+
+Input：試薬類の容器はチューブまたはプレート
+1 sample DNAs			300 μL
+water					300 μL
+10 μM primer_F			各10 μL
+10 μM primer_R			各10 μL
+PCR MIX				2000 μL
+96 well PCR  plate			1 plate
+その他液体混合に必要なチューブまたはプレートなど
+output
+sample DNA, primer, PCR MIXの混合溶液が入った96 well PCR plate x 1
+procedure
+1. PCR MIXを137.6 μLずつ13個に分注する
+2. PCR MIXが入ったチューブに10 μM primer_F1-13を3.2 μL添加する
+3. PCR MIXが入ったチューブに10 μM primer_R1-13を3.2 μL添加する
+4. PCR MIXとprimerをピペッティングで混合する
+5. templateのみ用のPCR MIXを86 μL分注する
+6. templateのみ用のPCR MIXにwaterを4 μL添加する
+7. templateのみ用のPCR MIXとwaterをピペッティングで混合する
+8. サンプル DNAまたはwater をreaction plateに5 μLずつアプライする
+下記plate mapの列を埋めていくイメージ
+9. PCR MIXとprimerの混合溶液を10 μLずつreaction plateにアプライする
+下記plate mapの行を埋めていくイメージ
+plate map
+81 well使用する
+S_n = sample_n
+今回はヒト標準cDNA1つ
+NTC = no template control：水＝ネガティブコントロール（全primerについて置く）
+P_m = primer set_m：forward primerとreverse primerのセット
+今回は13種類
+Templateのみも置く
+OT-2のピペット
+20 μLと300 μL 
+
+~~~~~~~~~~***2025-02-22 15:59:21.858698+00:00***: ************ Code-chan for 骨子スクリプト result ***************2025-02-22 15:59:21.859005+00:00***: replace_word: ___processflow___ is not in the prompt.***2025-02-22 16:00:47.716147+00:00***: python_script_path: qPCR_ozaki/82ef653d-95dd-406f-9e6c-bb355a43e58b/iteration_5/code_chan/骨子スクリプト.py***2025-02-22 16:00:47.716812+00:00***: ************ Code-chan result ***************2025-02-22 16:00:47.717216+00:00***: replace_word: ___processflow___ is not in the prompt.***2025-02-22 16:00:47.717805+00:00***: get_OT2_with_haichi_based_on_骨子_script prompt: 
+We have the following Opentrons OT2 script. This script describes the position of the labware (Station) as __place_{i}__.
+
+Skeleton script:
+
+python
+___skeleton_script___
+Please generate a script where __place_{i}__ is replaced with the correct position based on the following labware placement information.
+
+Placement information:
+
+markdown
+[[[{"name": "1_sample_DNAs", "quantity": 300, "init_content": "", "labware": {"id": 1, "name": "Unknown"}, "unit": "\u00b5L"}, []], 1], [[{"name": "water", "quantity": 300, "init_content": "", "labware": {"id": 1, "name": "Unknown"}, "unit": "\u00b5L"}, []], 2], [[{"name": "10_\u00b5M_primer_F", "quantity": 130, "init_content": "", "labware": {"id": 1, "name": "Unknown"}, "unit": "\u00b5L"}, []], 3], [[{"name": "10_\u00b5M_primer_R", "quantity": 130, "init_content": "", "labware": {"id": 1, "name": "Unknown"}, "unit": "\u00b5L"}, []], 4], [[{"name": "PCR_MIX", "quantity": 2000, "init_content": "", "labware": {"id": 1, "name": "Unknown"}, "unit": "\u00b5L"}, []], 5], [[{"name": "96_well_PCR_plate", "quantity": 1, "init_content": "", "labware": {"id": 2, "name": "Unknown"}, "unit": "plate"}, []], 7], [[{"name": "empty_tube", "quantity": 0, "init_content": "", "labware": {"id": 3, "name": "Unknown"}, "unit": ""}, []], 10]]
+Please reply with the Python script where __place_{i}__ has been replaced with the correct locations. If there is missing information in the placement details required to fill in __place_{i}__ in the skeleton script, you may supplement it as necessary. However, do not modify the placement information.
+***2025-02-22 16:01:38.874297+00:00***: python_script_path: qPCR_ozaki/82ef653d-95dd-406f-9e6c-bb355a43e58b/iteration_5/code_chan/最終スクリプト.py

@@ -1,0 +1,31 @@
+
+QPCR
+QuantStudio 6 Proで測定するサンプルprepを行う
+11サンプルあって、それぞれ4プライマー x duplicateで試験するイメージ
+Input：試薬類の容器はチューブまたはプレート
+11 sample DNAs			各50 μL
+water					50 μL
+10 μM primer_F			50 μL
+10 μM primer_R			50 μL
+PCR MIX				1000 μL
+96 well PCR  plate			1 plate
+その他液体混合に必要なチューブまたはプレートなど
+output
+sample DNA, primer, PCR MIXの混合溶液が入った96 well PCR plate x 1
+procedure
+1. PCR MIXを221 μLずつ4つに分注する
+2. PCR MIXが入ったチューブに10 μM primer_F1-4を19.5 μL添加する
+3. PCR MIXが入ったチューブに10 μM primer_R1-4を19.5 μL添加する
+4. PCR MIXとprimerをピペッティングで混合する
+5. サンプル DNAまたはwater をreaction plateに5 μLずつアプライする
+下記plate mapの列を埋めていくイメージ
+6. PCR MIXとprimerの混合溶液を10 μLずつreaction plateにアプライする
+下記plate mapの行を埋めていくイメージ
+plate map
+96 well全て使用する
+S_n = sample_n
+今回は1〜11までの11種類のサンプル
+NTC = no template control：水＝ネガティブコントロール
+P_m = primer set_m：forward primerとreverse primerのセット
+今回は4種類のセット
+      

@@ -1,0 +1,71 @@
+/Users/yuyaarai/.opentrons/robot_settings.json not found. Loading defaults
+Deck calibration not found.
+/Users/yuyaarai/.opentrons/deck_calibration.json not found. Loading defaults
+Traceback (most recent call last):
+  File "/Users/yuyaarai/Documents/Humanics/Project/FormationFormatter/src/formationformatter/code_chan/.venv/lib/python3.12/site-packages/opentrons/protocols/execution/execute_python.py", line 160, in exec_run
+    exec("run(__context)", new_globs)
+  File "<string>", line 1, in <module>
+  File "qPCR_ozaki_modified2025-02-25/2025_02_25_13_35_10_f618e960-b55c-4093-b09d-640f770c6e9a/iteration_4/code_chan/最終スクリプト.py", line 33, in run
+    mixing_plate = protocol.load_labware('eppendorf_96_wellplate_2000ul', '10')
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/yuyaarai/Documents/Humanics/Project/FormationFormatter/src/formationformatter/code_chan/.venv/lib/python3.12/site-packages/opentrons/protocols/api_support/util.py", line 389, in _check_version_wrapper
+    return decorated_obj(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/yuyaarai/Documents/Humanics/Project/FormationFormatter/src/formationformatter/code_chan/.venv/lib/python3.12/site-packages/opentrons/protocol_api/protocol_context.py", line 467, in load_labware
+    labware_core = self._core.load_labware(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/yuyaarai/Documents/Humanics/Project/FormationFormatter/src/formationformatter/code_chan/.venv/lib/python3.12/site-packages/opentrons/protocol_api/core/legacy/legacy_protocol_core.py", line 199, in load_labware
+    labware_def = labware_definition.get_labware_definition(
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/yuyaarai/Documents/Humanics/Project/FormationFormatter/src/formationformatter/code_chan/.venv/lib/python3.12/site-packages/opentrons/protocols/labware.py", line 61, in get_labware_definition
+    return _get_standard_labware_definition(load_name, namespace, version)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/yuyaarai/Documents/Humanics/Project/FormationFormatter/src/formationformatter/code_chan/.venv/lib/python3.12/site-packages/opentrons/protocols/labware.py", line 205, in _get_standard_labware_definition
+    raise FileNotFoundError(
+FileNotFoundError: Unable to find a labware
+        definition for "eppendorf_96_wellplate_2000ul",
+        version 1, in the opentrons namespace.
+        Please confirm your protocol includes the correct
+        labware spelling and (optionally) the correct version
+        number and namespace.
+
+        If you are referencing a custom labware in your
+        protocol, you must add it to your Custom Labware
+        Definitions Folder from the Opentrons App before
+        uploading your protocol.
+        
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/Users/yuyaarai/Documents/Humanics/Project/FormationFormatter/src/formationformatter/code_chan/.venv/lib/python3.12/site-packages/opentrons/simulate.py", line 1061, in <module>
+    sys.exit(main())
+             ^^^^^^
+  File "/Users/yuyaarai/Documents/Humanics/Project/FormationFormatter/src/formationformatter/code_chan/.venv/lib/python3.12/site-packages/opentrons/simulate.py", line 1020, in main
+    runlog, maybe_bundle = simulate(
+                           ^^^^^^^^^
+  File "/Users/yuyaarai/Documents/Humanics/Project/FormationFormatter/src/formationformatter/code_chan/.venv/lib/python3.12/site-packages/opentrons/simulate.py", line 564, in simulate
+    return _run_file_non_pe(
+           ^^^^^^^^^^^^^^^^^
+  File "/Users/yuyaarai/Documents/Humanics/Project/FormationFormatter/src/formationformatter/code_chan/.venv/lib/python3.12/site-packages/opentrons/simulate.py", line 887, in _run_file_non_pe
+    execute.run_protocol(
+  File "/Users/yuyaarai/Documents/Humanics/Project/FormationFormatter/src/formationformatter/code_chan/.venv/lib/python3.12/site-packages/opentrons/protocols/execution/execute.py", line 39, in run_protocol
+    exec_run(
+  File "/Users/yuyaarai/Documents/Humanics/Project/FormationFormatter/src/formationformatter/code_chan/.venv/lib/python3.12/site-packages/opentrons/protocols/execution/execute_python.py", line 169, in exec_run
+    _raise_pretty_protocol_error(exception=e, filename=filename)
+  File "/Users/yuyaarai/Documents/Humanics/Project/FormationFormatter/src/formationformatter/code_chan/.venv/lib/python3.12/site-packages/opentrons/protocols/execution/execute_python.py", line 71, in _raise_pretty_protocol_error
+    raise ExceptionInProtocolError(
+opentrons.protocols.execution.errors.ExceptionInProtocolError: FileNotFoundError [line 33]: Unable to find a labware
+        definition for "eppendorf_96_wellplate_2000ul",
+        version 1, in the opentrons namespace.
+        Please confirm your protocol includes the correct
+        labware spelling and (optionally) the correct version
+        number and namespace.
+
+        If you are referencing a custom labware in your
+        protocol, you must add it to your Custom Labware
+        Definitions Folder from the Opentrons App before
+        uploading your protocol.
+        

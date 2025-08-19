@@ -1,0 +1,247 @@
+***2025-02-23 02:46:58.965243+00:00***: os.path.join(BASE_DIR, f'{id}')='qPCR_ozaki/2025_02_23_10_07_18_e3a79ca4-f6ed-414f-a44d-676970733384/iteration_9'***2025-02-23 02:46:58.965697+00:00***: *********************** 2025_02_23_10_07_18_e3a79ca4-f6ed-414f-a44d-676970733384/iteration_9 *****************************2025-02-23 02:46:58.966019+00:00***: *********************************************************2025-02-23 02:47:06.275376+00:00***: obj-chan preprocess result:
+
+{
+    "labware": [
+        {
+            "name": "1_sample_DNAs",
+            "quantity": 300,
+            "unit": "uL",
+            "init_content": "",
+            "labware": {"id": 1, "name": "Unknown"}
+        },
+        {
+            "name": "water",
+            "quantity": 300,
+            "unit": "uL",
+            "init_content": "",
+            "labware": {"id": 1, "name": "Unknown"}
+        },
+        {
+            "name": "10_uM_primer_F",
+            "quantity": 10,
+            "unit": "uL",
+            "init_content": "",
+            "labware": {"id": 1, "name": "Unknown"}
+        },
+        {
+            "name": "10_uM_primer_R",
+            "quantity": 10,
+            "unit": "uL",
+            "init_content": "",
+            "labware": {"id": 1, "name": "Unknown"}
+        },
+        {
+            "name": "PCR_MIX",
+            "quantity": 2000,
+            "unit": "uL",
+            "init_content": "",
+            "labware": {"id": 1, "name": "Unknown"}
+        },
+        {
+            "name": "96_well_PCR_plate",
+            "quantity": 1,
+            "unit": "plate",
+            "init_content": "",
+            "labware": {"id": 1, "name": "Unknown"}
+        },
+        {
+            "name": "PCR_MIX_tube",
+            "quantity": 137.6,
+            "unit": "uL",
+            "init_content": "PCR MIX",
+            "labware": {"id": 1, "name": "Unknown"}
+        },
+        {
+            "name": "10_uM_primer_F1-13_tube",
+            "quantity": 3.2,
+            "unit": "uL",
+            "init_content": "",
+            "labware": {"id": 1, "name": "Unknown"}
+        },
+        {
+            "name": "10_uM_primer_R1-13_tube",
+            "quantity": 3.2,
+            "unit": "uL",
+            "init_content": "",
+            "labware": {"id": 1, "name": "Unknown"}
+        },
+        {
+            "name": "PCR_MIX_and_primer_mix_tube",
+            "quantity": 10,
+            "unit": "uL",
+            "init_content": "",
+            "labware": {"id": 1, "name": "Unknown"}
+        },
+        {
+            "name": "template_only_PCR_MIX",
+            "quantity": 86,
+            "unit": "uL",
+            "init_content": "PCR MIX",
+            "labware": {"id": 1, "name": "Unknown"}
+        },
+        {
+            "name": "water_template_tube",
+            "quantity": 4,
+            "unit": "uL",
+            "init_content": "water",
+            "labware": {"id": 1, "name": "Unknown"}
+        },
+        {
+            "name": "reaction_plate",
+            "quantity": 5,
+            "unit": "uL",
+            "init_content": "",
+            "labware": {"id": 1, "name": "Unknown"}
+        }
+    ]
+}
+
+
+***2025-02-23 02:47:06.277203+00:00***: obj-chan postprocess result:
+
+{
+    "labware": [
+        {
+            "name": "1_sample_DNAs",
+            "quantity": 300,
+            "unit": "uL",
+            "init_content": "",
+            "labware": {"id": 1, "name": "Unknown"}
+        },
+        {
+            "name": "water",
+            "quantity": 300,
+            "unit": "uL",
+            "init_content": "",
+            "labware": {"id": 1, "name": "Unknown"}
+        },
+        {
+            "name": "10_uM_primer_F",
+            "quantity": 10,
+            "unit": "uL",
+            "init_content": "",
+            "labware": {"id": 1, "name": "Unknown"}
+        },
+        {
+            "name": "10_uM_primer_R",
+            "quantity": 10,
+            "unit": "uL",
+            "init_content": "",
+            "labware": {"id": 1, "name": "Unknown"}
+        },
+        {
+            "name": "PCR_MIX",
+            "quantity": 2000,
+            "unit": "uL",
+            "init_content": "",
+            "labware": {"id": 1, "name": "Unknown"}
+        },
+        {
+            "name": "96_well_PCR_plate",
+            "quantity": 1,
+            "unit": "plate",
+            "init_content": "",
+            "labware": {"id": 1, "name": "Unknown"}
+        },
+        {
+            "name": "PCR_MIX_tube",
+            "quantity": 137.6,
+            "unit": "uL",
+            "init_content": "PCR MIX",
+            "labware": {"id": 1, "name": "Unknown"}
+        },
+        {
+            "name": "10_uM_primer_F1-13_tube",
+            "quantity": 3.2,
+            "unit": "uL",
+            "init_content": "",
+            "labware": {"id": 1, "name": "Unknown"}
+        },
+        {
+            "name": "10_uM_primer_R1-13_tube",
+            "quantity": 3.2,
+            "unit": "uL",
+            "init_content": "",
+            "labware": {"id": 1, "name": "Unknown"}
+        },
+        {
+            "name": "PCR_MIX_and_primer_mix_tube",
+            "quantity": 10,
+            "unit": "uL",
+            "init_content": "",
+            "labware": {"id": 1, "name": "Unknown"}
+        },
+        {
+            "name": "template_only_PCR_MIX",
+            "quantity": 86,
+            "unit": "uL",
+            "init_content": "PCR MIX",
+            "labware": {"id": 1, "name": "Unknown"}
+        },
+        {
+            "name": "water_template_tube",
+            "quantity": 4,
+            "unit": "uL",
+            "init_content": "water",
+            "labware": {"id": 1, "name": "Unknown"}
+        },
+        {
+            "name": "reaction_plate",
+            "quantity": 5,
+            "unit": "uL",
+            "init_content": "",
+            "labware": {"id": 1, "name": "Unknown"}
+        }
+    ]
+}
+
+
+***2025-02-23 02:47:06.278304+00:00***: 
+
+Process Flow ******************
+QPCR
+QuantStudio 6 Proで測定するサンプルprepを行う
+1サンプルあってそれぞれ13プライマー x duplicate(3)で試験するイメージ
+NTCは13プライマー x duplicate(3)用意する
+その他、PrimerなしのTemplateのみを1 x duplicate(3)用意する
+
+
+Input：試薬類の容器はチューブまたはプレート
+1 sample DNAs			300 μL
+water					300 μL
+10 μM primer_F			各10 μL
+10 μM primer_R			各10 μL
+PCR MIX				2000 μL
+96 well PCR  plate			1 plate
+その他液体混合に必要なチューブまたはプレートなど
+output
+sample DNA, primer, PCR MIXの混合溶液が入った96 well PCR plate x 1
+procedure
+1. PCR MIXを137.6 μLずつ13個に分注する
+2. PCR MIXが入ったチューブに10 μM primer_F1-13を3.2 μL添加する
+3. PCR MIXが入ったチューブに10 μM primer_R1-13を3.2 μL添加する
+4. PCR MIXとprimerをピペッティングで混合する
+5. templateのみ用のPCR MIXを86 μL分注する
+6. templateのみ用のPCR MIXにwaterを4 μL添加する
+7. templateのみ用のPCR MIXとwaterをピペッティングで混合する
+8. サンプル DNAまたはwater をreaction plateに5 μLずつアプライする
+下記plate mapの列を埋めていくイメージ
+9. PCR MIXとprimerの混合溶液を10 μLずつreaction plateにアプライする
+下記plate mapの行を埋めていくイメージ
+plate map
+81 well使用する
+S_n = sample_n
+今回はヒト標準cDNA1つ
+NTC = no template control：水＝ネガティブコントロール（全primerについて置く）
+P_m = primer set_m：forward primerとreverse primerのセット
+今回は13種類
+Templateのみも置く
+OT-2のピペット
+20 μLと300 μL 
+
+
+Constraints ******************
+Constraints(allowed_objects=[Object(name='Unknown', quantity=0, init_content='Unknown', labware={'name': '96 well plate'}, unit='unitless'), Object(name='Unknown', quantity=0, init_content='Unknown', labware={'name': '1.5 mL tube'}, unit='unitless'), Object(name='Unknown', quantity=0, init_content='Unknown', labware={'name': '15 mL tube'}, unit='unitless')])
+
+Extracted Object List******************
+[Object(name='1_sample_DNAs', quantity=300, init_content='', labware={'id': 1, 'name': 'Unknown'}, unit='uL'), Object(name='water', quantity=300, init_content='', labware={'id': 1, 'name': 'Unknown'}, unit='uL'), Object(name='10_uM_primer_F', quantity=10, init_content='', labware={'id': 1, 'name': 'Unknown'}, unit='uL'), Object(name='10_uM_primer_R', quantity=10, init_content='', labware={'id': 1, 'name': 'Unknown'}, unit='uL'), Object(name='PCR_MIX', quantity=2000, init_content='', labware={'id': 1, 'name': 'Unknown'}, unit='uL'), Object(name='96_well_PCR_plate', quantity=1, init_content='', labware={'id': 1, 'name': 'Unknown'}, unit='plate'), Object(name='PCR_MIX_tube', quantity=137.6, init_content='PCR MIX', labware={'id': 1, 'name': 'Unknown'}, unit='uL'), Object(name='10_uM_primer_F1-13_tube', quantity=3.2, init_content='', labware={'id': 1, 'name': 'Unknown'}, unit='uL'), Object(name='10_uM_primer_R1-13_tube', quantity=3.2, init_content='', labware={'id': 1, 'name': 'Unknown'}, unit='uL'), Object(name='PCR_MIX_and_primer_mix_tube', quantity=10, init_content='', labware={'id': 1, 'name': 'Unknown'}, unit='uL'), Object(name='template_only_PCR_MIX', quantity=86, init_content='PCR MIX', labware={'id': 1, 'name': 'Unknown'}, unit='uL'), Object(name='water_template_tube', quantity=4, init_content='water', labware={'id': 1, 'name': 'Unknown'}, unit='uL'), Object(name='reaction_plate', quantity=5, init_content='', labware={'id': 1, 'name': 'Unknown'}, unit='uL')]***2025-02-23 02:47:06.279120+00:00***: ************ Obj-chan result ***************2025-02-23 02:47:06.279665+00:00***: object_list: [Object(name='1_sample_DNAs', quantity=300, init_content='', labware={'id': 1, 'name': 'Unknown'}, unit='uL'), Object(name='water', quantity=300, init_content='', labware={'id': 1, 'name': 'Unknown'}, unit='uL'), Object(name='10_uM_primer_F', quantity=10, init_content='', labware={'id': 1, 'name': 'Unknown'}, unit='uL'), Object(name='10_uM_primer_R', quantity=10, init_content='', labware={'id': 1, 'name': 'Unknown'}, unit='uL'), Object(name='PCR_MIX', quantity=2000, init_content='', labware={'id': 1, 'name': 'Unknown'}, unit='uL'), Object(name='96_well_PCR_plate', quantity=1, init_content='', labware={'id': 1, 'name': 'Unknown'}, unit='plate'), Object(name='PCR_MIX_tube', quantity=137.6, init_content='PCR MIX', labware={'id': 1, 'name': 'Unknown'}, unit='uL'), Object(name='10_uM_primer_F1-13_tube', quantity=3.2, init_content='', labware={'id': 1, 'name': 'Unknown'}, unit='uL'), Object(name='10_uM_primer_R1-13_tube', quantity=3.2, init_content='', labware={'id': 1, 'name': 'Unknown'}, unit='uL'), Object(name='PCR_MIX_and_primer_mix_tube', quantity=10, init_content='', labware={'id': 1, 'name': 'Unknown'}, unit='uL'), Object(name='template_only_PCR_MIX', quantity=86, init_content='PCR MIX', labware={'id': 1, 'name': 'Unknown'}, unit='uL'), Object(name='water_template_tube', quantity=4, init_content='water', labware={'id': 1, 'name': 'Unknown'}, unit='uL'), Object(name='reaction_plate', quantity=5, init_content='', labware={'id': 1, 'name': 'Unknown'}, unit='uL')]***2025-02-23 02:47:06.287033+00:00***: object_list_num: 13***2025-02-23 02:58:22.363858+00:00***: all_num: 0***2025-02-23 02:58:22.364609+00:00***: ************ haichi-kun result ***************2025-02-23 02:58:22.365289+00:00***: all_results[:10]=[]***2025-02-23 02:58:22.367368+00:00***: Error: I couldn't find any initial position that satisfies the constraints.

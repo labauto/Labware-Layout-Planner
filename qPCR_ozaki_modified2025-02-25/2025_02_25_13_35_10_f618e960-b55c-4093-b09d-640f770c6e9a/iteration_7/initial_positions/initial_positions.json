@@ -1,0 +1,1302 @@
+[
+    [
+        [
+            [
+                {
+                    "name": "1.5 ml tube",
+                    "quantity": 1,
+                    "init_content": "",
+                    "labware": {
+                        "id": 1,
+                        "name": "Unknown"
+                    },
+                    "unit": ""
+                },
+                []
+            ],
+            1
+        ],
+        [
+            [
+                {
+                    "name": "96 well PCR plate",
+                    "quantity": 1,
+                    "init_content": "",
+                    "labware": {
+                        "id": 2,
+                        "name": "Unknown"
+                    },
+                    "unit": ""
+                },
+                []
+            ],
+            2
+        ],
+        [
+            [
+                {
+                    "name": "10 \u03bcM primer_F",
+                    "quantity": 13,
+                    "init_content": "",
+                    "labware": {
+                        "id": 3,
+                        "name": "Unknown"
+                    },
+                    "unit": "tube"
+                },
+                []
+            ],
+            3
+        ],
+        [
+            [
+                {
+                    "name": "10 \u03bcM primer_R",
+                    "quantity": 13,
+                    "init_content": "",
+                    "labware": {
+                        "id": 3,
+                        "name": "Unknown"
+                    },
+                    "unit": "tube"
+                },
+                []
+            ],
+            4
+        ],
+        [
+            [
+                {
+                    "name": "PCR MIX",
+                    "quantity": 1,
+                    "init_content": "",
+                    "labware": {
+                        "id": 3,
+                        "name": "Unknown"
+                    },
+                    "unit": "tube"
+                },
+                []
+            ],
+            5
+        ],
+        [
+            [
+                {
+                    "name": "86 \u03bcL/mL template",
+                    "quantity": 1,
+                    "init_content": "",
+                    "labware": {
+                        "id": 3,
+                        "name": "Unknown"
+                    },
+                    "unit": "tube"
+                },
+                []
+            ],
+            6
+        ],
+        [
+            [
+                {
+                    "name": "water",
+                    "quantity": 1,
+                    "init_content": "",
+                    "labware": {
+                        "id": 3,
+                        "name": "Unknown"
+                    },
+                    "unit": "tube"
+                },
+                []
+            ],
+            7
+        ],
+        [
+            [
+                {
+                    "name": "reaction plate",
+                    "quantity": 1,
+                    "init_content": "",
+                    "labware": {
+                        "id": 3,
+                        "name": "Unknown"
+                    },
+                    "unit": ""
+                },
+                []
+            ],
+            8
+        ]
+    ],
+    [
+        [
+            [
+                {
+                    "name": "1.5 ml tube",
+                    "quantity": 1,
+                    "init_content": "",
+                    "labware": {
+                        "id": 1,
+                        "name": "Unknown"
+                    },
+                    "unit": ""
+                },
+                []
+            ],
+            1
+        ],
+        [
+            [
+                {
+                    "name": "96 well PCR plate",
+                    "quantity": 1,
+                    "init_content": "",
+                    "labware": {
+                        "id": 2,
+                        "name": "Unknown"
+                    },
+                    "unit": ""
+                },
+                []
+            ],
+            2
+        ],
+        [
+            [
+                {
+                    "name": "10 \u03bcM primer_F",
+                    "quantity": 13,
+                    "init_content": "",
+                    "labware": {
+                        "id": 3,
+                        "name": "Unknown"
+                    },
+                    "unit": "tube"
+                },
+                []
+            ],
+            3
+        ],
+        [
+            [
+                {
+                    "name": "10 \u03bcM primer_R",
+                    "quantity": 13,
+                    "init_content": "",
+                    "labware": {
+                        "id": 3,
+                        "name": "Unknown"
+                    },
+                    "unit": "tube"
+                },
+                []
+            ],
+            4
+        ],
+        [
+            [
+                {
+                    "name": "PCR MIX",
+                    "quantity": 1,
+                    "init_content": "",
+                    "labware": {
+                        "id": 3,
+                        "name": "Unknown"
+                    },
+                    "unit": "tube"
+                },
+                []
+            ],
+            5
+        ],
+        [
+            [
+                {
+                    "name": "86 \u03bcL/mL template",
+                    "quantity": 1,
+                    "init_content": "",
+                    "labware": {
+                        "id": 3,
+                        "name": "Unknown"
+                    },
+                    "unit": "tube"
+                },
+                []
+            ],
+            6
+        ],
+        [
+            [
+                {
+                    "name": "water",
+                    "quantity": 1,
+                    "init_content": "",
+                    "labware": {
+                        "id": 3,
+                        "name": "Unknown"
+                    },
+                    "unit": "tube"
+                },
+                []
+            ],
+            7
+        ],
+        [
+            [
+                {
+                    "name": "reaction plate",
+                    "quantity": 1,
+                    "init_content": "",
+                    "labware": {
+                        "id": 3,
+                        "name": "Unknown"
+                    },
+                    "unit": ""
+                },
+                []
+            ],
+            9
+        ]
+    ],
+    [
+        [
+            [
+                {
+                    "name": "1.5 ml tube",
+                    "quantity": 1,
+                    "init_content": "",
+                    "labware": {
+                        "id": 1,
+                        "name": "Unknown"
+                    },
+                    "unit": ""
+                },
+                []
+            ],
+            1
+        ],
+        [
+            [
+                {
+                    "name": "96 well PCR plate",
+                    "quantity": 1,
+                    "init_content": "",
+                    "labware": {
+                        "id": 2,
+                        "name": "Unknown"
+                    },
+                    "unit": ""
+                },
+                []
+            ],
+            2
+        ],
+        [
+            [
+                {
+                    "name": "10 \u03bcM primer_F",
+                    "quantity": 13,
+                    "init_content": "",
+                    "labware": {
+                        "id": 3,
+                        "name": "Unknown"
+                    },
+                    "unit": "tube"
+                },
+                []
+            ],
+            3
+        ],
+        [
+            [
+                {
+                    "name": "10 \u03bcM primer_R",
+                    "quantity": 13,
+                    "init_content": "",
+                    "labware": {
+                        "id": 3,
+                        "name": "Unknown"
+                    },
+                    "unit": "tube"
+                },
+                []
+            ],
+            4
+        ],
+        [
+            [
+                {
+                    "name": "PCR MIX",
+                    "quantity": 1,
+                    "init_content": "",
+                    "labware": {
+                        "id": 3,
+                        "name": "Unknown"
+                    },
+                    "unit": "tube"
+                },
+                []
+            ],
+            5
+        ],
+        [
+            [
+                {
+                    "name": "86 \u03bcL/mL template",
+                    "quantity": 1,
+                    "init_content": "",
+                    "labware": {
+                        "id": 3,
+                        "name": "Unknown"
+                    },
+                    "unit": "tube"
+                },
+                []
+            ],
+            6
+        ],
+        [
+            [
+                {
+                    "name": "water",
+                    "quantity": 1,
+                    "init_content": "",
+                    "labware": {
+                        "id": 3,
+                        "name": "Unknown"
+                    },
+                    "unit": "tube"
+                },
+                []
+            ],
+            7
+        ],
+        [
+            [
+                {
+                    "name": "reaction plate",
+                    "quantity": 1,
+                    "init_content": "",
+                    "labware": {
+                        "id": 3,
+                        "name": "Unknown"
+                    },
+                    "unit": ""
+                },
+                []
+            ],
+            10
+        ]
+    ],
+    [
+        [
+            [
+                {
+                    "name": "1.5 ml tube",
+                    "quantity": 1,
+                    "init_content": "",
+                    "labware": {
+                        "id": 1,
+                        "name": "Unknown"
+                    },
+                    "unit": ""
+                },
+                []
+            ],
+            1
+        ],
+        [
+            [
+                {
+                    "name": "96 well PCR plate",
+                    "quantity": 1,
+                    "init_content": "",
+                    "labware": {
+                        "id": 2,
+                        "name": "Unknown"
+                    },
+                    "unit": ""
+                },
+                []
+            ],
+            2
+        ],
+        [
+            [
+                {
+                    "name": "10 \u03bcM primer_F",
+                    "quantity": 13,
+                    "init_content": "",
+                    "labware": {
+                        "id": 3,
+                        "name": "Unknown"
+                    },
+                    "unit": "tube"
+                },
+                []
+            ],
+            3
+        ],
+        [
+            [
+                {
+                    "name": "10 \u03bcM primer_R",
+                    "quantity": 13,
+                    "init_content": "",
+                    "labware": {
+                        "id": 3,
+                        "name": "Unknown"
+                    },
+                    "unit": "tube"
+                },
+                []
+            ],
+            4
+        ],
+        [
+            [
+                {
+                    "name": "PCR MIX",
+                    "quantity": 1,
+                    "init_content": "",
+                    "labware": {
+                        "id": 3,
+                        "name": "Unknown"
+                    },
+                    "unit": "tube"
+                },
+                []
+            ],
+            5
+        ],
+        [
+            [
+                {
+                    "name": "86 \u03bcL/mL template",
+                    "quantity": 1,
+                    "init_content": "",
+                    "labware": {
+                        "id": 3,
+                        "name": "Unknown"
+                    },
+                    "unit": "tube"
+                },
+                []
+            ],
+            6
+        ],
+        [
+            [
+                {
+                    "name": "water",
+                    "quantity": 1,
+                    "init_content": "",
+                    "labware": {
+                        "id": 3,
+                        "name": "Unknown"
+                    },
+                    "unit": "tube"
+                },
+                []
+            ],
+            7
+        ],
+        [
+            [
+                {
+                    "name": "reaction plate",
+                    "quantity": 1,
+                    "init_content": "",
+                    "labware": {
+                        "id": 3,
+                        "name": "Unknown"
+                    },
+                    "unit": ""
+                },
+                []
+            ],
+            11
+        ]
+    ],
+    [
+        [
+            [
+                {
+                    "name": "1.5 ml tube",
+                    "quantity": 1,
+                    "init_content": "",
+                    "labware": {
+                        "id": 1,
+                        "name": "Unknown"
+                    },
+                    "unit": ""
+                },
+                []
+            ],
+            1
+        ],
+        [
+            [
+                {
+                    "name": "96 well PCR plate",
+                    "quantity": 1,
+                    "init_content": "",
+                    "labware": {
+                        "id": 2,
+                        "name": "Unknown"
+                    },
+                    "unit": ""
+                },
+                []
+            ],
+            2
+        ],
+        [
+            [
+                {
+                    "name": "10 \u03bcM primer_F",
+                    "quantity": 13,
+                    "init_content": "",
+                    "labware": {
+                        "id": 3,
+                        "name": "Unknown"
+                    },
+                    "unit": "tube"
+                },
+                []
+            ],
+            3
+        ],
+        [
+            [
+                {
+                    "name": "10 \u03bcM primer_R",
+                    "quantity": 13,
+                    "init_content": "",
+                    "labware": {
+                        "id": 3,
+                        "name": "Unknown"
+                    },
+                    "unit": "tube"
+                },
+                []
+            ],
+            4
+        ],
+        [
+            [
+                {
+                    "name": "PCR MIX",
+                    "quantity": 1,
+                    "init_content": "",
+                    "labware": {
+                        "id": 3,
+                        "name": "Unknown"
+                    },
+                    "unit": "tube"
+                },
+                []
+            ],
+            5
+        ],
+        [
+            [
+                {
+                    "name": "86 \u03bcL/mL template",
+                    "quantity": 1,
+                    "init_content": "",
+                    "labware": {
+                        "id": 3,
+                        "name": "Unknown"
+                    },
+                    "unit": "tube"
+                },
+                []
+            ],
+            6
+        ],
+        [
+            [
+                {
+                    "name": "water",
+                    "quantity": 1,
+                    "init_content": "",
+                    "labware": {
+                        "id": 3,
+                        "name": "Unknown"
+                    },
+                    "unit": "tube"
+                },
+                []
+            ],
+            7
+        ],
+        [
+            [
+                {
+                    "name": "reaction plate",
+                    "quantity": 1,
+                    "init_content": "",
+                    "labware": {
+                        "id": 3,
+                        "name": "Unknown"
+                    },
+                    "unit": ""
+                },
+                []
+            ],
+            12
+        ]
+    ],
+    [
+        [
+            [
+                {
+                    "name": "1.5 ml tube",
+                    "quantity": 1,
+                    "init_content": "",
+                    "labware": {
+                        "id": 1,
+                        "name": "Unknown"
+                    },
+                    "unit": ""
+                },
+                []
+            ],
+            1
+        ],
+        [
+            [
+                {
+                    "name": "96 well PCR plate",
+                    "quantity": 1,
+                    "init_content": "",
+                    "labware": {
+                        "id": 2,
+                        "name": "Unknown"
+                    },
+                    "unit": ""
+                },
+                []
+            ],
+            2
+        ],
+        [
+            [
+                {
+                    "name": "10 \u03bcM primer_F",
+                    "quantity": 13,
+                    "init_content": "",
+                    "labware": {
+                        "id": 3,
+                        "name": "Unknown"
+                    },
+                    "unit": "tube"
+                },
+                []
+            ],
+            3
+        ],
+        [
+            [
+                {
+                    "name": "10 \u03bcM primer_R",
+                    "quantity": 13,
+                    "init_content": "",
+                    "labware": {
+                        "id": 3,
+                        "name": "Unknown"
+                    },
+                    "unit": "tube"
+                },
+                []
+            ],
+            4
+        ],
+        [
+            [
+                {
+                    "name": "PCR MIX",
+                    "quantity": 1,
+                    "init_content": "",
+                    "labware": {
+                        "id": 3,
+                        "name": "Unknown"
+                    },
+                    "unit": "tube"
+                },
+                []
+            ],
+            5
+        ],
+        [
+            [
+                {
+                    "name": "86 \u03bcL/mL template",
+                    "quantity": 1,
+                    "init_content": "",
+                    "labware": {
+                        "id": 3,
+                        "name": "Unknown"
+                    },
+                    "unit": "tube"
+                },
+                []
+            ],
+            6
+        ],
+        [
+            [
+                {
+                    "name": "water",
+                    "quantity": 1,
+                    "init_content": "",
+                    "labware": {
+                        "id": 3,
+                        "name": "Unknown"
+                    },
+                    "unit": "tube"
+                },
+                []
+            ],
+            8
+        ],
+        [
+            [
+                {
+                    "name": "reaction plate",
+                    "quantity": 1,
+                    "init_content": "",
+                    "labware": {
+                        "id": 3,
+                        "name": "Unknown"
+                    },
+                    "unit": ""
+                },
+                []
+            ],
+            7
+        ]
+    ],
+    [
+        [
+            [
+                {
+                    "name": "1.5 ml tube",
+                    "quantity": 1,
+                    "init_content": "",
+                    "labware": {
+                        "id": 1,
+                        "name": "Unknown"
+                    },
+                    "unit": ""
+                },
+                []
+            ],
+            1
+        ],
+        [
+            [
+                {
+                    "name": "96 well PCR plate",
+                    "quantity": 1,
+                    "init_content": "",
+                    "labware": {
+                        "id": 2,
+                        "name": "Unknown"
+                    },
+                    "unit": ""
+                },
+                []
+            ],
+            2
+        ],
+        [
+            [
+                {
+                    "name": "10 \u03bcM primer_F",
+                    "quantity": 13,
+                    "init_content": "",
+                    "labware": {
+                        "id": 3,
+                        "name": "Unknown"
+                    },
+                    "unit": "tube"
+                },
+                []
+            ],
+            3
+        ],
+        [
+            [
+                {
+                    "name": "10 \u03bcM primer_R",
+                    "quantity": 13,
+                    "init_content": "",
+                    "labware": {
+                        "id": 3,
+                        "name": "Unknown"
+                    },
+                    "unit": "tube"
+                },
+                []
+            ],
+            4
+        ],
+        [
+            [
+                {
+                    "name": "PCR MIX",
+                    "quantity": 1,
+                    "init_content": "",
+                    "labware": {
+                        "id": 3,
+                        "name": "Unknown"
+                    },
+                    "unit": "tube"
+                },
+                []
+            ],
+            5
+        ],
+        [
+            [
+                {
+                    "name": "86 \u03bcL/mL template",
+                    "quantity": 1,
+                    "init_content": "",
+                    "labware": {
+                        "id": 3,
+                        "name": "Unknown"
+                    },
+                    "unit": "tube"
+                },
+                []
+            ],
+            6
+        ],
+        [
+            [
+                {
+                    "name": "water",
+                    "quantity": 1,
+                    "init_content": "",
+                    "labware": {
+                        "id": 3,
+                        "name": "Unknown"
+                    },
+                    "unit": "tube"
+                },
+                []
+            ],
+            8
+        ],
+        [
+            [
+                {
+                    "name": "reaction plate",
+                    "quantity": 1,
+                    "init_content": "",
+                    "labware": {
+                        "id": 3,
+                        "name": "Unknown"
+                    },
+                    "unit": ""
+                },
+                []
+            ],
+            9
+        ]
+    ],
+    [
+        [
+            [
+                {
+                    "name": "1.5 ml tube",
+                    "quantity": 1,
+                    "init_content": "",
+                    "labware": {
+                        "id": 1,
+                        "name": "Unknown"
+                    },
+                    "unit": ""
+                },
+                []
+            ],
+            1
+        ],
+        [
+            [
+                {
+                    "name": "96 well PCR plate",
+                    "quantity": 1,
+                    "init_content": "",
+                    "labware": {
+                        "id": 2,
+                        "name": "Unknown"
+                    },
+                    "unit": ""
+                },
+                []
+            ],
+            2
+        ],
+        [
+            [
+                {
+                    "name": "10 \u03bcM primer_F",
+                    "quantity": 13,
+                    "init_content": "",
+                    "labware": {
+                        "id": 3,
+                        "name": "Unknown"
+                    },
+                    "unit": "tube"
+                },
+                []
+            ],
+            3
+        ],
+        [
+            [
+                {
+                    "name": "10 \u03bcM primer_R",
+                    "quantity": 13,
+                    "init_content": "",
+                    "labware": {
+                        "id": 3,
+                        "name": "Unknown"
+                    },
+                    "unit": "tube"
+                },
+                []
+            ],
+            4
+        ],
+        [
+            [
+                {
+                    "name": "PCR MIX",
+                    "quantity": 1,
+                    "init_content": "",
+                    "labware": {
+                        "id": 3,
+                        "name": "Unknown"
+                    },
+                    "unit": "tube"
+                },
+                []
+            ],
+            5
+        ],
+        [
+            [
+                {
+                    "name": "86 \u03bcL/mL template",
+                    "quantity": 1,
+                    "init_content": "",
+                    "labware": {
+                        "id": 3,
+                        "name": "Unknown"
+                    },
+                    "unit": "tube"
+                },
+                []
+            ],
+            6
+        ],
+        [
+            [
+                {
+                    "name": "water",
+                    "quantity": 1,
+                    "init_content": "",
+                    "labware": {
+                        "id": 3,
+                        "name": "Unknown"
+                    },
+                    "unit": "tube"
+                },
+                []
+            ],
+            8
+        ],
+        [
+            [
+                {
+                    "name": "reaction plate",
+                    "quantity": 1,
+                    "init_content": "",
+                    "labware": {
+                        "id": 3,
+                        "name": "Unknown"
+                    },
+                    "unit": ""
+                },
+                []
+            ],
+            10
+        ]
+    ],
+    [
+        [
+            [
+                {
+                    "name": "1.5 ml tube",
+                    "quantity": 1,
+                    "init_content": "",
+                    "labware": {
+                        "id": 1,
+                        "name": "Unknown"
+                    },
+                    "unit": ""
+                },
+                []
+            ],
+            1
+        ],
+        [
+            [
+                {
+                    "name": "96 well PCR plate",
+                    "quantity": 1,
+                    "init_content": "",
+                    "labware": {
+                        "id": 2,
+                        "name": "Unknown"
+                    },
+                    "unit": ""
+                },
+                []
+            ],
+            2
+        ],
+        [
+            [
+                {
+                    "name": "10 \u03bcM primer_F",
+                    "quantity": 13,
+                    "init_content": "",
+                    "labware": {
+                        "id": 3,
+                        "name": "Unknown"
+                    },
+                    "unit": "tube"
+                },
+                []
+            ],
+            3
+        ],
+        [
+            [
+                {
+                    "name": "10 \u03bcM primer_R",
+                    "quantity": 13,
+                    "init_content": "",
+                    "labware": {
+                        "id": 3,
+                        "name": "Unknown"
+                    },
+                    "unit": "tube"
+                },
+                []
+            ],
+            4
+        ],
+        [
+            [
+                {
+                    "name": "PCR MIX",
+                    "quantity": 1,
+                    "init_content": "",
+                    "labware": {
+                        "id": 3,
+                        "name": "Unknown"
+                    },
+                    "unit": "tube"
+                },
+                []
+            ],
+            5
+        ],
+        [
+            [
+                {
+                    "name": "86 \u03bcL/mL template",
+                    "quantity": 1,
+                    "init_content": "",
+                    "labware": {
+                        "id": 3,
+                        "name": "Unknown"
+                    },
+                    "unit": "tube"
+                },
+                []
+            ],
+            6
+        ],
+        [
+            [
+                {
+                    "name": "water",
+                    "quantity": 1,
+                    "init_content": "",
+                    "labware": {
+                        "id": 3,
+                        "name": "Unknown"
+                    },
+                    "unit": "tube"
+                },
+                []
+            ],
+            8
+        ],
+        [
+            [
+                {
+                    "name": "reaction plate",
+                    "quantity": 1,
+                    "init_content": "",
+                    "labware": {
+                        "id": 3,
+                        "name": "Unknown"
+                    },
+                    "unit": ""
+                },
+                []
+            ],
+            11
+        ]
+    ],
+    [
+        [
+            [
+                {
+                    "name": "1.5 ml tube",
+                    "quantity": 1,
+                    "init_content": "",
+                    "labware": {
+                        "id": 1,
+                        "name": "Unknown"
+                    },
+                    "unit": ""
+                },
+                []
+            ],
+            1
+        ],
+        [
+            [
+                {
+                    "name": "96 well PCR plate",
+                    "quantity": 1,
+                    "init_content": "",
+                    "labware": {
+                        "id": 2,
+                        "name": "Unknown"
+                    },
+                    "unit": ""
+                },
+                []
+            ],
+            2
+        ],
+        [
+            [
+                {
+                    "name": "10 \u03bcM primer_F",
+                    "quantity": 13,
+                    "init_content": "",
+                    "labware": {
+                        "id": 3,
+                        "name": "Unknown"
+                    },
+                    "unit": "tube"
+                },
+                []
+            ],
+            3
+        ],
+        [
+            [
+                {
+                    "name": "10 \u03bcM primer_R",
+                    "quantity": 13,
+                    "init_content": "",
+                    "labware": {
+                        "id": 3,
+                        "name": "Unknown"
+                    },
+                    "unit": "tube"
+                },
+                []
+            ],
+            4
+        ],
+        [
+            [
+                {
+                    "name": "PCR MIX",
+                    "quantity": 1,
+                    "init_content": "",
+                    "labware": {
+                        "id": 3,
+                        "name": "Unknown"
+                    },
+                    "unit": "tube"
+                },
+                []
+            ],
+            5
+        ],
+        [
+            [
+                {
+                    "name": "86 \u03bcL/mL template",
+                    "quantity": 1,
+                    "init_content": "",
+                    "labware": {
+                        "id": 3,
+                        "name": "Unknown"
+                    },
+                    "unit": "tube"
+                },
+                []
+            ],
+            6
+        ],
+        [
+            [
+                {
+                    "name": "water",
+                    "quantity": 1,
+                    "init_content": "",
+                    "labware": {
+                        "id": 3,
+                        "name": "Unknown"
+                    },
+                    "unit": "tube"
+                },
+                []
+            ],
+            8
+        ],
+        [
+            [
+                {
+                    "name": "reaction plate",
+                    "quantity": 1,
+                    "init_content": "",
+                    "labware": {
+                        "id": 3,
+                        "name": "Unknown"
+                    },
+                    "unit": ""
+                },
+                []
+            ],
+            12
+        ]
+    ]
+]

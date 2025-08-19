@@ -1,0 +1,222 @@
+Transferring 2000.0 from A1 of Opentrons 24 Tube Rack with Generic 2 mL Screwcap on 5 to A1 of Bio-Rad 96 Well Plate 200 µL PCR on 9
+	Picking up tip from A1 of Opentrons OT-2 96 Tip Rack 300 µL on 11
+	Aspirating 300.0 uL from A1 of Opentrons 24 Tube Rack with Generic 2 mL Screwcap on 5 at 92.86 uL/sec
+	Dispensing 300.0 uL into A1 of Bio-Rad 96 Well Plate 200 µL PCR on 9 at 92.86 uL/sec
+	Aspirating 300.0 uL from A1 of Opentrons 24 Tube Rack with Generic 2 mL Screwcap on 5 at 92.86 uL/sec
+	Dispensing 300.0 uL into A1 of Bio-Rad 96 Well Plate 200 µL PCR on 9 at 92.86 uL/sec
+	Aspirating 300.0 uL from A1 of Opentrons 24 Tube Rack with Generic 2 mL Screwcap on 5 at 92.86 uL/sec
+	Dispensing 300.0 uL into A1 of Bio-Rad 96 Well Plate 200 µL PCR on 9 at 92.86 uL/sec
+	Aspirating 300.0 uL from A1 of Opentrons 24 Tube Rack with Generic 2 mL Screwcap on 5 at 92.86 uL/sec
+	Dispensing 300.0 uL into A1 of Bio-Rad 96 Well Plate 200 µL PCR on 9 at 92.86 uL/sec
+	Aspirating 300.0 uL from A1 of Opentrons 24 Tube Rack with Generic 2 mL Screwcap on 5 at 92.86 uL/sec
+	Dispensing 300.0 uL into A1 of Bio-Rad 96 Well Plate 200 µL PCR on 9 at 92.86 uL/sec
+	Aspirating 250.0 uL from A1 of Opentrons 24 Tube Rack with Generic 2 mL Screwcap on 5 at 92.86 uL/sec
+	Dispensing 250.0 uL into A1 of Bio-Rad 96 Well Plate 200 µL PCR on 9 at 92.86 uL/sec
+	Aspirating 250.0 uL from A1 of Opentrons 24 Tube Rack with Generic 2 mL Screwcap on 5 at 92.86 uL/sec
+	Dispensing 250.0 uL into A1 of Bio-Rad 96 Well Plate 200 µL PCR on 9 at 92.86 uL/sec
+	Dropping tip into A1 of Opentrons Fixed Trash on 12
+Transferring 10.0 from A1 of Opentrons 24 Tube Rack with Generic 2 mL Screwcap on 3 to A1 of Bio-Rad 96 Well Plate 200 µL PCR on 9
+	Picking up tip from A1 of Opentrons OT-2 96 Tip Rack 20 µL on 10
+	Aspirating 10.0 uL from A1 of Opentrons 24 Tube Rack with Generic 2 mL Screwcap on 3 at 7.56 uL/sec
+	Dispensing 10.0 uL into A1 of Bio-Rad 96 Well Plate 200 µL PCR on 9 at 7.56 uL/sec
+	Dropping tip into A1 of Opentrons Fixed Trash on 12
+Transferring 10.0 from A1 of Opentrons 24 Tube Rack with Generic 2 mL Screwcap on 4 to A1 of Bio-Rad 96 Well Plate 200 µL PCR on 9
+	Picking up tip from B1 of Opentrons OT-2 96 Tip Rack 20 µL on 10
+	Aspirating 10.0 uL from A1 of Opentrons 24 Tube Rack with Generic 2 mL Screwcap on 4 at 7.56 uL/sec
+	Dispensing 10.0 uL into A1 of Bio-Rad 96 Well Plate 200 µL PCR on 9 at 7.56 uL/sec
+	Dropping tip into A1 of Opentrons Fixed Trash on 12
+Picking up tip from B1 of Opentrons OT-2 96 Tip Rack 300 µL on 11
+Mixing 10 times with a volume of 200.0 ul
+	Aspirating 200.0 uL from A1 of Bio-Rad 96 Well Plate 200 µL PCR on 9 at 92.86 uL/sec
+	Dispensing 200.0 uL into A1 of Bio-Rad 96 Well Plate 200 µL PCR on 9 at 92.86 uL/sec
+	Aspirating 200.0 uL from A1 of Bio-Rad 96 Well Plate 200 µL PCR on 9 at 92.86 uL/sec
+	Dispensing 200.0 uL into A1 of Bio-Rad 96 Well Plate 200 µL PCR on 9 at 92.86 uL/sec
+	Aspirating 200.0 uL from A1 of Bio-Rad 96 Well Plate 200 µL PCR on 9 at 92.86 uL/sec
+	Dispensing 200.0 uL into A1 of Bio-Rad 96 Well Plate 200 µL PCR on 9 at 92.86 uL/sec
+	Aspirating 200.0 uL from A1 of Bio-Rad 96 Well Plate 200 µL PCR on 9 at 92.86 uL/sec
+	Dispensing 200.0 uL into A1 of Bio-Rad 96 Well Plate 200 µL PCR on 9 at 92.86 uL/sec
+	Aspirating 200.0 uL from A1 of Bio-Rad 96 Well Plate 200 µL PCR on 9 at 92.86 uL/sec
+	Dispensing 200.0 uL into A1 of Bio-Rad 96 Well Plate 200 µL PCR on 9 at 92.86 uL/sec
+	Aspirating 200.0 uL from A1 of Bio-Rad 96 Well Plate 200 µL PCR on 9 at 92.86 uL/sec
+	Dispensing 200.0 uL into A1 of Bio-Rad 96 Well Plate 200 µL PCR on 9 at 92.86 uL/sec
+	Aspirating 200.0 uL from A1 of Bio-Rad 96 Well Plate 200 µL PCR on 9 at 92.86 uL/sec
+	Dispensing 200.0 uL into A1 of Bio-Rad 96 Well Plate 200 µL PCR on 9 at 92.86 uL/sec
+	Aspirating 200.0 uL from A1 of Bio-Rad 96 Well Plate 200 µL PCR on 9 at 92.86 uL/sec
+	Dispensing 200.0 uL into A1 of Bio-Rad 96 Well Plate 200 µL PCR on 9 at 92.86 uL/sec
+	Aspirating 200.0 uL from A1 of Bio-Rad 96 Well Plate 200 µL PCR on 9 at 92.86 uL/sec
+	Dispensing 200.0 uL into A1 of Bio-Rad 96 Well Plate 200 µL PCR on 9 at 92.86 uL/sec
+	Aspirating 200.0 uL from A1 of Bio-Rad 96 Well Plate 200 µL PCR on 9 at 92.86 uL/sec
+	Dispensing 200.0 uL into A1 of Bio-Rad 96 Well Plate 200 µL PCR on 9 at 92.86 uL/sec
+Dropping tip into A1 of Opentrons Fixed Trash on 12
+Distributing 10.0 from A1 of Bio-Rad 96 Well Plate 200 µL PCR on 9 to A1 of Bio-Rad 96 Well Plate 200 µL PCR on 9
+	Transferring 10.0 from A1 of Bio-Rad 96 Well Plate 200 µL PCR on 9 to A1 of Bio-Rad 96 Well Plate 200 µL PCR on 9
+		Picking up tip from C1 of Opentrons OT-2 96 Tip Rack 20 µL on 10
+		Aspirating 11.0 uL from A1 of Bio-Rad 96 Well Plate 200 µL PCR on 9 at 7.56 uL/sec
+		Dispensing 10.0 uL into A1 of Bio-Rad 96 Well Plate 200 µL PCR on 9 at 7.56 uL/sec
+		Blowing out at A1 of Opentrons Fixed Trash on 12
+		Aspirating 11.0 uL from A1 of Bio-Rad 96 Well Plate 200 µL PCR on 9 at 7.56 uL/sec
+		Dispensing 10.0 uL into A2 of Bio-Rad 96 Well Plate 200 µL PCR on 9 at 7.56 uL/sec
+		Blowing out at A1 of Opentrons Fixed Trash on 12
+		Aspirating 11.0 uL from A1 of Bio-Rad 96 Well Plate 200 µL PCR on 9 at 7.56 uL/sec
+		Dispensing 10.0 uL into A3 of Bio-Rad 96 Well Plate 200 µL PCR on 9 at 7.56 uL/sec
+		Blowing out at A1 of Opentrons Fixed Trash on 12
+		Aspirating 11.0 uL from A1 of Bio-Rad 96 Well Plate 200 µL PCR on 9 at 7.56 uL/sec
+		Dispensing 10.0 uL into A4 of Bio-Rad 96 Well Plate 200 µL PCR on 9 at 7.56 uL/sec
+		Blowing out at A1 of Opentrons Fixed Trash on 12
+		Aspirating 11.0 uL from A1 of Bio-Rad 96 Well Plate 200 µL PCR on 9 at 7.56 uL/sec
+		Dispensing 10.0 uL into A5 of Bio-Rad 96 Well Plate 200 µL PCR on 9 at 7.56 uL/sec
+		Blowing out at A1 of Opentrons Fixed Trash on 12
+		Aspirating 11.0 uL from A1 of Bio-Rad 96 Well Plate 200 µL PCR on 9 at 7.56 uL/sec
+		Dispensing 10.0 uL into A6 of Bio-Rad 96 Well Plate 200 µL PCR on 9 at 7.56 uL/sec
+		Blowing out at A1 of Opentrons Fixed Trash on 12
+		Aspirating 11.0 uL from A1 of Bio-Rad 96 Well Plate 200 µL PCR on 9 at 7.56 uL/sec
+		Dispensing 10.0 uL into A7 of Bio-Rad 96 Well Plate 200 µL PCR on 9 at 7.56 uL/sec
+		Blowing out at A1 of Opentrons Fixed Trash on 12
+		Aspirating 11.0 uL from A1 of Bio-Rad 96 Well Plate 200 µL PCR on 9 at 7.56 uL/sec
+		Dispensing 10.0 uL into A8 of Bio-Rad 96 Well Plate 200 µL PCR on 9 at 7.56 uL/sec
+		Blowing out at A1 of Opentrons Fixed Trash on 12
+		Dropping tip into A1 of Opentrons Fixed Trash on 12
+Picking up tip from D1 of Opentrons OT-2 96 Tip Rack 20 µL on 10
+Transferring 5.0 from A1 of Opentrons 24 Tube Rack with Generic 2 mL Screwcap on 1 to A1 of Bio-Rad 96 Well Plate 200 µL PCR on 12
+	Aspirating 5.0 uL from A1 of Opentrons 24 Tube Rack with Generic 2 mL Screwcap on 1 at 7.56 uL/sec
+	Dispensing 5.0 uL into A1 of Bio-Rad 96 Well Plate 200 µL PCR on 12 at 7.56 uL/sec
+Dropping tip into A1 of Opentrons Fixed Trash on 12
+Picking up tip from E1 of Opentrons OT-2 96 Tip Rack 20 µL on 10
+Transferring 5.0 from B1 of Opentrons 24 Tube Rack with Generic 2 mL Screwcap on 1 to A2 of Bio-Rad 96 Well Plate 200 µL PCR on 12
+	Aspirating 5.0 uL from B1 of Opentrons 24 Tube Rack with Generic 2 mL Screwcap on 1 at 7.56 uL/sec
+	Dispensing 5.0 uL into A2 of Bio-Rad 96 Well Plate 200 µL PCR on 12 at 7.56 uL/sec
+Dropping tip into A1 of Opentrons Fixed Trash on 12
+Picking up tip from F1 of Opentrons OT-2 96 Tip Rack 20 µL on 10
+Transferring 5.0 from C1 of Opentrons 24 Tube Rack with Generic 2 mL Screwcap on 1 to A3 of Bio-Rad 96 Well Plate 200 µL PCR on 12
+	Aspirating 5.0 uL from C1 of Opentrons 24 Tube Rack with Generic 2 mL Screwcap on 1 at 7.56 uL/sec
+	Dispensing 5.0 uL into A3 of Bio-Rad 96 Well Plate 200 µL PCR on 12 at 7.56 uL/sec
+Dropping tip into A1 of Opentrons Fixed Trash on 12
+Picking up tip from G1 of Opentrons OT-2 96 Tip Rack 20 µL on 10
+Transferring 5.0 from D1 of Opentrons 24 Tube Rack with Generic 2 mL Screwcap on 1 to A4 of Bio-Rad 96 Well Plate 200 µL PCR on 12
+	Aspirating 5.0 uL from D1 of Opentrons 24 Tube Rack with Generic 2 mL Screwcap on 1 at 7.56 uL/sec
+	Dispensing 5.0 uL into A4 of Bio-Rad 96 Well Plate 200 µL PCR on 12 at 7.56 uL/sec
+Dropping tip into A1 of Opentrons Fixed Trash on 12
+Picking up tip from H1 of Opentrons OT-2 96 Tip Rack 20 µL on 10
+Transferring 5.0 from A2 of Opentrons 24 Tube Rack with Generic 2 mL Screwcap on 1 to A5 of Bio-Rad 96 Well Plate 200 µL PCR on 12
+	Aspirating 5.0 uL from A2 of Opentrons 24 Tube Rack with Generic 2 mL Screwcap on 1 at 7.56 uL/sec
+	Dispensing 5.0 uL into A5 of Bio-Rad 96 Well Plate 200 µL PCR on 12 at 7.56 uL/sec
+Dropping tip into A1 of Opentrons Fixed Trash on 12
+Transferring 5.0 from A1 of Opentrons 24 Tube Rack with Generic 2 mL Screwcap on 2 to A6 of Bio-Rad 96 Well Plate 200 µL PCR on 12
+	Picking up tip from A2 of Opentrons OT-2 96 Tip Rack 20 µL on 10
+	Aspirating 5.0 uL from A1 of Opentrons 24 Tube Rack with Generic 2 mL Screwcap on 2 at 7.56 uL/sec
+	Dispensing 5.0 uL into A6 of Bio-Rad 96 Well Plate 200 µL PCR on 12 at 7.56 uL/sec
+	Dropping tip into A1 of Opentrons Fixed Trash on 12
+Picking up tip from B2 of Opentrons OT-2 96 Tip Rack 20 µL on 10
+Transferring 5.0 from A1 of Bio-Rad 96 Well Plate 200 µL PCR on 12 to A1 of Bio-Rad 96 Well Plate 200 µL PCR on 6
+	Aspirating 5.0 uL from A1 of Bio-Rad 96 Well Plate 200 µL PCR on 12 at 7.56 uL/sec
+	Dispensing 5.0 uL into A1 of Bio-Rad 96 Well Plate 200 µL PCR on 6 at 7.56 uL/sec
+Transferring 10.0 from A1 of Bio-Rad 96 Well Plate 200 µL PCR on 9 to A1 of Bio-Rad 96 Well Plate 200 µL PCR on 6
+	Aspirating 10.0 uL from A1 of Bio-Rad 96 Well Plate 200 µL PCR on 9 at 7.56 uL/sec
+	Dispensing 10.0 uL into A1 of Bio-Rad 96 Well Plate 200 µL PCR on 6 at 7.56 uL/sec
+	Mixing 3 times with a volume of 15.0 ul
+		Aspirating 15.0 uL from A1 of Bio-Rad 96 Well Plate 200 µL PCR on 6 at 7.56 uL/sec
+		Dispensing 15.0 uL into A1 of Bio-Rad 96 Well Plate 200 µL PCR on 6 at 7.56 uL/sec
+		Aspirating 15.0 uL from A1 of Bio-Rad 96 Well Plate 200 µL PCR on 6 at 7.56 uL/sec
+		Dispensing 15.0 uL into A1 of Bio-Rad 96 Well Plate 200 µL PCR on 6 at 7.56 uL/sec
+		Aspirating 15.0 uL from A1 of Bio-Rad 96 Well Plate 200 µL PCR on 6 at 7.56 uL/sec
+		Dispensing 15.0 uL into A1 of Bio-Rad 96 Well Plate 200 µL PCR on 6 at 7.56 uL/sec
+Dropping tip into A1 of Opentrons Fixed Trash on 12
+Picking up tip from C2 of Opentrons OT-2 96 Tip Rack 20 µL on 10
+Transferring 5.0 from A2 of Bio-Rad 96 Well Plate 200 µL PCR on 12 to A2 of Bio-Rad 96 Well Plate 200 µL PCR on 6
+	Aspirating 5.0 uL from A2 of Bio-Rad 96 Well Plate 200 µL PCR on 12 at 7.56 uL/sec
+	Dispensing 5.0 uL into A2 of Bio-Rad 96 Well Plate 200 µL PCR on 6 at 7.56 uL/sec
+Transferring 10.0 from A2 of Bio-Rad 96 Well Plate 200 µL PCR on 9 to A2 of Bio-Rad 96 Well Plate 200 µL PCR on 6
+	Aspirating 10.0 uL from A2 of Bio-Rad 96 Well Plate 200 µL PCR on 9 at 7.56 uL/sec
+	Dispensing 10.0 uL into A2 of Bio-Rad 96 Well Plate 200 µL PCR on 6 at 7.56 uL/sec
+	Mixing 3 times with a volume of 15.0 ul
+		Aspirating 15.0 uL from A2 of Bio-Rad 96 Well Plate 200 µL PCR on 6 at 7.56 uL/sec
+		Dispensing 15.0 uL into A2 of Bio-Rad 96 Well Plate 200 µL PCR on 6 at 7.56 uL/sec
+		Aspirating 15.0 uL from A2 of Bio-Rad 96 Well Plate 200 µL PCR on 6 at 7.56 uL/sec
+		Dispensing 15.0 uL into A2 of Bio-Rad 96 Well Plate 200 µL PCR on 6 at 7.56 uL/sec
+		Aspirating 15.0 uL from A2 of Bio-Rad 96 Well Plate 200 µL PCR on 6 at 7.56 uL/sec
+		Dispensing 15.0 uL into A2 of Bio-Rad 96 Well Plate 200 µL PCR on 6 at 7.56 uL/sec
+Dropping tip into A1 of Opentrons Fixed Trash on 12
+Picking up tip from D2 of Opentrons OT-2 96 Tip Rack 20 µL on 10
+Transferring 5.0 from A3 of Bio-Rad 96 Well Plate 200 µL PCR on 12 to A3 of Bio-Rad 96 Well Plate 200 µL PCR on 6
+	Aspirating 5.0 uL from A3 of Bio-Rad 96 Well Plate 200 µL PCR on 12 at 7.56 uL/sec
+	Dispensing 5.0 uL into A3 of Bio-Rad 96 Well Plate 200 µL PCR on 6 at 7.56 uL/sec
+Transferring 10.0 from A3 of Bio-Rad 96 Well Plate 200 µL PCR on 9 to A3 of Bio-Rad 96 Well Plate 200 µL PCR on 6
+	Aspirating 10.0 uL from A3 of Bio-Rad 96 Well Plate 200 µL PCR on 9 at 7.56 uL/sec
+	Dispensing 10.0 uL into A3 of Bio-Rad 96 Well Plate 200 µL PCR on 6 at 7.56 uL/sec
+	Mixing 3 times with a volume of 15.0 ul
+		Aspirating 15.0 uL from A3 of Bio-Rad 96 Well Plate 200 µL PCR on 6 at 7.56 uL/sec
+		Dispensing 15.0 uL into A3 of Bio-Rad 96 Well Plate 200 µL PCR on 6 at 7.56 uL/sec
+		Aspirating 15.0 uL from A3 of Bio-Rad 96 Well Plate 200 µL PCR on 6 at 7.56 uL/sec
+		Dispensing 15.0 uL into A3 of Bio-Rad 96 Well Plate 200 µL PCR on 6 at 7.56 uL/sec
+		Aspirating 15.0 uL from A3 of Bio-Rad 96 Well Plate 200 µL PCR on 6 at 7.56 uL/sec
+		Dispensing 15.0 uL into A3 of Bio-Rad 96 Well Plate 200 µL PCR on 6 at 7.56 uL/sec
+Dropping tip into A1 of Opentrons Fixed Trash on 12
+Picking up tip from E2 of Opentrons OT-2 96 Tip Rack 20 µL on 10
+Transferring 5.0 from A4 of Bio-Rad 96 Well Plate 200 µL PCR on 12 to A4 of Bio-Rad 96 Well Plate 200 µL PCR on 6
+	Aspirating 5.0 uL from A4 of Bio-Rad 96 Well Plate 200 µL PCR on 12 at 7.56 uL/sec
+	Dispensing 5.0 uL into A4 of Bio-Rad 96 Well Plate 200 µL PCR on 6 at 7.56 uL/sec
+Transferring 10.0 from A4 of Bio-Rad 96 Well Plate 200 µL PCR on 9 to A4 of Bio-Rad 96 Well Plate 200 µL PCR on 6
+	Aspirating 10.0 uL from A4 of Bio-Rad 96 Well Plate 200 µL PCR on 9 at 7.56 uL/sec
+	Dispensing 10.0 uL into A4 of Bio-Rad 96 Well Plate 200 µL PCR on 6 at 7.56 uL/sec
+	Mixing 3 times with a volume of 15.0 ul
+		Aspirating 15.0 uL from A4 of Bio-Rad 96 Well Plate 200 µL PCR on 6 at 7.56 uL/sec
+		Dispensing 15.0 uL into A4 of Bio-Rad 96 Well Plate 200 µL PCR on 6 at 7.56 uL/sec
+		Aspirating 15.0 uL from A4 of Bio-Rad 96 Well Plate 200 µL PCR on 6 at 7.56 uL/sec
+		Dispensing 15.0 uL into A4 of Bio-Rad 96 Well Plate 200 µL PCR on 6 at 7.56 uL/sec
+		Aspirating 15.0 uL from A4 of Bio-Rad 96 Well Plate 200 µL PCR on 6 at 7.56 uL/sec
+		Dispensing 15.0 uL into A4 of Bio-Rad 96 Well Plate 200 µL PCR on 6 at 7.56 uL/sec
+Dropping tip into A1 of Opentrons Fixed Trash on 12
+Picking up tip from F2 of Opentrons OT-2 96 Tip Rack 20 µL on 10
+Transferring 5.0 from A5 of Bio-Rad 96 Well Plate 200 µL PCR on 12 to A5 of Bio-Rad 96 Well Plate 200 µL PCR on 6
+	Aspirating 5.0 uL from A5 of Bio-Rad 96 Well Plate 200 µL PCR on 12 at 7.56 uL/sec
+	Dispensing 5.0 uL into A5 of Bio-Rad 96 Well Plate 200 µL PCR on 6 at 7.56 uL/sec
+Transferring 10.0 from A5 of Bio-Rad 96 Well Plate 200 µL PCR on 9 to A5 of Bio-Rad 96 Well Plate 200 µL PCR on 6
+	Aspirating 10.0 uL from A5 of Bio-Rad 96 Well Plate 200 µL PCR on 9 at 7.56 uL/sec
+	Dispensing 10.0 uL into A5 of Bio-Rad 96 Well Plate 200 µL PCR on 6 at 7.56 uL/sec
+	Mixing 3 times with a volume of 15.0 ul
+		Aspirating 15.0 uL from A5 of Bio-Rad 96 Well Plate 200 µL PCR on 6 at 7.56 uL/sec
+		Dispensing 15.0 uL into A5 of Bio-Rad 96 Well Plate 200 µL PCR on 6 at 7.56 uL/sec
+		Aspirating 15.0 uL from A5 of Bio-Rad 96 Well Plate 200 µL PCR on 6 at 7.56 uL/sec
+		Dispensing 15.0 uL into A5 of Bio-Rad 96 Well Plate 200 µL PCR on 6 at 7.56 uL/sec
+		Aspirating 15.0 uL from A5 of Bio-Rad 96 Well Plate 200 µL PCR on 6 at 7.56 uL/sec
+		Dispensing 15.0 uL into A5 of Bio-Rad 96 Well Plate 200 µL PCR on 6 at 7.56 uL/sec
+Dropping tip into A1 of Opentrons Fixed Trash on 12
+Picking up tip from G2 of Opentrons OT-2 96 Tip Rack 20 µL on 10
+Transferring 5.0 from A6 of Bio-Rad 96 Well Plate 200 µL PCR on 12 to A6 of Bio-Rad 96 Well Plate 200 µL PCR on 6
+	Aspirating 5.0 uL from A6 of Bio-Rad 96 Well Plate 200 µL PCR on 12 at 7.56 uL/sec
+	Dispensing 5.0 uL into A6 of Bio-Rad 96 Well Plate 200 µL PCR on 6 at 7.56 uL/sec
+Transferring 10.0 from A6 of Bio-Rad 96 Well Plate 200 µL PCR on 9 to A6 of Bio-Rad 96 Well Plate 200 µL PCR on 6
+	Aspirating 10.0 uL from A6 of Bio-Rad 96 Well Plate 200 µL PCR on 9 at 7.56 uL/sec
+	Dispensing 10.0 uL into A6 of Bio-Rad 96 Well Plate 200 µL PCR on 6 at 7.56 uL/sec
+	Mixing 3 times with a volume of 15.0 ul
+		Aspirating 15.0 uL from A6 of Bio-Rad 96 Well Plate 200 µL PCR on 6 at 7.56 uL/sec
+		Dispensing 15.0 uL into A6 of Bio-Rad 96 Well Plate 200 µL PCR on 6 at 7.56 uL/sec
+		Aspirating 15.0 uL from A6 of Bio-Rad 96 Well Plate 200 µL PCR on 6 at 7.56 uL/sec
+		Dispensing 15.0 uL into A6 of Bio-Rad 96 Well Plate 200 µL PCR on 6 at 7.56 uL/sec
+		Aspirating 15.0 uL from A6 of Bio-Rad 96 Well Plate 200 µL PCR on 6 at 7.56 uL/sec
+		Dispensing 15.0 uL into A6 of Bio-Rad 96 Well Plate 200 µL PCR on 6 at 7.56 uL/sec
+Dropping tip into A1 of Opentrons Fixed Trash on 12
+Transferring 15.0 from A1 of Opentrons 24 Tube Rack with Generic 2 mL Screwcap on 7 to A7 of Bio-Rad 96 Well Plate 200 µL PCR on 6
+	Picking up tip from H2 of Opentrons OT-2 96 Tip Rack 20 µL on 10
+	Aspirating 15.0 uL from A1 of Opentrons 24 Tube Rack with Generic 2 mL Screwcap on 7 at 7.56 uL/sec
+	Dispensing 15.0 uL into A7 of Bio-Rad 96 Well Plate 200 µL PCR on 6 at 7.56 uL/sec
+	Mixing 3 times with a volume of 15.0 ul
+		Aspirating 15.0 uL from A7 of Bio-Rad 96 Well Plate 200 µL PCR on 6 at 7.56 uL/sec
+		Dispensing 15.0 uL into A7 of Bio-Rad 96 Well Plate 200 µL PCR on 6 at 7.56 uL/sec
+		Aspirating 15.0 uL from A7 of Bio-Rad 96 Well Plate 200 µL PCR on 6 at 7.56 uL/sec
+		Dispensing 15.0 uL into A7 of Bio-Rad 96 Well Plate 200 µL PCR on 6 at 7.56 uL/sec
+		Aspirating 15.0 uL from A7 of Bio-Rad 96 Well Plate 200 µL PCR on 6 at 7.56 uL/sec
+		Dispensing 15.0 uL into A7 of Bio-Rad 96 Well Plate 200 µL PCR on 6 at 7.56 uL/sec
+	Dropping tip into A1 of Opentrons Fixed Trash on 12
+Transferring 15.0 from A1 of Opentrons 24 Tube Rack with Generic 2 mL Screwcap on 8 to A8 of Bio-Rad 96 Well Plate 200 µL PCR on 6
+	Picking up tip from A3 of Opentrons OT-2 96 Tip Rack 20 µL on 10
+	Aspirating 15.0 uL from A1 of Opentrons 24 Tube Rack with Generic 2 mL Screwcap on 8 at 7.56 uL/sec
+	Dispensing 15.0 uL into A8 of Bio-Rad 96 Well Plate 200 µL PCR on 6 at 7.56 uL/sec
+	Mixing 3 times with a volume of 15.0 ul
+		Aspirating 15.0 uL from A8 of Bio-Rad 96 Well Plate 200 µL PCR on 6 at 7.56 uL/sec
+		Dispensing 15.0 uL into A8 of Bio-Rad 96 Well Plate 200 µL PCR on 6 at 7.56 uL/sec
+		Aspirating 15.0 uL from A8 of Bio-Rad 96 Well Plate 200 µL PCR on 6 at 7.56 uL/sec
+		Dispensing 15.0 uL into A8 of Bio-Rad 96 Well Plate 200 µL PCR on 6 at 7.56 uL/sec
+		Aspirating 15.0 uL from A8 of Bio-Rad 96 Well Plate 200 µL PCR on 6 at 7.56 uL/sec
+		Dispensing 15.0 uL into A8 of Bio-Rad 96 Well Plate 200 µL PCR on 6 at 7.56 uL/sec
+	Dropping tip into A1 of Opentrons Fixed Trash on 12

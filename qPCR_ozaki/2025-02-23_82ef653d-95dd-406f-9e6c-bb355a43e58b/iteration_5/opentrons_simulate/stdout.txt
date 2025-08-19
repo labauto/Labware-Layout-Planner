@@ -1,0 +1,177 @@
+Transferring 132.0 from A1 of PCR_MIX on 5 to A1 of empty_tube on 10
+	Picking up tip from A1 of Opentrons OT-2 96 Tip Rack 300 µL on 9
+	Aspirating 132.0 uL from A1 of PCR_MIX on 5 at 92.86 uL/sec
+	Dispensing 132.0 uL into A1 of empty_tube on 10 at 92.86 uL/sec
+	Dropping tip into A1 of Opentrons Fixed Trash on 12
+Transferring 44.0 from A1 of water on 2 to A1 of empty_tube on 10
+	Picking up tip from B1 of Opentrons OT-2 96 Tip Rack 300 µL on 9
+	Aspirating 44.0 uL from A1 of water on 2 at 92.86 uL/sec
+	Dispensing 44.0 uL into A1 of empty_tube on 10 at 92.86 uL/sec
+	Mixing 3 times with a volume of 100.0 ul
+		Aspirating 100.0 uL from A1 of empty_tube on 10 at 92.86 uL/sec
+		Dispensing 100.0 uL into A1 of empty_tube on 10 at 92.86 uL/sec
+		Aspirating 100.0 uL from A1 of empty_tube on 10 at 92.86 uL/sec
+		Dispensing 100.0 uL into A1 of empty_tube on 10 at 92.86 uL/sec
+		Aspirating 100.0 uL from A1 of empty_tube on 10 at 92.86 uL/sec
+		Dispensing 100.0 uL into A1 of empty_tube on 10 at 92.86 uL/sec
+	Dropping tip into A1 of Opentrons Fixed Trash on 12
+Transferring 8.8 from A1 of 10_µM_primer_F on 3 to A1 of empty_tube on 10
+	Picking up tip from A1 of Opentrons OT-2 96 Tip Rack 20 µL on 6
+	Aspirating 8.8 uL from A1 of 10_µM_primer_F on 3 at 7.56 uL/sec
+	Dispensing 8.8 uL into A1 of empty_tube on 10 at 7.56 uL/sec
+	Mixing 3 times with a volume of 15.0 ul
+		Aspirating 15.0 uL from A1 of empty_tube on 10 at 7.56 uL/sec
+		Dispensing 15.0 uL into A1 of empty_tube on 10 at 7.56 uL/sec
+		Aspirating 15.0 uL from A1 of empty_tube on 10 at 7.56 uL/sec
+		Dispensing 15.0 uL into A1 of empty_tube on 10 at 7.56 uL/sec
+		Aspirating 15.0 uL from A1 of empty_tube on 10 at 7.56 uL/sec
+		Dispensing 15.0 uL into A1 of empty_tube on 10 at 7.56 uL/sec
+	Dropping tip into A1 of Opentrons Fixed Trash on 12
+Transferring 8.8 from A1 of 10_µM_primer_R on 4 to A1 of empty_tube on 10
+	Picking up tip from B1 of Opentrons OT-2 96 Tip Rack 20 µL on 6
+	Aspirating 8.8 uL from A1 of 10_µM_primer_R on 4 at 7.56 uL/sec
+	Dispensing 8.8 uL into A1 of empty_tube on 10 at 7.56 uL/sec
+	Mixing 3 times with a volume of 15.0 ul
+		Aspirating 15.0 uL from A1 of empty_tube on 10 at 7.56 uL/sec
+		Dispensing 15.0 uL into A1 of empty_tube on 10 at 7.56 uL/sec
+		Aspirating 15.0 uL from A1 of empty_tube on 10 at 7.56 uL/sec
+		Dispensing 15.0 uL into A1 of empty_tube on 10 at 7.56 uL/sec
+		Aspirating 15.0 uL from A1 of empty_tube on 10 at 7.56 uL/sec
+		Dispensing 15.0 uL into A1 of empty_tube on 10 at 7.56 uL/sec
+	Dropping tip into A1 of Opentrons Fixed Trash on 12
+Transferring 20.0 from A1 of empty_tube on 10 to A1 of 96_well_PCR_plate on 7
+	Picking up tip from C1 of Opentrons OT-2 96 Tip Rack 20 µL on 6
+	Aspirating 20.0 uL from A1 of empty_tube on 10 at 7.56 uL/sec
+	Dispensing 20.0 uL into A1 of 96_well_PCR_plate on 7 at 7.56 uL/sec
+	Dropping tip into A1 of Opentrons Fixed Trash on 12
+Transferring 20.0 from A1 of empty_tube on 10 to B1 of 96_well_PCR_plate on 7
+	Picking up tip from D1 of Opentrons OT-2 96 Tip Rack 20 µL on 6
+	Aspirating 20.0 uL from A1 of empty_tube on 10 at 7.56 uL/sec
+	Dispensing 20.0 uL into B1 of 96_well_PCR_plate on 7 at 7.56 uL/sec
+	Dropping tip into A1 of Opentrons Fixed Trash on 12
+Transferring 20.0 from A1 of empty_tube on 10 to C1 of 96_well_PCR_plate on 7
+	Picking up tip from E1 of Opentrons OT-2 96 Tip Rack 20 µL on 6
+	Aspirating 20.0 uL from A1 of empty_tube on 10 at 7.56 uL/sec
+	Dispensing 20.0 uL into C1 of 96_well_PCR_plate on 7 at 7.56 uL/sec
+	Dropping tip into A1 of Opentrons Fixed Trash on 12
+Transferring 20.0 from A1 of empty_tube on 10 to D1 of 96_well_PCR_plate on 7
+	Picking up tip from F1 of Opentrons OT-2 96 Tip Rack 20 µL on 6
+	Aspirating 20.0 uL from A1 of empty_tube on 10 at 7.56 uL/sec
+	Dispensing 20.0 uL into D1 of 96_well_PCR_plate on 7 at 7.56 uL/sec
+	Dropping tip into A1 of Opentrons Fixed Trash on 12
+Transferring 20.0 from A1 of empty_tube on 10 to E1 of 96_well_PCR_plate on 7
+	Picking up tip from G1 of Opentrons OT-2 96 Tip Rack 20 µL on 6
+	Aspirating 20.0 uL from A1 of empty_tube on 10 at 7.56 uL/sec
+	Dispensing 20.0 uL into E1 of 96_well_PCR_plate on 7 at 7.56 uL/sec
+	Dropping tip into A1 of Opentrons Fixed Trash on 12
+Transferring 20.0 from A1 of empty_tube on 10 to F1 of 96_well_PCR_plate on 7
+	Picking up tip from H1 of Opentrons OT-2 96 Tip Rack 20 µL on 6
+	Aspirating 20.0 uL from A1 of empty_tube on 10 at 7.56 uL/sec
+	Dispensing 20.0 uL into F1 of 96_well_PCR_plate on 7 at 7.56 uL/sec
+	Dropping tip into A1 of Opentrons Fixed Trash on 12
+Transferring 20.0 from A1 of empty_tube on 10 to G1 of 96_well_PCR_plate on 7
+	Picking up tip from A2 of Opentrons OT-2 96 Tip Rack 20 µL on 6
+	Aspirating 20.0 uL from A1 of empty_tube on 10 at 7.56 uL/sec
+	Dispensing 20.0 uL into G1 of 96_well_PCR_plate on 7 at 7.56 uL/sec
+	Dropping tip into A1 of Opentrons Fixed Trash on 12
+Transferring 20.0 from A1 of empty_tube on 10 to H1 of 96_well_PCR_plate on 7
+	Picking up tip from B2 of Opentrons OT-2 96 Tip Rack 20 µL on 6
+	Aspirating 20.0 uL from A1 of empty_tube on 10 at 7.56 uL/sec
+	Dispensing 20.0 uL into H1 of 96_well_PCR_plate on 7 at 7.56 uL/sec
+	Dropping tip into A1 of Opentrons Fixed Trash on 12
+Transferring 5.0 from A1 of 1_sample_DNAs on 1 to A1 of 96_well_PCR_plate on 7
+	Picking up tip from C2 of Opentrons OT-2 96 Tip Rack 20 µL on 6
+	Aspirating 5.0 uL from A1 of 1_sample_DNAs on 1 at 7.56 uL/sec
+	Dispensing 5.0 uL into A1 of 96_well_PCR_plate on 7 at 7.56 uL/sec
+	Mixing 3 times with a volume of 15.0 ul
+		Aspirating 15.0 uL from A1 of 96_well_PCR_plate on 7 at 7.56 uL/sec
+		Dispensing 15.0 uL into A1 of 96_well_PCR_plate on 7 at 7.56 uL/sec
+		Aspirating 15.0 uL from A1 of 96_well_PCR_plate on 7 at 7.56 uL/sec
+		Dispensing 15.0 uL into A1 of 96_well_PCR_plate on 7 at 7.56 uL/sec
+		Aspirating 15.0 uL from A1 of 96_well_PCR_plate on 7 at 7.56 uL/sec
+		Dispensing 15.0 uL into A1 of 96_well_PCR_plate on 7 at 7.56 uL/sec
+	Dropping tip into A1 of Opentrons Fixed Trash on 12
+Transferring 5.0 from A1 of 1_sample_DNAs on 1 to B1 of 96_well_PCR_plate on 7
+	Picking up tip from D2 of Opentrons OT-2 96 Tip Rack 20 µL on 6
+	Aspirating 5.0 uL from A1 of 1_sample_DNAs on 1 at 7.56 uL/sec
+	Dispensing 5.0 uL into B1 of 96_well_PCR_plate on 7 at 7.56 uL/sec
+	Mixing 3 times with a volume of 15.0 ul
+		Aspirating 15.0 uL from B1 of 96_well_PCR_plate on 7 at 7.56 uL/sec
+		Dispensing 15.0 uL into B1 of 96_well_PCR_plate on 7 at 7.56 uL/sec
+		Aspirating 15.0 uL from B1 of 96_well_PCR_plate on 7 at 7.56 uL/sec
+		Dispensing 15.0 uL into B1 of 96_well_PCR_plate on 7 at 7.56 uL/sec
+		Aspirating 15.0 uL from B1 of 96_well_PCR_plate on 7 at 7.56 uL/sec
+		Dispensing 15.0 uL into B1 of 96_well_PCR_plate on 7 at 7.56 uL/sec
+	Dropping tip into A1 of Opentrons Fixed Trash on 12
+Transferring 5.0 from A1 of 1_sample_DNAs on 1 to C1 of 96_well_PCR_plate on 7
+	Picking up tip from E2 of Opentrons OT-2 96 Tip Rack 20 µL on 6
+	Aspirating 5.0 uL from A1 of 1_sample_DNAs on 1 at 7.56 uL/sec
+	Dispensing 5.0 uL into C1 of 96_well_PCR_plate on 7 at 7.56 uL/sec
+	Mixing 3 times with a volume of 15.0 ul
+		Aspirating 15.0 uL from C1 of 96_well_PCR_plate on 7 at 7.56 uL/sec
+		Dispensing 15.0 uL into C1 of 96_well_PCR_plate on 7 at 7.56 uL/sec
+		Aspirating 15.0 uL from C1 of 96_well_PCR_plate on 7 at 7.56 uL/sec
+		Dispensing 15.0 uL into C1 of 96_well_PCR_plate on 7 at 7.56 uL/sec
+		Aspirating 15.0 uL from C1 of 96_well_PCR_plate on 7 at 7.56 uL/sec
+		Dispensing 15.0 uL into C1 of 96_well_PCR_plate on 7 at 7.56 uL/sec
+	Dropping tip into A1 of Opentrons Fixed Trash on 12
+Transferring 5.0 from A1 of 1_sample_DNAs on 1 to D1 of 96_well_PCR_plate on 7
+	Picking up tip from F2 of Opentrons OT-2 96 Tip Rack 20 µL on 6
+	Aspirating 5.0 uL from A1 of 1_sample_DNAs on 1 at 7.56 uL/sec
+	Dispensing 5.0 uL into D1 of 96_well_PCR_plate on 7 at 7.56 uL/sec
+	Mixing 3 times with a volume of 15.0 ul
+		Aspirating 15.0 uL from D1 of 96_well_PCR_plate on 7 at 7.56 uL/sec
+		Dispensing 15.0 uL into D1 of 96_well_PCR_plate on 7 at 7.56 uL/sec
+		Aspirating 15.0 uL from D1 of 96_well_PCR_plate on 7 at 7.56 uL/sec
+		Dispensing 15.0 uL into D1 of 96_well_PCR_plate on 7 at 7.56 uL/sec
+		Aspirating 15.0 uL from D1 of 96_well_PCR_plate on 7 at 7.56 uL/sec
+		Dispensing 15.0 uL into D1 of 96_well_PCR_plate on 7 at 7.56 uL/sec
+	Dropping tip into A1 of Opentrons Fixed Trash on 12
+Transferring 5.0 from A1 of 1_sample_DNAs on 1 to E1 of 96_well_PCR_plate on 7
+	Picking up tip from G2 of Opentrons OT-2 96 Tip Rack 20 µL on 6
+	Aspirating 5.0 uL from A1 of 1_sample_DNAs on 1 at 7.56 uL/sec
+	Dispensing 5.0 uL into E1 of 96_well_PCR_plate on 7 at 7.56 uL/sec
+	Mixing 3 times with a volume of 15.0 ul
+		Aspirating 15.0 uL from E1 of 96_well_PCR_plate on 7 at 7.56 uL/sec
+		Dispensing 15.0 uL into E1 of 96_well_PCR_plate on 7 at 7.56 uL/sec
+		Aspirating 15.0 uL from E1 of 96_well_PCR_plate on 7 at 7.56 uL/sec
+		Dispensing 15.0 uL into E1 of 96_well_PCR_plate on 7 at 7.56 uL/sec
+		Aspirating 15.0 uL from E1 of 96_well_PCR_plate on 7 at 7.56 uL/sec
+		Dispensing 15.0 uL into E1 of 96_well_PCR_plate on 7 at 7.56 uL/sec
+	Dropping tip into A1 of Opentrons Fixed Trash on 12
+Transferring 5.0 from A1 of 1_sample_DNAs on 1 to F1 of 96_well_PCR_plate on 7
+	Picking up tip from H2 of Opentrons OT-2 96 Tip Rack 20 µL on 6
+	Aspirating 5.0 uL from A1 of 1_sample_DNAs on 1 at 7.56 uL/sec
+	Dispensing 5.0 uL into F1 of 96_well_PCR_plate on 7 at 7.56 uL/sec
+	Mixing 3 times with a volume of 15.0 ul
+		Aspirating 15.0 uL from F1 of 96_well_PCR_plate on 7 at 7.56 uL/sec
+		Dispensing 15.0 uL into F1 of 96_well_PCR_plate on 7 at 7.56 uL/sec
+		Aspirating 15.0 uL from F1 of 96_well_PCR_plate on 7 at 7.56 uL/sec
+		Dispensing 15.0 uL into F1 of 96_well_PCR_plate on 7 at 7.56 uL/sec
+		Aspirating 15.0 uL from F1 of 96_well_PCR_plate on 7 at 7.56 uL/sec
+		Dispensing 15.0 uL into F1 of 96_well_PCR_plate on 7 at 7.56 uL/sec
+	Dropping tip into A1 of Opentrons Fixed Trash on 12
+Transferring 5.0 from A1 of 1_sample_DNAs on 1 to G1 of 96_well_PCR_plate on 7
+	Picking up tip from A3 of Opentrons OT-2 96 Tip Rack 20 µL on 6
+	Aspirating 5.0 uL from A1 of 1_sample_DNAs on 1 at 7.56 uL/sec
+	Dispensing 5.0 uL into G1 of 96_well_PCR_plate on 7 at 7.56 uL/sec
+	Mixing 3 times with a volume of 15.0 ul
+		Aspirating 15.0 uL from G1 of 96_well_PCR_plate on 7 at 7.56 uL/sec
+		Dispensing 15.0 uL into G1 of 96_well_PCR_plate on 7 at 7.56 uL/sec
+		Aspirating 15.0 uL from G1 of 96_well_PCR_plate on 7 at 7.56 uL/sec
+		Dispensing 15.0 uL into G1 of 96_well_PCR_plate on 7 at 7.56 uL/sec
+		Aspirating 15.0 uL from G1 of 96_well_PCR_plate on 7 at 7.56 uL/sec
+		Dispensing 15.0 uL into G1 of 96_well_PCR_plate on 7 at 7.56 uL/sec
+	Dropping tip into A1 of Opentrons Fixed Trash on 12
+Transferring 5.0 from A1 of 1_sample_DNAs on 1 to H1 of 96_well_PCR_plate on 7
+	Picking up tip from B3 of Opentrons OT-2 96 Tip Rack 20 µL on 6
+	Aspirating 5.0 uL from A1 of 1_sample_DNAs on 1 at 7.56 uL/sec
+	Dispensing 5.0 uL into H1 of 96_well_PCR_plate on 7 at 7.56 uL/sec
+	Mixing 3 times with a volume of 15.0 ul
+		Aspirating 15.0 uL from H1 of 96_well_PCR_plate on 7 at 7.56 uL/sec
+		Dispensing 15.0 uL into H1 of 96_well_PCR_plate on 7 at 7.56 uL/sec
+		Aspirating 15.0 uL from H1 of 96_well_PCR_plate on 7 at 7.56 uL/sec
+		Dispensing 15.0 uL into H1 of 96_well_PCR_plate on 7 at 7.56 uL/sec
+		Aspirating 15.0 uL from H1 of 96_well_PCR_plate on 7 at 7.56 uL/sec
+		Dispensing 15.0 uL into H1 of 96_well_PCR_plate on 7 at 7.56 uL/sec
+	Dropping tip into A1 of Opentrons Fixed Trash on 12

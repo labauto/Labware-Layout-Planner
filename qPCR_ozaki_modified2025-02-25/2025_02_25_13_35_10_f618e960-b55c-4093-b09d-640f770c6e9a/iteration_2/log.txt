@@ -1,0 +1,1127 @@
+***2025-02-25 05:31:31.224841+00:00***: os.path.join(BASE_DIR, f'{id}')='qPCR_ozaki_modified2025-02-25/2025_02_25_13_35_10_f618e960-b55c-4093-b09d-640f770c6e9a/iteration_2'***2025-02-25 05:31:31.225283+00:00***: *********************** 2025_02_25_13_35_10_f618e960-b55c-4093-b09d-640f770c6e9a/iteration_2 *****************************2025-02-25 05:31:31.225823+00:00***: *********************************************************2025-02-25 05:31:39.933624+00:00***: obj-chan preprocess result:
+
+{
+    "labware": [
+        {
+            "name": "PCR_MIX_tube",
+            "quantity": 137.6,
+            "unit": "μL",
+            "init_content": "",
+            "labware": {"id": 1, "name": "tube"}
+        },
+        {
+            "name": "10_μM_primer_F_tube",
+            "quantity": 3.2,
+            "unit": "μL",
+            "init_content": "",
+            "labware": {"id": 1, "name": "tube"}
+        },
+        {
+            "name": "10_μM_primer_R_tube",
+            "quantity": 3.2,
+            "unit": "μL",
+            "init_content": "",
+            "labware": {"id": 1, "name": "tube"}
+        },
+        {
+            "name": "template_only_PCR_MIX_tube",
+            "quantity": 86,
+            "unit": "μL",
+            "init_content": "",
+            "labware": {"id": 1, "name": "tube"}
+        },
+        {
+            "name": "water_tube",
+            "quantity": 4,
+            "unit": "μL",
+            "init_content": "water",
+            "labware": {"id": 1, "name": "tube"}
+        },
+        {
+            "name": "sample_DNAs_plate",
+            "quantity": 300,
+            "unit": "μL",
+            "init_content": "sample DNA",
+            "labware": {"id": 3, "name": "96_well_PCR_plate"}
+        },
+        {
+            "name": "water_plate",
+            "quantity": 300,
+            "unit": "μL",
+            "init_content": "water",
+            "labware": {"id": 3, "name": "96_well_PCR_plate"}
+        },
+        {
+            "name": "10_μM_primer_F1-13_plate",
+            "quantity": 10,
+            "unit": "μL",
+            "init_content": "10 μM primer set 1-13",
+            "labware": {"id": 3, "name": "96_well_PCR_plate"}
+        },
+        {
+            "name": "10_μM_primer_R1-13_plate",
+            "quantity": 10,
+            "unit": "μL",
+            "init_content": "10 μM primer set 1-13",
+            "labware": {"id": 3, "name": "96_well_PCR_plate"}
+        },
+        {
+            "name": "PCR_MIX_and_primer_plate",
+            "quantity": 10,
+            "unit": "μL",
+            "init_content": "PCR MIX and primer mixture",
+            "labware": {"id": 3, "name": "96_well_PCR_plate"}
+        },
+        {
+            "name": "template_only_PCR_MIX_and_water_plate",
+            "quantity": 5,
+            "unit": "μL",
+            "init_content": "template only PCR MIX and water",
+            "labware": {"id": 3, "name": "96_well_PCR_plate"}
+        },
+        {
+            "name": "1_sample_DNA_applied_plate",
+            "quantity": 5,
+            "unit": "μL",
+            "init_content": "sample DNA",
+            "labware": {"id": 3, "name": "96_well_PCR_plate"}
+        },
+        {
+            "name": "PCR_MIX_and_primer_applied_plate",
+            "quantity": 10,
+            "unit": "μL",
+            "init_content": "PCR MIX and primer mixture",
+            "labware": {"id": 3, "name": "96_well_PCR_plate"}
+        }
+    ]
+}
+
+
+Note: The labware IDs used in the output are as follows:
+- Labware ID: 1, Name: Tube
+- Labware ID: 3, Name: 96 well PCR Plate***2025-02-25 05:31:39.936135+00:00***: obj-chan postprocess result:
+
+{
+    "labware": [
+        {
+            "name": "PCR_MIX_tube",
+            "quantity": 137.6,
+            "unit": "μL",
+            "init_content": "",
+            "labware": {"id": 1, "name": "tube"}
+        },
+        {
+            "name": "10_μM_primer_F_tube",
+            "quantity": 3.2,
+            "unit": "μL",
+            "init_content": "",
+            "labware": {"id": 1, "name": "tube"}
+        },
+        {
+            "name": "10_μM_primer_R_tube",
+            "quantity": 3.2,
+            "unit": "μL",
+            "init_content": "",
+            "labware": {"id": 1, "name": "tube"}
+        },
+        {
+            "name": "template_only_PCR_MIX_tube",
+            "quantity": 86,
+            "unit": "μL",
+            "init_content": "",
+            "labware": {"id": 1, "name": "tube"}
+        },
+        {
+            "name": "water_tube",
+            "quantity": 4,
+            "unit": "μL",
+            "init_content": "water",
+            "labware": {"id": 1, "name": "tube"}
+        },
+        {
+            "name": "sample_DNAs_plate",
+            "quantity": 300,
+            "unit": "μL",
+            "init_content": "sample DNA",
+            "labware": {"id": 3, "name": "96_well_PCR_plate"}
+        },
+        {
+            "name": "water_plate",
+            "quantity": 300,
+            "unit": "μL",
+            "init_content": "water",
+            "labware": {"id": 3, "name": "96_well_PCR_plate"}
+        },
+        {
+            "name": "10_μM_primer_F1-13_plate",
+            "quantity": 10,
+            "unit": "μL",
+            "init_content": "10 μM primer set 1-13",
+            "labware": {"id": 3, "name": "96_well_PCR_plate"}
+        },
+        {
+            "name": "10_μM_primer_R1-13_plate",
+            "quantity": 10,
+            "unit": "μL",
+            "init_content": "10 μM primer set 1-13",
+            "labware": {"id": 3, "name": "96_well_PCR_plate"}
+        },
+        {
+            "name": "PCR_MIX_and_primer_plate",
+            "quantity": 10,
+            "unit": "μL",
+            "init_content": "PCR MIX and primer mixture",
+            "labware": {"id": 3, "name": "96_well_PCR_plate"}
+        },
+        {
+            "name": "template_only_PCR_MIX_and_water_plate",
+            "quantity": 5,
+            "unit": "μL",
+            "init_content": "template only PCR MIX and water",
+            "labware": {"id": 3, "name": "96_well_PCR_plate"}
+        },
+        {
+            "name": "1_sample_DNA_applied_plate",
+            "quantity": 5,
+            "unit": "μL",
+            "init_content": "sample DNA",
+            "labware": {"id": 3, "name": "96_well_PCR_plate"}
+        },
+        {
+            "name": "PCR_MIX_and_primer_applied_plate",
+            "quantity": 10,
+            "unit": "μL",
+            "init_content": "PCR MIX and primer mixture",
+            "labware": {"id": 3, "name": "96_well_PCR_plate"}
+        }
+    ]
+}
+
+
+Note: The labware IDs used in the output are as follows:
+- Labware ID: 1, Name: Tube
+- Labware ID: 3, Name: 96 well PCR Plate***2025-02-25 05:31:39.937603+00:00***: Attempt 1 failed with error: Extra data: line 98 column 1 (char 2912)***2025-02-25 05:31:39.943274+00:00***: Traceback: Traceback (most recent call last):
+  File "/Users/yuyaarai/Documents/Humanics/Project/FormationFormatter/src/formationformatter/functions.py", line 45, in get_object_list
+    object_list, obj_chan_errors = obj_chan(
+                                   ^^^^^^^^^
+  File "/Users/yuyaarai/Documents/Humanics/Project/FormationFormatter/src/formationformatter/obj_chan/__init__.py", line 265, in run
+    res, errors = get_object_list(process_flow, constraints, messages, log_file_path=log_file_path)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/yuyaarai/Documents/Humanics/Project/FormationFormatter/src/formationformatter/obj_chan/__init__.py", line 252, in get_object_list
+    results = _extract_results_from_gpt_response(answer, log_file_path)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/yuyaarai/Documents/Humanics/Project/FormationFormatter/src/formationformatter/obj_chan/__init__.py", line 135, in _extract_results_from_gpt_response
+    results = text_to_dict(result.replace('extracted_results:', '').replace('extracted_results_end:', '').strip())
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/yuyaarai/Documents/Humanics/Project/FormationFormatter/src/formationformatter/obj_chan/__init__.py", line 134, in <lambda>
+    text_to_dict = lambda x: json.loads(x.replace('\'', '\"'))
+                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.12/3.12.8/Frameworks/Python.framework/Versions/3.12/lib/python3.12/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.12/3.12.8/Frameworks/Python.framework/Versions/3.12/lib/python3.12/json/decoder.py", line 341, in decode
+    raise JSONDecodeError("Extra data", s, end)
+json.decoder.JSONDecodeError: Extra data: line 98 column 1 (char 2912)
+***2025-02-25 05:31:39.944058+00:00***: Retrying... (Attempt 1/10)***2025-02-25 05:31:49.485399+00:00***: obj-chan preprocess result:
+
+{
+    "labware": [
+        {
+            "name": "PCR_MIX",
+            "quantity": 137.6,
+            "unit": "μL",
+            "init_content": "",
+            "labware": {"id": 1, "name": "Tube"}
+        },
+        {
+            "name": "10_μM_primer_F",
+            "quantity": 3.2,
+            "unit": "μL",
+            "init_content": "",
+            "labware": {"id": 1, "name": "Tube"}
+        },
+        {
+            "name": "10_μM_primer_R",
+            "quantity": 3.2,
+            "unit": "μL",
+            "init_content": "",
+            "labware": {"id": 1, "name": "Tube"}
+        },
+        {
+            "name": "template_only_PCR_MIX",
+            "quantity": 86,
+            "unit": "μL",
+            "init_content": "",
+            "labware": {"id": 1, "name": "Tube"}
+        },
+        {
+            "name": "water",
+            "quantity": 4,
+            "unit": "μL",
+            "init_content": "water",
+            "labware": {"id": 1, "name": "Tube"}
+        },
+        {
+            "name": "sample_DNAs",
+            "quantity": 300,
+            "unit": "μL",
+            "init_content": "sample DNA",
+            "labware": {"id": 3, "name": "Plate"}
+        },
+        {
+            "name": "water",
+            "quantity": 300,
+            "unit": "μL",
+            "init_content": "water",
+            "labware": {"id": 3, "name": "Plate"}
+        },
+        {
+            "name": "10_μM_primer_F1-13",
+            "quantity": 10,
+            "unit": "μL",
+            "init_content": "10 μM primer",
+            "labware": {"id": 3, "name": "Plate"}
+        },
+        {
+            "name": "10_μM_primer_R1-13",
+            "quantity": 10,
+            "unit": "μL",
+            "init_content": "10 μM primer",
+            "labware": {"id": 3, "name": "Plate"}
+        },
+        {
+            "name": "PCR_MIX_and_primer",
+            "quantity": 10,
+            "unit": "μL",
+            "init_content": "PCR MIX and primer mixture",
+            "labware": {"id": 3, "name": "Plate"}
+        },
+        {
+            "name": "template_only_PCR_MIX_and_water",
+            "quantity": 5,
+            "unit": "μL",
+            "init_content": "template only PCR MIX and water",
+            "labware": {"id": 3, "name": "Plate"}
+        },
+        {
+            "name": "sample_DNA_applied",
+            "quantity": 5,
+            "unit": "μL",
+            "init_content": "sample DNA",
+            "labware": {"id": 3, "name": "Plate"}
+        },
+        {
+            "name": "PCR_MIX_and_primer_applied",
+            "quantity": 10,
+            "unit": "μL",
+            "init_content": "PCR MIX and primer mixture",
+            "labware": {"id": 3, "name": "Plate"}
+        }
+    ]
+}
+
+
+Note: The labware IDs used in the output are as follows:
+- Labware ID: 1, Name: Tube
+- Labware ID: 3, Name: Plate***2025-02-25 05:31:49.487056+00:00***: obj-chan postprocess result:
+
+{
+    "labware": [
+        {
+            "name": "PCR_MIX",
+            "quantity": 137.6,
+            "unit": "μL",
+            "init_content": "",
+            "labware": {"id": 1, "name": "Tube"}
+        },
+        {
+            "name": "10_μM_primer_F",
+            "quantity": 3.2,
+            "unit": "μL",
+            "init_content": "",
+            "labware": {"id": 1, "name": "Tube"}
+        },
+        {
+            "name": "10_μM_primer_R",
+            "quantity": 3.2,
+            "unit": "μL",
+            "init_content": "",
+            "labware": {"id": 1, "name": "Tube"}
+        },
+        {
+            "name": "template_only_PCR_MIX",
+            "quantity": 86,
+            "unit": "μL",
+            "init_content": "",
+            "labware": {"id": 1, "name": "Tube"}
+        },
+        {
+            "name": "water",
+            "quantity": 4,
+            "unit": "μL",
+            "init_content": "water",
+            "labware": {"id": 1, "name": "Tube"}
+        },
+        {
+            "name": "sample_DNAs",
+            "quantity": 300,
+            "unit": "μL",
+            "init_content": "sample DNA",
+            "labware": {"id": 3, "name": "Plate"}
+        },
+        {
+            "name": "water",
+            "quantity": 300,
+            "unit": "μL",
+            "init_content": "water",
+            "labware": {"id": 3, "name": "Plate"}
+        },
+        {
+            "name": "10_μM_primer_F1-13",
+            "quantity": 10,
+            "unit": "μL",
+            "init_content": "10 μM primer",
+            "labware": {"id": 3, "name": "Plate"}
+        },
+        {
+            "name": "10_μM_primer_R1-13",
+            "quantity": 10,
+            "unit": "μL",
+            "init_content": "10 μM primer",
+            "labware": {"id": 3, "name": "Plate"}
+        },
+        {
+            "name": "PCR_MIX_and_primer",
+            "quantity": 10,
+            "unit": "μL",
+            "init_content": "PCR MIX and primer mixture",
+            "labware": {"id": 3, "name": "Plate"}
+        },
+        {
+            "name": "template_only_PCR_MIX_and_water",
+            "quantity": 5,
+            "unit": "μL",
+            "init_content": "template only PCR MIX and water",
+            "labware": {"id": 3, "name": "Plate"}
+        },
+        {
+            "name": "sample_DNA_applied",
+            "quantity": 5,
+            "unit": "μL",
+            "init_content": "sample DNA",
+            "labware": {"id": 3, "name": "Plate"}
+        },
+        {
+            "name": "PCR_MIX_and_primer_applied",
+            "quantity": 10,
+            "unit": "μL",
+            "init_content": "PCR MIX and primer mixture",
+            "labware": {"id": 3, "name": "Plate"}
+        }
+    ]
+}
+
+
+Note: The labware IDs used in the output are as follows:
+- Labware ID: 1, Name: Tube
+- Labware ID: 3, Name: Plate***2025-02-25 05:31:49.488537+00:00***: Attempt 2 failed with error: Extra data: line 98 column 1 (char 2723)***2025-02-25 05:31:49.490863+00:00***: Traceback: Traceback (most recent call last):
+  File "/Users/yuyaarai/Documents/Humanics/Project/FormationFormatter/src/formationformatter/functions.py", line 45, in get_object_list
+    object_list, obj_chan_errors = obj_chan(
+                                   ^^^^^^^^^
+  File "/Users/yuyaarai/Documents/Humanics/Project/FormationFormatter/src/formationformatter/obj_chan/__init__.py", line 265, in run
+    res, errors = get_object_list(process_flow, constraints, messages, log_file_path=log_file_path)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/yuyaarai/Documents/Humanics/Project/FormationFormatter/src/formationformatter/obj_chan/__init__.py", line 252, in get_object_list
+    results = _extract_results_from_gpt_response(answer, log_file_path)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/yuyaarai/Documents/Humanics/Project/FormationFormatter/src/formationformatter/obj_chan/__init__.py", line 135, in _extract_results_from_gpt_response
+    results = text_to_dict(result.replace('extracted_results:', '').replace('extracted_results_end:', '').strip())
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/yuyaarai/Documents/Humanics/Project/FormationFormatter/src/formationformatter/obj_chan/__init__.py", line 134, in <lambda>
+    text_to_dict = lambda x: json.loads(x.replace('\'', '\"'))
+                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.12/3.12.8/Frameworks/Python.framework/Versions/3.12/lib/python3.12/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.12/3.12.8/Frameworks/Python.framework/Versions/3.12/lib/python3.12/json/decoder.py", line 341, in decode
+    raise JSONDecodeError("Extra data", s, end)
+json.decoder.JSONDecodeError: Extra data: line 98 column 1 (char 2723)
+***2025-02-25 05:31:49.496694+00:00***: Retrying... (Attempt 2/10)***2025-02-25 05:31:59.137116+00:00***: obj-chan preprocess result:
+
+{
+    "labware": [
+        {
+            "name": "PCR MIX",
+            "quantity": 137.6,
+            "unit": "μL",
+            "init_content": "",
+            "labware": {"id": 1, "name": "Tube"}
+        },
+        {
+            "name": "10 μM primer_F1-13",
+            "quantity": 3.2,
+            "unit": "μL",
+            "init_content": "",
+            "labware": {"id": 1, "name": "Tube"}
+        },
+        {
+            "name": "10 μM primer_R1-13",
+            "quantity": 3.2,
+            "unit": "μL",
+            "init_content": "",
+            "labware": {"id": 1, "name": "Tube"}
+        },
+        {
+            "name": "Template PCR MIX",
+            "quantity": 86,
+            "unit": "μL",
+            "init_content": "",
+            "labware": {"id": 1, "name": "Tube"}
+        },
+        {
+            "name": "Water for template PCR MIX",
+            "quantity": 4,
+            "unit": "μL",
+            "init_content": "Water",
+            "labware": {"id": 1, "name": "Tube"}
+        },
+        {
+            "name": "Sample DNA",
+            "quantity": 300,
+            "unit": "μL",
+            "init_content": "Sample DNA",
+            "labware": {"id": 2, "name": "Plate"}
+        },
+        {
+            "name": "Water for plate",
+            "quantity": 300,
+            "unit": "μL",
+            "init_content": "Water",
+            "labware": {"id": 2, "name": "Plate"}
+        },
+        {
+            "name": "Primer F1-13",
+            "quantity": 10,
+            "unit": "μL",
+            "init_content": "10 μM primer",
+            "labware": {"id": 2, "name": "Plate"}
+        },
+        {
+            "name": "Primer R1-13",
+            "quantity": 10,
+            "unit": "μL",
+            "init_content": "10 μM primer",
+            "labware": {"id": 2, "name": "Plate"}
+        },
+        {
+            "name": "PCR MIX and primer",
+            "quantity": 10,
+            "unit": "μL",
+            "init_content": "PCR MIX and primer mixture",
+            "labware": {"id": 2, "name": "Plate"}
+        },
+        {
+            "name": "Template PCR MIX and water",
+            "quantity": 5,
+            "unit": "μL",
+            "init_content": "Template only PCR MIX and water",
+            "labware": {"id": 2, "name": "Plate"}
+        },
+        {
+            "name": "Sample DNA applied",
+            "quantity": 5,
+            "unit": "μL",
+            "init_content": "Sample DNA",
+            "labware": {"id": 2, "name": "Plate"}
+        },
+        {
+            "name": "PCR MIX and primer applied",
+            "quantity": 10,
+            "unit": "μL",
+            "init_content": "PCR MIX and primer mixture",
+            "labware": {"id": 2, "name": "Plate"}
+        }
+    ]
+}
+
+
+Note: The labware IDs used in the output are as follows:
+- Labware ID: 1, Name: Tube
+- Labware ID: 2, Name: Plate***2025-02-25 05:31:59.139883+00:00***: obj-chan postprocess result:
+
+{
+    "labware": [
+        {
+            "name": "PCR MIX",
+            "quantity": 137.6,
+            "unit": "μL",
+            "init_content": "",
+            "labware": {"id": 1, "name": "Tube"}
+        },
+        {
+            "name": "10 μM primer_F1-13",
+            "quantity": 3.2,
+            "unit": "μL",
+            "init_content": "",
+            "labware": {"id": 1, "name": "Tube"}
+        },
+        {
+            "name": "10 μM primer_R1-13",
+            "quantity": 3.2,
+            "unit": "μL",
+            "init_content": "",
+            "labware": {"id": 1, "name": "Tube"}
+        },
+        {
+            "name": "Template PCR MIX",
+            "quantity": 86,
+            "unit": "μL",
+            "init_content": "",
+            "labware": {"id": 1, "name": "Tube"}
+        },
+        {
+            "name": "Water for template PCR MIX",
+            "quantity": 4,
+            "unit": "μL",
+            "init_content": "Water",
+            "labware": {"id": 1, "name": "Tube"}
+        },
+        {
+            "name": "Sample DNA",
+            "quantity": 300,
+            "unit": "μL",
+            "init_content": "Sample DNA",
+            "labware": {"id": 2, "name": "Plate"}
+        },
+        {
+            "name": "Water for plate",
+            "quantity": 300,
+            "unit": "μL",
+            "init_content": "Water",
+            "labware": {"id": 2, "name": "Plate"}
+        },
+        {
+            "name": "Primer F1-13",
+            "quantity": 10,
+            "unit": "μL",
+            "init_content": "10 μM primer",
+            "labware": {"id": 2, "name": "Plate"}
+        },
+        {
+            "name": "Primer R1-13",
+            "quantity": 10,
+            "unit": "μL",
+            "init_content": "10 μM primer",
+            "labware": {"id": 2, "name": "Plate"}
+        },
+        {
+            "name": "PCR MIX and primer",
+            "quantity": 10,
+            "unit": "μL",
+            "init_content": "PCR MIX and primer mixture",
+            "labware": {"id": 2, "name": "Plate"}
+        },
+        {
+            "name": "Template PCR MIX and water",
+            "quantity": 5,
+            "unit": "μL",
+            "init_content": "Template only PCR MIX and water",
+            "labware": {"id": 2, "name": "Plate"}
+        },
+        {
+            "name": "Sample DNA applied",
+            "quantity": 5,
+            "unit": "μL",
+            "init_content": "Sample DNA",
+            "labware": {"id": 2, "name": "Plate"}
+        },
+        {
+            "name": "PCR MIX and primer applied",
+            "quantity": 10,
+            "unit": "μL",
+            "init_content": "PCR MIX and primer mixture",
+            "labware": {"id": 2, "name": "Plate"}
+        }
+    ]
+}
+
+
+Note: The labware IDs used in the output are as follows:
+- Labware ID: 1, Name: Tube
+- Labware ID: 2, Name: Plate***2025-02-25 05:31:59.140847+00:00***: Attempt 3 failed with error: Extra data: line 98 column 1 (char 2739)***2025-02-25 05:31:59.141898+00:00***: Traceback: Traceback (most recent call last):
+  File "/Users/yuyaarai/Documents/Humanics/Project/FormationFormatter/src/formationformatter/functions.py", line 45, in get_object_list
+    object_list, obj_chan_errors = obj_chan(
+                                   ^^^^^^^^^
+  File "/Users/yuyaarai/Documents/Humanics/Project/FormationFormatter/src/formationformatter/obj_chan/__init__.py", line 265, in run
+    res, errors = get_object_list(process_flow, constraints, messages, log_file_path=log_file_path)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/yuyaarai/Documents/Humanics/Project/FormationFormatter/src/formationformatter/obj_chan/__init__.py", line 252, in get_object_list
+    results = _extract_results_from_gpt_response(answer, log_file_path)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/yuyaarai/Documents/Humanics/Project/FormationFormatter/src/formationformatter/obj_chan/__init__.py", line 135, in _extract_results_from_gpt_response
+    results = text_to_dict(result.replace('extracted_results:', '').replace('extracted_results_end:', '').strip())
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/yuyaarai/Documents/Humanics/Project/FormationFormatter/src/formationformatter/obj_chan/__init__.py", line 134, in <lambda>
+    text_to_dict = lambda x: json.loads(x.replace('\'', '\"'))
+                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.12/3.12.8/Frameworks/Python.framework/Versions/3.12/lib/python3.12/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.12/3.12.8/Frameworks/Python.framework/Versions/3.12/lib/python3.12/json/decoder.py", line 341, in decode
+    raise JSONDecodeError("Extra data", s, end)
+json.decoder.JSONDecodeError: Extra data: line 98 column 1 (char 2739)
+***2025-02-25 05:31:59.142204+00:00***: Retrying... (Attempt 3/10)***2025-02-25 05:32:05.763602+00:00***: obj-chan preprocess result:
+
+{
+    "labware": [
+        {
+            "name": "sample DNAS",
+            "quantity": 300,
+            "unit": "μL",
+            "init_content": "sample DNA",
+            "labware": {"id": 1, "name": "1.5 ml tube"}
+        },
+        {
+            "name": "water",
+            "quantity": 300,
+            "unit": "μL",
+            "init_content": "water",
+            "labware": {"id": 1, "name": "1.5 ml tube"}
+        },
+        {
+            "name": "10 μM primer_F",
+            "quantity": 10,
+            "unit": "μL",
+            "init_content": "10 μM primer F",
+            "labware": {"id": 1, "name": "1.5 ml tube"}
+        },
+        {
+            "name": "10 μM primer_R",
+            "quantity": 10,
+            "unit": "μL",
+            "init_content": "10 μM primer R",
+            "labware": {"id": 1, "name": "1.5 ml tube"}
+        },
+        {
+            "name": "PCR MIX",
+            "quantity": 2000,
+            "unit": "μL",
+            "init_content": "",
+            "labware": {"id": 1, "name": "1.5 ml tube"}
+        },
+        {
+            "name": "96 well PCR plate",
+            "quantity": 1,
+            "unit": "",
+            "init_content": "",
+            "labware": {"id": 2, "name": "96 well PCR plate"}
+        }
+    ]
+}
+
+
+Note: The labware IDs used in the output are as follows:
+- Labware ID: 1, Name: 1.5 ml tube
+- Labware ID: 2, Name: 96 well PCR plate***2025-02-25 05:32:05.765784+00:00***: obj-chan postprocess result:
+
+{
+    "labware": [
+        {
+            "name": "sample DNAS",
+            "quantity": 300,
+            "unit": "μL",
+            "init_content": "sample DNA",
+            "labware": {"id": 1, "name": "1.5 ml tube"}
+        },
+        {
+            "name": "water",
+            "quantity": 300,
+            "unit": "μL",
+            "init_content": "water",
+            "labware": {"id": 1, "name": "1.5 ml tube"}
+        },
+        {
+            "name": "10 μM primer_F",
+            "quantity": 10,
+            "unit": "μL",
+            "init_content": "10 μM primer F",
+            "labware": {"id": 1, "name": "1.5 ml tube"}
+        },
+        {
+            "name": "10 μM primer_R",
+            "quantity": 10,
+            "unit": "μL",
+            "init_content": "10 μM primer R",
+            "labware": {"id": 1, "name": "1.5 ml tube"}
+        },
+        {
+            "name": "PCR MIX",
+            "quantity": 2000,
+            "unit": "μL",
+            "init_content": "",
+            "labware": {"id": 1, "name": "1.5 ml tube"}
+        },
+        {
+            "name": "96 well PCR plate",
+            "quantity": 1,
+            "unit": "",
+            "init_content": "",
+            "labware": {"id": 2, "name": "96 well PCR plate"}
+        }
+    ]
+}
+
+
+Note: The labware IDs used in the output are as follows:
+- Labware ID: 1, Name: 1.5 ml tube
+- Labware ID: 2, Name: 96 well PCR plate***2025-02-25 05:32:05.766985+00:00***: Attempt 4 failed with error: Extra data: line 49 column 1 (char 1268)***2025-02-25 05:32:05.768464+00:00***: Traceback: Traceback (most recent call last):
+  File "/Users/yuyaarai/Documents/Humanics/Project/FormationFormatter/src/formationformatter/functions.py", line 45, in get_object_list
+    object_list, obj_chan_errors = obj_chan(
+                                   ^^^^^^^^^
+  File "/Users/yuyaarai/Documents/Humanics/Project/FormationFormatter/src/formationformatter/obj_chan/__init__.py", line 265, in run
+    res, errors = get_object_list(process_flow, constraints, messages, log_file_path=log_file_path)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/yuyaarai/Documents/Humanics/Project/FormationFormatter/src/formationformatter/obj_chan/__init__.py", line 252, in get_object_list
+    results = _extract_results_from_gpt_response(answer, log_file_path)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/yuyaarai/Documents/Humanics/Project/FormationFormatter/src/formationformatter/obj_chan/__init__.py", line 135, in _extract_results_from_gpt_response
+    results = text_to_dict(result.replace('extracted_results:', '').replace('extracted_results_end:', '').strip())
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/yuyaarai/Documents/Humanics/Project/FormationFormatter/src/formationformatter/obj_chan/__init__.py", line 134, in <lambda>
+    text_to_dict = lambda x: json.loads(x.replace('\'', '\"'))
+                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.12/3.12.8/Frameworks/Python.framework/Versions/3.12/lib/python3.12/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.12/3.12.8/Frameworks/Python.framework/Versions/3.12/lib/python3.12/json/decoder.py", line 341, in decode
+    raise JSONDecodeError("Extra data", s, end)
+json.decoder.JSONDecodeError: Extra data: line 49 column 1 (char 1268)
+***2025-02-25 05:32:05.769116+00:00***: Retrying... (Attempt 4/10)***2025-02-25 05:32:13.457427+00:00***: obj-chan preprocess result:
+
+{
+    "labware": [
+        {
+            "name": "sample DNAs",
+            "quantity": 300,
+            "unit": "μL",
+            "init_content": "sample DNA",
+            "labware": {"id": 1, "name": "1.5 ml tube"}
+        },
+        {
+            "name": "water",
+            "quantity": 300,
+            "unit": "μL",
+            "init_content": "water",
+            "labware": {"id": 1, "name": "1.5 ml tube"}
+        },
+        {
+            "name": "10 μM primer_F",
+            "quantity": 10,
+            "unit": "μL",
+            "init_content": "10 μM primer F",
+            "labware": {"id": 1, "name": "1.5 ml tube"}
+        },
+        {
+            "name": "10 μM primer_R",
+            "quantity": 10,
+            "unit": "μL",
+            "init_content": "10 μM primer R",
+            "labware": {"id": 1, "name": "1.5 ml tube"}
+        },
+        {
+            "name": "PCR MIX",
+            "quantity": 2000,
+            "unit": "μL",
+            "init_content": "",
+            "labware": {"id": 1, "name": "Tube"}
+        },
+        {
+            "name": "96 well PCR plate",
+            "quantity": 1,
+            "unit": "",
+            "init_content": "",
+            "labware": {"id": 2, "name": "Plate"}
+        }
+    ]
+}
+
+
+Note: The labware IDs used in the output are as follows:
+- Labware ID: 1, Name: 1.5 ml tube
+- Labware ID: 2, Name: 96 well PCR plate***2025-02-25 05:32:13.459049+00:00***: obj-chan postprocess result:
+
+{
+    "labware": [
+        {
+            "name": "sample DNAs",
+            "quantity": 300,
+            "unit": "μL",
+            "init_content": "sample DNA",
+            "labware": {"id": 1, "name": "1.5 ml tube"}
+        },
+        {
+            "name": "water",
+            "quantity": 300,
+            "unit": "μL",
+            "init_content": "water",
+            "labware": {"id": 1, "name": "1.5 ml tube"}
+        },
+        {
+            "name": "10 μM primer_F",
+            "quantity": 10,
+            "unit": "μL",
+            "init_content": "10 μM primer F",
+            "labware": {"id": 1, "name": "1.5 ml tube"}
+        },
+        {
+            "name": "10 μM primer_R",
+            "quantity": 10,
+            "unit": "μL",
+            "init_content": "10 μM primer R",
+            "labware": {"id": 1, "name": "1.5 ml tube"}
+        },
+        {
+            "name": "PCR MIX",
+            "quantity": 2000,
+            "unit": "μL",
+            "init_content": "",
+            "labware": {"id": 1, "name": "Tube"}
+        },
+        {
+            "name": "96 well PCR plate",
+            "quantity": 1,
+            "unit": "",
+            "init_content": "",
+            "labware": {"id": 2, "name": "Plate"}
+        }
+    ]
+}
+
+
+Note: The labware IDs used in the output are as follows:
+- Labware ID: 1, Name: 1.5 ml tube
+- Labware ID: 2, Name: 96 well PCR plate***2025-02-25 05:32:13.459849+00:00***: Attempt 5 failed with error: Extra data: line 49 column 1 (char 1249)***2025-02-25 05:32:13.463629+00:00***: Traceback: Traceback (most recent call last):
+  File "/Users/yuyaarai/Documents/Humanics/Project/FormationFormatter/src/formationformatter/functions.py", line 45, in get_object_list
+    object_list, obj_chan_errors = obj_chan(
+                                   ^^^^^^^^^
+  File "/Users/yuyaarai/Documents/Humanics/Project/FormationFormatter/src/formationformatter/obj_chan/__init__.py", line 265, in run
+    res, errors = get_object_list(process_flow, constraints, messages, log_file_path=log_file_path)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/yuyaarai/Documents/Humanics/Project/FormationFormatter/src/formationformatter/obj_chan/__init__.py", line 252, in get_object_list
+    results = _extract_results_from_gpt_response(answer, log_file_path)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/yuyaarai/Documents/Humanics/Project/FormationFormatter/src/formationformatter/obj_chan/__init__.py", line 135, in _extract_results_from_gpt_response
+    results = text_to_dict(result.replace('extracted_results:', '').replace('extracted_results_end:', '').strip())
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/yuyaarai/Documents/Humanics/Project/FormationFormatter/src/formationformatter/obj_chan/__init__.py", line 134, in <lambda>
+    text_to_dict = lambda x: json.loads(x.replace('\'', '\"'))
+                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.12/3.12.8/Frameworks/Python.framework/Versions/3.12/lib/python3.12/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.12/3.12.8/Frameworks/Python.framework/Versions/3.12/lib/python3.12/json/decoder.py", line 341, in decode
+    raise JSONDecodeError("Extra data", s, end)
+json.decoder.JSONDecodeError: Extra data: line 49 column 1 (char 1249)
+***2025-02-25 05:32:13.467536+00:00***: Retrying... (Attempt 5/10)***2025-02-25 05:32:19.197510+00:00***: obj-chan preprocess result:
+
+{
+    "labware": [
+        {
+            "name": "sample DNAs",
+            "quantity": 300,
+            "unit": "μL",
+            "init_content": "sample DNA",
+            "labware": {"id": 1, "name": "1.5 ml tube"}
+        },
+        {
+            "name": "water",
+            "quantity": 300,
+            "unit": "μL",
+            "init_content": "water",
+            "labware": {"id": 1, "name": "1.5 ml tube"}
+        },
+        {
+            "name": "10 μM primer_F",
+            "quantity": 10,
+            "unit": "μL",
+            "init_content": "10 μM primer_F",
+            "labware": {"id": 1, "name": "1.5 ml tube"}
+        },
+        {
+            "name": "10 μM primer_R",
+            "quantity": 10,
+            "unit": "μL",
+            "init_content": "10 μM primer_R",
+            "labware": {"id": 1, "name": "1.5 ml tube"}
+        },
+        {
+            "name": "PCR MIX",
+            "quantity": 2000,
+            "unit": "μL",
+            "init_content": "",
+            "labware": {"id": 2, "name": "96 well PCR plate"}
+        }
+    ]
+***2025-02-25 05:32:19.200385+00:00***: obj-chan postprocess result:
+
+{
+    "labware": [
+        {
+            "name": "sample DNAs",
+            "quantity": 300,
+            "unit": "μL",
+            "init_content": "sample DNA",
+            "labware": {"id": 1, "name": "1.5 ml tube"}
+        },
+        {
+            "name": "water",
+            "quantity": 300,
+            "unit": "μL",
+            "init_content": "water",
+            "labware": {"id": 1, "name": "1.5 ml tube"}
+        },
+        {
+            "name": "10 μM primer_F",
+            "quantity": 10,
+            "unit": "μL",
+            "init_content": "10 μM primer_F",
+            "labware": {"id": 1, "name": "1.5 ml tube"}
+        },
+        {
+            "name": "10 μM primer_R",
+            "quantity": 10,
+            "unit": "μL",
+            "init_content": "10 μM primer_R",
+            "labware": {"id": 1, "name": "1.5 ml tube"}
+        },
+        {
+            "name": "PCR MIX",
+            "quantity": 2000,
+            "unit": "μL",
+            "init_content": "",
+            "labware": {"id": 2, "name": "96 well PCR plate"}
+        }
+    ]
+***2025-02-25 05:32:19.201832+00:00***: Attempt 6 failed with error: Expecting ',' delimiter: line 38 column 6 (char 1062)***2025-02-25 05:32:19.203722+00:00***: Traceback: Traceback (most recent call last):
+  File "/Users/yuyaarai/Documents/Humanics/Project/FormationFormatter/src/formationformatter/functions.py", line 45, in get_object_list
+    object_list, obj_chan_errors = obj_chan(
+                                   ^^^^^^^^^
+  File "/Users/yuyaarai/Documents/Humanics/Project/FormationFormatter/src/formationformatter/obj_chan/__init__.py", line 265, in run
+    res, errors = get_object_list(process_flow, constraints, messages, log_file_path=log_file_path)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/yuyaarai/Documents/Humanics/Project/FormationFormatter/src/formationformatter/obj_chan/__init__.py", line 252, in get_object_list
+    results = _extract_results_from_gpt_response(answer, log_file_path)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/yuyaarai/Documents/Humanics/Project/FormationFormatter/src/formationformatter/obj_chan/__init__.py", line 135, in _extract_results_from_gpt_response
+    results = text_to_dict(result.replace('extracted_results:', '').replace('extracted_results_end:', '').strip())
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/yuyaarai/Documents/Humanics/Project/FormationFormatter/src/formationformatter/obj_chan/__init__.py", line 134, in <lambda>
+    text_to_dict = lambda x: json.loads(x.replace('\'', '\"'))
+                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.12/3.12.8/Frameworks/Python.framework/Versions/3.12/lib/python3.12/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.12/3.12.8/Frameworks/Python.framework/Versions/3.12/lib/python3.12/json/decoder.py", line 338, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.12/3.12.8/Frameworks/Python.framework/Versions/3.12/lib/python3.12/json/decoder.py", line 354, in raw_decode
+    obj, end = self.scan_once(s, idx)
+               ^^^^^^^^^^^^^^^^^^^^^^
+json.decoder.JSONDecodeError: Expecting ',' delimiter: line 38 column 6 (char 1062)
+***2025-02-25 05:32:19.204799+00:00***: Retrying... (Attempt 6/10)***2025-02-25 05:32:19.525153+00:00***: Attempt 7 failed with error: This model's maximum context length is 16385 tokens. However, your messages resulted in 18615 tokens. Please reduce the length of the messages.***2025-02-25 05:32:19.529843+00:00***: Traceback: Traceback (most recent call last):
+  File "/Users/yuyaarai/Documents/Humanics/Project/FormationFormatter/src/formationformatter/functions.py", line 45, in get_object_list
+    object_list, obj_chan_errors = obj_chan(
+                                   ^^^^^^^^^
+  File "/Users/yuyaarai/Documents/Humanics/Project/FormationFormatter/src/formationformatter/obj_chan/__init__.py", line 265, in run
+    res, errors = get_object_list(process_flow, constraints, messages, log_file_path=log_file_path)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/yuyaarai/Documents/Humanics/Project/FormationFormatter/src/formationformatter/obj_chan/__init__.py", line 245, in get_object_list
+    res = openai.ChatCompletion.create(
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/yuyaarai/Documents/Humanics/Project/FormationFormatter/.venv/lib/python3.12/site-packages/openai/api_resources/chat_completion.py", line 25, in create
+    return super().create(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/yuyaarai/Documents/Humanics/Project/FormationFormatter/.venv/lib/python3.12/site-packages/openai/api_resources/abstract/engine_api_resource.py", line 153, in create
+    response, _, api_key = requestor.request(
+                           ^^^^^^^^^^^^^^^^^^
+  File "/Users/yuyaarai/Documents/Humanics/Project/FormationFormatter/.venv/lib/python3.12/site-packages/openai/api_requestor.py", line 298, in request
+    resp, got_stream = self._interpret_response(result, stream)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/yuyaarai/Documents/Humanics/Project/FormationFormatter/.venv/lib/python3.12/site-packages/openai/api_requestor.py", line 700, in _interpret_response
+    self._interpret_response_line(
+  File "/Users/yuyaarai/Documents/Humanics/Project/FormationFormatter/.venv/lib/python3.12/site-packages/openai/api_requestor.py", line 765, in _interpret_response_line
+    raise self.handle_error_response(
+openai.error.InvalidRequestError: This model's maximum context length is 16385 tokens. However, your messages resulted in 18615 tokens. Please reduce the length of the messages.
+***2025-02-25 05:32:19.530476+00:00***: Retrying... (Attempt 7/10)***2025-02-25 05:32:19.874254+00:00***: Attempt 8 failed with error: This model's maximum context length is 16385 tokens. However, your messages resulted in 20761 tokens. Please reduce the length of the messages.***2025-02-25 05:32:19.875511+00:00***: Traceback: Traceback (most recent call last):
+  File "/Users/yuyaarai/Documents/Humanics/Project/FormationFormatter/src/formationformatter/functions.py", line 45, in get_object_list
+    object_list, obj_chan_errors = obj_chan(
+                                   ^^^^^^^^^
+  File "/Users/yuyaarai/Documents/Humanics/Project/FormationFormatter/src/formationformatter/obj_chan/__init__.py", line 265, in run
+    res, errors = get_object_list(process_flow, constraints, messages, log_file_path=log_file_path)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/yuyaarai/Documents/Humanics/Project/FormationFormatter/src/formationformatter/obj_chan/__init__.py", line 245, in get_object_list
+    res = openai.ChatCompletion.create(
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/yuyaarai/Documents/Humanics/Project/FormationFormatter/.venv/lib/python3.12/site-packages/openai/api_resources/chat_completion.py", line 25, in create
+    return super().create(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/yuyaarai/Documents/Humanics/Project/FormationFormatter/.venv/lib/python3.12/site-packages/openai/api_resources/abstract/engine_api_resource.py", line 153, in create
+    response, _, api_key = requestor.request(
+                           ^^^^^^^^^^^^^^^^^^
+  File "/Users/yuyaarai/Documents/Humanics/Project/FormationFormatter/.venv/lib/python3.12/site-packages/openai/api_requestor.py", line 298, in request
+    resp, got_stream = self._interpret_response(result, stream)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/yuyaarai/Documents/Humanics/Project/FormationFormatter/.venv/lib/python3.12/site-packages/openai/api_requestor.py", line 700, in _interpret_response
+    self._interpret_response_line(
+  File "/Users/yuyaarai/Documents/Humanics/Project/FormationFormatter/.venv/lib/python3.12/site-packages/openai/api_requestor.py", line 765, in _interpret_response_line
+    raise self.handle_error_response(
+openai.error.InvalidRequestError: This model's maximum context length is 16385 tokens. However, your messages resulted in 20761 tokens. Please reduce the length of the messages.
+***2025-02-25 05:32:19.876117+00:00***: Retrying... (Attempt 8/10)***2025-02-25 05:32:20.230120+00:00***: Attempt 9 failed with error: This model's maximum context length is 16385 tokens. However, your messages resulted in 22907 tokens. Please reduce the length of the messages.***2025-02-25 05:32:20.234163+00:00***: Traceback: Traceback (most recent call last):
+  File "/Users/yuyaarai/Documents/Humanics/Project/FormationFormatter/src/formationformatter/functions.py", line 45, in get_object_list
+    object_list, obj_chan_errors = obj_chan(
+                                   ^^^^^^^^^
+  File "/Users/yuyaarai/Documents/Humanics/Project/FormationFormatter/src/formationformatter/obj_chan/__init__.py", line 265, in run
+    res, errors = get_object_list(process_flow, constraints, messages, log_file_path=log_file_path)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/yuyaarai/Documents/Humanics/Project/FormationFormatter/src/formationformatter/obj_chan/__init__.py", line 245, in get_object_list
+    res = openai.ChatCompletion.create(
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/yuyaarai/Documents/Humanics/Project/FormationFormatter/.venv/lib/python3.12/site-packages/openai/api_resources/chat_completion.py", line 25, in create
+    return super().create(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/yuyaarai/Documents/Humanics/Project/FormationFormatter/.venv/lib/python3.12/site-packages/openai/api_resources/abstract/engine_api_resource.py", line 153, in create
+    response, _, api_key = requestor.request(
+                           ^^^^^^^^^^^^^^^^^^
+  File "/Users/yuyaarai/Documents/Humanics/Project/FormationFormatter/.venv/lib/python3.12/site-packages/openai/api_requestor.py", line 298, in request
+    resp, got_stream = self._interpret_response(result, stream)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/yuyaarai/Documents/Humanics/Project/FormationFormatter/.venv/lib/python3.12/site-packages/openai/api_requestor.py", line 700, in _interpret_response
+    self._interpret_response_line(
+  File "/Users/yuyaarai/Documents/Humanics/Project/FormationFormatter/.venv/lib/python3.12/site-packages/openai/api_requestor.py", line 765, in _interpret_response_line
+    raise self.handle_error_response(
+openai.error.InvalidRequestError: This model's maximum context length is 16385 tokens. However, your messages resulted in 22907 tokens. Please reduce the length of the messages.
+***2025-02-25 05:32:20.235829+00:00***: Retrying... (Attempt 9/10)***2025-02-25 05:32:20.540130+00:00***: Attempt 10 failed with error: This model's maximum context length is 16385 tokens. However, your messages resulted in 25053 tokens. Please reduce the length of the messages.***2025-02-25 05:32:20.542006+00:00***: Traceback: Traceback (most recent call last):
+  File "/Users/yuyaarai/Documents/Humanics/Project/FormationFormatter/src/formationformatter/functions.py", line 45, in get_object_list
+    object_list, obj_chan_errors = obj_chan(
+                                   ^^^^^^^^^
+  File "/Users/yuyaarai/Documents/Humanics/Project/FormationFormatter/src/formationformatter/obj_chan/__init__.py", line 265, in run
+    res, errors = get_object_list(process_flow, constraints, messages, log_file_path=log_file_path)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/yuyaarai/Documents/Humanics/Project/FormationFormatter/src/formationformatter/obj_chan/__init__.py", line 245, in get_object_list
+    res = openai.ChatCompletion.create(
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/yuyaarai/Documents/Humanics/Project/FormationFormatter/.venv/lib/python3.12/site-packages/openai/api_resources/chat_completion.py", line 25, in create
+    return super().create(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/yuyaarai/Documents/Humanics/Project/FormationFormatter/.venv/lib/python3.12/site-packages/openai/api_resources/abstract/engine_api_resource.py", line 153, in create
+    response, _, api_key = requestor.request(
+                           ^^^^^^^^^^^^^^^^^^
+  File "/Users/yuyaarai/Documents/Humanics/Project/FormationFormatter/.venv/lib/python3.12/site-packages/openai/api_requestor.py", line 298, in request
+    resp, got_stream = self._interpret_response(result, stream)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/yuyaarai/Documents/Humanics/Project/FormationFormatter/.venv/lib/python3.12/site-packages/openai/api_requestor.py", line 700, in _interpret_response
+    self._interpret_response_line(
+  File "/Users/yuyaarai/Documents/Humanics/Project/FormationFormatter/.venv/lib/python3.12/site-packages/openai/api_requestor.py", line 765, in _interpret_response_line
+    raise self.handle_error_response(
+openai.error.InvalidRequestError: This model's maximum context length is 16385 tokens. However, your messages resulted in 25053 tokens. Please reduce the length of the messages.
+***2025-02-25 05:32:20.542962+00:00***: Retrying... (Attempt 10/10)***2025-02-25 05:32:20.543433+00:00***: ******************************************************************************2025-02-25 05:32:20.543808+00:00***: Failed to extract object list after 10 attempts.***2025-02-25 05:32:20.544199+00:00***: ******************************************************************************2025-02-25 05:32:20.544725+00:00***: object_list_num: 0

@@ -1,0 +1,71 @@
+
+Protocol:
+QPCR
+QuantStudio 6 Proで測定するサンプルprepを行う
+1サンプルあってそれぞれ13プライマー x duplicate(3)で試験するイメージ
+NTCは13プライマー x duplicate(3)用意する
+その他、PrimerなしのTemplateのみを1 x duplicate(3)用意する
+
+
+Input：試薬類の容器はチューブまたはプレート
+1 sample DNAs			300 μL
+water					300 μL
+10 μM primer_F			各10 μL
+10 μM primer_R			各10 μL
+PCR MIX				2000 μL
+96 well PCR  plate			1 plate
+その他液体混合に必要なチューブまたはプレートなど
+output
+sample DNA, primer, PCR MIXの混合溶液が入った96 well PCR plate x 1
+procedure
+1. PCR MIXを137.6 μLずつ13個に分注する
+2. PCR MIXが入ったチューブに10 μM primer_F1-13を3.2 μL添加する
+3. PCR MIXが入ったチューブに10 μM primer_R1-13を3.2 μL添加する
+4. PCR MIXとprimerをピペッティングで混合する
+5. templateのみ用のPCR MIXを86 μL分注する
+6. templateのみ用のPCR MIXにwaterを4 μL添加する
+7. templateのみ用のPCR MIXとwaterをピペッティングで混合する
+8. サンプル DNAまたはwater をreaction plateに5 μLずつアプライする
+下記plate mapの列を埋めていくイメージ
+9. PCR MIXとprimerの混合溶液を10 μLずつreaction plateにアプライする
+下記plate mapの行を埋めていくイメージ
+plate map
+81 well使用する
+S_n = sample_n
+今回はヒト標準cDNA1つ
+NTC = no template control：水＝ネガティブコントロール（全primerについて置く）
+P_m = primer set_m：forward primerとreverse primerのセット
+今回は13種類
+Templateのみも置く
+OT-2のピペット
+20 μLと300 μL 
+
+
+Here is the object list of the protocol.
+[{'name': '1_sample_DNAs', 'quantity': 300, 'init_content': 'sample DNA, primer, PCR MIX mixture', 'labware': {'id': '', 'name': ''}, 'unit': 'μL'}, {'name': 'water', 'quantity': 300, 'init_content': 'water', 'labware': {'id': '', 'name': ''}, 'unit': 'μL'}, {'name': '10_μM_primer_F', 'quantity': 10, 'init_content': 'primer', 'labware': {'id': '', 'name': ''}, 'unit': 'μL'}, {'name': '10_μM_primer_R', 'quantity': 10, 'init_content': 'primer', 'labware': {'id': '', 'name': ''}, 'unit': 'μL'}, {'name': 'PCR_MIX', 'quantity': 2000, 'init_content': 'PCR MIX', 'labware': {'id': '', 'name': ''}, 'unit': 'μL'}, {'name': '96_well_PCR_plate', 'quantity': 1, 'init_content': '', 'labware': {'id': '', 'name': ''}, 'unit': 'plate'}, {'name': 'template_only_PCR_MIX', 'quantity': 86, 'init_content': 'PCR MIX', 'labware': {'id': '', 'name': ''}, 'unit': 'μL'}, {'name': 'water_for_template_only_PCR_MIX', 'quantity': 4, 'init_content': 'water', 'labware': {'id': '', 'name': ''}, 'unit': 'μL'}, {'name': 'reaction_plate', 'quantity': 5, 'init_content': '', 'labware': {'id': '', 'name': ''}, 'unit': 'μL'}]
+
+Here is the initial position of the objects.
+[((Object(name='1_sample_DNAs', quantity=300, init_content='sample DNA, primer, PCR MIX mixture', labware={'id': '', 'name': ''}, unit='μL'), []), 1), ((Object(name='water', quantity=300, init_content='water', labware={'id': '', 'name': ''}, unit='μL'), []), 2), ((Object(name='10_μM_primer_F', quantity=10, init_content='primer', labware={'id': '', 'name': ''}, unit='μL'), []), 3), ((Object(name='10_μM_primer_R', quantity=10, init_content='primer', labware={'id': '', 'name': ''}, unit='μL'), []), 4), ((Object(name='PCR_MIX', quantity=2000, init_content='PCR MIX', labware={'id': '', 'name': ''}, unit='μL'), []), 5), ((Object(name='96_well_PCR_plate', quantity=1, init_content='', labware={'id': '', 'name': ''}, unit='plate'), []), 6), ((Object(name='template_only_PCR_MIX', quantity=86, init_content='PCR MIX', labware={'id': '', 'name': ''}, unit='μL'), []), 7), ((Object(name='water_for_template_only_PCR_MIX', quantity=4, init_content='water', labware={'id': '', 'name': ''}, unit='μL'), []), 8), ((Object(name='reaction_plate', quantity=5, init_content='', labware={'id': '', 'name': ''}, unit='μL'), []), 9)]
+
+
+Here is the natural language instruction from LLMs.
+Based on the initial position of the objects, here are the step by step instructions:
+
+1. Place '1_sample_DNAs' quantity: 300 μL on the deck at position 1.
+
+2. Place 'water' quantity: 300 μL on the deck at position 2.
+
+3. Place '10_μM_primer_F' quantity: 10 μL on the deck at position 3.
+
+4. Place '10_μM_primer_R' quantity: 10 μL on the deck at position 4.
+
+5. Place 'PCR_MIX' quantity: 2000 μL on the deck at position 5.
+
+6. Place '96_well_PCR_plate' quantity: 1 plate on the deck at position 6.
+
+7. Place 'template_only_PCR_MIX' quantity: 86 μL on the deck at position 7.
+
+8. Place 'water_for_template_only_PCR_MIX' quantity: 4 μL on the deck at position 8.
+
+9. Place 'reaction_plate' quantity: 5 μL on the deck at position 9.
+    

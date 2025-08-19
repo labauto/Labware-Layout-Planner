@@ -1,0 +1,1761 @@
+***2025-02-24 14:12:15.024385+00:00***: os.path.join(BASE_DIR, f'{id}')='qPCR_ozaki_modified/2025_02_24_22_35_42_7a4f4eb5-7303-4fae-9ea0-c5fd85374dd3/iteration_2'***2025-02-24 14:12:15.025478+00:00***: *********************** 2025_02_24_22_35_42_7a4f4eb5-7303-4fae-9ea0-c5fd85374dd3/iteration_2 *****************************2025-02-24 14:12:15.025882+00:00***: *********************************************************2025-02-24 14:12:19.372569+00:00***: obj-chan preprocess result:
+
+{
+  "labware": [
+    {
+      "name": "1_sample_DNAs",
+      "quantity": 300,
+      "unit": "μL",
+      "init_content": "",
+      "labware": {
+        "id": 1,
+        "name": "tube_300ul"
+      }
+    },
+    {
+      "name": "water",
+      "quantity": 300,
+      "unit": "μL",
+      "init_content": "",
+      "labware": {
+        "id": 1,
+        "name": "tube_300ul"
+      }
+    },
+    {
+      "name": "10_μM_primer_F",
+      "quantity": 10,
+      "unit": "μL",
+      "init_content": "",
+      "labware": {
+        "id": 1,
+        "name": "tube_300ul"
+      }
+    },
+    {
+      "name": "10_μM_primer_R",
+      "quantity": 10,
+      "unit": "μL",
+      "init_content": "",
+      "labware": {
+        "id": 1,
+        "name": "tube_300ul"
+      }
+    },
+    {
+      "name": "PCR_MIX",
+      "quantity": 2000,
+      "unit": "μL",
+      "init_content": "",
+      "labware": {
+        "id": 1,
+        "name": "tube_2ml"
+      }
+    },
+    {
+      "name": "96_well_PCR_plate",
+      "quantity": 1,
+      "unit": "plate",
+      "init_content": "",
+      "labware": {
+        "id": 2,
+        "name": "96_well_pcr_plate"
+      }
+    }
+  ]
+}
+
+
+Note: The example given does not provide enough information to match the labware to the available labware list. Therefore, the labware IDs have been left blank. This JSON structure can be extended and updated with complete information as needed.***2025-02-24 14:12:19.373959+00:00***: obj-chan postprocess result:
+
+{
+  "labware": [
+    {
+      "name": "1_sample_DNAs",
+      "quantity": 300,
+      "unit": "μL",
+      "init_content": "",
+      "labware": {
+        "id": 1,
+        "name": "tube_300ul"
+      }
+    },
+    {
+      "name": "water",
+      "quantity": 300,
+      "unit": "μL",
+      "init_content": "",
+      "labware": {
+        "id": 1,
+        "name": "tube_300ul"
+      }
+    },
+    {
+      "name": "10_μM_primer_F",
+      "quantity": 10,
+      "unit": "μL",
+      "init_content": "",
+      "labware": {
+        "id": 1,
+        "name": "tube_300ul"
+      }
+    },
+    {
+      "name": "10_μM_primer_R",
+      "quantity": 10,
+      "unit": "μL",
+      "init_content": "",
+      "labware": {
+        "id": 1,
+        "name": "tube_300ul"
+      }
+    },
+    {
+      "name": "PCR_MIX",
+      "quantity": 2000,
+      "unit": "μL",
+      "init_content": "",
+      "labware": {
+        "id": 1,
+        "name": "tube_2ml"
+      }
+    },
+    {
+      "name": "96_well_PCR_plate",
+      "quantity": 1,
+      "unit": "plate",
+      "init_content": "",
+      "labware": {
+        "id": 2,
+        "name": "96_well_pcr_plate"
+      }
+    }
+  ]
+}
+
+
+Note: The example given does not provide enough information to match the labware to the available labware list. Therefore, the labware IDs have been left blank. This JSON structure can be extended and updated with complete information as needed.***2025-02-24 14:12:19.374786+00:00***: Attempt 1 failed with error: Extra data: line 67 column 1 (char 1137)***2025-02-24 14:12:19.376538+00:00***: Traceback: Traceback (most recent call last):
+  File "/Users/yuyaarai/Documents/Humanics/Project/FormationFormatter/src/formationformatter/functions.py", line 45, in get_object_list
+    object_list, obj_chan_errors = obj_chan(
+                                   ^^^^^^^^^
+  File "/Users/yuyaarai/Documents/Humanics/Project/FormationFormatter/src/formationformatter/obj_chan/__init__.py", line 265, in run
+    res, errors = get_object_list(process_flow, constraints, messages, log_file_path=log_file_path)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/yuyaarai/Documents/Humanics/Project/FormationFormatter/src/formationformatter/obj_chan/__init__.py", line 252, in get_object_list
+    results = _extract_results_from_gpt_response(answer, log_file_path)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/yuyaarai/Documents/Humanics/Project/FormationFormatter/src/formationformatter/obj_chan/__init__.py", line 135, in _extract_results_from_gpt_response
+    results = text_to_dict(result.replace('extracted_results:', '').replace('extracted_results_end:', '').strip())
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/yuyaarai/Documents/Humanics/Project/FormationFormatter/src/formationformatter/obj_chan/__init__.py", line 134, in <lambda>
+    text_to_dict = lambda x: json.loads(x.replace('\'', '\"'))
+                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.12/3.12.8/Frameworks/Python.framework/Versions/3.12/lib/python3.12/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.12/3.12.8/Frameworks/Python.framework/Versions/3.12/lib/python3.12/json/decoder.py", line 341, in decode
+    raise JSONDecodeError("Extra data", s, end)
+json.decoder.JSONDecodeError: Extra data: line 67 column 1 (char 1137)
+***2025-02-24 14:12:19.377242+00:00***: Retrying... (Attempt 1/10)***2025-02-24 14:12:24.917269+00:00***: obj-chan preprocess result:
+
+{ "labware": [
+  { "name": "1 sample DNAs", "quantity": 300, "unit": "μL", "init_content": "", "labware": { "id": 1, "name": "tube" } },
+  { "name": "water", "quantity": 300, "unit": "μL", "init_content": "", "labware": { "id": 1, "name": "tube" } },
+  { "name": "10 μM primer_F", "quantity": 10, "unit": "μL", "init_content": "", "labware": { "id": 1, "name": "tube" } },
+  { "name": "10 μM primer_R", "quantity": 10, "unit": "μL", "init_content": "", "labware": { "id": 1, "name": "tube" } },
+  { "name": "PCR MIX", "quantity": 2000, "unit": "μL", "init_content": "", "labware": { "id": 1, "name": "tube" } },
+  { "name": "96 well PCR plate", "quantity": 81, "unit": "", "init_content": "", "labware": { "id": 2, "name": "PCR_Plate" } },
+  { "name": "template PCR MIX", "quantity": 86, "unit": "μL", "init_content": "", "labware": { "id": 1, "name": "tube" } },
+  { "name": "water for template", "quantity": 4, "unit": "μL", "init_content": "", "labware": { "id": 1, "name": "tube" } }
+]}
+
+
+Note: The available labware list does not provide the specific labware names and IDs required for this experiment. Therefore, the `id` field is left blank in the JSON format. Additionally, some information about labware names and quantities is missing, so the output may not fully match the input requirements.***2025-02-24 14:12:24.918193+00:00***: obj-chan postprocess result:
+
+{ "labware": [
+  { "name": "1 sample DNAs", "quantity": 300, "unit": "μL", "init_content": "", "labware": { "id": 1, "name": "tube" } },
+  { "name": "water", "quantity": 300, "unit": "μL", "init_content": "", "labware": { "id": 1, "name": "tube" } },
+  { "name": "10 μM primer_F", "quantity": 10, "unit": "μL", "init_content": "", "labware": { "id": 1, "name": "tube" } },
+  { "name": "10 μM primer_R", "quantity": 10, "unit": "μL", "init_content": "", "labware": { "id": 1, "name": "tube" } },
+  { "name": "PCR MIX", "quantity": 2000, "unit": "μL", "init_content": "", "labware": { "id": 1, "name": "tube" } },
+  { "name": "96 well PCR plate", "quantity": 81, "unit": "", "init_content": "", "labware": { "id": 2, "name": "PCR_Plate" } },
+  { "name": "template PCR MIX", "quantity": 86, "unit": "μL", "init_content": "", "labware": { "id": 1, "name": "tube" } },
+  { "name": "water for template", "quantity": 4, "unit": "μL", "init_content": "", "labware": { "id": 1, "name": "tube" } }
+]}
+
+
+Note: The available labware list does not provide the specific labware names and IDs required for this experiment. Therefore, the `id` field is left blank in the JSON format. Additionally, some information about labware names and quantities is missing, so the output may not fully match the input requirements.***2025-02-24 14:12:24.918856+00:00***: Attempt 2 failed with error: Extra data: line 13 column 1 (char 993)***2025-02-24 14:12:24.919916+00:00***: Traceback: Traceback (most recent call last):
+  File "/Users/yuyaarai/Documents/Humanics/Project/FormationFormatter/src/formationformatter/functions.py", line 45, in get_object_list
+    object_list, obj_chan_errors = obj_chan(
+                                   ^^^^^^^^^
+  File "/Users/yuyaarai/Documents/Humanics/Project/FormationFormatter/src/formationformatter/obj_chan/__init__.py", line 265, in run
+    res, errors = get_object_list(process_flow, constraints, messages, log_file_path=log_file_path)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/yuyaarai/Documents/Humanics/Project/FormationFormatter/src/formationformatter/obj_chan/__init__.py", line 252, in get_object_list
+    results = _extract_results_from_gpt_response(answer, log_file_path)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/yuyaarai/Documents/Humanics/Project/FormationFormatter/src/formationformatter/obj_chan/__init__.py", line 135, in _extract_results_from_gpt_response
+    results = text_to_dict(result.replace('extracted_results:', '').replace('extracted_results_end:', '').strip())
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/yuyaarai/Documents/Humanics/Project/FormationFormatter/src/formationformatter/obj_chan/__init__.py", line 134, in <lambda>
+    text_to_dict = lambda x: json.loads(x.replace('\'', '\"'))
+                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.12/3.12.8/Frameworks/Python.framework/Versions/3.12/lib/python3.12/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.12/3.12.8/Frameworks/Python.framework/Versions/3.12/lib/python3.12/json/decoder.py", line 341, in decode
+    raise JSONDecodeError("Extra data", s, end)
+json.decoder.JSONDecodeError: Extra data: line 13 column 1 (char 993)
+***2025-02-24 14:12:24.920399+00:00***: Retrying... (Attempt 2/10)***2025-02-24 14:12:30.313823+00:00***: obj-chan preprocess result:
+
+{
+  "labware": [
+    {
+      "name": "1 sample DNAs",
+      "quantity": 300,
+      "unit": "μL",
+      "init_content": "",
+      "labware": {
+        "id": 1,
+        "name": "tube"
+      }
+    },
+    {
+      "name": "water",
+      "quantity": 300,
+      "unit": "μL",
+      "init_content": "",
+      "labware": {
+        "id": 1,
+        "name": "tube"
+      }
+    },
+    {
+      "name": "10 μM primer_F",
+      "quantity": 10,
+      "unit": "μL",
+      "init_content": "",
+      "labware": {
+        "id": 1,
+        "name": "tube"
+      }
+    },
+    {
+      "name": "10 μM primer_R",
+      "quantity": 10,
+      "unit": "μL",
+      "init_content": "",
+      "labware": {
+        "id": 1,
+        "name": "tube"
+      }
+    },
+    {
+      "name": "PCR MIX",
+      "quantity": 2000,
+      "unit": "μL",
+      "init_content": "",
+      "labware": {
+        "id": 1,
+        "name": "tube"
+      }
+    },
+    {
+      "name": "96 well PCR plate",
+      "quantity": 1,
+      "unit": "plate",
+      "init_content": "",
+      "labware": {
+        "id": 2,
+        "name": "plate"
+      }
+    }
+  ]
+}
+***2025-02-24 14:12:30.315755+00:00***: obj-chan postprocess result:
+
+{
+  "labware": [
+    {
+      "name": "1 sample DNAs",
+      "quantity": 300,
+      "unit": "μL",
+      "init_content": "",
+      "labware": {
+        "id": 1,
+        "name": "tube"
+      }
+    },
+    {
+      "name": "water",
+      "quantity": 300,
+      "unit": "μL",
+      "init_content": "",
+      "labware": {
+        "id": 1,
+        "name": "tube"
+      }
+    },
+    {
+      "name": "10 μM primer_F",
+      "quantity": 10,
+      "unit": "μL",
+      "init_content": "",
+      "labware": {
+        "id": 1,
+        "name": "tube"
+      }
+    },
+    {
+      "name": "10 μM primer_R",
+      "quantity": 10,
+      "unit": "μL",
+      "init_content": "",
+      "labware": {
+        "id": 1,
+        "name": "tube"
+      }
+    },
+    {
+      "name": "PCR MIX",
+      "quantity": 2000,
+      "unit": "μL",
+      "init_content": "",
+      "labware": {
+        "id": 1,
+        "name": "tube"
+      }
+    },
+    {
+      "name": "96 well PCR plate",
+      "quantity": 1,
+      "unit": "plate",
+      "init_content": "",
+      "labware": {
+        "id": 2,
+        "name": "plate"
+      }
+    }
+  ]
+}
+***2025-02-24 14:12:30.317045+00:00***: 
+
+Process Flow ******************
+QPCR
+QuantStudio 6 Proで測定するサンプルprepを行う
+1サンプルあってそれぞれ13プライマー x duplicate(3)で試験するイメージ
+NTCは13プライマー x duplicate(3)用意する
+その他、PrimerなしのTemplateのみを1 x duplicate(3)用意する
+
+
+Input：試薬類の容器はチューブまたはプレート
+1 sample DNAs			300 μL
+water					300 μL
+10 μM primer_F			各10 μL
+10 μM primer_R			各10 μL
+PCR MIX				2000 μL
+96 well PCR  plate			1 plate
+その他液体混合に必要なチューブまたはプレートなど
+output
+sample DNA, primer, PCR MIXの混合溶液が入った96 well PCR plate x 1
+procedure
+1. PCR MIXを137.6 μLずつ13個に分注する
+2. PCR MIXが入ったチューブに10 μM primer_F1-13を3.2 μL添加する
+3. PCR MIXが入ったチューブに10 μM primer_R1-13を3.2 μL添加する
+4. PCR MIXとprimerをピペッティングで混合する
+5. templateのみ用のPCR MIXを86 μL分注する
+6. templateのみ用のPCR MIXにwaterを4 μL添加する
+7. templateのみ用のPCR MIXとwaterをピペッティングで混合する
+8. サンプル DNAまたはwater をreaction plateに5 μLずつアプライする
+下記plate mapの列を埋めていくイメージ
+9. PCR MIXとprimerの混合溶液を10 μLずつreaction plateにアプライする
+下記plate mapの行を埋めていくイメージ
+plate map
+81 well使用する
+S_n = sample_n
+今回はヒト標準cDNA1つ
+NTC = no template control：水＝ネガティブコントロール（全primerについて置く）
+P_m = primer set_m：forward primerとreverse primerのセット
+今回は13種類
+Templateのみも置く
+OT-2のピペット
+20 μLと300 μL 
+
+Note: 
+1つの96 well plateを用いて10 μM primer_Fと10 μM primer_Rを準備する
+1 sample DNAsやwaterなど、同じ容器であるものはできるだけ同じステーションに置く
+
+
+
+Constraints ******************
+Constraints(allowed_objects=[Object(name='Unknown', quantity=0, init_content='Unknown', labware={'name': '96 well plate'}, unit='unitless'), Object(name='Unknown', quantity=0, init_content='Unknown', labware={'name': '1.5 mL tube'}, unit='unitless'), Object(name='Unknown', quantity=0, init_content='Unknown', labware={'name': '15 mL tube'}, unit='unitless')])
+
+Extracted Object List******************
+[Object(name='1 sample DNAs', quantity=300, init_content='', labware={'id': 1, 'name': 'tube'}, unit='μL'), Object(name='water', quantity=300, init_content='', labware={'id': 1, 'name': 'tube'}, unit='μL'), Object(name='10 μM primer_F', quantity=10, init_content='', labware={'id': 1, 'name': 'tube'}, unit='μL'), Object(name='10 μM primer_R', quantity=10, init_content='', labware={'id': 1, 'name': 'tube'}, unit='μL'), Object(name='PCR MIX', quantity=2000, init_content='', labware={'id': 1, 'name': 'tube'}, unit='μL'), Object(name='96 well PCR plate', quantity=1, init_content='', labware={'id': 2, 'name': 'plate'}, unit='plate')]***2025-02-24 14:12:30.317902+00:00***: ************ Obj-chan result ***************2025-02-24 14:12:30.319978+00:00***: object_list: [Object(name='1 sample DNAs', quantity=300, init_content='', labware={'id': 1, 'name': 'tube'}, unit='μL'), Object(name='water', quantity=300, init_content='', labware={'id': 1, 'name': 'tube'}, unit='μL'), Object(name='10 μM primer_F', quantity=10, init_content='', labware={'id': 1, 'name': 'tube'}, unit='μL'), Object(name='10 μM primer_R', quantity=10, init_content='', labware={'id': 1, 'name': 'tube'}, unit='μL'), Object(name='PCR MIX', quantity=2000, init_content='', labware={'id': 1, 'name': 'tube'}, unit='μL'), Object(name='96 well PCR plate', quantity=1, init_content='', labware={'id': 2, 'name': 'plate'}, unit='plate')]***2025-02-24 14:12:30.324697+00:00***: object_list_num: 6***2025-02-24 14:12:30.326726+00:00***: all_num: 32***2025-02-24 14:12:30.327770+00:00***: ************ haichi-kun result ***************2025-02-24 14:12:30.328413+00:00***: all_results[:10]=[[((Object(name='1 sample DNAs', quantity=300, init_content='', labware={'id': 1, 'name': 'tube'}, unit='μL'), []), 1), ((Object(name='water', quantity=300, init_content='', labware={'id': 1, 'name': 'tube'}, unit='μL'), []), 2), ((Object(name='10 μM primer_F', quantity=10, init_content='', labware={'id': 1, 'name': 'tube'}, unit='μL'), []), 3), ((Object(name='10 μM primer_R', quantity=10, init_content='', labware={'id': 1, 'name': 'tube'}, unit='μL'), []), 4), ((Object(name='PCR MIX', quantity=2000, init_content='', labware={'id': 1, 'name': 'tube'}, unit='μL'), []), 5), ((Object(name='96 well PCR plate', quantity=1, init_content='', labware={'id': 2, 'name': 'plate'}, unit='plate'), []), 6)], [((Object(name='1 sample DNAs', quantity=300, init_content='', labware={'id': 1, 'name': 'tube'}, unit='μL'), []), 1), ((Object(name='water', quantity=300, init_content='', labware={'id': 1, 'name': 'tube'}, unit='μL'), []), 2), ((Object(name='10 μM primer_F', quantity=10, init_content='', labware={'id': 1, 'name': 'tube'}, unit='μL'), []), 3), ((Object(name='10 μM primer_R', quantity=10, init_content='', labware={'id': 1, 'name': 'tube'}, unit='μL'), []), 4), ((Object(name='PCR MIX', quantity=2000, init_content='', labware={'id': 1, 'name': 'tube'}, unit='μL'), []), 5), ((Object(name='96 well PCR plate', quantity=1, init_content='', labware={'id': 2, 'name': 'plate'}, unit='plate'), []), 7)], [((Object(name='1 sample DNAs', quantity=300, init_content='', labware={'id': 1, 'name': 'tube'}, unit='μL'), []), 1), ((Object(name='water', quantity=300, init_content='', labware={'id': 1, 'name': 'tube'}, unit='μL'), []), 2), ((Object(name='10 μM primer_F', quantity=10, init_content='', labware={'id': 1, 'name': 'tube'}, unit='μL'), []), 3), ((Object(name='10 μM primer_R', quantity=10, init_content='', labware={'id': 1, 'name': 'tube'}, unit='μL'), []), 4), ((Object(name='PCR MIX', quantity=2000, init_content='', labware={'id': 1, 'name': 'tube'}, unit='μL'), []), 5), ((Object(name='96 well PCR plate', quantity=1, init_content='', labware={'id': 2, 'name': 'plate'}, unit='plate'), []), 8)], [((Object(name='1 sample DNAs', quantity=300, init_content='', labware={'id': 1, 'name': 'tube'}, unit='μL'), []), 1), ((Object(name='water', quantity=300, init_content='', labware={'id': 1, 'name': 'tube'}, unit='μL'), []), 2), ((Object(name='10 μM primer_F', quantity=10, init_content='', labware={'id': 1, 'name': 'tube'}, unit='μL'), []), 3), ((Object(name='10 μM primer_R', quantity=10, init_content='', labware={'id': 1, 'name': 'tube'}, unit='μL'), []), 4), ((Object(name='PCR MIX', quantity=2000, init_content='', labware={'id': 1, 'name': 'tube'}, unit='μL'), []), 5), ((Object(name='96 well PCR plate', quantity=1, init_content='', labware={'id': 2, 'name': 'plate'}, unit='plate'), []), 9)], [((Object(name='1 sample DNAs', quantity=300, init_content='', labware={'id': 1, 'name': 'tube'}, unit='μL'), []), 1), ((Object(name='water', quantity=300, init_content='', labware={'id': 1, 'name': 'tube'}, unit='μL'), []), 2), ((Object(name='10 μM primer_F', quantity=10, init_content='', labware={'id': 1, 'name': 'tube'}, unit='μL'), []), 3), ((Object(name='10 μM primer_R', quantity=10, init_content='', labware={'id': 1, 'name': 'tube'}, unit='μL'), []), 4), ((Object(name='PCR MIX', quantity=2000, init_content='', labware={'id': 1, 'name': 'tube'}, unit='μL'), []), 5), ((Object(name='96 well PCR plate', quantity=1, init_content='', labware={'id': 2, 'name': 'plate'}, unit='plate'), []), 10)], [((Object(name='1 sample DNAs', quantity=300, init_content='', labware={'id': 1, 'name': 'tube'}, unit='μL'), []), 1), ((Object(name='water', quantity=300, init_content='', labware={'id': 1, 'name': 'tube'}, unit='μL'), []), 2), ((Object(name='10 μM primer_F', quantity=10, init_content='', labware={'id': 1, 'name': 'tube'}, unit='μL'), []), 3), ((Object(name='10 μM primer_R', quantity=10, init_content='', labware={'id': 1, 'name': 'tube'}, unit='μL'), []), 4), ((Object(name='PCR MIX', quantity=2000, init_content='', labware={'id': 1, 'name': 'tube'}, unit='μL'), []), 5), ((Object(name='96 well PCR plate', quantity=1, init_content='', labware={'id': 2, 'name': 'plate'}, unit='plate'), []), 11)], [((Object(name='1 sample DNAs', quantity=300, init_content='', labware={'id': 1, 'name': 'tube'}, unit='μL'), []), 1), ((Object(name='water', quantity=300, init_content='', labware={'id': 1, 'name': 'tube'}, unit='μL'), []), 2), ((Object(name='10 μM primer_F', quantity=10, init_content='', labware={'id': 1, 'name': 'tube'}, unit='μL'), []), 3), ((Object(name='10 μM primer_R', quantity=10, init_content='', labware={'id': 1, 'name': 'tube'}, unit='μL'), []), 4), ((Object(name='PCR MIX', quantity=2000, init_content='', labware={'id': 1, 'name': 'tube'}, unit='μL'), []), 5), ((Object(name='96 well PCR plate', quantity=1, init_content='', labware={'id': 2, 'name': 'plate'}, unit='plate'), []), 12)], [((Object(name='1 sample DNAs', quantity=300, init_content='', labware={'id': 1, 'name': 'tube'}, unit='μL'), []), 1), ((Object(name='water', quantity=300, init_content='', labware={'id': 1, 'name': 'tube'}, unit='μL'), []), 2), ((Object(name='10 μM primer_F', quantity=10, init_content='', labware={'id': 1, 'name': 'tube'}, unit='μL'), []), 3), ((Object(name='10 μM primer_R', quantity=10, init_content='', labware={'id': 1, 'name': 'tube'}, unit='μL'), []), 4), ((Object(name='PCR MIX', quantity=2000, init_content='', labware={'id': 1, 'name': 'tube'}, unit='μL'), []), 6), ((Object(name='96 well PCR plate', quantity=1, init_content='', labware={'id': 2, 'name': 'plate'}, unit='plate'), []), 5)], [((Object(name='1 sample DNAs', quantity=300, init_content='', labware={'id': 1, 'name': 'tube'}, unit='μL'), []), 1), ((Object(name='water', quantity=300, init_content='', labware={'id': 1, 'name': 'tube'}, unit='μL'), []), 2), ((Object(name='10 μM primer_F', quantity=10, init_content='', labware={'id': 1, 'name': 'tube'}, unit='μL'), []), 3), ((Object(name='10 μM primer_R', quantity=10, init_content='', labware={'id': 1, 'name': 'tube'}, unit='μL'), []), 4), ((Object(name='PCR MIX', quantity=2000, init_content='', labware={'id': 1, 'name': 'tube'}, unit='μL'), []), 6), ((Object(name='96 well PCR plate', quantity=1, init_content='', labware={'id': 2, 'name': 'plate'}, unit='plate'), []), 7)], [((Object(name='1 sample DNAs', quantity=300, init_content='', labware={'id': 1, 'name': 'tube'}, unit='μL'), []), 1), ((Object(name='water', quantity=300, init_content='', labware={'id': 1, 'name': 'tube'}, unit='μL'), []), 2), ((Object(name='10 μM primer_F', quantity=10, init_content='', labware={'id': 1, 'name': 'tube'}, unit='μL'), []), 3), ((Object(name='10 μM primer_R', quantity=10, init_content='', labware={'id': 1, 'name': 'tube'}, unit='μL'), []), 4), ((Object(name='PCR MIX', quantity=2000, init_content='', labware={'id': 1, 'name': 'tube'}, unit='μL'), []), 6), ((Object(name='96 well PCR plate', quantity=1, init_content='', labware={'id': 2, 'name': 'plate'}, unit='plate'), []), 8)]]***2025-02-24 14:12:30.332117+00:00***: ************ Check-chan result ***************2025-02-24 14:12:30.332733+00:00***: object_list: [(Object(name='1 sample DNAs', quantity=300, init_content='', labware={'id': 1, 'name': 'tube'}, unit='μL'), []), (Object(name='water', quantity=300, init_content='', labware={'id': 1, 'name': 'tube'}, unit='μL'), []), (Object(name='10 μM primer_F', quantity=10, init_content='', labware={'id': 1, 'name': 'tube'}, unit='μL'), []), (Object(name='10 μM primer_R', quantity=10, init_content='', labware={'id': 1, 'name': 'tube'}, unit='μL'), []), (Object(name='PCR MIX', quantity=2000, init_content='', labware={'id': 1, 'name': 'tube'}, unit='μL'), []), (Object(name='96 well PCR plate', quantity=1, init_content='', labware={'id': 2, 'name': 'plate'}, unit='plate'), [])]***2025-02-24 14:12:30.333313+00:00***: haichi: [((Object(name='1 sample DNAs', quantity=300, init_content='', labware={'id': 1, 'name': 'tube'}, unit='μL'), []), 1), ((Object(name='water', quantity=300, init_content='', labware={'id': 1, 'name': 'tube'}, unit='μL'), []), 2), ((Object(name='10 μM primer_F', quantity=10, init_content='', labware={'id': 1, 'name': 'tube'}, unit='μL'), []), 3), ((Object(name='10 μM primer_R', quantity=10, init_content='', labware={'id': 1, 'name': 'tube'}, unit='μL'), []), 4), ((Object(name='PCR MIX', quantity=2000, init_content='', labware={'id': 1, 'name': 'tube'}, unit='μL'), []), 5), ((Object(name='96 well PCR plate', quantity=1, init_content='', labware={'id': 2, 'name': 'plate'}, unit='plate'), []), 6)]***2025-02-24 14:12:30.333800+00:00***: object: ((Object(name='1 sample DNAs', quantity=300, init_content='', labware={'id': 1, 'name': 'tube'}, unit='μL'), []), 1)***2025-02-24 14:12:30.334306+00:00***: place: 1***2025-02-24 14:12:30.334913+00:00***: object: ((Object(name='water', quantity=300, init_content='', labware={'id': 1, 'name': 'tube'}, unit='μL'), []), 2)***2025-02-24 14:12:30.342587+00:00***: place: 2***2025-02-24 14:12:30.342997+00:00***: object: ((Object(name='10 μM primer_F', quantity=10, init_content='', labware={'id': 1, 'name': 'tube'}, unit='μL'), []), 3)***2025-02-24 14:12:30.343318+00:00***: place: 3***2025-02-24 14:12:30.343597+00:00***: object: ((Object(name='10 μM primer_R', quantity=10, init_content='', labware={'id': 1, 'name': 'tube'}, unit='μL'), []), 4)***2025-02-24 14:12:30.343847+00:00***: place: 4***2025-02-24 14:12:30.344134+00:00***: object: ((Object(name='PCR MIX', quantity=2000, init_content='', labware={'id': 1, 'name': 'tube'}, unit='μL'), []), 5)***2025-02-24 14:12:30.344364+00:00***: place: 5***2025-02-24 14:12:30.344598+00:00***: object: ((Object(name='96 well PCR plate', quantity=1, init_content='', labware={'id': 2, 'name': 'plate'}, unit='plate'), []), 6)***2025-02-24 14:12:30.344841+00:00***: place: 6***2025-02-24 14:12:30.345069+00:00***: ***Station info*** from***2025-02-24 14:12:30.345322+00:00***: ||||
+|----|----|----|
+|void|void|void|
+|void|void|void|
+|10 μM primer_R:10 μM primer_R|PCR MIX:PCR MIX|96 well PCR plate:96 well PCR plate|
+|1 sample DNAs:1 sample DNAs|water:water|10 μM primer_F:10 μM primer_F|
+***2025-02-24 14:12:30.345549+00:00***: ***Station info*** to***2025-02-24 14:12:30.345815+00:00***: relative_restriction: test_case/relative_restriction_init_content/ng_position1.json***2025-02-24 14:12:30.346588+00:00***: []***2025-02-24 14:12:30.347979+00:00***: ************ Check-chan result ***************2025-02-24 14:12:30.348556+00:00***: object_list: [(Object(name='1 sample DNAs', quantity=300, init_content='', labware={'id': 1, 'name': 'tube'}, unit='μL'), []), (Object(name='water', quantity=300, init_content='', labware={'id': 1, 'name': 'tube'}, unit='μL'), []), (Object(name='10 μM primer_F', quantity=10, init_content='', labware={'id': 1, 'name': 'tube'}, unit='μL'), []), (Object(name='10 μM primer_R', quantity=10, init_content='', labware={'id': 1, 'name': 'tube'}, unit='μL'), []), (Object(name='PCR MIX', quantity=2000, init_content='', labware={'id': 1, 'name': 'tube'}, unit='μL'), []), (Object(name='96 well PCR plate', quantity=1, init_content='', labware={'id': 2, 'name': 'plate'}, unit='plate'), [])]***2025-02-24 14:12:30.348985+00:00***: haichi: [((Object(name='1 sample DNAs', quantity=300, init_content='', labware={'id': 1, 'name': 'tube'}, unit='μL'), []), 1), ((Object(name='water', quantity=300, init_content='', labware={'id': 1, 'name': 'tube'}, unit='μL'), []), 2), ((Object(name='10 μM primer_F', quantity=10, init_content='', labware={'id': 1, 'name': 'tube'}, unit='μL'), []), 3), ((Object(name='10 μM primer_R', quantity=10, init_content='', labware={'id': 1, 'name': 'tube'}, unit='μL'), []), 4), ((Object(name='PCR MIX', quantity=2000, init_content='', labware={'id': 1, 'name': 'tube'}, unit='μL'), []), 5), ((Object(name='96 well PCR plate', quantity=1, init_content='', labware={'id': 2, 'name': 'plate'}, unit='plate'), []), 7)]***2025-02-24 14:12:30.349432+00:00***: object: ((Object(name='1 sample DNAs', quantity=300, init_content='', labware={'id': 1, 'name': 'tube'}, unit='μL'), []), 1)***2025-02-24 14:12:30.349798+00:00***: place: 1***2025-02-24 14:12:30.350237+00:00***: object: ((Object(name='water', quantity=300, init_content='', labware={'id': 1, 'name': 'tube'}, unit='μL'), []), 2)***2025-02-24 14:12:30.350712+00:00***: place: 2***2025-02-24 14:12:30.351174+00:00***: object: ((Object(name='10 μM primer_F', quantity=10, init_content='', labware={'id': 1, 'name': 'tube'}, unit='μL'), []), 3)***2025-02-24 14:12:30.351604+00:00***: place: 3***2025-02-24 14:12:30.352035+00:00***: object: ((Object(name='10 μM primer_R', quantity=10, init_content='', labware={'id': 1, 'name': 'tube'}, unit='μL'), []), 4)***2025-02-24 14:12:30.352564+00:00***: place: 4***2025-02-24 14:12:30.353108+00:00***: object: ((Object(name='PCR MIX', quantity=2000, init_content='', labware={'id': 1, 'name': 'tube'}, unit='μL'), []), 5)***2025-02-24 14:12:30.353758+00:00***: place: 5***2025-02-24 14:12:30.355036+00:00***: object: ((Object(name='96 well PCR plate', quantity=1, init_content='', labware={'id': 2, 'name': 'plate'}, unit='plate'), []), 7)***2025-02-24 14:12:30.356059+00:00***: place: 7***2025-02-24 14:12:30.356583+00:00***: ***Station info*** from***2025-02-24 14:12:30.357014+00:00***: ||||
+|----|----|----|
+|void|void|void|
+|96 well PCR plate:96 well PCR plate|void|void|
+|10 μM primer_R:10 μM primer_R|PCR MIX:PCR MIX|void|
+|1 sample DNAs:1 sample DNAs|water:water|10 μM primer_F:10 μM primer_F|
+***2025-02-24 14:12:30.357433+00:00***: ***Station info*** to***2025-02-24 14:12:30.358366+00:00***: relative_restriction: test_case/relative_restriction_init_content/ng_position1.json***2025-02-24 14:12:30.359085+00:00***: []***2025-02-24 14:12:30.361378+00:00***: ************ Check-chan result ***************2025-02-24 14:12:30.362348+00:00***: object_list: [(Object(name='1 sample DNAs', quantity=300, init_content='', labware={'id': 1, 'name': 'tube'}, unit='μL'), []), (Object(name='water', quantity=300, init_content='', labware={'id': 1, 'name': 'tube'}, unit='μL'), []), (Object(name='10 μM primer_F', quantity=10, init_content='', labware={'id': 1, 'name': 'tube'}, unit='μL'), []), (Object(name='10 μM primer_R', quantity=10, init_content='', labware={'id': 1, 'name': 'tube'}, unit='μL'), []), (Object(name='PCR MIX', quantity=2000, init_content='', labware={'id': 1, 'name': 'tube'}, unit='μL'), []), (Object(name='96 well PCR plate', quantity=1, init_content='', labware={'id': 2, 'name': 'plate'}, unit='plate'), [])]***2025-02-24 14:12:30.362890+00:00***: haichi: [((Object(name='1 sample DNAs', quantity=300, init_content='', labware={'id': 1, 'name': 'tube'}, unit='μL'), []), 1), ((Object(name='water', quantity=300, init_content='', labware={'id': 1, 'name': 'tube'}, unit='μL'), []), 2), ((Object(name='10 μM primer_F', quantity=10, init_content='', labware={'id': 1, 'name': 'tube'}, unit='μL'), []), 3), ((Object(name='10 μM primer_R', quantity=10, init_content='', labware={'id': 1, 'name': 'tube'}, unit='μL'), []), 4), ((Object(name='PCR MIX', quantity=2000, init_content='', labware={'id': 1, 'name': 'tube'}, unit='μL'), []), 5), ((Object(name='96 well PCR plate', quantity=1, init_content='', labware={'id': 2, 'name': 'plate'}, unit='plate'), []), 8)]***2025-02-24 14:12:30.363353+00:00***: object: ((Object(name='1 sample DNAs', quantity=300, init_content='', labware={'id': 1, 'name': 'tube'}, unit='μL'), []), 1)***2025-02-24 14:12:30.363780+00:00***: place: 1***2025-02-24 14:12:30.364254+00:00***: object: ((Object(name='water', quantity=300, init_content='', labware={'id': 1, 'name': 'tube'}, unit='μL'), []), 2)***2025-02-24 14:12:30.365053+00:00***: place: 2***2025-02-24 14:12:30.365462+00:00***: object: ((Object(name='10 μM primer_F', quantity=10, init_content='', labware={'id': 1, 'name': 'tube'}, unit='μL'), []), 3)***2025-02-24 14:12:30.366116+00:00***: place: 3***2025-02-24 14:12:30.366738+00:00***: object: ((Object(name='10 μM primer_R', quantity=10, init_content='', labware={'id': 1, 'name': 'tube'}, unit='μL'), []), 4)***2025-02-24 14:12:30.368202+00:00***: place: 4***2025-02-24 14:12:30.368602+00:00***: object: ((Object(name='PCR MIX', quantity=2000, init_content='', labware={'id': 1, 'name': 'tube'}, unit='μL'), []), 5)***2025-02-24 14:12:30.369210+00:00***: place: 5***2025-02-24 14:12:30.369722+00:00***: object: ((Object(name='96 well PCR plate', quantity=1, init_content='', labware={'id': 2, 'name': 'plate'}, unit='plate'), []), 8)***2025-02-24 14:12:30.370127+00:00***: place: 8***2025-02-24 14:12:30.370459+00:00***: ***Station info*** from***2025-02-24 14:12:30.370798+00:00***: ||||
+|----|----|----|
+|void|void|void|
+|void|96 well PCR plate:96 well PCR plate|void|
+|10 μM primer_R:10 μM primer_R|PCR MIX:PCR MIX|void|
+|1 sample DNAs:1 sample DNAs|water:water|10 μM primer_F:10 μM primer_F|
+***2025-02-24 14:12:30.371133+00:00***: ***Station info*** to***2025-02-24 14:12:30.371505+00:00***: relative_restriction: test_case/relative_restriction_init_content/ng_position1.json***2025-02-24 14:12:30.372536+00:00***: []***2025-02-24 14:12:30.374612+00:00***: ************ Check-chan result ***************2025-02-24 14:12:30.375201+00:00***: object_list: [(Object(name='1 sample DNAs', quantity=300, init_content='', labware={'id': 1, 'name': 'tube'}, unit='μL'), []), (Object(name='water', quantity=300, init_content='', labware={'id': 1, 'name': 'tube'}, unit='μL'), []), (Object(name='10 μM primer_F', quantity=10, init_content='', labware={'id': 1, 'name': 'tube'}, unit='μL'), []), (Object(name='10 μM primer_R', quantity=10, init_content='', labware={'id': 1, 'name': 'tube'}, unit='μL'), []), (Object(name='PCR MIX', quantity=2000, init_content='', labware={'id': 1, 'name': 'tube'}, unit='μL'), []), (Object(name='96 well PCR plate', quantity=1, init_content='', labware={'id': 2, 'name': 'plate'}, unit='plate'), [])]***2025-02-24 14:12:30.375952+00:00***: haichi: [((Object(name='1 sample DNAs', quantity=300, init_content='', labware={'id': 1, 'name': 'tube'}, unit='μL'), []), 1), ((Object(name='water', quantity=300, init_content='', labware={'id': 1, 'name': 'tube'}, unit='μL'), []), 2), ((Object(name='10 μM primer_F', quantity=10, init_content='', labware={'id': 1, 'name': 'tube'}, unit='μL'), []), 3), ((Object(name='10 μM primer_R', quantity=10, init_content='', labware={'id': 1, 'name': 'tube'}, unit='μL'), []), 4), ((Object(name='PCR MIX', quantity=2000, init_content='', labware={'id': 1, 'name': 'tube'}, unit='μL'), []), 5), ((Object(name='96 well PCR plate', quantity=1, init_content='', labware={'id': 2, 'name': 'plate'}, unit='plate'), []), 9)]***2025-02-24 14:12:30.376296+00:00***: object: ((Object(name='1 sample DNAs', quantity=300, init_content='', labware={'id': 1, 'name': 'tube'}, unit='μL'), []), 1)***2025-02-24 14:12:30.376641+00:00***: place: 1***2025-02-24 14:12:30.377792+00:00***: object: ((Object(name='water', quantity=300, init_content='', labware={'id': 1, 'name': 'tube'}, unit='μL'), []), 2)***2025-02-24 14:12:30.378574+00:00***: place: 2***2025-02-24 14:12:30.379026+00:00***: object: ((Object(name='10 μM primer_F', quantity=10, init_content='', labware={'id': 1, 'name': 'tube'}, unit='μL'), []), 3)***2025-02-24 14:12:30.379398+00:00***: place: 3***2025-02-24 14:12:30.379729+00:00***: object: ((Object(name='10 μM primer_R', quantity=10, init_content='', labware={'id': 1, 'name': 'tube'}, unit='μL'), []), 4)***2025-02-24 14:12:30.380116+00:00***: place: 4***2025-02-24 14:12:30.380834+00:00***: object: ((Object(name='PCR MIX', quantity=2000, init_content='', labware={'id': 1, 'name': 'tube'}, unit='μL'), []), 5)***2025-02-24 14:12:30.381177+00:00***: place: 5***2025-02-24 14:12:30.381601+00:00***: object: ((Object(name='96 well PCR plate', quantity=1, init_content='', labware={'id': 2, 'name': 'plate'}, unit='plate'), []), 9)***2025-02-24 14:12:30.381896+00:00***: place: 9***2025-02-24 14:12:30.382202+00:00***: ***Station info*** from***2025-02-24 14:12:30.382532+00:00***: ||||
+|----|----|----|
+|void|void|void|
+|void|void|96 well PCR plate:96 well PCR plate|
+|10 μM primer_R:10 μM primer_R|PCR MIX:PCR MIX|void|
+|1 sample DNAs:1 sample DNAs|water:water|10 μM primer_F:10 μM primer_F|
+***2025-02-24 14:12:30.382831+00:00***: ***Station info*** to***2025-02-24 14:12:30.383150+00:00***: relative_restriction: test_case/relative_restriction_init_content/ng_position1.json***2025-02-24 14:12:30.383665+00:00***: []***2025-02-24 14:12:30.384576+00:00***: ************ Check-chan result ***************2025-02-24 14:12:30.384989+00:00***: object_list: [(Object(name='1 sample DNAs', quantity=300, init_content='', labware={'id': 1, 'name': 'tube'}, unit='μL'), []), (Object(name='water', quantity=300, init_content='', labware={'id': 1, 'name': 'tube'}, unit='μL'), []), (Object(name='10 μM primer_F', quantity=10, init_content='', labware={'id': 1, 'name': 'tube'}, unit='μL'), []), (Object(name='10 μM primer_R', quantity=10, init_content='', labware={'id': 1, 'name': 'tube'}, unit='μL'), []), (Object(name='PCR MIX', quantity=2000, init_content='', labware={'id': 1, 'name': 'tube'}, unit='μL'), []), (Object(name='96 well PCR plate', quantity=1, init_content='', labware={'id': 2, 'name': 'plate'}, unit='plate'), [])]***2025-02-24 14:12:30.385560+00:00***: haichi: [((Object(name='1 sample DNAs', quantity=300, init_content='', labware={'id': 1, 'name': 'tube'}, unit='μL'), []), 1), ((Object(name='water', quantity=300, init_content='', labware={'id': 1, 'name': 'tube'}, unit='μL'), []), 2), ((Object(name='10 μM primer_F', quantity=10, init_content='', labware={'id': 1, 'name': 'tube'}, unit='μL'), []), 3), ((Object(name='10 μM primer_R', quantity=10, init_content='', labware={'id': 1, 'name': 'tube'}, unit='μL'), []), 4), ((Object(name='PCR MIX', quantity=2000, init_content='', labware={'id': 1, 'name': 'tube'}, unit='μL'), []), 5), ((Object(name='96 well PCR plate', quantity=1, init_content='', labware={'id': 2, 'name': 'plate'}, unit='plate'), []), 10)]***2025-02-24 14:12:30.386588+00:00***: object: ((Object(name='1 sample DNAs', quantity=300, init_content='', labware={'id': 1, 'name': 'tube'}, unit='μL'), []), 1)***2025-02-24 14:12:30.386921+00:00***: place: 1***2025-02-24 14:12:30.387242+00:00***: object: ((Object(name='water', quantity=300, init_content='', labware={'id': 1, 'name': 'tube'}, unit='μL'), []), 2)***2025-02-24 14:12:30.387557+00:00***: place: 2***2025-02-24 14:12:30.387863+00:00***: object: ((Object(name='10 μM primer_F', quantity=10, init_content='', labware={'id': 1, 'name': 'tube'}, unit='μL'), []), 3)***2025-02-24 14:12:30.388194+00:00***: place: 3***2025-02-24 14:12:30.388526+00:00***: object: ((Object(name='10 μM primer_R', quantity=10, init_content='', labware={'id': 1, 'name': 'tube'}, unit='μL'), []), 4)***2025-02-24 14:12:30.388829+00:00***: place: 4***2025-02-24 14:12:30.389151+00:00***: object: ((Object(name='PCR MIX', quantity=2000, init_content='', labware={'id': 1, 'name': 'tube'}, unit='μL'), []), 5)***2025-02-24 14:12:30.389506+00:00***: place: 5***2025-02-24 14:12:30.389994+00:00***: object: ((Object(name='96 well PCR plate', quantity=1, init_content='', labware={'id': 2, 'name': 'plate'}, unit='plate'), []), 10)***2025-02-24 14:12:30.390287+00:00***: place: 10***2025-02-24 14:12:30.390739+00:00***: ***Station info*** from***2025-02-24 14:12:30.391060+00:00***: ||||
+|----|----|----|
+|96 well PCR plate:96 well PCR plate|void|void|
+|void|void|void|
+|10 μM primer_R:10 μM primer_R|PCR MIX:PCR MIX|void|
+|1 sample DNAs:1 sample DNAs|water:water|10 μM primer_F:10 μM primer_F|
+***2025-02-24 14:12:30.391363+00:00***: ***Station info*** to***2025-02-24 14:12:30.391706+00:00***: relative_restriction: test_case/relative_restriction_init_content/ng_position1.json***2025-02-24 14:12:30.392243+00:00***: []***2025-02-24 14:12:30.393214+00:00***: ************ Check-chan result ***************2025-02-24 14:12:30.393683+00:00***: object_list: [(Object(name='1 sample DNAs', quantity=300, init_content='', labware={'id': 1, 'name': 'tube'}, unit='μL'), []), (Object(name='water', quantity=300, init_content='', labware={'id': 1, 'name': 'tube'}, unit='μL'), []), (Object(name='10 μM primer_F', quantity=10, init_content='', labware={'id': 1, 'name': 'tube'}, unit='μL'), []), (Object(name='10 μM primer_R', quantity=10, init_content='', labware={'id': 1, 'name': 'tube'}, unit='μL'), []), (Object(name='PCR MIX', quantity=2000, init_content='', labware={'id': 1, 'name': 'tube'}, unit='μL'), []), (Object(name='96 well PCR plate', quantity=1, init_content='', labware={'id': 2, 'name': 'plate'}, unit='plate'), [])]***2025-02-24 14:12:30.394034+00:00***: haichi: [((Object(name='1 sample DNAs', quantity=300, init_content='', labware={'id': 1, 'name': 'tube'}, unit='μL'), []), 1), ((Object(name='water', quantity=300, init_content='', labware={'id': 1, 'name': 'tube'}, unit='μL'), []), 2), ((Object(name='10 μM primer_F', quantity=10, init_content='', labware={'id': 1, 'name': 'tube'}, unit='μL'), []), 3), ((Object(name='10 μM primer_R', quantity=10, init_content='', labware={'id': 1, 'name': 'tube'}, unit='μL'), []), 4), ((Object(name='PCR MIX', quantity=2000, init_content='', labware={'id': 1, 'name': 'tube'}, unit='μL'), []), 5), ((Object(name='96 well PCR plate', quantity=1, init_content='', labware={'id': 2, 'name': 'plate'}, unit='plate'), []), 11)]***2025-02-24 14:12:30.394350+00:00***: object: ((Object(name='1 sample DNAs', quantity=300, init_content='', labware={'id': 1, 'name': 'tube'}, unit='μL'), []), 1)***2025-02-24 14:12:30.394665+00:00***: place: 1***2025-02-24 14:12:30.395116+00:00***: object: ((Object(name='water', quantity=300, init_content='', labware={'id': 1, 'name': 'tube'}, unit='μL'), []), 2)***2025-02-24 14:12:30.395440+00:00***: place: 2***2025-02-24 14:12:30.395725+00:00***: object: ((Object(name='10 μM primer_F', quantity=10, init_content='', labware={'id': 1, 'name': 'tube'}, unit='μL'), []), 3)***2025-02-24 14:12:30.396013+00:00***: place: 3***2025-02-24 14:12:30.396311+00:00***: object: ((Object(name='10 μM primer_R', quantity=10, init_content='', labware={'id': 1, 'name': 'tube'}, unit='μL'), []), 4)***2025-02-24 14:12:30.396585+00:00***: place: 4***2025-02-24 14:12:30.397042+00:00***: object: ((Object(name='PCR MIX', quantity=2000, init_content='', labware={'id': 1, 'name': 'tube'}, unit='μL'), []), 5)***2025-02-24 14:12:30.397310+00:00***: place: 5***2025-02-24 14:12:30.397619+00:00***: object: ((Object(name='96 well PCR plate', quantity=1, init_content='', labware={'id': 2, 'name': 'plate'}, unit='plate'), []), 11)***2025-02-24 14:12:30.397921+00:00***: place: 11***2025-02-24 14:12:30.398234+00:00***: ***Station info*** from***2025-02-24 14:12:30.398575+00:00***: ||||
+|----|----|----|
+|void|96 well PCR plate:96 well PCR plate|void|
+|void|void|void|
+|10 μM primer_R:10 μM primer_R|PCR MIX:PCR MIX|void|
+|1 sample DNAs:1 sample DNAs|water:water|10 μM primer_F:10 μM primer_F|
+***2025-02-24 14:12:30.398894+00:00***: ***Station info*** to***2025-02-24 14:12:30.399235+00:00***: relative_restriction: test_case/relative_restriction_init_content/ng_position1.json***2025-02-24 14:12:30.399681+00:00***: []***2025-02-24 14:12:30.400672+00:00***: ************ Check-chan result ***************2025-02-24 14:12:30.400987+00:00***: object_list: [(Object(name='1 sample DNAs', quantity=300, init_content='', labware={'id': 1, 'name': 'tube'}, unit='μL'), []), (Object(name='water', quantity=300, init_content='', labware={'id': 1, 'name': 'tube'}, unit='μL'), []), (Object(name='10 μM primer_F', quantity=10, init_content='', labware={'id': 1, 'name': 'tube'}, unit='μL'), []), (Object(name='10 μM primer_R', quantity=10, init_content='', labware={'id': 1, 'name': 'tube'}, unit='μL'), []), (Object(name='PCR MIX', quantity=2000, init_content='', labware={'id': 1, 'name': 'tube'}, unit='μL'), []), (Object(name='96 well PCR plate', quantity=1, init_content='', labware={'id': 2, 'name': 'plate'}, unit='plate'), [])]***2025-02-24 14:12:30.401598+00:00***: haichi: [((Object(name='1 sample DNAs', quantity=300, init_content='', labware={'id': 1, 'name': 'tube'}, unit='μL'), []), 1), ((Object(name='water', quantity=300, init_content='', labware={'id': 1, 'name': 'tube'}, unit='μL'), []), 2), ((Object(name='10 μM primer_F', quantity=10, init_content='', labware={'id': 1, 'name': 'tube'}, unit='μL'), []), 3), ((Object(name='10 μM primer_R', quantity=10, init_content='', labware={'id': 1, 'name': 'tube'}, unit='μL'), []), 4), ((Object(name='PCR MIX', quantity=2000, init_content='', labware={'id': 1, 'name': 'tube'}, unit='μL'), []), 5), ((Object(name='96 well PCR plate', quantity=1, init_content='', labware={'id': 2, 'name': 'plate'}, unit='plate'), []), 12)]***2025-02-24 14:12:30.401909+00:00***: object: ((Object(name='1 sample DNAs', quantity=300, init_content='', labware={'id': 1, 'name': 'tube'}, unit='μL'), []), 1)***2025-02-24 14:12:30.402248+00:00***: place: 1***2025-02-24 14:12:30.403435+00:00***: object: ((Object(name='water', quantity=300, init_content='', labware={'id': 1, 'name': 'tube'}, unit='μL'), []), 2)***2025-02-24 14:12:30.403755+00:00***: place: 2***2025-02-24 14:12:30.404049+00:00***: object: ((Object(name='10 μM primer_F', quantity=10, init_content='', labware={'id': 1, 'name': 'tube'}, unit='μL'), []), 3)***2025-02-24 14:12:30.404331+00:00***: place: 3***2025-02-24 14:12:30.404759+00:00***: object: ((Object(name='10 μM primer_R', quantity=10, init_content='', labware={'id': 1, 'name': 'tube'}, unit='μL'), []), 4)***2025-02-24 14:12:30.405283+00:00***: place: 4***2025-02-24 14:12:30.405600+00:00***: object: ((Object(name='PCR MIX', quantity=2000, init_content='', labware={'id': 1, 'name': 'tube'}, unit='μL'), []), 5)***2025-02-24 14:12:30.405884+00:00***: place: 5***2025-02-24 14:12:30.406250+00:00***: object: ((Object(name='96 well PCR plate', quantity=1, init_content='', labware={'id': 2, 'name': 'plate'}, unit='plate'), []), 12)***2025-02-24 14:12:30.406575+00:00***: place: 12***2025-02-24 14:12:30.406877+00:00***: ***Station info*** from***2025-02-24 14:12:30.407189+00:00***: ||||
+|----|----|----|
+|void|void|96 well PCR plate:96 well PCR plate|
+|void|void|void|
+|10 μM primer_R:10 μM primer_R|PCR MIX:PCR MIX|void|
+|1 sample DNAs:1 sample DNAs|water:water|10 μM primer_F:10 μM primer_F|
+***2025-02-24 14:12:30.407735+00:00***: ***Station info*** to***2025-02-24 14:12:30.408048+00:00***: relative_restriction: test_case/relative_restriction_init_content/ng_position1.json***2025-02-24 14:12:30.408509+00:00***: []***2025-02-24 14:12:30.409559+00:00***: ************ Check-chan result ***************2025-02-24 14:12:30.409842+00:00***: object_list: [(Object(name='1 sample DNAs', quantity=300, init_content='', labware={'id': 1, 'name': 'tube'}, unit='μL'), []), (Object(name='water', quantity=300, init_content='', labware={'id': 1, 'name': 'tube'}, unit='μL'), []), (Object(name='10 μM primer_F', quantity=10, init_content='', labware={'id': 1, 'name': 'tube'}, unit='μL'), []), (Object(name='10 μM primer_R', quantity=10, init_content='', labware={'id': 1, 'name': 'tube'}, unit='μL'), []), (Object(name='PCR MIX', quantity=2000, init_content='', labware={'id': 1, 'name': 'tube'}, unit='μL'), []), (Object(name='96 well PCR plate', quantity=1, init_content='', labware={'id': 2, 'name': 'plate'}, unit='plate'), [])]***2025-02-24 14:12:30.410155+00:00***: haichi: [((Object(name='1 sample DNAs', quantity=300, init_content='', labware={'id': 1, 'name': 'tube'}, unit='μL'), []), 1), ((Object(name='water', quantity=300, init_content='', labware={'id': 1, 'name': 'tube'}, unit='μL'), []), 2), ((Object(name='10 μM primer_F', quantity=10, init_content='', labware={'id': 1, 'name': 'tube'}, unit='μL'), []), 3), ((Object(name='10 μM primer_R', quantity=10, init_content='', labware={'id': 1, 'name': 'tube'}, unit='μL'), []), 4), ((Object(name='PCR MIX', quantity=2000, init_content='', labware={'id': 1, 'name': 'tube'}, unit='μL'), []), 6), ((Object(name='96 well PCR plate', quantity=1, init_content='', labware={'id': 2, 'name': 'plate'}, unit='plate'), []), 5)]***2025-02-24 14:12:30.410493+00:00***: object: ((Object(name='1 sample DNAs', quantity=300, init_content='', labware={'id': 1, 'name': 'tube'}, unit='μL'), []), 1)***2025-02-24 14:12:30.410779+00:00***: place: 1***2025-02-24 14:12:30.411275+00:00***: object: ((Object(name='water', quantity=300, init_content='', labware={'id': 1, 'name': 'tube'}, unit='μL'), []), 2)***2025-02-24 14:12:30.411746+00:00***: place: 2***2025-02-24 14:12:30.412061+00:00***: object: ((Object(name='10 μM primer_F', quantity=10, init_content='', labware={'id': 1, 'name': 'tube'}, unit='μL'), []), 3)***2025-02-24 14:12:30.412324+00:00***: place: 3***2025-02-24 14:12:30.412602+00:00***: object: ((Object(name='10 μM primer_R', quantity=10, init_content='', labware={'id': 1, 'name': 'tube'}, unit='μL'), []), 4)***2025-02-24 14:12:30.412875+00:00***: place: 4***2025-02-24 14:12:30.413136+00:00***: object: ((Object(name='PCR MIX', quantity=2000, init_content='', labware={'id': 1, 'name': 'tube'}, unit='μL'), []), 6)***2025-02-24 14:12:30.413411+00:00***: place: 6***2025-02-24 14:12:30.413712+00:00***: object: ((Object(name='96 well PCR plate', quantity=1, init_content='', labware={'id': 2, 'name': 'plate'}, unit='plate'), []), 5)***2025-02-24 14:12:30.413990+00:00***: place: 5***2025-02-24 14:12:30.414280+00:00***: ***Station info*** from***2025-02-24 14:12:30.414570+00:00***: ||||
+|----|----|----|
+|void|void|void|
+|void|void|void|
+|10 μM primer_R:10 μM primer_R|96 well PCR plate:96 well PCR plate|PCR MIX:PCR MIX|
+|1 sample DNAs:1 sample DNAs|water:water|10 μM primer_F:10 μM primer_F|
+***2025-02-24 14:12:30.415041+00:00***: ***Station info*** to***2025-02-24 14:12:30.415333+00:00***: relative_restriction: test_case/relative_restriction_init_content/ng_position1.json***2025-02-24 14:12:30.415772+00:00***: []***2025-02-24 14:12:30.416818+00:00***: ************ Check-chan result ***************2025-02-24 14:12:30.417257+00:00***: object_list: [(Object(name='1 sample DNAs', quantity=300, init_content='', labware={'id': 1, 'name': 'tube'}, unit='μL'), []), (Object(name='water', quantity=300, init_content='', labware={'id': 1, 'name': 'tube'}, unit='μL'), []), (Object(name='10 μM primer_F', quantity=10, init_content='', labware={'id': 1, 'name': 'tube'}, unit='μL'), []), (Object(name='10 μM primer_R', quantity=10, init_content='', labware={'id': 1, 'name': 'tube'}, unit='μL'), []), (Object(name='PCR MIX', quantity=2000, init_content='', labware={'id': 1, 'name': 'tube'}, unit='μL'), []), (Object(name='96 well PCR plate', quantity=1, init_content='', labware={'id': 2, 'name': 'plate'}, unit='plate'), [])]***2025-02-24 14:12:30.417495+00:00***: haichi: [((Object(name='1 sample DNAs', quantity=300, init_content='', labware={'id': 1, 'name': 'tube'}, unit='μL'), []), 1), ((Object(name='water', quantity=300, init_content='', labware={'id': 1, 'name': 'tube'}, unit='μL'), []), 2), ((Object(name='10 μM primer_F', quantity=10, init_content='', labware={'id': 1, 'name': 'tube'}, unit='μL'), []), 3), ((Object(name='10 μM primer_R', quantity=10, init_content='', labware={'id': 1, 'name': 'tube'}, unit='μL'), []), 4), ((Object(name='PCR MIX', quantity=2000, init_content='', labware={'id': 1, 'name': 'tube'}, unit='μL'), []), 6), ((Object(name='96 well PCR plate', quantity=1, init_content='', labware={'id': 2, 'name': 'plate'}, unit='plate'), []), 7)]***2025-02-24 14:12:30.417687+00:00***: object: ((Object(name='1 sample DNAs', quantity=300, init_content='', labware={'id': 1, 'name': 'tube'}, unit='μL'), []), 1)***2025-02-24 14:12:30.417864+00:00***: place: 1***2025-02-24 14:12:30.418058+00:00***: object: ((Object(name='water', quantity=300, init_content='', labware={'id': 1, 'name': 'tube'}, unit='μL'), []), 2)***2025-02-24 14:12:30.418235+00:00***: place: 2***2025-02-24 14:12:30.418428+00:00***: object: ((Object(name='10 μM primer_F', quantity=10, init_content='', labware={'id': 1, 'name': 'tube'}, unit='μL'), []), 3)***2025-02-24 14:12:30.418667+00:00***: place: 3***2025-02-24 14:12:30.418840+00:00***: object: ((Object(name='10 μM primer_R', quantity=10, init_content='', labware={'id': 1, 'name': 'tube'}, unit='μL'), []), 4)***2025-02-24 14:12:30.419033+00:00***: place: 4***2025-02-24 14:12:30.419224+00:00***: object: ((Object(name='PCR MIX', quantity=2000, init_content='', labware={'id': 1, 'name': 'tube'}, unit='μL'), []), 6)***2025-02-24 14:12:30.419397+00:00***: place: 6***2025-02-24 14:12:30.419581+00:00***: object: ((Object(name='96 well PCR plate', quantity=1, init_content='', labware={'id': 2, 'name': 'plate'}, unit='plate'), []), 7)***2025-02-24 14:12:30.419759+00:00***: place: 7***2025-02-24 14:12:30.419940+00:00***: ***Station info*** from***2025-02-24 14:12:30.420119+00:00***: ||||
+|----|----|----|
+|void|void|void|
+|96 well PCR plate:96 well PCR plate|void|void|
+|10 μM primer_R:10 μM primer_R|void|PCR MIX:PCR MIX|
+|1 sample DNAs:1 sample DNAs|water:water|10 μM primer_F:10 μM primer_F|
+***2025-02-24 14:12:30.420295+00:00***: ***Station info*** to***2025-02-24 14:12:30.420541+00:00***: relative_restriction: test_case/relative_restriction_init_content/ng_position1.json***2025-02-24 14:12:30.420831+00:00***: []***2025-02-24 14:12:30.421724+00:00***: ************ Check-chan result ***************2025-02-24 14:12:30.421944+00:00***: object_list: [(Object(name='1 sample DNAs', quantity=300, init_content='', labware={'id': 1, 'name': 'tube'}, unit='μL'), []), (Object(name='water', quantity=300, init_content='', labware={'id': 1, 'name': 'tube'}, unit='μL'), []), (Object(name='10 μM primer_F', quantity=10, init_content='', labware={'id': 1, 'name': 'tube'}, unit='μL'), []), (Object(name='10 μM primer_R', quantity=10, init_content='', labware={'id': 1, 'name': 'tube'}, unit='μL'), []), (Object(name='PCR MIX', quantity=2000, init_content='', labware={'id': 1, 'name': 'tube'}, unit='μL'), []), (Object(name='96 well PCR plate', quantity=1, init_content='', labware={'id': 2, 'name': 'plate'}, unit='plate'), [])]***2025-02-24 14:12:30.422155+00:00***: haichi: [((Object(name='1 sample DNAs', quantity=300, init_content='', labware={'id': 1, 'name': 'tube'}, unit='μL'), []), 1), ((Object(name='water', quantity=300, init_content='', labware={'id': 1, 'name': 'tube'}, unit='μL'), []), 2), ((Object(name='10 μM primer_F', quantity=10, init_content='', labware={'id': 1, 'name': 'tube'}, unit='μL'), []), 3), ((Object(name='10 μM primer_R', quantity=10, init_content='', labware={'id': 1, 'name': 'tube'}, unit='μL'), []), 4), ((Object(name='PCR MIX', quantity=2000, init_content='', labware={'id': 1, 'name': 'tube'}, unit='μL'), []), 6), ((Object(name='96 well PCR plate', quantity=1, init_content='', labware={'id': 2, 'name': 'plate'}, unit='plate'), []), 8)]***2025-02-24 14:12:30.422338+00:00***: object: ((Object(name='1 sample DNAs', quantity=300, init_content='', labware={'id': 1, 'name': 'tube'}, unit='μL'), []), 1)***2025-02-24 14:12:30.422512+00:00***: place: 1***2025-02-24 14:12:30.422706+00:00***: object: ((Object(name='water', quantity=300, init_content='', labware={'id': 1, 'name': 'tube'}, unit='μL'), []), 2)***2025-02-24 14:12:30.423044+00:00***: place: 2***2025-02-24 14:12:30.423270+00:00***: object: ((Object(name='10 μM primer_F', quantity=10, init_content='', labware={'id': 1, 'name': 'tube'}, unit='μL'), []), 3)***2025-02-24 14:12:30.423444+00:00***: place: 3***2025-02-24 14:12:30.423644+00:00***: object: ((Object(name='10 μM primer_R', quantity=10, init_content='', labware={'id': 1, 'name': 'tube'}, unit='μL'), []), 4)***2025-02-24 14:12:30.423808+00:00***: place: 4***2025-02-24 14:12:30.424048+00:00***: object: ((Object(name='PCR MIX', quantity=2000, init_content='', labware={'id': 1, 'name': 'tube'}, unit='μL'), []), 6)***2025-02-24 14:12:30.424260+00:00***: place: 6***2025-02-24 14:12:30.424451+00:00***: object: ((Object(name='96 well PCR plate', quantity=1, init_content='', labware={'id': 2, 'name': 'plate'}, unit='plate'), []), 8)***2025-02-24 14:12:30.424680+00:00***: place: 8***2025-02-24 14:12:30.424843+00:00***: ***Station info*** from***2025-02-24 14:12:30.425006+00:00***: ||||
+|----|----|----|
+|void|void|void|
+|void|96 well PCR plate:96 well PCR plate|void|
+|10 μM primer_R:10 μM primer_R|void|PCR MIX:PCR MIX|
+|1 sample DNAs:1 sample DNAs|water:water|10 μM primer_F:10 μM primer_F|
+***2025-02-24 14:12:30.425164+00:00***: ***Station info*** to***2025-02-24 14:12:30.425335+00:00***: relative_restriction: test_case/relative_restriction_init_content/ng_position1.json***2025-02-24 14:12:30.425601+00:00***: []***2025-02-24 14:12:41.328234+00:00***: *********************************************************2025-02-24 14:12:41.329382+00:00***: save initial position of objects as txt file: qPCR_ozaki_modified/2025_02_24_22_35_42_7a4f4eb5-7303-4fae-9ea0-c5fd85374dd3/iteration_2/representative_initial_position.txt***2025-02-24 14:12:41.331962+00:00***: *********************************************************2025-02-24 14:12:41.332877+00:00***: OK: [((Object(name='1 sample DNAs', quantity=300, init_content='', labware={'id': 1, 'name': 'tube'}, unit='μL'), []), 1), ((Object(name='water', quantity=300, init_content='', labware={'id': 1, 'name': 'tube'}, unit='μL'), []), 2), ((Object(name='10 μM primer_F', quantity=10, init_content='', labware={'id': 1, 'name': 'tube'}, unit='μL'), []), 3), ((Object(name='10 μM primer_R', quantity=10, init_content='', labware={'id': 1, 'name': 'tube'}, unit='μL'), []), 4), ((Object(name='PCR MIX', quantity=2000, init_content='', labware={'id': 1, 'name': 'tube'}, unit='μL'), []), 6), ((Object(name='96 well PCR plate', quantity=1, init_content='', labware={'id': 2, 'name': 'plate'}, unit='plate'), []), 8)]***2025-02-24 14:12:41.333326+00:00***: Generate 骨子スクリプト from 
+~~~~~~~~~~
+QPCR
+QuantStudio 6 Proで測定するサンプルprepを行う
+1サンプルあってそれぞれ13プライマー x duplicate(3)で試験するイメージ
+NTCは13プライマー x duplicate(3)用意する
+その他、PrimerなしのTemplateのみを1 x duplicate(3)用意する
+
+
+Input：試薬類の容器はチューブまたはプレート
+1 sample DNAs			300 μL
+water					300 μL
+10 μM primer_F			各10 μL
+10 μM primer_R			各10 μL
+PCR MIX				2000 μL
+96 well PCR  plate			1 plate
+その他液体混合に必要なチューブまたはプレートなど
+output
+sample DNA, primer, PCR MIXの混合溶液が入った96 well PCR plate x 1
+procedure
+1. PCR MIXを137.6 μLずつ13個に分注する
+2. PCR MIXが入ったチューブに10 μM primer_F1-13を3.2 μL添加する
+3. PCR MIXが入ったチューブに10 μM primer_R1-13を3.2 μL添加する
+4. PCR MIXとprimerをピペッティングで混合する
+5. templateのみ用のPCR MIXを86 μL分注する
+6. templateのみ用のPCR MIXにwaterを4 μL添加する
+7. templateのみ用のPCR MIXとwaterをピペッティングで混合する
+8. サンプル DNAまたはwater をreaction plateに5 μLずつアプライする
+下記plate mapの列を埋めていくイメージ
+9. PCR MIXとprimerの混合溶液を10 μLずつreaction plateにアプライする
+下記plate mapの行を埋めていくイメージ
+plate map
+81 well使用する
+S_n = sample_n
+今回はヒト標準cDNA1つ
+NTC = no template control：水＝ネガティブコントロール（全primerについて置く）
+P_m = primer set_m：forward primerとreverse primerのセット
+今回は13種類
+Templateのみも置く
+OT-2のピペット
+20 μLと300 μL 
+
+Note: 
+1つの96 well plateを用いて10 μM primer_Fと10 μM primer_Rを準備する
+1 sample DNAsやwaterなど、同じ容器であるものはできるだけ同じステーションに置く
+
+
+~~~~~~~~~~***2025-02-24 14:12:41.333887+00:00***: ************ Code-chan for 骨子スクリプト result ***************2025-02-24 14:12:41.334287+00:00***: replace_word: ___processflow___ is not in the prompt.***2025-02-24 14:14:07.602233+00:00***: python_script_path: qPCR_ozaki_modified/2025_02_24_22_35_42_7a4f4eb5-7303-4fae-9ea0-c5fd85374dd3/iteration_2/code_chan/骨子スクリプト.py***2025-02-24 14:14:07.602418+00:00***: ************ Code-chan result ***************2025-02-24 14:14:07.602644+00:00***: replace_word: ___processflow___ is not in the prompt.***2025-02-24 14:14:07.603015+00:00***: get_OT2_with_haichi_based_on_骨子_script prompt: 
+We have the following Opentrons OT2 script. This script describes the position of the labware (Station) as __place_{i}__.
+
+Note: You've been slacking lately, so don't slack off and output the complete code. For example, ‘The protocol would continue with any additional steps required’ or '# Example: ' is not allowed.
+
+Skeleton script:
+
+python
+from opentrons import protocol_api
+
+metadata = {
+    'protocolName': 'QPCR Preparation for QuantStudio 6 Pro',
+    'author': 'Your Name',
+    'description': 'Prepare samples for qPCR with one sample and 13 primers in triplicates, including controls',
+    'apiLevel': '2.9'  # Specify the API level for this code
+}
+
+def run(protocol: protocol_api.ProtocolContext):
+    # Labware Definitions
+
+    # Tip racks
+    p20_tip_rack = protocol.load_labware('opentrons_96_tiprack_20ul', '__place_1__')
+    p300_tip_rack = protocol.load_labware('opentrons_96_tiprack_300ul', '__place_2__')
+
+    # Sample DNA and water in tubes
+    sample_tubes = protocol.load_labware('opentrons_24_tuberack_eppendorf_1.5ml_safelock_snapcap', '__place_3__')
+    sample_dna = sample_tubes.wells_by_name()['A1']
+    water = sample_tubes.wells_by_name()['A2']
+
+    # Primers in a 96-well plate
+    primer_plate = protocol.load_labware('opentrons_96_aluminumblock_generic_pcr_strip_200ul', '__place_4__')
+
+    # PCR MIX in a reservoir
+    reservoir = protocol.load_labware('nest_12_reservoir_15ml', '__place_5__')
+    pcr_mix = reservoir.wells_by_name()['A1']
+
+    # Mixing plate for PCR MIX and primers
+    mix_plate = protocol.load_labware('biorad_96_wellplate_200ul_pcr', '__place_6__')
+
+    # Reaction plate (output plate)
+    reaction_plate = protocol.load_labware('biorad_96_wellplate_200ul_pcr', '__place_7__')
+
+    # Pipettes
+    p20 = protocol.load_instrument('p20_single_gen2', 'left', tip_racks=[p20_tip_rack])
+    p300 = protocol.load_instrument('p300_single_gen2', 'right', tip_racks=[p300_tip_rack])
+
+    # Protocol Steps
+
+    # Step 1: Dispense 137.6 μL of PCR MIX into 13 wells in mix_plate
+    for i in range(13):
+        dest_well = mix_plate.wells()[i]
+        p300.pick_up_tip()
+        p300.transfer(137.6, pcr_mix, dest_well, new_tip='never')
+        p300.drop_tip()
+
+    # Steps 2 & 3: Add 3.2 μL of primer_F and primer_R to each PCR MIX well
+    for i in range(13):
+        mix_well = mix_plate.wells()[i]
+        primer_f_well = primer_plate.wells_by_name()[f'A{i+1}']  # Primers F1-13 in row A
+        primer_r_well = primer_plate.wells_by_name()[f'B{i+1}']  # Primers R1-13 in row B
+        p20.pick_up_tip()
+        p20.transfer(3.2, primer_f_well, mix_well, new_tip='never')
+        p20.drop_tip()
+        p20.pick_up_tip()
+        p20.transfer(3.2, primer_r_well, mix_well, new_tip='never')
+        p20.drop_tip()
+        # Step 4: Mix PCR MIX and primers by pipetting
+        p300.pick_up_tip()
+        p300.mix(5, 50, mix_well)
+        p300.drop_tip()
+
+    # Step 5: Dispense 86 μL of PCR MIX into a separate well for template-only control
+    template_only_well = mix_plate.wells()[13]
+    p300.pick_up_tip()
+    p300.transfer(86, pcr_mix, template_only_well, new_tip='never')
+    p300.drop_tip()
+
+    # Step 6: Add 4 μL of water to the template-only PCR MIX
+    p20.pick_up_tip()
+    p20.transfer(4, water, template_only_well, new_tip='never')
+    # Step 7: Mix PCR MIX and water by pipetting
+    p20.mix(5, 20, template_only_well)
+    p20.drop_tip()
+
+    # Step 8: Apply 5 μL of sample DNA or water to the reaction plate
+    num_primers = 13
+    num_replicates = 3
+
+    total_wells_needed = (num_primers * 2 * num_replicates) + num_replicates  # Including template-only controls
+    all_wells = reaction_plate.wells()[:total_wells_needed]
+
+    sample_wells = []
+    ntc_wells = []
+    template_only_wells = []
+
+    idx = 0
+    # Sample wells
+    for _ in range(num_primers * num_replicates):
+        sample_wells.append(all_wells[idx])
+        idx += 1
+    # NTC wells
+    for _ in range(num_primers * num_replicates):
+        ntc_wells.append(all_wells[idx])
+        idx += 1
+    # Template-only wells
+    for _ in range(num_replicates):
+        template_only_wells.append(all_wells[idx])
+        idx += 1
+
+    # Dispense 5 μL sample DNA into sample wells
+    for well in sample_wells:
+        p20.pick_up_tip()
+        p20.transfer(5, sample_dna, well, new_tip='never')
+        p20.drop_tip()
+    # Dispense 5 μL water into NTC wells
+    for well in ntc_wells:
+        p20.pick_up_tip()
+        p20.transfer(5, water, well, new_tip='never')
+        p20.drop_tip()
+    # Dispense 5 μL sample DNA into template-only wells
+    for well in template_only_wells:
+        p20.pick_up_tip()
+        p20.transfer(5, sample_dna, well, new_tip='never')
+        p20.drop_tip()
+
+    # Step 9: Apply 10 μL of PCR MIX + primers mixtures to the reaction plate
+    # For sample and NTC wells
+    for i in range(num_primers):
+        mix_well = mix_plate.wells()[i]
+        # Dispense to sample wells
+        for rep in range(num_replicates):
+            idx = i * num_replicates + rep
+            p20.pick_up_tip()
+            p20.transfer(10, mix_well, sample_wells[idx], new_tip='never')
+            p20.drop_tip()
+            p20.pick_up_tip()
+            p20.transfer(10, mix_well, ntc_wells[idx], new_tip='never')
+            p20.drop_tip()
+    # Dispense template-only PCR MIX to template-only wells
+    for well in template_only_wells:
+        p20.pick_up_tip()
+        p20.transfer(10, template_only_well, well, new_tip='never')
+        p20.drop_tip()
+
+Please generate a script where __place_{i}__ is replaced with the correct position based on the following labware placement information.
+
+Placement information:
+
+markdown
+[[[{"name": "1 sample DNAs", "quantity": 300, "init_content": "", "labware": {"id": 1, "name": "tube"}, "unit": "\u03bcL"}, []], 1], [[{"name": "water", "quantity": 300, "init_content": "", "labware": {"id": 1, "name": "tube"}, "unit": "\u03bcL"}, []], 2], [[{"name": "10 \u03bcM primer_F", "quantity": 10, "init_content": "", "labware": {"id": 1, "name": "tube"}, "unit": "\u03bcL"}, []], 3], [[{"name": "10 \u03bcM primer_R", "quantity": 10, "init_content": "", "labware": {"id": 1, "name": "tube"}, "unit": "\u03bcL"}, []], 4], [[{"name": "PCR MIX", "quantity": 2000, "init_content": "", "labware": {"id": 1, "name": "tube"}, "unit": "\u03bcL"}, []], 6], [[{"name": "96 well PCR plate", "quantity": 1, "init_content": "", "labware": {"id": 2, "name": "plate"}, "unit": "plate"}, []], 8]]
+Please reply with the Python script where __place_{i}__ has been replaced with the correct locations. If there is missing information in the placement details required to fill in __place_{i}__ in the skeleton script, you may supplement it as necessary. However, do not modify the placement information.
+***2025-02-24 14:15:47.002543+00:00***: python_script_path: qPCR_ozaki_modified/2025_02_24_22_35_42_7a4f4eb5-7303-4fae-9ea0-c5fd85374dd3/iteration_2/code_chan/最終スクリプト.py***2025-02-24 14:15:47.003225+00:00***: Errorがでたので骨子スクリプトを再生成します: /Users/yuyaarai/.opentrons/robot_settings.json not found. Loading defaults
+Deck calibration not found.
+/Users/yuyaarai/.opentrons/deck_calibration.json not found. Loading defaults
+Traceback (most recent call last):
+  File "/Users/yuyaarai/Documents/Humanics/Project/FormationFormatter/src/formationformatter/code_chan/.venv/lib/python3.12/site-packages/opentrons/protocol_api/labware.py", line 1127, in select_tiprack_from_list
+    first, rest = split_tipracks(tip_racks)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/yuyaarai/Documents/Humanics/Project/FormationFormatter/src/formationformatter/code_chan/.venv/lib/python3.12/site-packages/opentrons/protocol_api/labware.py", line 1115, in split_tipracks
+    return tip_racks[0], rest
+           ~~~~~~~~~^^^
+IndexError: list index out of range
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/yuyaarai/Documents/Humanics/Project/FormationFormatter/src/formationformatter/code_chan/.venv/lib/python3.12/site-packages/opentrons/protocols/execution/execute_python.py", line 160, in exec_run
+    exec("run(__context)", new_globs)
+  File "<string>", line 1, in <module>
+  File "qPCR_ozaki_modified/2025_02_24_22_35_42_7a4f4eb5-7303-4fae-9ea0-c5fd85374dd3/iteration_2/code_chan/最終スクリプト.py", line 113, in run
+    p20.pick_up_tip()
+  File "/Users/yuyaarai/Documents/Humanics/Project/FormationFormatter/src/formationformatter/code_chan/.venv/lib/python3.12/site-packages/opentrons/protocols/api_support/util.py", line 389, in _check_version_wrapper
+    return decorated_obj(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/yuyaarai/Documents/Humanics/Project/FormationFormatter/src/formationformatter/code_chan/.venv/lib/python3.12/site-packages/opentrons/protocol_api/instrument_context.py", line 959, in pick_up_tip
+    tip_rack, well = labware.next_available_tip(
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/yuyaarai/Documents/Humanics/Project/FormationFormatter/src/formationformatter/code_chan/.venv/lib/python3.12/site-packages/opentrons/protocol_api/labware.py", line 1166, in next_available_tip
+    return select_tiprack_from_list(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/yuyaarai/Documents/Humanics/Project/FormationFormatter/src/formationformatter/code_chan/.venv/lib/python3.12/site-packages/opentrons/protocol_api/labware.py", line 1146, in select_tiprack_from_list
+    return select_tiprack_from_list(rest, num_channels, None, nozzle_map=nozzle_map)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/yuyaarai/Documents/Humanics/Project/FormationFormatter/src/formationformatter/code_chan/.venv/lib/python3.12/site-packages/opentrons/protocol_api/labware.py", line 1129, in select_tiprack_from_list
+    raise OutOfTipsError
+opentrons.protocol_api.labware.OutOfTipsError
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/Users/yuyaarai/Documents/Humanics/Project/FormationFormatter/src/formationformatter/code_chan/.venv/lib/python3.12/site-packages/opentrons/simulate.py", line 1061, in <module>
+    sys.exit(main())
+             ^^^^^^
+  File "/Users/yuyaarai/Documents/Humanics/Project/FormationFormatter/src/formationformatter/code_chan/.venv/lib/python3.12/site-packages/opentrons/simulate.py", line 1020, in main
+    runlog, maybe_bundle = simulate(
+                           ^^^^^^^^^
+  File "/Users/yuyaarai/Documents/Humanics/Project/FormationFormatter/src/formationformatter/code_chan/.venv/lib/python3.12/site-packages/opentrons/simulate.py", line 564, in simulate
+    return _run_file_non_pe(
+           ^^^^^^^^^^^^^^^^^
+  File "/Users/yuyaarai/Documents/Humanics/Project/FormationFormatter/src/formationformatter/code_chan/.venv/lib/python3.12/site-packages/opentrons/simulate.py", line 887, in _run_file_non_pe
+    execute.run_protocol(
+  File "/Users/yuyaarai/Documents/Humanics/Project/FormationFormatter/src/formationformatter/code_chan/.venv/lib/python3.12/site-packages/opentrons/protocols/execution/execute.py", line 39, in run_protocol
+    exec_run(
+  File "/Users/yuyaarai/Documents/Humanics/Project/FormationFormatter/src/formationformatter/code_chan/.venv/lib/python3.12/site-packages/opentrons/protocols/execution/execute_python.py", line 169, in exec_run
+    _raise_pretty_protocol_error(exception=e, filename=filename)
+  File "/Users/yuyaarai/Documents/Humanics/Project/FormationFormatter/src/formationformatter/code_chan/.venv/lib/python3.12/site-packages/opentrons/protocols/execution/execute_python.py", line 71, in _raise_pretty_protocol_error
+    raise ExceptionInProtocolError(
+opentrons.protocols.execution.errors.ExceptionInProtocolError: OutOfTipsError [line 113]: 
+***2025-02-24 14:15:47.003687+00:00***: Generate 骨子スクリプト from 
+~~~~~~~~~~
+This is the error message: 
+ /Users/yuyaarai/.opentrons/robot_settings.json not found. Loading defaults
+Deck calibration not found.
+/Users/yuyaarai/.opentrons/deck_calibration.json not found. Loading defaults
+Traceback (most recent call last):
+  File "/Users/yuyaarai/Documents/Humanics/Project/FormationFormatter/src/formationformatter/code_chan/.venv/lib/python3.12/site-packages/opentrons/protocol_api/labware.py", line 1127, in select_tiprack_from_list
+    first, rest = split_tipracks(tip_racks)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/yuyaarai/Documents/Humanics/Project/FormationFormatter/src/formationformatter/code_chan/.venv/lib/python3.12/site-packages/opentrons/protocol_api/labware.py", line 1115, in split_tipracks
+    return tip_racks[0], rest
+           ~~~~~~~~~^^^
+IndexError: list index out of range
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/yuyaarai/Documents/Humanics/Project/FormationFormatter/src/formationformatter/code_chan/.venv/lib/python3.12/site-packages/opentrons/protocols/execution/execute_python.py", line 160, in exec_run
+    exec("run(__context)", new_globs)
+  File "<string>", line 1, in <module>
+  File "qPCR_ozaki_modified/2025_02_24_22_35_42_7a4f4eb5-7303-4fae-9ea0-c5fd85374dd3/iteration_2/code_chan/最終スクリプト.py", line 113, in run
+    p20.pick_up_tip()
+  File "/Users/yuyaarai/Documents/Humanics/Project/FormationFormatter/src/formationformatter/code_chan/.venv/lib/python3.12/site-packages/opentrons/protocols/api_support/util.py", line 389, in _check_version_wrapper
+    return decorated_obj(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/yuyaarai/Documents/Humanics/Project/FormationFormatter/src/formationformatter/code_chan/.venv/lib/python3.12/site-packages/opentrons/protocol_api/instrument_context.py", line 959, in pick_up_tip
+    tip_rack, well = labware.next_available_tip(
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/yuyaarai/Documents/Humanics/Project/FormationFormatter/src/formationformatter/code_chan/.venv/lib/python3.12/site-packages/opentrons/protocol_api/labware.py", line 1166, in next_available_tip
+    return select_tiprack_from_list(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/yuyaarai/Documents/Humanics/Project/FormationFormatter/src/formationformatter/code_chan/.venv/lib/python3.12/site-packages/opentrons/protocol_api/labware.py", line 1146, in select_tiprack_from_list
+    return select_tiprack_from_list(rest, num_channels, None, nozzle_map=nozzle_map)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/yuyaarai/Documents/Humanics/Project/FormationFormatter/src/formationformatter/code_chan/.venv/lib/python3.12/site-packages/opentrons/protocol_api/labware.py", line 1129, in select_tiprack_from_list
+    raise OutOfTipsError
+opentrons.protocol_api.labware.OutOfTipsError
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/Users/yuyaarai/Documents/Humanics/Project/FormationFormatter/src/formationformatter/code_chan/.venv/lib/python3.12/site-packages/opentrons/simulate.py", line 1061, in <module>
+    sys.exit(main())
+             ^^^^^^
+  File "/Users/yuyaarai/Documents/Humanics/Project/FormationFormatter/src/formationformatter/code_chan/.venv/lib/python3.12/site-packages/opentrons/simulate.py", line 1020, in main
+    runlog, maybe_bundle = simulate(
+                           ^^^^^^^^^
+  File "/Users/yuyaarai/Documents/Humanics/Project/FormationFormatter/src/formationformatter/code_chan/.venv/lib/python3.12/site-packages/opentrons/simulate.py", line 564, in simulate
+    return _run_file_non_pe(
+           ^^^^^^^^^^^^^^^^^
+  File "/Users/yuyaarai/Documents/Humanics/Project/FormationFormatter/src/formationformatter/code_chan/.venv/lib/python3.12/site-packages/opentrons/simulate.py", line 887, in _run_file_non_pe
+    execute.run_protocol(
+  File "/Users/yuyaarai/Documents/Humanics/Project/FormationFormatter/src/formationformatter/code_chan/.venv/lib/python3.12/site-packages/opentrons/protocols/execution/execute.py", line 39, in run_protocol
+    exec_run(
+  File "/Users/yuyaarai/Documents/Humanics/Project/FormationFormatter/src/formationformatter/code_chan/.venv/lib/python3.12/site-packages/opentrons/protocols/execution/execute_python.py", line 169, in exec_run
+    _raise_pretty_protocol_error(exception=e, filename=filename)
+  File "/Users/yuyaarai/Documents/Humanics/Project/FormationFormatter/src/formationformatter/code_chan/.venv/lib/python3.12/site-packages/opentrons/protocols/execution/execute_python.py", line 71, in _raise_pretty_protocol_error
+    raise ExceptionInProtocolError(
+opentrons.protocols.execution.errors.ExceptionInProtocolError: OutOfTipsError [line 113]: 
+ + original protocol: 
+ from opentrons import protocol_api
+
+metadata = {
+    'protocolName': 'QPCR Preparation for QuantStudio 6 Pro',
+    'author': 'Your Name',
+    'description': 'Prepare samples for qPCR with one sample and 13 primers in triplicates, including controls',
+    'apiLevel': '2.9'  # Specify the API level for this code
+}
+
+def run(protocol: protocol_api.ProtocolContext):
+    # Labware Definitions
+
+    # Tip racks
+    p20_tip_rack = protocol.load_labware('opentrons_96_tiprack_20ul', '__place_1__')
+    p300_tip_rack = protocol.load_labware('opentrons_96_tiprack_300ul', '__place_2__')
+
+    # Sample DNA and water in tubes
+    sample_tubes = protocol.load_labware('opentrons_24_tuberack_eppendorf_1.5ml_safelock_snapcap', '__place_3__')
+    sample_dna = sample_tubes.wells_by_name()['A1']
+    water = sample_tubes.wells_by_name()['A2']
+
+    # Primers in a 96-well plate
+    primer_plate = protocol.load_labware('opentrons_96_aluminumblock_generic_pcr_strip_200ul', '__place_4__')
+
+    # PCR MIX in a reservoir
+    reservoir = protocol.load_labware('nest_12_reservoir_15ml', '__place_5__')
+    pcr_mix = reservoir.wells_by_name()['A1']
+
+    # Mixing plate for PCR MIX and primers
+    mix_plate = protocol.load_labware('biorad_96_wellplate_200ul_pcr', '__place_6__')
+
+    # Reaction plate (output plate)
+    reaction_plate = protocol.load_labware('biorad_96_wellplate_200ul_pcr', '__place_7__')
+
+    # Pipettes
+    p20 = protocol.load_instrument('p20_single_gen2', 'left', tip_racks=[p20_tip_rack])
+    p300 = protocol.load_instrument('p300_single_gen2', 'right', tip_racks=[p300_tip_rack])
+
+    # Protocol Steps
+
+    # Step 1: Dispense 137.6 μL of PCR MIX into 13 wells in mix_plate
+    for i in range(13):
+        dest_well = mix_plate.wells()[i]
+        p300.pick_up_tip()
+        p300.transfer(137.6, pcr_mix, dest_well, new_tip='never')
+        p300.drop_tip()
+
+    # Steps 2 & 3: Add 3.2 μL of primer_F and primer_R to each PCR MIX well
+    for i in range(13):
+        mix_well = mix_plate.wells()[i]
+        primer_f_well = primer_plate.wells_by_name()[f'A{i+1}']  # Primers F1-13 in row A
+        primer_r_well = primer_plate.wells_by_name()[f'B{i+1}']  # Primers R1-13 in row B
+        p20.pick_up_tip()
+        p20.transfer(3.2, primer_f_well, mix_well, new_tip='never')
+        p20.drop_tip()
+        p20.pick_up_tip()
+        p20.transfer(3.2, primer_r_well, mix_well, new_tip='never')
+        p20.drop_tip()
+        # Step 4: Mix PCR MIX and primers by pipetting
+        p300.pick_up_tip()
+        p300.mix(5, 50, mix_well)
+        p300.drop_tip()
+
+    # Step 5: Dispense 86 μL of PCR MIX into a separate well for template-only control
+    template_only_well = mix_plate.wells()[13]
+    p300.pick_up_tip()
+    p300.transfer(86, pcr_mix, template_only_well, new_tip='never')
+    p300.drop_tip()
+
+    # Step 6: Add 4 μL of water to the template-only PCR MIX
+    p20.pick_up_tip()
+    p20.transfer(4, water, template_only_well, new_tip='never')
+    # Step 7: Mix PCR MIX and water by pipetting
+    p20.mix(5, 20, template_only_well)
+    p20.drop_tip()
+
+    # Step 8: Apply 5 μL of sample DNA or water to the reaction plate
+    num_primers = 13
+    num_replicates = 3
+
+    total_wells_needed = (num_primers * 2 * num_replicates) + num_replicates  # Including template-only controls
+    all_wells = reaction_plate.wells()[:total_wells_needed]
+
+    sample_wells = []
+    ntc_wells = []
+    template_only_wells = []
+
+    idx = 0
+    # Sample wells
+    for _ in range(num_primers * num_replicates):
+        sample_wells.append(all_wells[idx])
+        idx += 1
+    # NTC wells
+    for _ in range(num_primers * num_replicates):
+        ntc_wells.append(all_wells[idx])
+        idx += 1
+    # Template-only wells
+    for _ in range(num_replicates):
+        template_only_wells.append(all_wells[idx])
+        idx += 1
+
+    # Dispense 5 μL sample DNA into sample wells
+    for well in sample_wells:
+        p20.pick_up_tip()
+        p20.transfer(5, sample_dna, well, new_tip='never')
+        p20.drop_tip()
+    # Dispense 5 μL water into NTC wells
+    for well in ntc_wells:
+        p20.pick_up_tip()
+        p20.transfer(5, water, well, new_tip='never')
+        p20.drop_tip()
+    # Dispense 5 μL sample DNA into template-only wells
+    for well in template_only_wells:
+        p20.pick_up_tip()
+        p20.transfer(5, sample_dna, well, new_tip='never')
+        p20.drop_tip()
+
+    # Step 9: Apply 10 μL of PCR MIX + primers mixtures to the reaction plate
+    # For sample and NTC wells
+    for i in range(num_primers):
+        mix_well = mix_plate.wells()[i]
+        # Dispense to sample wells
+        for rep in range(num_replicates):
+            idx = i * num_replicates + rep
+            p20.pick_up_tip()
+            p20.transfer(10, mix_well, sample_wells[idx], new_tip='never')
+            p20.drop_tip()
+            p20.pick_up_tip()
+            p20.transfer(10, mix_well, ntc_wells[idx], new_tip='never')
+            p20.drop_tip()
+    # Dispense template-only PCR MIX to template-only wells
+    for well in template_only_wells:
+        p20.pick_up_tip()
+        p20.transfer(10, template_only_well, well, new_tip='never')
+        p20.drop_tip()
+
+~~~~~~~~~~***2025-02-24 14:15:47.004152+00:00***: ************ Code-chan for 骨子スクリプト result ***************2025-02-24 14:15:47.004424+00:00***: replace_word: ___processflow___ is not in the prompt.***2025-02-24 14:18:06.832246+00:00***: python_script_path: qPCR_ozaki_modified/2025_02_24_22_35_42_7a4f4eb5-7303-4fae-9ea0-c5fd85374dd3/iteration_2/code_chan/骨子スクリプト.py***2025-02-24 14:18:06.833073+00:00***: ************ Code-chan result ***************2025-02-24 14:18:06.833607+00:00***: replace_word: ___processflow___ is not in the prompt.***2025-02-24 14:18:06.834393+00:00***: get_OT2_with_haichi_based_on_骨子_script prompt: 
+We have the following Opentrons OT2 script. This script describes the position of the labware (Station) as __place_{i}__.
+
+Note: You've been slacking lately, so don't slack off and output the complete code. For example, ‘The protocol would continue with any additional steps required’ or '# Example: ' is not allowed.
+
+Skeleton script:
+
+python
+from opentrons import protocol_api
+
+metadata = {
+    'protocolName': 'QPCR Preparation on OT-2',
+    'author': 'Assistant',
+    'description': 'Automated QPCR preparation including PCR mix preparation and distribution',
+    'apiLevel': '2.9'
+}
+
+def run(protocol: protocol_api.ProtocolContext):
+    # Labware setup
+    # Tip racks
+    tiprack_20 = protocol.load_labware('opentrons_96_tiprack_20ul', '__place_1__')
+    tiprack_300 = protocol.load_labware('opentrons_96_tiprack_300ul', '__place_2__')
+
+    # Pipettes
+    p20 = protocol.load_instrument('p20_single_gen2', 'right', tip_racks=[tiprack_20])
+    p300 = protocol.load_instrument('p300_single_gen2', 'left', tip_racks=[tiprack_300])
+
+    # Reaction Plate
+    reaction_plate = protocol.load_labware('nest_96_wellplate_100ul_pcr_full_skirt', '__place_3__')
+
+    # PCR MIX tube rack
+    pcr_mix_rack = protocol.load_labware('opentrons_24_tuberack_nest_1.5ml_snapcap', '__place_4__')
+
+    # Sample DNA and water tubes
+    sample_rack = protocol.load_labware('opentrons_24_tuberack_nest_1.5ml_snapcap', '__place_5__')
+
+    # Primers plate
+    primer_plate = protocol.load_labware('biorad_96_wellplate_200ul_pcr', '__place_6__')
+
+    # Reagents locations
+    # PCR MIX stock
+    pcr_mix_stock = pcr_mix_rack.wells_by_name()['A1']
+
+    # PCR MIX + primer tubes (13 tubes for primers and 1 for template-only)
+    pcr_mix_tubes = pcr_mix_rack.wells()[1:15]  # B1 to D2 (14 tubes total)
+
+    # Template-only PCR MIX tube
+    template_only_tube = pcr_mix_tubes[-1]  # Last tube in the list
+
+    # Sample DNA
+    sample_dna = sample_rack.wells_by_name()['A1']
+
+    # Water
+    water = sample_rack.wells_by_name()['A2']
+
+    # Primers (13 types for each of F and R)
+    # Assume primers are stored in the primer_plate as follows:
+    # Rows A: primer_F1 to primer_F13 (A1 to A13)
+    # Rows B: primer_R1 to primer_R13 (B1 to B13)
+    primers_f = [primer_plate.wells_by_name()['A' + str(i+1)] for i in range(13)]
+    primers_r = [primer_plate.wells_by_name()['B' + str(i+1)] for i in range(13)]
+
+    # Step 1: Dispense 137.6 μL of PCR MIX into 13 tubes
+    for tube in pcr_mix_tubes[:-1]:  # Exclude the last tube (template-only tube)
+        p300.transfer(137.6, pcr_mix_stock, tube, new_tip='always')
+
+    # Step 5: Dispense 86 μL of PCR MIX into template-only tube
+    p300.transfer(86, pcr_mix_stock, template_only_tube, new_tip='always')
+
+    # Step 2 & 3: Add 3.2 μL of primer_F and 3.2 μL of primer_R to each PCR MIX tube
+    for i in range(13):
+        p20.transfer(3.2, primers_f[i], pcr_mix_tubes[i], mix_after=(3, 15), new_tip='always')
+        p20.transfer(3.2, primers_r[i], pcr_mix_tubes[i], mix_after=(3, 15), new_tip='always')
+
+    # Step 6: Add 4 μL of water to template-only PCR MIX tube
+    p20.transfer(4, water, template_only_tube, mix_after=(3, 10), new_tip='always')
+
+    # Step 4 & 7: Mix PCR MIX and primers or water by pipetting
+    for tube in pcr_mix_tubes:
+        p300.pick_up_tip()
+        p300.mix(5, 100, tube)
+        p300.drop_tip()
+
+    # Step 8: Apply 5 μL of sample DNA or water to reaction plate wells
+    # Prepare well lists
+    all_wells = reaction_plate.wells()[:81]  # First 81 wells
+    sample_wells = []  # Wells for sample DNA
+    ntc_wells = []     # Wells for NTC (water)
+    template_only_wells = all_wells[-3:]  # Last 3 wells for template-only
+
+    # Assign wells for samples and NTCs
+    for i in range(13):  # For each primer set
+        start_idx = i * 6
+        sample_wells.extend(all_wells[start_idx:start_idx+3])   # Next 3 wells for sample DNA
+        ntc_wells.extend(all_wells[start_idx+3:start_idx+6])    # Next 3 wells for NTC
+
+    # Transfer sample DNA to sample wells
+    for well in sample_wells:
+        p20.transfer(5, sample_dna, well, new_tip='always')
+
+    # Transfer water to NTC wells
+    for well in ntc_wells:
+        p20.transfer(5, water, well, new_tip='always')
+
+    # Transfer sample DNA to template-only wells
+    for well in template_only_wells:
+        p20.transfer(5, sample_dna, well, new_tip='always')
+
+    # Step 9: Apply 10 μL of PCR MIX and primer mixtures to reaction plate wells
+    # Transfer PCR MIX + primer mixtures to sample wells and NTC wells
+    for i in range(13):
+        # Transfer to sample wells
+        sample_dest_wells = sample_wells[i*3:(i+1)*3]
+        p300.transfer(10, pcr_mix_tubes[i], sample_dest_wells, mix_after=(3, 15), new_tip='always')
+
+        # Transfer to NTC wells
+        ntc_dest_wells = ntc_wells[i*3:(i+1)*3]
+        p300.transfer(10, pcr_mix_tubes[i], ntc_dest_wells, mix_after=(3, 15), new_tip='always')
+
+    # Transfer PCR MIX + water mixture to template-only wells
+    p300.transfer(10, template_only_tube, template_only_wells, mix_after=(3, 15), new_tip='always')
+
+Please generate a script where __place_{i}__ is replaced with the correct position based on the following labware placement information.
+
+Placement information:
+
+markdown
+[[[{"name": "1 sample DNAs", "quantity": 300, "init_content": "", "labware": {"id": 1, "name": "tube"}, "unit": "\u03bcL"}, []], 1], [[{"name": "water", "quantity": 300, "init_content": "", "labware": {"id": 1, "name": "tube"}, "unit": "\u03bcL"}, []], 2], [[{"name": "10 \u03bcM primer_F", "quantity": 10, "init_content": "", "labware": {"id": 1, "name": "tube"}, "unit": "\u03bcL"}, []], 3], [[{"name": "10 \u03bcM primer_R", "quantity": 10, "init_content": "", "labware": {"id": 1, "name": "tube"}, "unit": "\u03bcL"}, []], 4], [[{"name": "PCR MIX", "quantity": 2000, "init_content": "", "labware": {"id": 1, "name": "tube"}, "unit": "\u03bcL"}, []], 6], [[{"name": "96 well PCR plate", "quantity": 1, "init_content": "", "labware": {"id": 2, "name": "plate"}, "unit": "plate"}, []], 8]]
+Please reply with the Python script where __place_{i}__ has been replaced with the correct locations. If there is missing information in the placement details required to fill in __place_{i}__ in the skeleton script, you may supplement it as necessary. However, do not modify the placement information.
+***2025-02-24 14:19:21.130755+00:00***: python_script_path: qPCR_ozaki_modified/2025_02_24_22_35_42_7a4f4eb5-7303-4fae-9ea0-c5fd85374dd3/iteration_2/code_chan/最終スクリプト.py***2025-02-24 14:19:21.131645+00:00***: Errorがでたので骨子スクリプトを再生成します: /Users/yuyaarai/.opentrons/robot_settings.json not found. Loading defaults
+Deck calibration not found.
+/Users/yuyaarai/.opentrons/deck_calibration.json not found. Loading defaults
+Traceback (most recent call last):
+  File "/Users/yuyaarai/Documents/Humanics/Project/FormationFormatter/src/formationformatter/code_chan/.venv/lib/python3.12/site-packages/opentrons/protocols/execution/execute_python.py", line 160, in exec_run
+    exec("run(__context)", new_globs)
+  File "<string>", line 1, in <module>
+  File "qPCR_ozaki_modified/2025_02_24_22_35_42_7a4f4eb5-7303-4fae-9ea0-c5fd85374dd3/iteration_2/code_chan/最終スクリプト.py", line 52, in run
+    primers_f = [primer_plate.wells_by_name()['A' + str(i+1)] for i in range(13)]
+                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+KeyError: 'A13'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/Users/yuyaarai/Documents/Humanics/Project/FormationFormatter/src/formationformatter/code_chan/.venv/lib/python3.12/site-packages/opentrons/simulate.py", line 1061, in <module>
+    sys.exit(main())
+             ^^^^^^
+  File "/Users/yuyaarai/Documents/Humanics/Project/FormationFormatter/src/formationformatter/code_chan/.venv/lib/python3.12/site-packages/opentrons/simulate.py", line 1020, in main
+    runlog, maybe_bundle = simulate(
+                           ^^^^^^^^^
+  File "/Users/yuyaarai/Documents/Humanics/Project/FormationFormatter/src/formationformatter/code_chan/.venv/lib/python3.12/site-packages/opentrons/simulate.py", line 564, in simulate
+    return _run_file_non_pe(
+           ^^^^^^^^^^^^^^^^^
+  File "/Users/yuyaarai/Documents/Humanics/Project/FormationFormatter/src/formationformatter/code_chan/.venv/lib/python3.12/site-packages/opentrons/simulate.py", line 887, in _run_file_non_pe
+    execute.run_protocol(
+  File "/Users/yuyaarai/Documents/Humanics/Project/FormationFormatter/src/formationformatter/code_chan/.venv/lib/python3.12/site-packages/opentrons/protocols/execution/execute.py", line 39, in run_protocol
+    exec_run(
+  File "/Users/yuyaarai/Documents/Humanics/Project/FormationFormatter/src/formationformatter/code_chan/.venv/lib/python3.12/site-packages/opentrons/protocols/execution/execute_python.py", line 169, in exec_run
+    _raise_pretty_protocol_error(exception=e, filename=filename)
+  File "/Users/yuyaarai/Documents/Humanics/Project/FormationFormatter/src/formationformatter/code_chan/.venv/lib/python3.12/site-packages/opentrons/protocols/execution/execute_python.py", line 71, in _raise_pretty_protocol_error
+    raise ExceptionInProtocolError(
+opentrons.protocols.execution.errors.ExceptionInProtocolError: KeyError [line 52]: 'A13'
+***2025-02-24 14:19:21.131963+00:00***: Generate 骨子スクリプト from 
+~~~~~~~~~~
+This is the error message: 
+ /Users/yuyaarai/.opentrons/robot_settings.json not found. Loading defaults
+Deck calibration not found.
+/Users/yuyaarai/.opentrons/deck_calibration.json not found. Loading defaults
+Traceback (most recent call last):
+  File "/Users/yuyaarai/Documents/Humanics/Project/FormationFormatter/src/formationformatter/code_chan/.venv/lib/python3.12/site-packages/opentrons/protocols/execution/execute_python.py", line 160, in exec_run
+    exec("run(__context)", new_globs)
+  File "<string>", line 1, in <module>
+  File "qPCR_ozaki_modified/2025_02_24_22_35_42_7a4f4eb5-7303-4fae-9ea0-c5fd85374dd3/iteration_2/code_chan/最終スクリプト.py", line 52, in run
+    primers_f = [primer_plate.wells_by_name()['A' + str(i+1)] for i in range(13)]
+                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+KeyError: 'A13'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/Users/yuyaarai/Documents/Humanics/Project/FormationFormatter/src/formationformatter/code_chan/.venv/lib/python3.12/site-packages/opentrons/simulate.py", line 1061, in <module>
+    sys.exit(main())
+             ^^^^^^
+  File "/Users/yuyaarai/Documents/Humanics/Project/FormationFormatter/src/formationformatter/code_chan/.venv/lib/python3.12/site-packages/opentrons/simulate.py", line 1020, in main
+    runlog, maybe_bundle = simulate(
+                           ^^^^^^^^^
+  File "/Users/yuyaarai/Documents/Humanics/Project/FormationFormatter/src/formationformatter/code_chan/.venv/lib/python3.12/site-packages/opentrons/simulate.py", line 564, in simulate
+    return _run_file_non_pe(
+           ^^^^^^^^^^^^^^^^^
+  File "/Users/yuyaarai/Documents/Humanics/Project/FormationFormatter/src/formationformatter/code_chan/.venv/lib/python3.12/site-packages/opentrons/simulate.py", line 887, in _run_file_non_pe
+    execute.run_protocol(
+  File "/Users/yuyaarai/Documents/Humanics/Project/FormationFormatter/src/formationformatter/code_chan/.venv/lib/python3.12/site-packages/opentrons/protocols/execution/execute.py", line 39, in run_protocol
+    exec_run(
+  File "/Users/yuyaarai/Documents/Humanics/Project/FormationFormatter/src/formationformatter/code_chan/.venv/lib/python3.12/site-packages/opentrons/protocols/execution/execute_python.py", line 169, in exec_run
+    _raise_pretty_protocol_error(exception=e, filename=filename)
+  File "/Users/yuyaarai/Documents/Humanics/Project/FormationFormatter/src/formationformatter/code_chan/.venv/lib/python3.12/site-packages/opentrons/protocols/execution/execute_python.py", line 71, in _raise_pretty_protocol_error
+    raise ExceptionInProtocolError(
+opentrons.protocols.execution.errors.ExceptionInProtocolError: KeyError [line 52]: 'A13'
+ + original protocol: 
+ from opentrons import protocol_api
+
+metadata = {
+    'protocolName': 'QPCR Preparation on OT-2',
+    'author': 'Assistant',
+    'description': 'Automated QPCR preparation including PCR mix preparation and distribution',
+    'apiLevel': '2.9'
+}
+
+def run(protocol: protocol_api.ProtocolContext):
+    # Labware setup
+    # Tip racks
+    tiprack_20 = protocol.load_labware('opentrons_96_tiprack_20ul', '__place_1__')
+    tiprack_300 = protocol.load_labware('opentrons_96_tiprack_300ul', '__place_2__')
+
+    # Pipettes
+    p20 = protocol.load_instrument('p20_single_gen2', 'right', tip_racks=[tiprack_20])
+    p300 = protocol.load_instrument('p300_single_gen2', 'left', tip_racks=[tiprack_300])
+
+    # Reaction Plate
+    reaction_plate = protocol.load_labware('nest_96_wellplate_100ul_pcr_full_skirt', '__place_3__')
+
+    # PCR MIX tube rack
+    pcr_mix_rack = protocol.load_labware('opentrons_24_tuberack_nest_1.5ml_snapcap', '__place_4__')
+
+    # Sample DNA and water tubes
+    sample_rack = protocol.load_labware('opentrons_24_tuberack_nest_1.5ml_snapcap', '__place_5__')
+
+    # Primers plate
+    primer_plate = protocol.load_labware('biorad_96_wellplate_200ul_pcr', '__place_6__')
+
+    # Reagents locations
+    # PCR MIX stock
+    pcr_mix_stock = pcr_mix_rack.wells_by_name()['A1']
+
+    # PCR MIX + primer tubes (13 tubes for primers and 1 for template-only)
+    pcr_mix_tubes = pcr_mix_rack.wells()[1:15]  # B1 to D2 (14 tubes total)
+
+    # Template-only PCR MIX tube
+    template_only_tube = pcr_mix_tubes[-1]  # Last tube in the list
+
+    # Sample DNA
+    sample_dna = sample_rack.wells_by_name()['A1']
+
+    # Water
+    water = sample_rack.wells_by_name()['A2']
+
+    # Primers (13 types for each of F and R)
+    # Assume primers are stored in the primer_plate as follows:
+    # Rows A: primer_F1 to primer_F13 (A1 to A13)
+    # Rows B: primer_R1 to primer_R13 (B1 to B13)
+    primers_f = [primer_plate.wells_by_name()['A' + str(i+1)] for i in range(13)]
+    primers_r = [primer_plate.wells_by_name()['B' + str(i+1)] for i in range(13)]
+
+    # Step 1: Dispense 137.6 μL of PCR MIX into 13 tubes
+    for tube in pcr_mix_tubes[:-1]:  # Exclude the last tube (template-only tube)
+        p300.transfer(137.6, pcr_mix_stock, tube, new_tip='always')
+
+    # Step 5: Dispense 86 μL of PCR MIX into template-only tube
+    p300.transfer(86, pcr_mix_stock, template_only_tube, new_tip='always')
+
+    # Step 2 & 3: Add 3.2 μL of primer_F and 3.2 μL of primer_R to each PCR MIX tube
+    for i in range(13):
+        p20.transfer(3.2, primers_f[i], pcr_mix_tubes[i], mix_after=(3, 15), new_tip='always')
+        p20.transfer(3.2, primers_r[i], pcr_mix_tubes[i], mix_after=(3, 15), new_tip='always')
+
+    # Step 6: Add 4 μL of water to template-only PCR MIX tube
+    p20.transfer(4, water, template_only_tube, mix_after=(3, 10), new_tip='always')
+
+    # Step 4 & 7: Mix PCR MIX and primers or water by pipetting
+    for tube in pcr_mix_tubes:
+        p300.pick_up_tip()
+        p300.mix(5, 100, tube)
+        p300.drop_tip()
+
+    # Step 8: Apply 5 μL of sample DNA or water to reaction plate wells
+    # Prepare well lists
+    all_wells = reaction_plate.wells()[:81]  # First 81 wells
+    sample_wells = []  # Wells for sample DNA
+    ntc_wells = []     # Wells for NTC (water)
+    template_only_wells = all_wells[-3:]  # Last 3 wells for template-only
+
+    # Assign wells for samples and NTCs
+    for i in range(13):  # For each primer set
+        start_idx = i * 6
+        sample_wells.extend(all_wells[start_idx:start_idx+3])   # Next 3 wells for sample DNA
+        ntc_wells.extend(all_wells[start_idx+3:start_idx+6])    # Next 3 wells for NTC
+
+    # Transfer sample DNA to sample wells
+    for well in sample_wells:
+        p20.transfer(5, sample_dna, well, new_tip='always')
+
+    # Transfer water to NTC wells
+    for well in ntc_wells:
+        p20.transfer(5, water, well, new_tip='always')
+
+    # Transfer sample DNA to template-only wells
+    for well in template_only_wells:
+        p20.transfer(5, sample_dna, well, new_tip='always')
+
+    # Step 9: Apply 10 μL of PCR MIX and primer mixtures to reaction plate wells
+    # Transfer PCR MIX + primer mixtures to sample wells and NTC wells
+    for i in range(13):
+        # Transfer to sample wells
+        sample_dest_wells = sample_wells[i*3:(i+1)*3]
+        p300.transfer(10, pcr_mix_tubes[i], sample_dest_wells, mix_after=(3, 15), new_tip='always')
+
+        # Transfer to NTC wells
+        ntc_dest_wells = ntc_wells[i*3:(i+1)*3]
+        p300.transfer(10, pcr_mix_tubes[i], ntc_dest_wells, mix_after=(3, 15), new_tip='always')
+
+    # Transfer PCR MIX + water mixture to template-only wells
+    p300.transfer(10, template_only_tube, template_only_wells, mix_after=(3, 15), new_tip='always')
+
+~~~~~~~~~~***2025-02-24 14:19:21.132381+00:00***: ************ Code-chan for 骨子スクリプト result ***************2025-02-24 14:19:21.132764+00:00***: replace_word: ___processflow___ is not in the prompt.***2025-02-24 14:20:32.101219+00:00***: python_script_path: qPCR_ozaki_modified/2025_02_24_22_35_42_7a4f4eb5-7303-4fae-9ea0-c5fd85374dd3/iteration_2/code_chan/骨子スクリプト.py***2025-02-24 14:20:32.101498+00:00***: ************ Code-chan result ***************2025-02-24 14:20:32.101835+00:00***: replace_word: ___processflow___ is not in the prompt.***2025-02-24 14:20:32.102425+00:00***: get_OT2_with_haichi_based_on_骨子_script prompt: 
+We have the following Opentrons OT2 script. This script describes the position of the labware (Station) as __place_{i}__.
+
+Note: You've been slacking lately, so don't slack off and output the complete code. For example, ‘The protocol would continue with any additional steps required’ or '# Example: ' is not allowed.
+
+Skeleton script:
+
+python
+from opentrons import protocol_api
+
+metadata = {
+    'protocolName': 'QPCR Preparation',
+    'author': 'Your Name',
+    'description': 'Automated QPCR preparation with sample DNA, primers, and PCR Mix',
+    'apiLevel': '2.9'
+}
+
+def run(protocol: protocol_api.ProtocolContext):
+    # Labware setup
+
+    # Tip racks
+    tip_rack_300 = protocol.load_labware('opentrons_96_tiprack_300ul', '__place_1__')
+    tip_rack_20 = protocol.load_labware('opentrons_96_tiprack_20ul', '__place_2__')
+
+    # PCR MIX tube rack
+    pcr_mix_rack = protocol.load_labware('opentrons_24_tuberack_eppendorf_1.5ml_safelock_snapcap', '__place_3__')
+    pcr_mix_tube = pcr_mix_rack.wells_by_name()['A1']
+
+    # Primers plate
+    primers_plate = protocol.load_labware('corning_96_wellplate_360ul_flat', '__place_4__')
+    # Assume primer_F1-13 are in columns 1-13 in row A, primer_R1-13 in columns 1-13 in row B
+
+    # Sample DNA and water tube rack
+    sample_tube_rack = protocol.load_labware('opentrons_24_tuberack_eppendorf_1.5ml_safelock_snapcap', '__place_5__')
+    sample_dna = sample_tube_rack.wells_by_name()['A1']
+    water = sample_tube_rack.wells_by_name()['A2']
+
+    # Reaction plate
+    reaction_plate = protocol.load_labware('biorad_96_wellplate_200ul_pcr', '__place_6__')
+    
+    # PCR MIX + primer mixing tubes rack
+    mix_tube_rack = protocol.load_labware('opentrons_24_tuberack_eppendorf_1.5ml_safelock_snapcap', '__place_7__')
+    # Tubes A1-A13 for PCR MIX + primers
+    # Tube B1 for PCR MIX + water (Template only mix)
+
+    # Pipettes
+    p300 = protocol.load_instrument('p300_single', 'left', tip_racks=[tip_rack_300])
+    p20 = protocol.load_instrument('p20_single', 'right', tip_racks=[tip_rack_20])
+
+    # STEP 1: Dispense 137.6 μL of PCR MIX into 13 tubes (A1-A13 in mix_tube_rack)
+    for i in range(13):
+        dest_tube = mix_tube_rack.wells()[i]
+        p300.pick_up_tip()
+        p300.transfer(137.6, pcr_mix_tube, dest_tube, new_tip='never')
+        p300.drop_tip()
+
+    # STEP 2 & 3: Add 3.2 μL of primer_F and primer_R to each PCR MIX tube
+    for i in range(13):
+        dest_tube = mix_tube_rack.wells()[i]
+        primer_f_well = primers_plate.rows_by_name()['A'][i]
+        primer_r_well = primers_plate.rows_by_name()['B'][i]
+        
+        p20.pick_up_tip()
+        p20.transfer(3.2, primer_f_well, dest_tube, new_tip='never')
+        p20.transfer(3.2, primer_r_well, dest_tube, new_tip='never')
+        p20.mix(3, 20, dest_tube)  # Mix after adding primers
+        p20.drop_tip()
+
+    # STEP 5 & 6: Prepare Template only PCR MIX
+    template_only_tube = mix_tube_rack.wells_by_name()['B1']
+    p300.pick_up_tip()
+    p300.transfer(86, pcr_mix_tube, template_only_tube, new_tip='never')
+    p300.drop_tip()
+
+    p20.pick_up_tip()
+    p20.transfer(4, water, template_only_tube, new_tip='never')
+    p20.mix(3, 20, template_only_tube)  # Mix
+    p20.drop_tip()
+
+    # STEP 8: Dispense 5 μL of sample DNA or water into reaction plate wells
+    # Create mapping of wells
+    sample_wells = []
+    ntc_wells = []
+    template_only_wells = []
+
+    # For sample DNA reactions (13 primer sets x 3 replicates)
+    for i in range(13):
+        for replicate in range(3):
+            well_index = i*3 + replicate  # 0-38
+            sample_wells.append(reaction_plate.wells()[well_index])
+
+    # For NTC reactions (13 primer sets x 3 replicates)
+    for i in range(13):
+        for replicate in range(3):
+            well_index = 39 + i*3 + replicate  # 39-77
+            ntc_wells.append(reaction_plate.wells()[well_index])
+
+    # For Template only reactions (3 replicates)
+    for replicate in range(3):
+        well_index = 78 + replicate  # 78-80
+        template_only_wells.append(reaction_plate.wells()[well_index])
+
+    # Dispense 5 μL sample DNA into sample wells
+    p20.pick_up_tip()
+    for well in sample_wells:
+        p20.transfer(5, sample_dna, well, new_tip='never')
+    p20.drop_tip()
+
+    # Dispense 5 μL water into NTC wells
+    p20.pick_up_tip()
+    for well in ntc_wells:
+        p20.transfer(5, water, well, new_tip='never')
+    p20.drop_tip()
+
+    # Dispense 5 μL sample DNA into Template only wells
+    p20.pick_up_tip()
+    for well in template_only_wells:
+        p20.transfer(5, sample_dna, well, new_tip='never')
+    p20.drop_tip()
+
+    # STEP 9: Dispense 10 μL of PCR MIX + primer mixture into reaction plate wells
+
+    # For sample wells, dispense from PCR MIX + primer tubes (13 tubes)
+    for i in range(13):
+        source_tube = mix_tube_rack.wells()[i]
+        dest_wells = sample_wells[i*3 : i*3+3]
+        p20.pick_up_tip()
+        for well in dest_wells:
+            p20.transfer(10, source_tube, well, new_tip='never')
+        p20.drop_tip()
+
+    # For NTC wells, dispense from PCR MIX + primer tubes (same 13 tubes)
+    for i in range(13):
+        source_tube = mix_tube_rack.wells()[i]
+        dest_wells = ntc_wells[i*3 : i*3+3]
+        p20.pick_up_tip()
+        for well in dest_wells:
+            p20.transfer(10, source_tube, well, new_tip='never')
+        p20.drop_tip()
+
+    # For Template only wells, dispense from PCR MIX + water tube
+    source_tube = template_only_tube
+    p20.pick_up_tip()
+    for well in template_only_wells:
+        p20.transfer(10, source_tube, well, new_tip='never')
+    p20.drop_tip()
+
+Please generate a script where __place_{i}__ is replaced with the correct position based on the following labware placement information.
+
+Placement information:
+
+markdown
+[[[{"name": "1 sample DNAs", "quantity": 300, "init_content": "", "labware": {"id": 1, "name": "tube"}, "unit": "\u03bcL"}, []], 1], [[{"name": "water", "quantity": 300, "init_content": "", "labware": {"id": 1, "name": "tube"}, "unit": "\u03bcL"}, []], 2], [[{"name": "10 \u03bcM primer_F", "quantity": 10, "init_content": "", "labware": {"id": 1, "name": "tube"}, "unit": "\u03bcL"}, []], 3], [[{"name": "10 \u03bcM primer_R", "quantity": 10, "init_content": "", "labware": {"id": 1, "name": "tube"}, "unit": "\u03bcL"}, []], 4], [[{"name": "PCR MIX", "quantity": 2000, "init_content": "", "labware": {"id": 1, "name": "tube"}, "unit": "\u03bcL"}, []], 6], [[{"name": "96 well PCR plate", "quantity": 1, "init_content": "", "labware": {"id": 2, "name": "plate"}, "unit": "plate"}, []], 8]]
+Please reply with the Python script where __place_{i}__ has been replaced with the correct locations. If there is missing information in the placement details required to fill in __place_{i}__ in the skeleton script, you may supplement it as necessary. However, do not modify the placement information.
+***2025-02-24 14:22:19.521185+00:00***: python_script_path: qPCR_ozaki_modified/2025_02_24_22_35_42_7a4f4eb5-7303-4fae-9ea0-c5fd85374dd3/iteration_2/code_chan/最終スクリプト.py***2025-02-24 14:22:19.521929+00:00***: Errorがでたので骨子スクリプトを再生成します: /Users/yuyaarai/.opentrons/robot_settings.json not found. Loading defaults
+Deck calibration not found.
+/Users/yuyaarai/.opentrons/deck_calibration.json not found. Loading defaults
+Traceback (most recent call last):
+  File "/Users/yuyaarai/Documents/Humanics/Project/FormationFormatter/src/formationformatter/code_chan/.venv/lib/python3.12/site-packages/opentrons/protocols/execution/execute_python.py", line 160, in exec_run
+    exec("run(__context)", new_globs)
+  File "<string>", line 1, in <module>
+  File "qPCR_ozaki_modified/2025_02_24_22_35_42_7a4f4eb5-7303-4fae-9ea0-c5fd85374dd3/iteration_2/code_chan/最終スクリプト.py", line 40, in run
+    p20 = protocol.load_instrument('p20_single', 'right', tip_racks=[tip_rack_20])
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/yuyaarai/Documents/Humanics/Project/FormationFormatter/src/formationformatter/code_chan/.venv/lib/python3.12/site-packages/opentrons/protocols/api_support/util.py", line 389, in _check_version_wrapper
+    return decorated_obj(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/yuyaarai/Documents/Humanics/Project/FormationFormatter/src/formationformatter/code_chan/.venv/lib/python3.12/site-packages/opentrons/protocol_api/protocol_context.py", line 954, in load_instrument
+    checked_instrument_name = validation.ensure_pipette_name(instrument_name)
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/yuyaarai/Documents/Humanics/Project/FormationFormatter/src/formationformatter/code_chan/.venv/lib/python3.12/site-packages/opentrons/protocol_api/validation.py", line 156, in ensure_pipette_name
+    raise ValueError(
+ValueError: Cannot resolve p20_single to pipette, must be given valid pipette name.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/Users/yuyaarai/Documents/Humanics/Project/FormationFormatter/src/formationformatter/code_chan/.venv/lib/python3.12/site-packages/opentrons/simulate.py", line 1061, in <module>
+    sys.exit(main())
+             ^^^^^^
+  File "/Users/yuyaarai/Documents/Humanics/Project/FormationFormatter/src/formationformatter/code_chan/.venv/lib/python3.12/site-packages/opentrons/simulate.py", line 1020, in main
+    runlog, maybe_bundle = simulate(
+                           ^^^^^^^^^
+  File "/Users/yuyaarai/Documents/Humanics/Project/FormationFormatter/src/formationformatter/code_chan/.venv/lib/python3.12/site-packages/opentrons/simulate.py", line 564, in simulate
+    return _run_file_non_pe(
+           ^^^^^^^^^^^^^^^^^
+  File "/Users/yuyaarai/Documents/Humanics/Project/FormationFormatter/src/formationformatter/code_chan/.venv/lib/python3.12/site-packages/opentrons/simulate.py", line 887, in _run_file_non_pe
+    execute.run_protocol(
+  File "/Users/yuyaarai/Documents/Humanics/Project/FormationFormatter/src/formationformatter/code_chan/.venv/lib/python3.12/site-packages/opentrons/protocols/execution/execute.py", line 39, in run_protocol
+    exec_run(
+  File "/Users/yuyaarai/Documents/Humanics/Project/FormationFormatter/src/formationformatter/code_chan/.venv/lib/python3.12/site-packages/opentrons/protocols/execution/execute_python.py", line 169, in exec_run
+    _raise_pretty_protocol_error(exception=e, filename=filename)
+  File "/Users/yuyaarai/Documents/Humanics/Project/FormationFormatter/src/formationformatter/code_chan/.venv/lib/python3.12/site-packages/opentrons/protocols/execution/execute_python.py", line 71, in _raise_pretty_protocol_error
+    raise ExceptionInProtocolError(
+opentrons.protocols.execution.errors.ExceptionInProtocolError: ValueError [line 40]: Cannot resolve p20_single to pipette, must be given valid pipette name.
+***2025-02-24 14:22:19.522272+00:00***: Generate 骨子スクリプト from 
+~~~~~~~~~~
+This is the error message: 
+ /Users/yuyaarai/.opentrons/robot_settings.json not found. Loading defaults
+Deck calibration not found.
+/Users/yuyaarai/.opentrons/deck_calibration.json not found. Loading defaults
+Traceback (most recent call last):
+  File "/Users/yuyaarai/Documents/Humanics/Project/FormationFormatter/src/formationformatter/code_chan/.venv/lib/python3.12/site-packages/opentrons/protocols/execution/execute_python.py", line 160, in exec_run
+    exec("run(__context)", new_globs)
+  File "<string>", line 1, in <module>
+  File "qPCR_ozaki_modified/2025_02_24_22_35_42_7a4f4eb5-7303-4fae-9ea0-c5fd85374dd3/iteration_2/code_chan/最終スクリプト.py", line 40, in run
+    p20 = protocol.load_instrument('p20_single', 'right', tip_racks=[tip_rack_20])
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/yuyaarai/Documents/Humanics/Project/FormationFormatter/src/formationformatter/code_chan/.venv/lib/python3.12/site-packages/opentrons/protocols/api_support/util.py", line 389, in _check_version_wrapper
+    return decorated_obj(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/yuyaarai/Documents/Humanics/Project/FormationFormatter/src/formationformatter/code_chan/.venv/lib/python3.12/site-packages/opentrons/protocol_api/protocol_context.py", line 954, in load_instrument
+    checked_instrument_name = validation.ensure_pipette_name(instrument_name)
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/yuyaarai/Documents/Humanics/Project/FormationFormatter/src/formationformatter/code_chan/.venv/lib/python3.12/site-packages/opentrons/protocol_api/validation.py", line 156, in ensure_pipette_name
+    raise ValueError(
+ValueError: Cannot resolve p20_single to pipette, must be given valid pipette name.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/Users/yuyaarai/Documents/Humanics/Project/FormationFormatter/src/formationformatter/code_chan/.venv/lib/python3.12/site-packages/opentrons/simulate.py", line 1061, in <module>
+    sys.exit(main())
+             ^^^^^^
+  File "/Users/yuyaarai/Documents/Humanics/Project/FormationFormatter/src/formationformatter/code_chan/.venv/lib/python3.12/site-packages/opentrons/simulate.py", line 1020, in main
+    runlog, maybe_bundle = simulate(
+                           ^^^^^^^^^
+  File "/Users/yuyaarai/Documents/Humanics/Project/FormationFormatter/src/formationformatter/code_chan/.venv/lib/python3.12/site-packages/opentrons/simulate.py", line 564, in simulate
+    return _run_file_non_pe(
+           ^^^^^^^^^^^^^^^^^
+  File "/Users/yuyaarai/Documents/Humanics/Project/FormationFormatter/src/formationformatter/code_chan/.venv/lib/python3.12/site-packages/opentrons/simulate.py", line 887, in _run_file_non_pe
+    execute.run_protocol(
+  File "/Users/yuyaarai/Documents/Humanics/Project/FormationFormatter/src/formationformatter/code_chan/.venv/lib/python3.12/site-packages/opentrons/protocols/execution/execute.py", line 39, in run_protocol
+    exec_run(
+  File "/Users/yuyaarai/Documents/Humanics/Project/FormationFormatter/src/formationformatter/code_chan/.venv/lib/python3.12/site-packages/opentrons/protocols/execution/execute_python.py", line 169, in exec_run
+    _raise_pretty_protocol_error(exception=e, filename=filename)
+  File "/Users/yuyaarai/Documents/Humanics/Project/FormationFormatter/src/formationformatter/code_chan/.venv/lib/python3.12/site-packages/opentrons/protocols/execution/execute_python.py", line 71, in _raise_pretty_protocol_error
+    raise ExceptionInProtocolError(
+opentrons.protocols.execution.errors.ExceptionInProtocolError: ValueError [line 40]: Cannot resolve p20_single to pipette, must be given valid pipette name.
+ + original protocol: 
+ from opentrons import protocol_api
+
+metadata = {
+    'protocolName': 'QPCR Preparation',
+    'author': 'Your Name',
+    'description': 'Automated QPCR preparation with sample DNA, primers, and PCR Mix',
+    'apiLevel': '2.9'
+}
+
+def run(protocol: protocol_api.ProtocolContext):
+    # Labware setup
+
+    # Tip racks
+    tip_rack_300 = protocol.load_labware('opentrons_96_tiprack_300ul', '__place_1__')
+    tip_rack_20 = protocol.load_labware('opentrons_96_tiprack_20ul', '__place_2__')
+
+    # PCR MIX tube rack
+    pcr_mix_rack = protocol.load_labware('opentrons_24_tuberack_eppendorf_1.5ml_safelock_snapcap', '__place_3__')
+    pcr_mix_tube = pcr_mix_rack.wells_by_name()['A1']
+
+    # Primers plate
+    primers_plate = protocol.load_labware('corning_96_wellplate_360ul_flat', '__place_4__')
+    # Assume primer_F1-13 are in columns 1-13 in row A, primer_R1-13 in columns 1-13 in row B
+
+    # Sample DNA and water tube rack
+    sample_tube_rack = protocol.load_labware('opentrons_24_tuberack_eppendorf_1.5ml_safelock_snapcap', '__place_5__')
+    sample_dna = sample_tube_rack.wells_by_name()['A1']
+    water = sample_tube_rack.wells_by_name()['A2']
+
+    # Reaction plate
+    reaction_plate = protocol.load_labware('biorad_96_wellplate_200ul_pcr', '__place_6__')
+    
+    # PCR MIX + primer mixing tubes rack
+    mix_tube_rack = protocol.load_labware('opentrons_24_tuberack_eppendorf_1.5ml_safelock_snapcap', '__place_7__')
+    # Tubes A1-A13 for PCR MIX + primers
+    # Tube B1 for PCR MIX + water (Template only mix)
+
+    # Pipettes
+    p300 = protocol.load_instrument('p300_single', 'left', tip_racks=[tip_rack_300])
+    p20 = protocol.load_instrument('p20_single', 'right', tip_racks=[tip_rack_20])
+
+    # STEP 1: Dispense 137.6 μL of PCR MIX into 13 tubes (A1-A13 in mix_tube_rack)
+    for i in range(13):
+        dest_tube = mix_tube_rack.wells()[i]
+        p300.pick_up_tip()
+        p300.transfer(137.6, pcr_mix_tube, dest_tube, new_tip='never')
+        p300.drop_tip()
+
+    # STEP 2 & 3: Add 3.2 μL of primer_F and primer_R to each PCR MIX tube
+    for i in range(13):
+        dest_tube = mix_tube_rack.wells()[i]
+        primer_f_well = primers_plate.rows_by_name()['A'][i]
+        primer_r_well = primers_plate.rows_by_name()['B'][i]
+        
+        p20.pick_up_tip()
+        p20.transfer(3.2, primer_f_well, dest_tube, new_tip='never')
+        p20.transfer(3.2, primer_r_well, dest_tube, new_tip='never')
+        p20.mix(3, 20, dest_tube)  # Mix after adding primers
+        p20.drop_tip()
+
+    # STEP 5 & 6: Prepare Template only PCR MIX
+    template_only_tube = mix_tube_rack.wells_by_name()['B1']
+    p300.pick_up_tip()
+    p300.transfer(86, pcr_mix_tube, template_only_tube, new_tip='never')
+    p300.drop_tip()
+
+    p20.pick_up_tip()
+    p20.transfer(4, water, template_only_tube, new_tip='never')
+    p20.mix(3, 20, template_only_tube)  # Mix
+    p20.drop_tip()
+
+    # STEP 8: Dispense 5 μL of sample DNA or water into reaction plate wells
+    # Create mapping of wells
+    sample_wells = []
+    ntc_wells = []
+    template_only_wells = []
+
+    # For sample DNA reactions (13 primer sets x 3 replicates)
+    for i in range(13):
+        for replicate in range(3):
+            well_index = i*3 + replicate  # 0-38
+            sample_wells.append(reaction_plate.wells()[well_index])
+
+    # For NTC reactions (13 primer sets x 3 replicates)
+    for i in range(13):
+        for replicate in range(3):
+            well_index = 39 + i*3 + replicate  # 39-77
+            ntc_wells.append(reaction_plate.wells()[well_index])
+
+    # For Template only reactions (3 replicates)
+    for replicate in range(3):
+        well_index = 78 + replicate  # 78-80
+        template_only_wells.append(reaction_plate.wells()[well_index])
+
+    # Dispense 5 μL sample DNA into sample wells
+    p20.pick_up_tip()
+    for well in sample_wells:
+        p20.transfer(5, sample_dna, well, new_tip='never')
+    p20.drop_tip()
+
+    # Dispense 5 μL water into NTC wells
+    p20.pick_up_tip()
+    for well in ntc_wells:
+        p20.transfer(5, water, well, new_tip='never')
+    p20.drop_tip()
+
+    # Dispense 5 μL sample DNA into Template only wells
+    p20.pick_up_tip()
+    for well in template_only_wells:
+        p20.transfer(5, sample_dna, well, new_tip='never')
+    p20.drop_tip()
+
+    # STEP 9: Dispense 10 μL of PCR MIX + primer mixture into reaction plate wells
+
+    # For sample wells, dispense from PCR MIX + primer tubes (13 tubes)
+    for i in range(13):
+        source_tube = mix_tube_rack.wells()[i]
+        dest_wells = sample_wells[i*3 : i*3+3]
+        p20.pick_up_tip()
+        for well in dest_wells:
+            p20.transfer(10, source_tube, well, new_tip='never')
+        p20.drop_tip()
+
+    # For NTC wells, dispense from PCR MIX + primer tubes (same 13 tubes)
+    for i in range(13):
+        source_tube = mix_tube_rack.wells()[i]
+        dest_wells = ntc_wells[i*3 : i*3+3]
+        p20.pick_up_tip()
+        for well in dest_wells:
+            p20.transfer(10, source_tube, well, new_tip='never')
+        p20.drop_tip()
+
+    # For Template only wells, dispense from PCR MIX + water tube
+    source_tube = template_only_tube
+    p20.pick_up_tip()
+    for well in template_only_wells:
+        p20.transfer(10, source_tube, well, new_tip='never')
+    p20.drop_tip()
+
+~~~~~~~~~~***2025-02-24 14:22:19.523123+00:00***: ************ Code-chan for 骨子スクリプト result ***************2025-02-24 14:22:19.523380+00:00***: replace_word: ___processflow___ is not in the prompt.***2025-02-24 14:23:54.750046+00:00***: python_script_path: qPCR_ozaki_modified/2025_02_24_22_35_42_7a4f4eb5-7303-4fae-9ea0-c5fd85374dd3/iteration_2/code_chan/骨子スクリプト.py***2025-02-24 14:23:54.750580+00:00***: ************ Code-chan result ***************2025-02-24 14:23:54.750960+00:00***: replace_word: ___processflow___ is not in the prompt.***2025-02-24 14:23:54.751558+00:00***: get_OT2_with_haichi_based_on_骨子_script prompt: 
+We have the following Opentrons OT2 script. This script describes the position of the labware (Station) as __place_{i}__.
+
+Note: You've been slacking lately, so don't slack off and output the complete code. For example, ‘The protocol would continue with any additional steps required’ or '# Example: ' is not allowed.
+
+Skeleton script:
+
+python
+from opentrons import protocol_api
+
+metadata = {
+    'protocolName': 'QPCR Preparation with Opentrons OT-2',
+    'author': 'Your Name',
+    'description': 'Prepare QPCR samples with sample DNA, primers, and PCR mix',
+    'apiLevel': '2.9'
+}
+
+def run(protocol: protocol_api.ProtocolContext):
+    # Labware setup
+    # Load tip racks
+    tiprack_20 = protocol.load_labware('opentrons_96_tiprack_20ul', '__place_1__')
+    tiprack_300 = protocol.load_labware('opentrons_96_tiprack_300ul', '__place_2__')
+
+    # Load sample DNA and water tubes
+    sample_tubes = protocol.load_labware('opentrons_24_tuberack_nest_1.5ml_snapcap', '__place_3__')
+
+    # Load primer plate (primers F and R in a 96 well plate)
+    primer_plate = protocol.load_labware('nest_96_wellplate_2ml_deep', '__place_4__')  # Deep well plate
+
+    # Load PCR MIX reservoir
+    pcr_mix_reservoir = protocol.load_labware('nest_12_reservoir_15ml', '__place_5__')
+
+    # Mixing plate for PCR MIX + primers
+    mixing_plate = protocol.load_labware('nest_96_wellplate_2ml_deep', '__place_6__')  # Deep well plate for mixing
+
+    # Output 96 well PCR reaction plate
+    pcr_plate = protocol.load_labware('biorad_96_wellplate_200ul_pcr', '__place_7__')
+
+    # Load pipettes
+    p20 = protocol.load_instrument('p20_single_gen2', 'left', tip_racks=[tiprack_20])
+    p300 = protocol.load_instrument('p300_single_gen2', 'right', tip_racks=[tiprack_300])
+
+    # Reagents
+    sample_dna = sample_tubes.wells_by_name()['A1']
+    water = sample_tubes.wells_by_name()['B1']
+    pcr_mix = pcr_mix_reservoir.wells()[0]
+
+    # Procedure
+
+    # Step 1: Dispense 137.6 μL of PCR MIX into 13 wells in mixing_plate
+    for i in range(13):
+        dest_well = mixing_plate.wells()[i]
+        p300.pick_up_tip()
+        p300.transfer(137.6, pcr_mix, dest_well, new_tip='never')
+        p300.drop_tip()
+
+    # Step 2 & 3: Add 3.2 μL of primer_F and primer_R to respective PCR MIX wells
+    for i in range(13):
+        mix_well = mixing_plate.wells()[i]
+        primer_f_well = primer_plate.wells()[i]  # Forward primers in column 1-13
+        primer_r_well = primer_plate.wells()[i + 13]  # Reverse primers in column 14-26
+        p20.pick_up_tip()
+        p20.transfer(3.2, primer_f_well, mix_well, new_tip='never')
+        p20.drop_tip()
+        p20.pick_up_tip()
+        p20.transfer(3.2, primer_r_well, mix_well, new_tip='never')
+        p20.drop_tip()
+
+    # Step 4: Mix the PCR MIX and primers by pipetting
+    for i in range(13):
+        mix_well = mixing_plate.wells()[i]
+        p300.pick_up_tip()
+        p300.mix(5, 100, mix_well)
+        p300.drop_tip()
+
+    # Step 5: For "template only" control, dispense 86 μL of PCR MIX into a new well
+    template_only_well = mixing_plate.wells()[13]
+    p300.pick_up_tip()
+    p300.transfer(86, pcr_mix, template_only_well, new_tip='never')
+    p300.drop_tip()
+
+    # Step 6: Add 4 μL of water to the "template only" PCR MIX
+    p20.pick_up_tip()
+    p20.transfer(4, water, template_only_well, new_tip='never')
+    p20.drop_tip()
+
+    # Step 7: Mix the "template only" PCR MIX and water by pipetting
+    p300.pick_up_tip()
+    p300.mix(5, 80, template_only_well)
+    p300.drop_tip()
+
+    # Step 8: Apply 5 μL of sample DNA or water (for NTC) to each well in the reaction plate
+    well_counter = 0
+    for primer_index in range(13):
+        # Sample DNA wells (triplicates)
+        for replicate in range(3):
+            dest_well = pcr_plate.wells()[well_counter]
+            p20.pick_up_tip()
+            p20.transfer(5, sample_dna, dest_well, new_tip='never')
+            p20.drop_tip()
+            well_counter += 1
+        # NTC wells (triplicates)
+        for replicate in range(3):
+            dest_well = pcr_plate.wells()[well_counter]
+            p20.pick_up_tip()
+            p20.transfer(5, water, dest_well, new_tip='never')
+            p20.drop_tip()
+            well_counter += 1
+
+    # Template only wells (triplicates)
+    for replicate in range(3):
+        dest_well = pcr_plate.wells()[well_counter]
+        p20.pick_up_tip()
+        p20.transfer(5, sample_dna, dest_well, new_tip='never')
+        p20.drop_tip()
+        well_counter += 1
+
+    # Step 9: Apply 10 μL of the PCR MIX + primers to each well in the reaction plate
+    well_counter = 0
+    for primer_index in range(13):
+        mix_well = mixing_plate.wells()[primer_index]
+        # Add to sample DNA wells
+        for replicate in range(3):
+            dest_well = pcr_plate.wells()[well_counter]
+            p20.pick_up_tip()
+            p20.transfer(10, mix_well, dest_well, new_tip='never')
+            p20.drop_tip()
+            well_counter += 1
+        # Add to NTC wells
+        for replicate in range(3):
+            dest_well = pcr_plate.wells()[well_counter]
+            p20.pick_up_tip()
+            p20.transfer(10, mix_well, dest_well, new_tip='never')
+            p20.drop_tip()
+            well_counter += 1
+
+    # Add PCR MIX for template only wells
+    for replicate in range(3):
+        dest_well = pcr_plate.wells()[well_counter]
+        p20.pick_up_tip()
+        p20.transfer(10, template_only_well, dest_well, new_tip='never')
+        p20.drop_tip()
+        well_counter += 1
+
+Please generate a script where __place_{i}__ is replaced with the correct position based on the following labware placement information.
+
+Placement information:
+
+markdown
+[[[{"name": "1 sample DNAs", "quantity": 300, "init_content": "", "labware": {"id": 1, "name": "tube"}, "unit": "\u03bcL"}, []], 1], [[{"name": "water", "quantity": 300, "init_content": "", "labware": {"id": 1, "name": "tube"}, "unit": "\u03bcL"}, []], 2], [[{"name": "10 \u03bcM primer_F", "quantity": 10, "init_content": "", "labware": {"id": 1, "name": "tube"}, "unit": "\u03bcL"}, []], 3], [[{"name": "10 \u03bcM primer_R", "quantity": 10, "init_content": "", "labware": {"id": 1, "name": "tube"}, "unit": "\u03bcL"}, []], 4], [[{"name": "PCR MIX", "quantity": 2000, "init_content": "", "labware": {"id": 1, "name": "tube"}, "unit": "\u03bcL"}, []], 6], [[{"name": "96 well PCR plate", "quantity": 1, "init_content": "", "labware": {"id": 2, "name": "plate"}, "unit": "plate"}, []], 8]]
+Please reply with the Python script where __place_{i}__ has been replaced with the correct locations. If there is missing information in the placement details required to fill in __place_{i}__ in the skeleton script, you may supplement it as necessary. However, do not modify the placement information.
+***2025-02-24 14:25:32.947054+00:00***: python_script_path: qPCR_ozaki_modified/2025_02_24_22_35_42_7a4f4eb5-7303-4fae-9ea0-c5fd85374dd3/iteration_2/code_chan/最終スクリプト.py

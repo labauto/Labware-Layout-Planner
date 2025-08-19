@@ -1,0 +1,32 @@
+
+QPCR
+Sample prep for measurement using the QuantStudio 6 Pro.
+There are 11 samples, and the plan is to test each with 4 primers, each in duplicate.
+
+Input:
+
+Containers for reagents: tubes or plates
+11 sample DNAs: 50 μL each
+Water: 50 μL
+10 μM primer_F: 50 μL
+10 μM primer_R: 50 μL
+PCR MIX: 1000 μL
+96-well PCR plate: 1 plate
+Other necessary tubes or plates for liquid mixing
+Output:
+A 96-well PCR plate containing a mixture of sample DNA, primer, and PCR MIX.
+
+Procedure:
+
+Dispense 221 μL of PCR MIX into 4 separate tubes.
+Add 19.5 μL of 10 μM primer_F1-4 to the tubes with PCR MIX.
+Add 19.5 μL of 10 μM primer_R1-4 to the tubes with PCR MIX.
+Mix the PCR MIX and primers by pipetting.
+Apply 5 μL of sample DNA or water to the reaction plate, filling the columns as shown in the plate map below.
+Apply 10 μL of the PCR MIX and primer mixture to the reaction plate, filling the rows as shown in the plate map below.
+Plate Map: All 96 wells will be used.
+
+S_n = sample_n (There are 11 types of samples this time, from 1 to 11).
+NTC = no template control: water = negative control.
+P_m = primer set_m: a set of forward and reverse primers. This time, there are 4 sets.
+    

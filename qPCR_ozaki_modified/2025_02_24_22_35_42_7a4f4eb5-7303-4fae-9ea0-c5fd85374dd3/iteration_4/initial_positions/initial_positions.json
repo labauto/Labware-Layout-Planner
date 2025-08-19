@@ -1,0 +1,1142 @@
+[
+    [
+        [
+            [
+                {
+                    "name": "1 sample DNAs",
+                    "quantity": 300,
+                    "init_content": "",
+                    "labware": {
+                        "id": 3,
+                        "name": "Unknown"
+                    },
+                    "unit": "\u03bcL"
+                },
+                []
+            ],
+            1
+        ],
+        [
+            [
+                {
+                    "name": "water",
+                    "quantity": 300,
+                    "init_content": "",
+                    "labware": {
+                        "id": 3,
+                        "name": "Unknown"
+                    },
+                    "unit": "\u03bcL"
+                },
+                []
+            ],
+            2
+        ],
+        [
+            [
+                {
+                    "name": "10 \u03bcM primer_F",
+                    "quantity": 130,
+                    "init_content": "",
+                    "labware": {
+                        "id": 3,
+                        "name": "Unknown"
+                    },
+                    "unit": "\u03bcL"
+                },
+                []
+            ],
+            3
+        ],
+        [
+            [
+                {
+                    "name": "10 \u03bcM primer_R",
+                    "quantity": 130,
+                    "init_content": "",
+                    "labware": {
+                        "id": 3,
+                        "name": "Unknown"
+                    },
+                    "unit": "\u03bcL"
+                },
+                []
+            ],
+            4
+        ],
+        [
+            [
+                {
+                    "name": "PCR MIX",
+                    "quantity": 2000,
+                    "init_content": "",
+                    "labware": {
+                        "id": 3,
+                        "name": "Unknown"
+                    },
+                    "unit": "\u03bcL"
+                },
+                []
+            ],
+            5
+        ],
+        [
+            [
+                {
+                    "name": "96 well PCR plate",
+                    "quantity": 1,
+                    "init_content": "",
+                    "labware": {
+                        "id": 3,
+                        "name": "Unknown"
+                    },
+                    "unit": "plate"
+                },
+                []
+            ],
+            6
+        ],
+        [
+            [
+                {
+                    "name": "empty tube",
+                    "quantity": 0,
+                    "init_content": "",
+                    "labware": {
+                        "id": 3,
+                        "name": "Unknown"
+                    },
+                    "unit": ""
+                },
+                []
+            ],
+            7
+        ]
+    ],
+    [
+        [
+            [
+                {
+                    "name": "1 sample DNAs",
+                    "quantity": 300,
+                    "init_content": "",
+                    "labware": {
+                        "id": 3,
+                        "name": "Unknown"
+                    },
+                    "unit": "\u03bcL"
+                },
+                []
+            ],
+            1
+        ],
+        [
+            [
+                {
+                    "name": "water",
+                    "quantity": 300,
+                    "init_content": "",
+                    "labware": {
+                        "id": 3,
+                        "name": "Unknown"
+                    },
+                    "unit": "\u03bcL"
+                },
+                []
+            ],
+            2
+        ],
+        [
+            [
+                {
+                    "name": "10 \u03bcM primer_F",
+                    "quantity": 130,
+                    "init_content": "",
+                    "labware": {
+                        "id": 3,
+                        "name": "Unknown"
+                    },
+                    "unit": "\u03bcL"
+                },
+                []
+            ],
+            3
+        ],
+        [
+            [
+                {
+                    "name": "10 \u03bcM primer_R",
+                    "quantity": 130,
+                    "init_content": "",
+                    "labware": {
+                        "id": 3,
+                        "name": "Unknown"
+                    },
+                    "unit": "\u03bcL"
+                },
+                []
+            ],
+            4
+        ],
+        [
+            [
+                {
+                    "name": "PCR MIX",
+                    "quantity": 2000,
+                    "init_content": "",
+                    "labware": {
+                        "id": 3,
+                        "name": "Unknown"
+                    },
+                    "unit": "\u03bcL"
+                },
+                []
+            ],
+            5
+        ],
+        [
+            [
+                {
+                    "name": "96 well PCR plate",
+                    "quantity": 1,
+                    "init_content": "",
+                    "labware": {
+                        "id": 3,
+                        "name": "Unknown"
+                    },
+                    "unit": "plate"
+                },
+                []
+            ],
+            6
+        ],
+        [
+            [
+                {
+                    "name": "empty tube",
+                    "quantity": 0,
+                    "init_content": "",
+                    "labware": {
+                        "id": 3,
+                        "name": "Unknown"
+                    },
+                    "unit": ""
+                },
+                []
+            ],
+            8
+        ]
+    ],
+    [
+        [
+            [
+                {
+                    "name": "1 sample DNAs",
+                    "quantity": 300,
+                    "init_content": "",
+                    "labware": {
+                        "id": 3,
+                        "name": "Unknown"
+                    },
+                    "unit": "\u03bcL"
+                },
+                []
+            ],
+            1
+        ],
+        [
+            [
+                {
+                    "name": "water",
+                    "quantity": 300,
+                    "init_content": "",
+                    "labware": {
+                        "id": 3,
+                        "name": "Unknown"
+                    },
+                    "unit": "\u03bcL"
+                },
+                []
+            ],
+            2
+        ],
+        [
+            [
+                {
+                    "name": "10 \u03bcM primer_F",
+                    "quantity": 130,
+                    "init_content": "",
+                    "labware": {
+                        "id": 3,
+                        "name": "Unknown"
+                    },
+                    "unit": "\u03bcL"
+                },
+                []
+            ],
+            3
+        ],
+        [
+            [
+                {
+                    "name": "10 \u03bcM primer_R",
+                    "quantity": 130,
+                    "init_content": "",
+                    "labware": {
+                        "id": 3,
+                        "name": "Unknown"
+                    },
+                    "unit": "\u03bcL"
+                },
+                []
+            ],
+            4
+        ],
+        [
+            [
+                {
+                    "name": "PCR MIX",
+                    "quantity": 2000,
+                    "init_content": "",
+                    "labware": {
+                        "id": 3,
+                        "name": "Unknown"
+                    },
+                    "unit": "\u03bcL"
+                },
+                []
+            ],
+            5
+        ],
+        [
+            [
+                {
+                    "name": "96 well PCR plate",
+                    "quantity": 1,
+                    "init_content": "",
+                    "labware": {
+                        "id": 3,
+                        "name": "Unknown"
+                    },
+                    "unit": "plate"
+                },
+                []
+            ],
+            6
+        ],
+        [
+            [
+                {
+                    "name": "empty tube",
+                    "quantity": 0,
+                    "init_content": "",
+                    "labware": {
+                        "id": 3,
+                        "name": "Unknown"
+                    },
+                    "unit": ""
+                },
+                []
+            ],
+            9
+        ]
+    ],
+    [
+        [
+            [
+                {
+                    "name": "1 sample DNAs",
+                    "quantity": 300,
+                    "init_content": "",
+                    "labware": {
+                        "id": 3,
+                        "name": "Unknown"
+                    },
+                    "unit": "\u03bcL"
+                },
+                []
+            ],
+            1
+        ],
+        [
+            [
+                {
+                    "name": "water",
+                    "quantity": 300,
+                    "init_content": "",
+                    "labware": {
+                        "id": 3,
+                        "name": "Unknown"
+                    },
+                    "unit": "\u03bcL"
+                },
+                []
+            ],
+            2
+        ],
+        [
+            [
+                {
+                    "name": "10 \u03bcM primer_F",
+                    "quantity": 130,
+                    "init_content": "",
+                    "labware": {
+                        "id": 3,
+                        "name": "Unknown"
+                    },
+                    "unit": "\u03bcL"
+                },
+                []
+            ],
+            3
+        ],
+        [
+            [
+                {
+                    "name": "10 \u03bcM primer_R",
+                    "quantity": 130,
+                    "init_content": "",
+                    "labware": {
+                        "id": 3,
+                        "name": "Unknown"
+                    },
+                    "unit": "\u03bcL"
+                },
+                []
+            ],
+            4
+        ],
+        [
+            [
+                {
+                    "name": "PCR MIX",
+                    "quantity": 2000,
+                    "init_content": "",
+                    "labware": {
+                        "id": 3,
+                        "name": "Unknown"
+                    },
+                    "unit": "\u03bcL"
+                },
+                []
+            ],
+            5
+        ],
+        [
+            [
+                {
+                    "name": "96 well PCR plate",
+                    "quantity": 1,
+                    "init_content": "",
+                    "labware": {
+                        "id": 3,
+                        "name": "Unknown"
+                    },
+                    "unit": "plate"
+                },
+                []
+            ],
+            6
+        ],
+        [
+            [
+                {
+                    "name": "empty tube",
+                    "quantity": 0,
+                    "init_content": "",
+                    "labware": {
+                        "id": 3,
+                        "name": "Unknown"
+                    },
+                    "unit": ""
+                },
+                []
+            ],
+            10
+        ]
+    ],
+    [
+        [
+            [
+                {
+                    "name": "1 sample DNAs",
+                    "quantity": 300,
+                    "init_content": "",
+                    "labware": {
+                        "id": 3,
+                        "name": "Unknown"
+                    },
+                    "unit": "\u03bcL"
+                },
+                []
+            ],
+            1
+        ],
+        [
+            [
+                {
+                    "name": "water",
+                    "quantity": 300,
+                    "init_content": "",
+                    "labware": {
+                        "id": 3,
+                        "name": "Unknown"
+                    },
+                    "unit": "\u03bcL"
+                },
+                []
+            ],
+            2
+        ],
+        [
+            [
+                {
+                    "name": "10 \u03bcM primer_F",
+                    "quantity": 130,
+                    "init_content": "",
+                    "labware": {
+                        "id": 3,
+                        "name": "Unknown"
+                    },
+                    "unit": "\u03bcL"
+                },
+                []
+            ],
+            3
+        ],
+        [
+            [
+                {
+                    "name": "10 \u03bcM primer_R",
+                    "quantity": 130,
+                    "init_content": "",
+                    "labware": {
+                        "id": 3,
+                        "name": "Unknown"
+                    },
+                    "unit": "\u03bcL"
+                },
+                []
+            ],
+            4
+        ],
+        [
+            [
+                {
+                    "name": "PCR MIX",
+                    "quantity": 2000,
+                    "init_content": "",
+                    "labware": {
+                        "id": 3,
+                        "name": "Unknown"
+                    },
+                    "unit": "\u03bcL"
+                },
+                []
+            ],
+            5
+        ],
+        [
+            [
+                {
+                    "name": "96 well PCR plate",
+                    "quantity": 1,
+                    "init_content": "",
+                    "labware": {
+                        "id": 3,
+                        "name": "Unknown"
+                    },
+                    "unit": "plate"
+                },
+                []
+            ],
+            6
+        ],
+        [
+            [
+                {
+                    "name": "empty tube",
+                    "quantity": 0,
+                    "init_content": "",
+                    "labware": {
+                        "id": 3,
+                        "name": "Unknown"
+                    },
+                    "unit": ""
+                },
+                []
+            ],
+            11
+        ]
+    ],
+    [
+        [
+            [
+                {
+                    "name": "1 sample DNAs",
+                    "quantity": 300,
+                    "init_content": "",
+                    "labware": {
+                        "id": 3,
+                        "name": "Unknown"
+                    },
+                    "unit": "\u03bcL"
+                },
+                []
+            ],
+            1
+        ],
+        [
+            [
+                {
+                    "name": "water",
+                    "quantity": 300,
+                    "init_content": "",
+                    "labware": {
+                        "id": 3,
+                        "name": "Unknown"
+                    },
+                    "unit": "\u03bcL"
+                },
+                []
+            ],
+            2
+        ],
+        [
+            [
+                {
+                    "name": "10 \u03bcM primer_F",
+                    "quantity": 130,
+                    "init_content": "",
+                    "labware": {
+                        "id": 3,
+                        "name": "Unknown"
+                    },
+                    "unit": "\u03bcL"
+                },
+                []
+            ],
+            3
+        ],
+        [
+            [
+                {
+                    "name": "10 \u03bcM primer_R",
+                    "quantity": 130,
+                    "init_content": "",
+                    "labware": {
+                        "id": 3,
+                        "name": "Unknown"
+                    },
+                    "unit": "\u03bcL"
+                },
+                []
+            ],
+            4
+        ],
+        [
+            [
+                {
+                    "name": "PCR MIX",
+                    "quantity": 2000,
+                    "init_content": "",
+                    "labware": {
+                        "id": 3,
+                        "name": "Unknown"
+                    },
+                    "unit": "\u03bcL"
+                },
+                []
+            ],
+            5
+        ],
+        [
+            [
+                {
+                    "name": "96 well PCR plate",
+                    "quantity": 1,
+                    "init_content": "",
+                    "labware": {
+                        "id": 3,
+                        "name": "Unknown"
+                    },
+                    "unit": "plate"
+                },
+                []
+            ],
+            6
+        ],
+        [
+            [
+                {
+                    "name": "empty tube",
+                    "quantity": 0,
+                    "init_content": "",
+                    "labware": {
+                        "id": 3,
+                        "name": "Unknown"
+                    },
+                    "unit": ""
+                },
+                []
+            ],
+            12
+        ]
+    ],
+    [
+        [
+            [
+                {
+                    "name": "1 sample DNAs",
+                    "quantity": 300,
+                    "init_content": "",
+                    "labware": {
+                        "id": 3,
+                        "name": "Unknown"
+                    },
+                    "unit": "\u03bcL"
+                },
+                []
+            ],
+            1
+        ],
+        [
+            [
+                {
+                    "name": "water",
+                    "quantity": 300,
+                    "init_content": "",
+                    "labware": {
+                        "id": 3,
+                        "name": "Unknown"
+                    },
+                    "unit": "\u03bcL"
+                },
+                []
+            ],
+            2
+        ],
+        [
+            [
+                {
+                    "name": "10 \u03bcM primer_F",
+                    "quantity": 130,
+                    "init_content": "",
+                    "labware": {
+                        "id": 3,
+                        "name": "Unknown"
+                    },
+                    "unit": "\u03bcL"
+                },
+                []
+            ],
+            3
+        ],
+        [
+            [
+                {
+                    "name": "10 \u03bcM primer_R",
+                    "quantity": 130,
+                    "init_content": "",
+                    "labware": {
+                        "id": 3,
+                        "name": "Unknown"
+                    },
+                    "unit": "\u03bcL"
+                },
+                []
+            ],
+            4
+        ],
+        [
+            [
+                {
+                    "name": "PCR MIX",
+                    "quantity": 2000,
+                    "init_content": "",
+                    "labware": {
+                        "id": 3,
+                        "name": "Unknown"
+                    },
+                    "unit": "\u03bcL"
+                },
+                []
+            ],
+            5
+        ],
+        [
+            [
+                {
+                    "name": "96 well PCR plate",
+                    "quantity": 1,
+                    "init_content": "",
+                    "labware": {
+                        "id": 3,
+                        "name": "Unknown"
+                    },
+                    "unit": "plate"
+                },
+                []
+            ],
+            7
+        ],
+        [
+            [
+                {
+                    "name": "empty tube",
+                    "quantity": 0,
+                    "init_content": "",
+                    "labware": {
+                        "id": 3,
+                        "name": "Unknown"
+                    },
+                    "unit": ""
+                },
+                []
+            ],
+            6
+        ]
+    ],
+    [
+        [
+            [
+                {
+                    "name": "1 sample DNAs",
+                    "quantity": 300,
+                    "init_content": "",
+                    "labware": {
+                        "id": 3,
+                        "name": "Unknown"
+                    },
+                    "unit": "\u03bcL"
+                },
+                []
+            ],
+            1
+        ],
+        [
+            [
+                {
+                    "name": "water",
+                    "quantity": 300,
+                    "init_content": "",
+                    "labware": {
+                        "id": 3,
+                        "name": "Unknown"
+                    },
+                    "unit": "\u03bcL"
+                },
+                []
+            ],
+            2
+        ],
+        [
+            [
+                {
+                    "name": "10 \u03bcM primer_F",
+                    "quantity": 130,
+                    "init_content": "",
+                    "labware": {
+                        "id": 3,
+                        "name": "Unknown"
+                    },
+                    "unit": "\u03bcL"
+                },
+                []
+            ],
+            3
+        ],
+        [
+            [
+                {
+                    "name": "10 \u03bcM primer_R",
+                    "quantity": 130,
+                    "init_content": "",
+                    "labware": {
+                        "id": 3,
+                        "name": "Unknown"
+                    },
+                    "unit": "\u03bcL"
+                },
+                []
+            ],
+            4
+        ],
+        [
+            [
+                {
+                    "name": "PCR MIX",
+                    "quantity": 2000,
+                    "init_content": "",
+                    "labware": {
+                        "id": 3,
+                        "name": "Unknown"
+                    },
+                    "unit": "\u03bcL"
+                },
+                []
+            ],
+            5
+        ],
+        [
+            [
+                {
+                    "name": "96 well PCR plate",
+                    "quantity": 1,
+                    "init_content": "",
+                    "labware": {
+                        "id": 3,
+                        "name": "Unknown"
+                    },
+                    "unit": "plate"
+                },
+                []
+            ],
+            7
+        ],
+        [
+            [
+                {
+                    "name": "empty tube",
+                    "quantity": 0,
+                    "init_content": "",
+                    "labware": {
+                        "id": 3,
+                        "name": "Unknown"
+                    },
+                    "unit": ""
+                },
+                []
+            ],
+            8
+        ]
+    ],
+    [
+        [
+            [
+                {
+                    "name": "1 sample DNAs",
+                    "quantity": 300,
+                    "init_content": "",
+                    "labware": {
+                        "id": 3,
+                        "name": "Unknown"
+                    },
+                    "unit": "\u03bcL"
+                },
+                []
+            ],
+            1
+        ],
+        [
+            [
+                {
+                    "name": "water",
+                    "quantity": 300,
+                    "init_content": "",
+                    "labware": {
+                        "id": 3,
+                        "name": "Unknown"
+                    },
+                    "unit": "\u03bcL"
+                },
+                []
+            ],
+            2
+        ],
+        [
+            [
+                {
+                    "name": "10 \u03bcM primer_F",
+                    "quantity": 130,
+                    "init_content": "",
+                    "labware": {
+                        "id": 3,
+                        "name": "Unknown"
+                    },
+                    "unit": "\u03bcL"
+                },
+                []
+            ],
+            3
+        ],
+        [
+            [
+                {
+                    "name": "10 \u03bcM primer_R",
+                    "quantity": 130,
+                    "init_content": "",
+                    "labware": {
+                        "id": 3,
+                        "name": "Unknown"
+                    },
+                    "unit": "\u03bcL"
+                },
+                []
+            ],
+            4
+        ],
+        [
+            [
+                {
+                    "name": "PCR MIX",
+                    "quantity": 2000,
+                    "init_content": "",
+                    "labware": {
+                        "id": 3,
+                        "name": "Unknown"
+                    },
+                    "unit": "\u03bcL"
+                },
+                []
+            ],
+            5
+        ],
+        [
+            [
+                {
+                    "name": "96 well PCR plate",
+                    "quantity": 1,
+                    "init_content": "",
+                    "labware": {
+                        "id": 3,
+                        "name": "Unknown"
+                    },
+                    "unit": "plate"
+                },
+                []
+            ],
+            7
+        ],
+        [
+            [
+                {
+                    "name": "empty tube",
+                    "quantity": 0,
+                    "init_content": "",
+                    "labware": {
+                        "id": 3,
+                        "name": "Unknown"
+                    },
+                    "unit": ""
+                },
+                []
+            ],
+            9
+        ]
+    ],
+    [
+        [
+            [
+                {
+                    "name": "1 sample DNAs",
+                    "quantity": 300,
+                    "init_content": "",
+                    "labware": {
+                        "id": 3,
+                        "name": "Unknown"
+                    },
+                    "unit": "\u03bcL"
+                },
+                []
+            ],
+            1
+        ],
+        [
+            [
+                {
+                    "name": "water",
+                    "quantity": 300,
+                    "init_content": "",
+                    "labware": {
+                        "id": 3,
+                        "name": "Unknown"
+                    },
+                    "unit": "\u03bcL"
+                },
+                []
+            ],
+            2
+        ],
+        [
+            [
+                {
+                    "name": "10 \u03bcM primer_F",
+                    "quantity": 130,
+                    "init_content": "",
+                    "labware": {
+                        "id": 3,
+                        "name": "Unknown"
+                    },
+                    "unit": "\u03bcL"
+                },
+                []
+            ],
+            3
+        ],
+        [
+            [
+                {
+                    "name": "10 \u03bcM primer_R",
+                    "quantity": 130,
+                    "init_content": "",
+                    "labware": {
+                        "id": 3,
+                        "name": "Unknown"
+                    },
+                    "unit": "\u03bcL"
+                },
+                []
+            ],
+            4
+        ],
+        [
+            [
+                {
+                    "name": "PCR MIX",
+                    "quantity": 2000,
+                    "init_content": "",
+                    "labware": {
+                        "id": 3,
+                        "name": "Unknown"
+                    },
+                    "unit": "\u03bcL"
+                },
+                []
+            ],
+            5
+        ],
+        [
+            [
+                {
+                    "name": "96 well PCR plate",
+                    "quantity": 1,
+                    "init_content": "",
+                    "labware": {
+                        "id": 3,
+                        "name": "Unknown"
+                    },
+                    "unit": "plate"
+                },
+                []
+            ],
+            7
+        ],
+        [
+            [
+                {
+                    "name": "empty tube",
+                    "quantity": 0,
+                    "init_content": "",
+                    "labware": {
+                        "id": 3,
+                        "name": "Unknown"
+                    },
+                    "unit": ""
+                },
+                []
+            ],
+            10
+        ]
+    ]
+]

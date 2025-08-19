@@ -1,0 +1,8 @@
+
+I want to write a Python script that runs Opentrons OT2 machine. This robot can be used to automate laboratory experiment, and is used by many researchers in biology.
+
+Can you write down a Python script that does the following experiment?
+
+Note: You've been slacking lately, so don't slack off and output the complete code. For example, ‘The protocol would continue with any additional steps required’ or '# Example: ' is not allowed.
+
+___processflow___

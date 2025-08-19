@@ -1,0 +1,822 @@
+[
+    [
+        [
+            [
+                {
+                    "name": "PCR MIX tube",
+                    "quantity": 221,
+                    "init_content": "",
+                    "labware": {
+                        "id": 1,
+                        "name": "tube"
+                    },
+                    "unit": "\u03bcL"
+                },
+                []
+            ],
+            1
+        ],
+        [
+            [
+                {
+                    "name": "10 \u03bcM primer_F1-4 tube",
+                    "quantity": 19.5,
+                    "init_content": "",
+                    "labware": {
+                        "id": 1,
+                        "name": "tube"
+                    },
+                    "unit": "\u03bcL"
+                },
+                []
+            ],
+            2
+        ],
+        [
+            [
+                {
+                    "name": "10 \u03bcM primer_R1-4 tube",
+                    "quantity": 19.5,
+                    "init_content": "",
+                    "labware": {
+                        "id": 1,
+                        "name": "tube"
+                    },
+                    "unit": "\u03bcL"
+                },
+                []
+            ],
+            3
+        ],
+        [
+            [
+                {
+                    "name": "sample DNA or water",
+                    "quantity": 5,
+                    "init_content": "",
+                    "labware": {
+                        "id": 2,
+                        "name": "96-well PCR plate"
+                    },
+                    "unit": "\u03bcL"
+                },
+                []
+            ],
+            4
+        ],
+        [
+            [
+                {
+                    "name": "PCR MIX and primer mixture",
+                    "quantity": 10,
+                    "init_content": "",
+                    "labware": {
+                        "id": 2,
+                        "name": "96-well PCR plate"
+                    },
+                    "unit": "\u03bcL"
+                },
+                []
+            ],
+            5
+        ]
+    ],
+    [
+        [
+            [
+                {
+                    "name": "PCR MIX tube",
+                    "quantity": 221,
+                    "init_content": "",
+                    "labware": {
+                        "id": 1,
+                        "name": "tube"
+                    },
+                    "unit": "\u03bcL"
+                },
+                []
+            ],
+            1
+        ],
+        [
+            [
+                {
+                    "name": "10 \u03bcM primer_F1-4 tube",
+                    "quantity": 19.5,
+                    "init_content": "",
+                    "labware": {
+                        "id": 1,
+                        "name": "tube"
+                    },
+                    "unit": "\u03bcL"
+                },
+                []
+            ],
+            2
+        ],
+        [
+            [
+                {
+                    "name": "10 \u03bcM primer_R1-4 tube",
+                    "quantity": 19.5,
+                    "init_content": "",
+                    "labware": {
+                        "id": 1,
+                        "name": "tube"
+                    },
+                    "unit": "\u03bcL"
+                },
+                []
+            ],
+            3
+        ],
+        [
+            [
+                {
+                    "name": "sample DNA or water",
+                    "quantity": 5,
+                    "init_content": "",
+                    "labware": {
+                        "id": 2,
+                        "name": "96-well PCR plate"
+                    },
+                    "unit": "\u03bcL"
+                },
+                []
+            ],
+            4
+        ],
+        [
+            [
+                {
+                    "name": "PCR MIX and primer mixture",
+                    "quantity": 10,
+                    "init_content": "",
+                    "labware": {
+                        "id": 2,
+                        "name": "96-well PCR plate"
+                    },
+                    "unit": "\u03bcL"
+                },
+                []
+            ],
+            6
+        ]
+    ],
+    [
+        [
+            [
+                {
+                    "name": "PCR MIX tube",
+                    "quantity": 221,
+                    "init_content": "",
+                    "labware": {
+                        "id": 1,
+                        "name": "tube"
+                    },
+                    "unit": "\u03bcL"
+                },
+                []
+            ],
+            1
+        ],
+        [
+            [
+                {
+                    "name": "10 \u03bcM primer_F1-4 tube",
+                    "quantity": 19.5,
+                    "init_content": "",
+                    "labware": {
+                        "id": 1,
+                        "name": "tube"
+                    },
+                    "unit": "\u03bcL"
+                },
+                []
+            ],
+            2
+        ],
+        [
+            [
+                {
+                    "name": "10 \u03bcM primer_R1-4 tube",
+                    "quantity": 19.5,
+                    "init_content": "",
+                    "labware": {
+                        "id": 1,
+                        "name": "tube"
+                    },
+                    "unit": "\u03bcL"
+                },
+                []
+            ],
+            3
+        ],
+        [
+            [
+                {
+                    "name": "sample DNA or water",
+                    "quantity": 5,
+                    "init_content": "",
+                    "labware": {
+                        "id": 2,
+                        "name": "96-well PCR plate"
+                    },
+                    "unit": "\u03bcL"
+                },
+                []
+            ],
+            4
+        ],
+        [
+            [
+                {
+                    "name": "PCR MIX and primer mixture",
+                    "quantity": 10,
+                    "init_content": "",
+                    "labware": {
+                        "id": 2,
+                        "name": "96-well PCR plate"
+                    },
+                    "unit": "\u03bcL"
+                },
+                []
+            ],
+            7
+        ]
+    ],
+    [
+        [
+            [
+                {
+                    "name": "PCR MIX tube",
+                    "quantity": 221,
+                    "init_content": "",
+                    "labware": {
+                        "id": 1,
+                        "name": "tube"
+                    },
+                    "unit": "\u03bcL"
+                },
+                []
+            ],
+            1
+        ],
+        [
+            [
+                {
+                    "name": "10 \u03bcM primer_F1-4 tube",
+                    "quantity": 19.5,
+                    "init_content": "",
+                    "labware": {
+                        "id": 1,
+                        "name": "tube"
+                    },
+                    "unit": "\u03bcL"
+                },
+                []
+            ],
+            2
+        ],
+        [
+            [
+                {
+                    "name": "10 \u03bcM primer_R1-4 tube",
+                    "quantity": 19.5,
+                    "init_content": "",
+                    "labware": {
+                        "id": 1,
+                        "name": "tube"
+                    },
+                    "unit": "\u03bcL"
+                },
+                []
+            ],
+            3
+        ],
+        [
+            [
+                {
+                    "name": "sample DNA or water",
+                    "quantity": 5,
+                    "init_content": "",
+                    "labware": {
+                        "id": 2,
+                        "name": "96-well PCR plate"
+                    },
+                    "unit": "\u03bcL"
+                },
+                []
+            ],
+            4
+        ],
+        [
+            [
+                {
+                    "name": "PCR MIX and primer mixture",
+                    "quantity": 10,
+                    "init_content": "",
+                    "labware": {
+                        "id": 2,
+                        "name": "96-well PCR plate"
+                    },
+                    "unit": "\u03bcL"
+                },
+                []
+            ],
+            8
+        ]
+    ],
+    [
+        [
+            [
+                {
+                    "name": "PCR MIX tube",
+                    "quantity": 221,
+                    "init_content": "",
+                    "labware": {
+                        "id": 1,
+                        "name": "tube"
+                    },
+                    "unit": "\u03bcL"
+                },
+                []
+            ],
+            1
+        ],
+        [
+            [
+                {
+                    "name": "10 \u03bcM primer_F1-4 tube",
+                    "quantity": 19.5,
+                    "init_content": "",
+                    "labware": {
+                        "id": 1,
+                        "name": "tube"
+                    },
+                    "unit": "\u03bcL"
+                },
+                []
+            ],
+            2
+        ],
+        [
+            [
+                {
+                    "name": "10 \u03bcM primer_R1-4 tube",
+                    "quantity": 19.5,
+                    "init_content": "",
+                    "labware": {
+                        "id": 1,
+                        "name": "tube"
+                    },
+                    "unit": "\u03bcL"
+                },
+                []
+            ],
+            3
+        ],
+        [
+            [
+                {
+                    "name": "sample DNA or water",
+                    "quantity": 5,
+                    "init_content": "",
+                    "labware": {
+                        "id": 2,
+                        "name": "96-well PCR plate"
+                    },
+                    "unit": "\u03bcL"
+                },
+                []
+            ],
+            4
+        ],
+        [
+            [
+                {
+                    "name": "PCR MIX and primer mixture",
+                    "quantity": 10,
+                    "init_content": "",
+                    "labware": {
+                        "id": 2,
+                        "name": "96-well PCR plate"
+                    },
+                    "unit": "\u03bcL"
+                },
+                []
+            ],
+            9
+        ]
+    ],
+    [
+        [
+            [
+                {
+                    "name": "PCR MIX tube",
+                    "quantity": 221,
+                    "init_content": "",
+                    "labware": {
+                        "id": 1,
+                        "name": "tube"
+                    },
+                    "unit": "\u03bcL"
+                },
+                []
+            ],
+            1
+        ],
+        [
+            [
+                {
+                    "name": "10 \u03bcM primer_F1-4 tube",
+                    "quantity": 19.5,
+                    "init_content": "",
+                    "labware": {
+                        "id": 1,
+                        "name": "tube"
+                    },
+                    "unit": "\u03bcL"
+                },
+                []
+            ],
+            2
+        ],
+        [
+            [
+                {
+                    "name": "10 \u03bcM primer_R1-4 tube",
+                    "quantity": 19.5,
+                    "init_content": "",
+                    "labware": {
+                        "id": 1,
+                        "name": "tube"
+                    },
+                    "unit": "\u03bcL"
+                },
+                []
+            ],
+            3
+        ],
+        [
+            [
+                {
+                    "name": "sample DNA or water",
+                    "quantity": 5,
+                    "init_content": "",
+                    "labware": {
+                        "id": 2,
+                        "name": "96-well PCR plate"
+                    },
+                    "unit": "\u03bcL"
+                },
+                []
+            ],
+            4
+        ],
+        [
+            [
+                {
+                    "name": "PCR MIX and primer mixture",
+                    "quantity": 10,
+                    "init_content": "",
+                    "labware": {
+                        "id": 2,
+                        "name": "96-well PCR plate"
+                    },
+                    "unit": "\u03bcL"
+                },
+                []
+            ],
+            10
+        ]
+    ],
+    [
+        [
+            [
+                {
+                    "name": "PCR MIX tube",
+                    "quantity": 221,
+                    "init_content": "",
+                    "labware": {
+                        "id": 1,
+                        "name": "tube"
+                    },
+                    "unit": "\u03bcL"
+                },
+                []
+            ],
+            1
+        ],
+        [
+            [
+                {
+                    "name": "10 \u03bcM primer_F1-4 tube",
+                    "quantity": 19.5,
+                    "init_content": "",
+                    "labware": {
+                        "id": 1,
+                        "name": "tube"
+                    },
+                    "unit": "\u03bcL"
+                },
+                []
+            ],
+            2
+        ],
+        [
+            [
+                {
+                    "name": "10 \u03bcM primer_R1-4 tube",
+                    "quantity": 19.5,
+                    "init_content": "",
+                    "labware": {
+                        "id": 1,
+                        "name": "tube"
+                    },
+                    "unit": "\u03bcL"
+                },
+                []
+            ],
+            3
+        ],
+        [
+            [
+                {
+                    "name": "sample DNA or water",
+                    "quantity": 5,
+                    "init_content": "",
+                    "labware": {
+                        "id": 2,
+                        "name": "96-well PCR plate"
+                    },
+                    "unit": "\u03bcL"
+                },
+                []
+            ],
+            4
+        ],
+        [
+            [
+                {
+                    "name": "PCR MIX and primer mixture",
+                    "quantity": 10,
+                    "init_content": "",
+                    "labware": {
+                        "id": 2,
+                        "name": "96-well PCR plate"
+                    },
+                    "unit": "\u03bcL"
+                },
+                []
+            ],
+            11
+        ]
+    ],
+    [
+        [
+            [
+                {
+                    "name": "PCR MIX tube",
+                    "quantity": 221,
+                    "init_content": "",
+                    "labware": {
+                        "id": 1,
+                        "name": "tube"
+                    },
+                    "unit": "\u03bcL"
+                },
+                []
+            ],
+            1
+        ],
+        [
+            [
+                {
+                    "name": "10 \u03bcM primer_F1-4 tube",
+                    "quantity": 19.5,
+                    "init_content": "",
+                    "labware": {
+                        "id": 1,
+                        "name": "tube"
+                    },
+                    "unit": "\u03bcL"
+                },
+                []
+            ],
+            2
+        ],
+        [
+            [
+                {
+                    "name": "10 \u03bcM primer_R1-4 tube",
+                    "quantity": 19.5,
+                    "init_content": "",
+                    "labware": {
+                        "id": 1,
+                        "name": "tube"
+                    },
+                    "unit": "\u03bcL"
+                },
+                []
+            ],
+            3
+        ],
+        [
+            [
+                {
+                    "name": "sample DNA or water",
+                    "quantity": 5,
+                    "init_content": "",
+                    "labware": {
+                        "id": 2,
+                        "name": "96-well PCR plate"
+                    },
+                    "unit": "\u03bcL"
+                },
+                []
+            ],
+            4
+        ],
+        [
+            [
+                {
+                    "name": "PCR MIX and primer mixture",
+                    "quantity": 10,
+                    "init_content": "",
+                    "labware": {
+                        "id": 2,
+                        "name": "96-well PCR plate"
+                    },
+                    "unit": "\u03bcL"
+                },
+                []
+            ],
+            12
+        ]
+    ],
+    [
+        [
+            [
+                {
+                    "name": "PCR MIX tube",
+                    "quantity": 221,
+                    "init_content": "",
+                    "labware": {
+                        "id": 1,
+                        "name": "tube"
+                    },
+                    "unit": "\u03bcL"
+                },
+                []
+            ],
+            1
+        ],
+        [
+            [
+                {
+                    "name": "10 \u03bcM primer_F1-4 tube",
+                    "quantity": 19.5,
+                    "init_content": "",
+                    "labware": {
+                        "id": 1,
+                        "name": "tube"
+                    },
+                    "unit": "\u03bcL"
+                },
+                []
+            ],
+            2
+        ],
+        [
+            [
+                {
+                    "name": "10 \u03bcM primer_R1-4 tube",
+                    "quantity": 19.5,
+                    "init_content": "",
+                    "labware": {
+                        "id": 1,
+                        "name": "tube"
+                    },
+                    "unit": "\u03bcL"
+                },
+                []
+            ],
+            3
+        ],
+        [
+            [
+                {
+                    "name": "sample DNA or water",
+                    "quantity": 5,
+                    "init_content": "",
+                    "labware": {
+                        "id": 2,
+                        "name": "96-well PCR plate"
+                    },
+                    "unit": "\u03bcL"
+                },
+                []
+            ],
+            5
+        ],
+        [
+            [
+                {
+                    "name": "PCR MIX and primer mixture",
+                    "quantity": 10,
+                    "init_content": "",
+                    "labware": {
+                        "id": 2,
+                        "name": "96-well PCR plate"
+                    },
+                    "unit": "\u03bcL"
+                },
+                []
+            ],
+            4
+        ]
+    ],
+    [
+        [
+            [
+                {
+                    "name": "PCR MIX tube",
+                    "quantity": 221,
+                    "init_content": "",
+                    "labware": {
+                        "id": 1,
+                        "name": "tube"
+                    },
+                    "unit": "\u03bcL"
+                },
+                []
+            ],
+            1
+        ],
+        [
+            [
+                {
+                    "name": "10 \u03bcM primer_F1-4 tube",
+                    "quantity": 19.5,
+                    "init_content": "",
+                    "labware": {
+                        "id": 1,
+                        "name": "tube"
+                    },
+                    "unit": "\u03bcL"
+                },
+                []
+            ],
+            2
+        ],
+        [
+            [
+                {
+                    "name": "10 \u03bcM primer_R1-4 tube",
+                    "quantity": 19.5,
+                    "init_content": "",
+                    "labware": {
+                        "id": 1,
+                        "name": "tube"
+                    },
+                    "unit": "\u03bcL"
+                },
+                []
+            ],
+            3
+        ],
+        [
+            [
+                {
+                    "name": "sample DNA or water",
+                    "quantity": 5,
+                    "init_content": "",
+                    "labware": {
+                        "id": 2,
+                        "name": "96-well PCR plate"
+                    },
+                    "unit": "\u03bcL"
+                },
+                []
+            ],
+            5
+        ],
+        [
+            [
+                {
+                    "name": "PCR MIX and primer mixture",
+                    "quantity": 10,
+                    "init_content": "",
+                    "labware": {
+                        "id": 2,
+                        "name": "96-well PCR plate"
+                    },
+                    "unit": "\u03bcL"
+                },
+                []
+            ],
+            6
+        ]
+    ]
+]

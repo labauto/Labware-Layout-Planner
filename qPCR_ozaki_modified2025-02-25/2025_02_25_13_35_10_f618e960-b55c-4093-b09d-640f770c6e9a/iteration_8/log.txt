@@ -1,0 +1,742 @@
+***2025-02-25 07:16:55.384345+00:00***: os.path.join(BASE_DIR, f'{id}')='qPCR_ozaki_modified2025-02-25/2025_02_25_13_35_10_f618e960-b55c-4093-b09d-640f770c6e9a/iteration_8'***2025-02-25 07:16:55.384663+00:00***: *********************** 2025_02_25_13_35_10_f618e960-b55c-4093-b09d-640f770c6e9a/iteration_8 *****************************2025-02-25 07:16:55.385058+00:00***: *********************************************************2025-02-25 07:16:59.239115+00:00***: obj-chan preprocess result:
+{
+
+"labware": [
+        {
+            "name": "1.5 ml tube",
+            "quantity": 1,
+            "unit": "tube",
+            "init_content": "",
+            "labware": {"id": 1, "name": "Unknown"}
+        },
+        {
+            "name": "96 well PCR plate",
+            "quantity": 1,
+            "unit": "plate",
+            "init_content": "",
+            "labware": {"id": 2, "name": "Unknown"}
+        },
+        {
+            "name": "10 μM primer_F",
+            "quantity": 3.2,
+            "unit": "μL",
+            "init_content": "",
+            "labware": {"id": 2, "name": "Unknown"}
+        },
+        {
+            "name": "10 μM primer_R",
+            "quantity" : 3.2,
+            "unit": "μL",
+            "init_content": "",
+            "labware": {"id": 2, "name": "Unknown"}
+        },
+        {
+            "name": "PCR MIX",
+            "quantity": 2000,
+            "unit": "μL",
+            "init_content": "",
+            "labware": {"id": 2, "name": "Unknown"}
+        },
+        {
+            "name": "15 ml tube",
+            "quantity": 0,
+            "unit": "tube",
+            "init_content": "",
+            "labware": {"id": 3, "name": "Unknown"}
+        },
+        {
+            "name": "reaction plate",
+            "quantity": 1,
+            "unit": "plate",
+            "init_content": "",
+            "labware": {"id": 2, "name": "Unknown"}
+        }
+    ]
+}***2025-02-25 07:16:59.240822+00:00***: obj-chan postprocess result:
+{
+
+"labware": [
+        {
+            "name": "1.5 ml tube",
+            "quantity": 1,
+            "unit": "tube",
+            "init_content": "",
+            "labware": {"id": 1, "name": "Unknown"}
+        },
+        {
+            "name": "96 well PCR plate",
+            "quantity": 1,
+            "unit": "plate",
+            "init_content": "",
+            "labware": {"id": 2, "name": "Unknown"}
+        },
+        {
+            "name": "10 μM primer_F",
+            "quantity": 3.2,
+            "unit": "μL",
+            "init_content": "",
+            "labware": {"id": 2, "name": "Unknown"}
+        },
+        {
+            "name": "10 μM primer_R",
+            "quantity" : 3.2,
+            "unit": "μL",
+            "init_content": "",
+            "labware": {"id": 2, "name": "Unknown"}
+        },
+        {
+            "name": "PCR MIX",
+            "quantity": 2000,
+            "unit": "μL",
+            "init_content": "",
+            "labware": {"id": 2, "name": "Unknown"}
+        },
+        {
+            "name": "15 ml tube",
+            "quantity": 0,
+            "unit": "tube",
+            "init_content": "",
+            "labware": {"id": 3, "name": "Unknown"}
+        },
+        {
+            "name": "reaction plate",
+            "quantity": 1,
+            "unit": "plate",
+            "init_content": "",
+            "labware": {"id": 2, "name": "Unknown"}
+        }
+    ]
+}***2025-02-25 07:16:59.243286+00:00***: 
+
+Process Flow ******************
+QPCR
+QuantStudio 6 Proで測定するサンプルprepを行う
+1サンプルあってそれぞれ13プライマー x duplicate(3)で試験するイメージ
+NTCは13プライマー x duplicate(3)用意する
+その他、PrimerなしのTemplateのみを1 x duplicate(3)用意する
+
+
+Input：試薬類の容器はチューブまたはプレート
+1 sample DNAs			300 μL
+water					300 μL
+10 μM primer_F			各10 μL
+10 μM primer_R			各10 μL
+PCR MIX				2000 μL
+96 well PCR  plate			1 plate
+その他液体混合に必要なチューブまたはプレートなど
+output
+sample DNA, primer, PCR MIXの混合溶液が入った96 well PCR plate x 1
+procedure
+1. PCR MIXを137.6 μLずつ13個に分注する
+2. PCR MIXが入ったチューブに10 μM primer_F1-13を3.2 μL添加する
+3. PCR MIXが入ったチューブに10 μM primer_R1-13を3.2 μL添加する
+4. PCR MIXとprimerをピペッティングで混合する
+5. templateのみ用のPCR MIXを86 μL分注する
+6. templateのみ用のPCR MIXにwaterを4 μL添加する
+7. templateのみ用のPCR MIXとwaterをピペッティングで混合する
+8. サンプル DNAまたはwater をreaction plateに5 μLずつアプライする
+下記plate mapの列を埋めていくイメージ
+9. PCR MIXとprimerの混合溶液を10 μLずつreaction plateにアプライする
+下記plate mapの行を埋めていくイメージ
+plate map
+81 well使用する
+S_n = sample_n
+今回はヒト標準cDNA1つ
+NTC = no template control：水＝ネガティブコントロール（全primerについて置く）
+P_m = primer set_m：forward primerとreverse primerのセット
+今回は13種類
+Templateのみも置く
+OT-2のピペット
+20 μLと300 μL 
+
+Note: 
+10 μMprimer_Fと10 μM primer_Rを 1つのCorning 96 Well Plate 360 µL Flatを用いて同じウェルプレート上に準備する
+1 sample DNAsやwaterなど、同じ容器で保存できるものはまとめた名称をつけたプレートでできるだけまとめて用意する。
+PCRMixは15 mLに準備せよ
+
+
+Constraints ******************
+Constraints(allowed_objects=[Object(name='Unknown', quantity=0, init_content='Unknown', labware={'name': '96 well plate'}, unit='unitless'), Object(name='Unknown', quantity=0, init_content='Unknown', labware={'name': '1.5 mL tube'}, unit='unitless'), Object(name='Unknown', quantity=0, init_content='Unknown', labware={'name': '15 mL tube'}, unit='unitless')])
+
+Extracted Object List******************
+[Object(name='1.5 ml tube', quantity=1, init_content='', labware={'id': 1, 'name': 'Unknown'}, unit='tube'), Object(name='96 well PCR plate', quantity=1, init_content='', labware={'id': 2, 'name': 'Unknown'}, unit='plate'), Object(name='10 μM primer_F', quantity=3.2, init_content='', labware={'id': 2, 'name': 'Unknown'}, unit='μL'), Object(name='10 μM primer_R', quantity=3.2, init_content='', labware={'id': 2, 'name': 'Unknown'}, unit='μL'), Object(name='PCR MIX', quantity=2000, init_content='', labware={'id': 2, 'name': 'Unknown'}, unit='μL'), Object(name='15 ml tube', quantity=0, init_content='', labware={'id': 3, 'name': 'Unknown'}, unit='tube'), Object(name='reaction plate', quantity=1, init_content='', labware={'id': 2, 'name': 'Unknown'}, unit='plate')]***2025-02-25 07:16:59.247119+00:00***: ************ Obj-chan result ***************2025-02-25 07:16:59.247887+00:00***: object_list: [Object(name='1.5 ml tube', quantity=1, init_content='', labware={'id': 1, 'name': 'Unknown'}, unit='tube'), Object(name='96 well PCR plate', quantity=1, init_content='', labware={'id': 2, 'name': 'Unknown'}, unit='plate'), Object(name='10 μM primer_F', quantity=3.2, init_content='', labware={'id': 2, 'name': 'Unknown'}, unit='μL'), Object(name='10 μM primer_R', quantity=3.2, init_content='', labware={'id': 2, 'name': 'Unknown'}, unit='μL'), Object(name='PCR MIX', quantity=2000, init_content='', labware={'id': 2, 'name': 'Unknown'}, unit='μL'), Object(name='15 ml tube', quantity=0, init_content='', labware={'id': 3, 'name': 'Unknown'}, unit='tube'), Object(name='reaction plate', quantity=1, init_content='', labware={'id': 2, 'name': 'Unknown'}, unit='plate')]***2025-02-25 07:16:59.249569+00:00***: object_list_num: 7***2025-02-25 07:16:59.250492+00:00***: all_num: 32***2025-02-25 07:16:59.250952+00:00***: ************ haichi-kun result ***************2025-02-25 07:16:59.251532+00:00***: all_results[:10]=[[((Object(name='1.5 ml tube', quantity=1, init_content='', labware={'id': 1, 'name': 'Unknown'}, unit='tube'), []), 1), ((Object(name='96 well PCR plate', quantity=1, init_content='', labware={'id': 2, 'name': 'Unknown'}, unit='plate'), []), 2), ((Object(name='10 μM primer_F', quantity=3.2, init_content='', labware={'id': 2, 'name': 'Unknown'}, unit='μL'), []), 3), ((Object(name='10 μM primer_R', quantity=3.2, init_content='', labware={'id': 2, 'name': 'Unknown'}, unit='μL'), []), 4), ((Object(name='PCR MIX', quantity=2000, init_content='', labware={'id': 2, 'name': 'Unknown'}, unit='μL'), []), 5), ((Object(name='15 ml tube', quantity=0, init_content='', labware={'id': 3, 'name': 'Unknown'}, unit='tube'), []), 6), ((Object(name='reaction plate', quantity=1, init_content='', labware={'id': 2, 'name': 'Unknown'}, unit='plate'), []), 7)], [((Object(name='1.5 ml tube', quantity=1, init_content='', labware={'id': 1, 'name': 'Unknown'}, unit='tube'), []), 1), ((Object(name='96 well PCR plate', quantity=1, init_content='', labware={'id': 2, 'name': 'Unknown'}, unit='plate'), []), 2), ((Object(name='10 μM primer_F', quantity=3.2, init_content='', labware={'id': 2, 'name': 'Unknown'}, unit='μL'), []), 3), ((Object(name='10 μM primer_R', quantity=3.2, init_content='', labware={'id': 2, 'name': 'Unknown'}, unit='μL'), []), 4), ((Object(name='PCR MIX', quantity=2000, init_content='', labware={'id': 2, 'name': 'Unknown'}, unit='μL'), []), 5), ((Object(name='15 ml tube', quantity=0, init_content='', labware={'id': 3, 'name': 'Unknown'}, unit='tube'), []), 6), ((Object(name='reaction plate', quantity=1, init_content='', labware={'id': 2, 'name': 'Unknown'}, unit='plate'), []), 8)], [((Object(name='1.5 ml tube', quantity=1, init_content='', labware={'id': 1, 'name': 'Unknown'}, unit='tube'), []), 1), ((Object(name='96 well PCR plate', quantity=1, init_content='', labware={'id': 2, 'name': 'Unknown'}, unit='plate'), []), 2), ((Object(name='10 μM primer_F', quantity=3.2, init_content='', labware={'id': 2, 'name': 'Unknown'}, unit='μL'), []), 3), ((Object(name='10 μM primer_R', quantity=3.2, init_content='', labware={'id': 2, 'name': 'Unknown'}, unit='μL'), []), 4), ((Object(name='PCR MIX', quantity=2000, init_content='', labware={'id': 2, 'name': 'Unknown'}, unit='μL'), []), 5), ((Object(name='15 ml tube', quantity=0, init_content='', labware={'id': 3, 'name': 'Unknown'}, unit='tube'), []), 6), ((Object(name='reaction plate', quantity=1, init_content='', labware={'id': 2, 'name': 'Unknown'}, unit='plate'), []), 9)], [((Object(name='1.5 ml tube', quantity=1, init_content='', labware={'id': 1, 'name': 'Unknown'}, unit='tube'), []), 1), ((Object(name='96 well PCR plate', quantity=1, init_content='', labware={'id': 2, 'name': 'Unknown'}, unit='plate'), []), 2), ((Object(name='10 μM primer_F', quantity=3.2, init_content='', labware={'id': 2, 'name': 'Unknown'}, unit='μL'), []), 3), ((Object(name='10 μM primer_R', quantity=3.2, init_content='', labware={'id': 2, 'name': 'Unknown'}, unit='μL'), []), 4), ((Object(name='PCR MIX', quantity=2000, init_content='', labware={'id': 2, 'name': 'Unknown'}, unit='μL'), []), 5), ((Object(name='15 ml tube', quantity=0, init_content='', labware={'id': 3, 'name': 'Unknown'}, unit='tube'), []), 6), ((Object(name='reaction plate', quantity=1, init_content='', labware={'id': 2, 'name': 'Unknown'}, unit='plate'), []), 10)], [((Object(name='1.5 ml tube', quantity=1, init_content='', labware={'id': 1, 'name': 'Unknown'}, unit='tube'), []), 1), ((Object(name='96 well PCR plate', quantity=1, init_content='', labware={'id': 2, 'name': 'Unknown'}, unit='plate'), []), 2), ((Object(name='10 μM primer_F', quantity=3.2, init_content='', labware={'id': 2, 'name': 'Unknown'}, unit='μL'), []), 3), ((Object(name='10 μM primer_R', quantity=3.2, init_content='', labware={'id': 2, 'name': 'Unknown'}, unit='μL'), []), 4), ((Object(name='PCR MIX', quantity=2000, init_content='', labware={'id': 2, 'name': 'Unknown'}, unit='μL'), []), 5), ((Object(name='15 ml tube', quantity=0, init_content='', labware={'id': 3, 'name': 'Unknown'}, unit='tube'), []), 6), ((Object(name='reaction plate', quantity=1, init_content='', labware={'id': 2, 'name': 'Unknown'}, unit='plate'), []), 11)], [((Object(name='1.5 ml tube', quantity=1, init_content='', labware={'id': 1, 'name': 'Unknown'}, unit='tube'), []), 1), ((Object(name='96 well PCR plate', quantity=1, init_content='', labware={'id': 2, 'name': 'Unknown'}, unit='plate'), []), 2), ((Object(name='10 μM primer_F', quantity=3.2, init_content='', labware={'id': 2, 'name': 'Unknown'}, unit='μL'), []), 3), ((Object(name='10 μM primer_R', quantity=3.2, init_content='', labware={'id': 2, 'name': 'Unknown'}, unit='μL'), []), 4), ((Object(name='PCR MIX', quantity=2000, init_content='', labware={'id': 2, 'name': 'Unknown'}, unit='μL'), []), 5), ((Object(name='15 ml tube', quantity=0, init_content='', labware={'id': 3, 'name': 'Unknown'}, unit='tube'), []), 6), ((Object(name='reaction plate', quantity=1, init_content='', labware={'id': 2, 'name': 'Unknown'}, unit='plate'), []), 12)], [((Object(name='1.5 ml tube', quantity=1, init_content='', labware={'id': 1, 'name': 'Unknown'}, unit='tube'), []), 1), ((Object(name='96 well PCR plate', quantity=1, init_content='', labware={'id': 2, 'name': 'Unknown'}, unit='plate'), []), 2), ((Object(name='10 μM primer_F', quantity=3.2, init_content='', labware={'id': 2, 'name': 'Unknown'}, unit='μL'), []), 3), ((Object(name='10 μM primer_R', quantity=3.2, init_content='', labware={'id': 2, 'name': 'Unknown'}, unit='μL'), []), 4), ((Object(name='PCR MIX', quantity=2000, init_content='', labware={'id': 2, 'name': 'Unknown'}, unit='μL'), []), 5), ((Object(name='15 ml tube', quantity=0, init_content='', labware={'id': 3, 'name': 'Unknown'}, unit='tube'), []), 7), ((Object(name='reaction plate', quantity=1, init_content='', labware={'id': 2, 'name': 'Unknown'}, unit='plate'), []), 6)], [((Object(name='1.5 ml tube', quantity=1, init_content='', labware={'id': 1, 'name': 'Unknown'}, unit='tube'), []), 1), ((Object(name='96 well PCR plate', quantity=1, init_content='', labware={'id': 2, 'name': 'Unknown'}, unit='plate'), []), 2), ((Object(name='10 μM primer_F', quantity=3.2, init_content='', labware={'id': 2, 'name': 'Unknown'}, unit='μL'), []), 3), ((Object(name='10 μM primer_R', quantity=3.2, init_content='', labware={'id': 2, 'name': 'Unknown'}, unit='μL'), []), 4), ((Object(name='PCR MIX', quantity=2000, init_content='', labware={'id': 2, 'name': 'Unknown'}, unit='μL'), []), 5), ((Object(name='15 ml tube', quantity=0, init_content='', labware={'id': 3, 'name': 'Unknown'}, unit='tube'), []), 7), ((Object(name='reaction plate', quantity=1, init_content='', labware={'id': 2, 'name': 'Unknown'}, unit='plate'), []), 8)], [((Object(name='1.5 ml tube', quantity=1, init_content='', labware={'id': 1, 'name': 'Unknown'}, unit='tube'), []), 1), ((Object(name='96 well PCR plate', quantity=1, init_content='', labware={'id': 2, 'name': 'Unknown'}, unit='plate'), []), 2), ((Object(name='10 μM primer_F', quantity=3.2, init_content='', labware={'id': 2, 'name': 'Unknown'}, unit='μL'), []), 3), ((Object(name='10 μM primer_R', quantity=3.2, init_content='', labware={'id': 2, 'name': 'Unknown'}, unit='μL'), []), 4), ((Object(name='PCR MIX', quantity=2000, init_content='', labware={'id': 2, 'name': 'Unknown'}, unit='μL'), []), 5), ((Object(name='15 ml tube', quantity=0, init_content='', labware={'id': 3, 'name': 'Unknown'}, unit='tube'), []), 7), ((Object(name='reaction plate', quantity=1, init_content='', labware={'id': 2, 'name': 'Unknown'}, unit='plate'), []), 9)], [((Object(name='1.5 ml tube', quantity=1, init_content='', labware={'id': 1, 'name': 'Unknown'}, unit='tube'), []), 1), ((Object(name='96 well PCR plate', quantity=1, init_content='', labware={'id': 2, 'name': 'Unknown'}, unit='plate'), []), 2), ((Object(name='10 μM primer_F', quantity=3.2, init_content='', labware={'id': 2, 'name': 'Unknown'}, unit='μL'), []), 3), ((Object(name='10 μM primer_R', quantity=3.2, init_content='', labware={'id': 2, 'name': 'Unknown'}, unit='μL'), []), 4), ((Object(name='PCR MIX', quantity=2000, init_content='', labware={'id': 2, 'name': 'Unknown'}, unit='μL'), []), 5), ((Object(name='15 ml tube', quantity=0, init_content='', labware={'id': 3, 'name': 'Unknown'}, unit='tube'), []), 7), ((Object(name='reaction plate', quantity=1, init_content='', labware={'id': 2, 'name': 'Unknown'}, unit='plate'), []), 10)]]***2025-02-25 07:16:59.254478+00:00***: ************ Check-chan result ***************2025-02-25 07:16:59.255145+00:00***: object_list: [(Object(name='1.5 ml tube', quantity=1, init_content='', labware={'id': 1, 'name': 'Unknown'}, unit='tube'), []), (Object(name='96 well PCR plate', quantity=1, init_content='', labware={'id': 2, 'name': 'Unknown'}, unit='plate'), []), (Object(name='10 μM primer_F', quantity=3.2, init_content='', labware={'id': 2, 'name': 'Unknown'}, unit='μL'), []), (Object(name='10 μM primer_R', quantity=3.2, init_content='', labware={'id': 2, 'name': 'Unknown'}, unit='μL'), []), (Object(name='PCR MIX', quantity=2000, init_content='', labware={'id': 2, 'name': 'Unknown'}, unit='μL'), []), (Object(name='15 ml tube', quantity=0, init_content='', labware={'id': 3, 'name': 'Unknown'}, unit='tube'), []), (Object(name='reaction plate', quantity=1, init_content='', labware={'id': 2, 'name': 'Unknown'}, unit='plate'), [])]***2025-02-25 07:16:59.257089+00:00***: haichi: [((Object(name='1.5 ml tube', quantity=1, init_content='', labware={'id': 1, 'name': 'Unknown'}, unit='tube'), []), 1), ((Object(name='96 well PCR plate', quantity=1, init_content='', labware={'id': 2, 'name': 'Unknown'}, unit='plate'), []), 2), ((Object(name='10 μM primer_F', quantity=3.2, init_content='', labware={'id': 2, 'name': 'Unknown'}, unit='μL'), []), 3), ((Object(name='10 μM primer_R', quantity=3.2, init_content='', labware={'id': 2, 'name': 'Unknown'}, unit='μL'), []), 4), ((Object(name='PCR MIX', quantity=2000, init_content='', labware={'id': 2, 'name': 'Unknown'}, unit='μL'), []), 5), ((Object(name='15 ml tube', quantity=0, init_content='', labware={'id': 3, 'name': 'Unknown'}, unit='tube'), []), 6), ((Object(name='reaction plate', quantity=1, init_content='', labware={'id': 2, 'name': 'Unknown'}, unit='plate'), []), 7)]***2025-02-25 07:16:59.257498+00:00***: object: ((Object(name='1.5 ml tube', quantity=1, init_content='', labware={'id': 1, 'name': 'Unknown'}, unit='tube'), []), 1)***2025-02-25 07:16:59.257877+00:00***: place: 1***2025-02-25 07:16:59.258247+00:00***: object: ((Object(name='96 well PCR plate', quantity=1, init_content='', labware={'id': 2, 'name': 'Unknown'}, unit='plate'), []), 2)***2025-02-25 07:16:59.258505+00:00***: place: 2***2025-02-25 07:16:59.258919+00:00***: object: ((Object(name='10 μM primer_F', quantity=3.2, init_content='', labware={'id': 2, 'name': 'Unknown'}, unit='μL'), []), 3)***2025-02-25 07:16:59.259271+00:00***: place: 3***2025-02-25 07:16:59.259656+00:00***: object: ((Object(name='10 μM primer_R', quantity=3.2, init_content='', labware={'id': 2, 'name': 'Unknown'}, unit='μL'), []), 4)***2025-02-25 07:16:59.259985+00:00***: place: 4***2025-02-25 07:16:59.260362+00:00***: object: ((Object(name='PCR MIX', quantity=2000, init_content='', labware={'id': 2, 'name': 'Unknown'}, unit='μL'), []), 5)***2025-02-25 07:16:59.260989+00:00***: place: 5***2025-02-25 07:16:59.261452+00:00***: object: ((Object(name='15 ml tube', quantity=0, init_content='', labware={'id': 3, 'name': 'Unknown'}, unit='tube'), []), 6)***2025-02-25 07:16:59.261798+00:00***: place: 6***2025-02-25 07:16:59.262633+00:00***: object: ((Object(name='reaction plate', quantity=1, init_content='', labware={'id': 2, 'name': 'Unknown'}, unit='plate'), []), 7)***2025-02-25 07:16:59.262937+00:00***: place: 7***2025-02-25 07:16:59.263320+00:00***: ***Station info*** from***2025-02-25 07:16:59.263594+00:00***: ||||
+|----|----|----|
+|void|void|void|
+|reaction plate:reaction plate|void|void|
+|10 μM primer_R:10 μM primer_R|PCR MIX:PCR MIX|15 ml tube:15 ml tube|
+|1.5 ml tube:1.5 ml tube|96 well PCR plate:96 well PCR plate|10 μM primer_F:10 μM primer_F|
+***2025-02-25 07:16:59.263800+00:00***: ***Station info*** to***2025-02-25 07:16:59.264195+00:00***: relative_restriction: test_case/relative_restriction_init_content/ng_position1.json***2025-02-25 07:16:59.264713+00:00***: []***2025-02-25 07:16:59.265381+00:00***: ************ Check-chan result ***************2025-02-25 07:16:59.265652+00:00***: object_list: [(Object(name='1.5 ml tube', quantity=1, init_content='', labware={'id': 1, 'name': 'Unknown'}, unit='tube'), []), (Object(name='96 well PCR plate', quantity=1, init_content='', labware={'id': 2, 'name': 'Unknown'}, unit='plate'), []), (Object(name='10 μM primer_F', quantity=3.2, init_content='', labware={'id': 2, 'name': 'Unknown'}, unit='μL'), []), (Object(name='10 μM primer_R', quantity=3.2, init_content='', labware={'id': 2, 'name': 'Unknown'}, unit='μL'), []), (Object(name='PCR MIX', quantity=2000, init_content='', labware={'id': 2, 'name': 'Unknown'}, unit='μL'), []), (Object(name='15 ml tube', quantity=0, init_content='', labware={'id': 3, 'name': 'Unknown'}, unit='tube'), []), (Object(name='reaction plate', quantity=1, init_content='', labware={'id': 2, 'name': 'Unknown'}, unit='plate'), [])]***2025-02-25 07:16:59.266023+00:00***: haichi: [((Object(name='1.5 ml tube', quantity=1, init_content='', labware={'id': 1, 'name': 'Unknown'}, unit='tube'), []), 1), ((Object(name='96 well PCR plate', quantity=1, init_content='', labware={'id': 2, 'name': 'Unknown'}, unit='plate'), []), 2), ((Object(name='10 μM primer_F', quantity=3.2, init_content='', labware={'id': 2, 'name': 'Unknown'}, unit='μL'), []), 3), ((Object(name='10 μM primer_R', quantity=3.2, init_content='', labware={'id': 2, 'name': 'Unknown'}, unit='μL'), []), 4), ((Object(name='PCR MIX', quantity=2000, init_content='', labware={'id': 2, 'name': 'Unknown'}, unit='μL'), []), 5), ((Object(name='15 ml tube', quantity=0, init_content='', labware={'id': 3, 'name': 'Unknown'}, unit='tube'), []), 6), ((Object(name='reaction plate', quantity=1, init_content='', labware={'id': 2, 'name': 'Unknown'}, unit='plate'), []), 8)]***2025-02-25 07:16:59.266244+00:00***: object: ((Object(name='1.5 ml tube', quantity=1, init_content='', labware={'id': 1, 'name': 'Unknown'}, unit='tube'), []), 1)***2025-02-25 07:16:59.266471+00:00***: place: 1***2025-02-25 07:16:59.266643+00:00***: object: ((Object(name='96 well PCR plate', quantity=1, init_content='', labware={'id': 2, 'name': 'Unknown'}, unit='plate'), []), 2)***2025-02-25 07:16:59.266789+00:00***: place: 2***2025-02-25 07:16:59.266947+00:00***: object: ((Object(name='10 μM primer_F', quantity=3.2, init_content='', labware={'id': 2, 'name': 'Unknown'}, unit='μL'), []), 3)***2025-02-25 07:16:59.267136+00:00***: place: 3***2025-02-25 07:16:59.267597+00:00***: object: ((Object(name='10 μM primer_R', quantity=3.2, init_content='', labware={'id': 2, 'name': 'Unknown'}, unit='μL'), []), 4)***2025-02-25 07:16:59.267772+00:00***: place: 4***2025-02-25 07:16:59.268142+00:00***: object: ((Object(name='PCR MIX', quantity=2000, init_content='', labware={'id': 2, 'name': 'Unknown'}, unit='μL'), []), 5)***2025-02-25 07:16:59.268345+00:00***: place: 5***2025-02-25 07:16:59.268550+00:00***: object: ((Object(name='15 ml tube', quantity=0, init_content='', labware={'id': 3, 'name': 'Unknown'}, unit='tube'), []), 6)***2025-02-25 07:16:59.268694+00:00***: place: 6***2025-02-25 07:16:59.268850+00:00***: object: ((Object(name='reaction plate', quantity=1, init_content='', labware={'id': 2, 'name': 'Unknown'}, unit='plate'), []), 8)***2025-02-25 07:16:59.268997+00:00***: place: 8***2025-02-25 07:16:59.269183+00:00***: ***Station info*** from***2025-02-25 07:16:59.269352+00:00***: ||||
+|----|----|----|
+|void|void|void|
+|void|reaction plate:reaction plate|void|
+|10 μM primer_R:10 μM primer_R|PCR MIX:PCR MIX|15 ml tube:15 ml tube|
+|1.5 ml tube:1.5 ml tube|96 well PCR plate:96 well PCR plate|10 μM primer_F:10 μM primer_F|
+***2025-02-25 07:16:59.269503+00:00***: ***Station info*** to***2025-02-25 07:16:59.269679+00:00***: relative_restriction: test_case/relative_restriction_init_content/ng_position1.json***2025-02-25 07:16:59.269948+00:00***: []***2025-02-25 07:16:59.270561+00:00***: ************ Check-chan result ***************2025-02-25 07:16:59.270726+00:00***: object_list: [(Object(name='1.5 ml tube', quantity=1, init_content='', labware={'id': 1, 'name': 'Unknown'}, unit='tube'), []), (Object(name='96 well PCR plate', quantity=1, init_content='', labware={'id': 2, 'name': 'Unknown'}, unit='plate'), []), (Object(name='10 μM primer_F', quantity=3.2, init_content='', labware={'id': 2, 'name': 'Unknown'}, unit='μL'), []), (Object(name='10 μM primer_R', quantity=3.2, init_content='', labware={'id': 2, 'name': 'Unknown'}, unit='μL'), []), (Object(name='PCR MIX', quantity=2000, init_content='', labware={'id': 2, 'name': 'Unknown'}, unit='μL'), []), (Object(name='15 ml tube', quantity=0, init_content='', labware={'id': 3, 'name': 'Unknown'}, unit='tube'), []), (Object(name='reaction plate', quantity=1, init_content='', labware={'id': 2, 'name': 'Unknown'}, unit='plate'), [])]***2025-02-25 07:16:59.270916+00:00***: haichi: [((Object(name='1.5 ml tube', quantity=1, init_content='', labware={'id': 1, 'name': 'Unknown'}, unit='tube'), []), 1), ((Object(name='96 well PCR plate', quantity=1, init_content='', labware={'id': 2, 'name': 'Unknown'}, unit='plate'), []), 2), ((Object(name='10 μM primer_F', quantity=3.2, init_content='', labware={'id': 2, 'name': 'Unknown'}, unit='μL'), []), 3), ((Object(name='10 μM primer_R', quantity=3.2, init_content='', labware={'id': 2, 'name': 'Unknown'}, unit='μL'), []), 4), ((Object(name='PCR MIX', quantity=2000, init_content='', labware={'id': 2, 'name': 'Unknown'}, unit='μL'), []), 5), ((Object(name='15 ml tube', quantity=0, init_content='', labware={'id': 3, 'name': 'Unknown'}, unit='tube'), []), 6), ((Object(name='reaction plate', quantity=1, init_content='', labware={'id': 2, 'name': 'Unknown'}, unit='plate'), []), 9)]***2025-02-25 07:16:59.271086+00:00***: object: ((Object(name='1.5 ml tube', quantity=1, init_content='', labware={'id': 1, 'name': 'Unknown'}, unit='tube'), []), 1)***2025-02-25 07:16:59.271245+00:00***: place: 1***2025-02-25 07:16:59.271395+00:00***: object: ((Object(name='96 well PCR plate', quantity=1, init_content='', labware={'id': 2, 'name': 'Unknown'}, unit='plate'), []), 2)***2025-02-25 07:16:59.271525+00:00***: place: 2***2025-02-25 07:16:59.271735+00:00***: object: ((Object(name='10 μM primer_F', quantity=3.2, init_content='', labware={'id': 2, 'name': 'Unknown'}, unit='μL'), []), 3)***2025-02-25 07:16:59.271877+00:00***: place: 3***2025-02-25 07:16:59.272767+00:00***: object: ((Object(name='10 μM primer_R', quantity=3.2, init_content='', labware={'id': 2, 'name': 'Unknown'}, unit='μL'), []), 4)***2025-02-25 07:16:59.272946+00:00***: place: 4***2025-02-25 07:16:59.273091+00:00***: object: ((Object(name='PCR MIX', quantity=2000, init_content='', labware={'id': 2, 'name': 'Unknown'}, unit='μL'), []), 5)***2025-02-25 07:16:59.273349+00:00***: place: 5***2025-02-25 07:16:59.273881+00:00***: object: ((Object(name='15 ml tube', quantity=0, init_content='', labware={'id': 3, 'name': 'Unknown'}, unit='tube'), []), 6)***2025-02-25 07:16:59.274476+00:00***: place: 6***2025-02-25 07:16:59.275061+00:00***: object: ((Object(name='reaction plate', quantity=1, init_content='', labware={'id': 2, 'name': 'Unknown'}, unit='plate'), []), 9)***2025-02-25 07:16:59.275476+00:00***: place: 9***2025-02-25 07:16:59.275764+00:00***: ***Station info*** from***2025-02-25 07:16:59.275956+00:00***: ||||
+|----|----|----|
+|void|void|void|
+|void|void|reaction plate:reaction plate|
+|10 μM primer_R:10 μM primer_R|PCR MIX:PCR MIX|15 ml tube:15 ml tube|
+|1.5 ml tube:1.5 ml tube|96 well PCR plate:96 well PCR plate|10 μM primer_F:10 μM primer_F|
+***2025-02-25 07:16:59.276292+00:00***: ***Station info*** to***2025-02-25 07:16:59.276531+00:00***: relative_restriction: test_case/relative_restriction_init_content/ng_position1.json***2025-02-25 07:16:59.276977+00:00***: []***2025-02-25 07:16:59.278098+00:00***: ************ Check-chan result ***************2025-02-25 07:16:59.278383+00:00***: object_list: [(Object(name='1.5 ml tube', quantity=1, init_content='', labware={'id': 1, 'name': 'Unknown'}, unit='tube'), []), (Object(name='96 well PCR plate', quantity=1, init_content='', labware={'id': 2, 'name': 'Unknown'}, unit='plate'), []), (Object(name='10 μM primer_F', quantity=3.2, init_content='', labware={'id': 2, 'name': 'Unknown'}, unit='μL'), []), (Object(name='10 μM primer_R', quantity=3.2, init_content='', labware={'id': 2, 'name': 'Unknown'}, unit='μL'), []), (Object(name='PCR MIX', quantity=2000, init_content='', labware={'id': 2, 'name': 'Unknown'}, unit='μL'), []), (Object(name='15 ml tube', quantity=0, init_content='', labware={'id': 3, 'name': 'Unknown'}, unit='tube'), []), (Object(name='reaction plate', quantity=1, init_content='', labware={'id': 2, 'name': 'Unknown'}, unit='plate'), [])]***2025-02-25 07:16:59.278633+00:00***: haichi: [((Object(name='1.5 ml tube', quantity=1, init_content='', labware={'id': 1, 'name': 'Unknown'}, unit='tube'), []), 1), ((Object(name='96 well PCR plate', quantity=1, init_content='', labware={'id': 2, 'name': 'Unknown'}, unit='plate'), []), 2), ((Object(name='10 μM primer_F', quantity=3.2, init_content='', labware={'id': 2, 'name': 'Unknown'}, unit='μL'), []), 3), ((Object(name='10 μM primer_R', quantity=3.2, init_content='', labware={'id': 2, 'name': 'Unknown'}, unit='μL'), []), 4), ((Object(name='PCR MIX', quantity=2000, init_content='', labware={'id': 2, 'name': 'Unknown'}, unit='μL'), []), 5), ((Object(name='15 ml tube', quantity=0, init_content='', labware={'id': 3, 'name': 'Unknown'}, unit='tube'), []), 6), ((Object(name='reaction plate', quantity=1, init_content='', labware={'id': 2, 'name': 'Unknown'}, unit='plate'), []), 10)]***2025-02-25 07:16:59.278825+00:00***: object: ((Object(name='1.5 ml tube', quantity=1, init_content='', labware={'id': 1, 'name': 'Unknown'}, unit='tube'), []), 1)***2025-02-25 07:16:59.279183+00:00***: place: 1***2025-02-25 07:16:59.279482+00:00***: object: ((Object(name='96 well PCR plate', quantity=1, init_content='', labware={'id': 2, 'name': 'Unknown'}, unit='plate'), []), 2)***2025-02-25 07:16:59.279716+00:00***: place: 2***2025-02-25 07:16:59.279919+00:00***: object: ((Object(name='10 μM primer_F', quantity=3.2, init_content='', labware={'id': 2, 'name': 'Unknown'}, unit='μL'), []), 3)***2025-02-25 07:16:59.280200+00:00***: place: 3***2025-02-25 07:16:59.280506+00:00***: object: ((Object(name='10 μM primer_R', quantity=3.2, init_content='', labware={'id': 2, 'name': 'Unknown'}, unit='μL'), []), 4)***2025-02-25 07:16:59.280713+00:00***: place: 4***2025-02-25 07:16:59.280946+00:00***: object: ((Object(name='PCR MIX', quantity=2000, init_content='', labware={'id': 2, 'name': 'Unknown'}, unit='μL'), []), 5)***2025-02-25 07:16:59.281152+00:00***: place: 5***2025-02-25 07:16:59.281346+00:00***: object: ((Object(name='15 ml tube', quantity=0, init_content='', labware={'id': 3, 'name': 'Unknown'}, unit='tube'), []), 6)***2025-02-25 07:16:59.281550+00:00***: place: 6***2025-02-25 07:16:59.281867+00:00***: object: ((Object(name='reaction plate', quantity=1, init_content='', labware={'id': 2, 'name': 'Unknown'}, unit='plate'), []), 10)***2025-02-25 07:16:59.282007+00:00***: place: 10***2025-02-25 07:16:59.282140+00:00***: ***Station info*** from***2025-02-25 07:16:59.282423+00:00***: ||||
+|----|----|----|
+|reaction plate:reaction plate|void|void|
+|void|void|void|
+|10 μM primer_R:10 μM primer_R|PCR MIX:PCR MIX|15 ml tube:15 ml tube|
+|1.5 ml tube:1.5 ml tube|96 well PCR plate:96 well PCR plate|10 μM primer_F:10 μM primer_F|
+***2025-02-25 07:16:59.282628+00:00***: ***Station info*** to***2025-02-25 07:16:59.282920+00:00***: relative_restriction: test_case/relative_restriction_init_content/ng_position1.json***2025-02-25 07:16:59.284610+00:00***: []***2025-02-25 07:16:59.285784+00:00***: ************ Check-chan result ***************2025-02-25 07:16:59.286070+00:00***: object_list: [(Object(name='1.5 ml tube', quantity=1, init_content='', labware={'id': 1, 'name': 'Unknown'}, unit='tube'), []), (Object(name='96 well PCR plate', quantity=1, init_content='', labware={'id': 2, 'name': 'Unknown'}, unit='plate'), []), (Object(name='10 μM primer_F', quantity=3.2, init_content='', labware={'id': 2, 'name': 'Unknown'}, unit='μL'), []), (Object(name='10 μM primer_R', quantity=3.2, init_content='', labware={'id': 2, 'name': 'Unknown'}, unit='μL'), []), (Object(name='PCR MIX', quantity=2000, init_content='', labware={'id': 2, 'name': 'Unknown'}, unit='μL'), []), (Object(name='15 ml tube', quantity=0, init_content='', labware={'id': 3, 'name': 'Unknown'}, unit='tube'), []), (Object(name='reaction plate', quantity=1, init_content='', labware={'id': 2, 'name': 'Unknown'}, unit='plate'), [])]***2025-02-25 07:16:59.286342+00:00***: haichi: [((Object(name='1.5 ml tube', quantity=1, init_content='', labware={'id': 1, 'name': 'Unknown'}, unit='tube'), []), 1), ((Object(name='96 well PCR plate', quantity=1, init_content='', labware={'id': 2, 'name': 'Unknown'}, unit='plate'), []), 2), ((Object(name='10 μM primer_F', quantity=3.2, init_content='', labware={'id': 2, 'name': 'Unknown'}, unit='μL'), []), 3), ((Object(name='10 μM primer_R', quantity=3.2, init_content='', labware={'id': 2, 'name': 'Unknown'}, unit='μL'), []), 4), ((Object(name='PCR MIX', quantity=2000, init_content='', labware={'id': 2, 'name': 'Unknown'}, unit='μL'), []), 5), ((Object(name='15 ml tube', quantity=0, init_content='', labware={'id': 3, 'name': 'Unknown'}, unit='tube'), []), 6), ((Object(name='reaction plate', quantity=1, init_content='', labware={'id': 2, 'name': 'Unknown'}, unit='plate'), []), 11)]***2025-02-25 07:16:59.286521+00:00***: object: ((Object(name='1.5 ml tube', quantity=1, init_content='', labware={'id': 1, 'name': 'Unknown'}, unit='tube'), []), 1)***2025-02-25 07:16:59.286718+00:00***: place: 1***2025-02-25 07:16:59.286965+00:00***: object: ((Object(name='96 well PCR plate', quantity=1, init_content='', labware={'id': 2, 'name': 'Unknown'}, unit='plate'), []), 2)***2025-02-25 07:16:59.287196+00:00***: place: 2***2025-02-25 07:16:59.287431+00:00***: object: ((Object(name='10 μM primer_F', quantity=3.2, init_content='', labware={'id': 2, 'name': 'Unknown'}, unit='μL'), []), 3)***2025-02-25 07:16:59.287607+00:00***: place: 3***2025-02-25 07:16:59.287765+00:00***: object: ((Object(name='10 μM primer_R', quantity=3.2, init_content='', labware={'id': 2, 'name': 'Unknown'}, unit='μL'), []), 4)***2025-02-25 07:16:59.287917+00:00***: place: 4***2025-02-25 07:16:59.288353+00:00***: object: ((Object(name='PCR MIX', quantity=2000, init_content='', labware={'id': 2, 'name': 'Unknown'}, unit='μL'), []), 5)***2025-02-25 07:16:59.288894+00:00***: place: 5***2025-02-25 07:16:59.290026+00:00***: object: ((Object(name='15 ml tube', quantity=0, init_content='', labware={'id': 3, 'name': 'Unknown'}, unit='tube'), []), 6)***2025-02-25 07:16:59.290360+00:00***: place: 6***2025-02-25 07:16:59.291072+00:00***: object: ((Object(name='reaction plate', quantity=1, init_content='', labware={'id': 2, 'name': 'Unknown'}, unit='plate'), []), 11)***2025-02-25 07:16:59.291365+00:00***: place: 11***2025-02-25 07:16:59.291986+00:00***: ***Station info*** from***2025-02-25 07:16:59.292235+00:00***: ||||
+|----|----|----|
+|void|reaction plate:reaction plate|void|
+|void|void|void|
+|10 μM primer_R:10 μM primer_R|PCR MIX:PCR MIX|15 ml tube:15 ml tube|
+|1.5 ml tube:1.5 ml tube|96 well PCR plate:96 well PCR plate|10 μM primer_F:10 μM primer_F|
+***2025-02-25 07:16:59.292415+00:00***: ***Station info*** to***2025-02-25 07:16:59.292828+00:00***: relative_restriction: test_case/relative_restriction_init_content/ng_position1.json***2025-02-25 07:16:59.293201+00:00***: []***2025-02-25 07:16:59.293677+00:00***: ************ Check-chan result ***************2025-02-25 07:16:59.293798+00:00***: object_list: [(Object(name='1.5 ml tube', quantity=1, init_content='', labware={'id': 1, 'name': 'Unknown'}, unit='tube'), []), (Object(name='96 well PCR plate', quantity=1, init_content='', labware={'id': 2, 'name': 'Unknown'}, unit='plate'), []), (Object(name='10 μM primer_F', quantity=3.2, init_content='', labware={'id': 2, 'name': 'Unknown'}, unit='μL'), []), (Object(name='10 μM primer_R', quantity=3.2, init_content='', labware={'id': 2, 'name': 'Unknown'}, unit='μL'), []), (Object(name='PCR MIX', quantity=2000, init_content='', labware={'id': 2, 'name': 'Unknown'}, unit='μL'), []), (Object(name='15 ml tube', quantity=0, init_content='', labware={'id': 3, 'name': 'Unknown'}, unit='tube'), []), (Object(name='reaction plate', quantity=1, init_content='', labware={'id': 2, 'name': 'Unknown'}, unit='plate'), [])]***2025-02-25 07:16:59.293925+00:00***: haichi: [((Object(name='1.5 ml tube', quantity=1, init_content='', labware={'id': 1, 'name': 'Unknown'}, unit='tube'), []), 1), ((Object(name='96 well PCR plate', quantity=1, init_content='', labware={'id': 2, 'name': 'Unknown'}, unit='plate'), []), 2), ((Object(name='10 μM primer_F', quantity=3.2, init_content='', labware={'id': 2, 'name': 'Unknown'}, unit='μL'), []), 3), ((Object(name='10 μM primer_R', quantity=3.2, init_content='', labware={'id': 2, 'name': 'Unknown'}, unit='μL'), []), 4), ((Object(name='PCR MIX', quantity=2000, init_content='', labware={'id': 2, 'name': 'Unknown'}, unit='μL'), []), 5), ((Object(name='15 ml tube', quantity=0, init_content='', labware={'id': 3, 'name': 'Unknown'}, unit='tube'), []), 6), ((Object(name='reaction plate', quantity=1, init_content='', labware={'id': 2, 'name': 'Unknown'}, unit='plate'), []), 12)]***2025-02-25 07:16:59.294033+00:00***: object: ((Object(name='1.5 ml tube', quantity=1, init_content='', labware={'id': 1, 'name': 'Unknown'}, unit='tube'), []), 1)***2025-02-25 07:16:59.294123+00:00***: place: 1***2025-02-25 07:16:59.294215+00:00***: object: ((Object(name='96 well PCR plate', quantity=1, init_content='', labware={'id': 2, 'name': 'Unknown'}, unit='plate'), []), 2)***2025-02-25 07:16:59.294298+00:00***: place: 2***2025-02-25 07:16:59.294397+00:00***: object: ((Object(name='10 μM primer_F', quantity=3.2, init_content='', labware={'id': 2, 'name': 'Unknown'}, unit='μL'), []), 3)***2025-02-25 07:16:59.294496+00:00***: place: 3***2025-02-25 07:16:59.294593+00:00***: object: ((Object(name='10 μM primer_R', quantity=3.2, init_content='', labware={'id': 2, 'name': 'Unknown'}, unit='μL'), []), 4)***2025-02-25 07:16:59.294705+00:00***: place: 4***2025-02-25 07:16:59.295416+00:00***: object: ((Object(name='PCR MIX', quantity=2000, init_content='', labware={'id': 2, 'name': 'Unknown'}, unit='μL'), []), 5)***2025-02-25 07:16:59.295752+00:00***: place: 5***2025-02-25 07:16:59.295974+00:00***: object: ((Object(name='15 ml tube', quantity=0, init_content='', labware={'id': 3, 'name': 'Unknown'}, unit='tube'), []), 6)***2025-02-25 07:16:59.296112+00:00***: place: 6***2025-02-25 07:16:59.296325+00:00***: object: ((Object(name='reaction plate', quantity=1, init_content='', labware={'id': 2, 'name': 'Unknown'}, unit='plate'), []), 12)***2025-02-25 07:16:59.296699+00:00***: place: 12***2025-02-25 07:16:59.296862+00:00***: ***Station info*** from***2025-02-25 07:16:59.297013+00:00***: ||||
+|----|----|----|
+|void|void|reaction plate:reaction plate|
+|void|void|void|
+|10 μM primer_R:10 μM primer_R|PCR MIX:PCR MIX|15 ml tube:15 ml tube|
+|1.5 ml tube:1.5 ml tube|96 well PCR plate:96 well PCR plate|10 μM primer_F:10 μM primer_F|
+***2025-02-25 07:16:59.297435+00:00***: ***Station info*** to***2025-02-25 07:16:59.297792+00:00***: relative_restriction: test_case/relative_restriction_init_content/ng_position1.json***2025-02-25 07:16:59.298134+00:00***: []***2025-02-25 07:16:59.298923+00:00***: ************ Check-chan result ***************2025-02-25 07:16:59.299241+00:00***: object_list: [(Object(name='1.5 ml tube', quantity=1, init_content='', labware={'id': 1, 'name': 'Unknown'}, unit='tube'), []), (Object(name='96 well PCR plate', quantity=1, init_content='', labware={'id': 2, 'name': 'Unknown'}, unit='plate'), []), (Object(name='10 μM primer_F', quantity=3.2, init_content='', labware={'id': 2, 'name': 'Unknown'}, unit='μL'), []), (Object(name='10 μM primer_R', quantity=3.2, init_content='', labware={'id': 2, 'name': 'Unknown'}, unit='μL'), []), (Object(name='PCR MIX', quantity=2000, init_content='', labware={'id': 2, 'name': 'Unknown'}, unit='μL'), []), (Object(name='15 ml tube', quantity=0, init_content='', labware={'id': 3, 'name': 'Unknown'}, unit='tube'), []), (Object(name='reaction plate', quantity=1, init_content='', labware={'id': 2, 'name': 'Unknown'}, unit='plate'), [])]***2025-02-25 07:16:59.299509+00:00***: haichi: [((Object(name='1.5 ml tube', quantity=1, init_content='', labware={'id': 1, 'name': 'Unknown'}, unit='tube'), []), 1), ((Object(name='96 well PCR plate', quantity=1, init_content='', labware={'id': 2, 'name': 'Unknown'}, unit='plate'), []), 2), ((Object(name='10 μM primer_F', quantity=3.2, init_content='', labware={'id': 2, 'name': 'Unknown'}, unit='μL'), []), 3), ((Object(name='10 μM primer_R', quantity=3.2, init_content='', labware={'id': 2, 'name': 'Unknown'}, unit='μL'), []), 4), ((Object(name='PCR MIX', quantity=2000, init_content='', labware={'id': 2, 'name': 'Unknown'}, unit='μL'), []), 5), ((Object(name='15 ml tube', quantity=0, init_content='', labware={'id': 3, 'name': 'Unknown'}, unit='tube'), []), 7), ((Object(name='reaction plate', quantity=1, init_content='', labware={'id': 2, 'name': 'Unknown'}, unit='plate'), []), 6)]***2025-02-25 07:16:59.299710+00:00***: object: ((Object(name='1.5 ml tube', quantity=1, init_content='', labware={'id': 1, 'name': 'Unknown'}, unit='tube'), []), 1)***2025-02-25 07:16:59.299868+00:00***: place: 1***2025-02-25 07:16:59.300092+00:00***: object: ((Object(name='96 well PCR plate', quantity=1, init_content='', labware={'id': 2, 'name': 'Unknown'}, unit='plate'), []), 2)***2025-02-25 07:16:59.300321+00:00***: place: 2***2025-02-25 07:16:59.300456+00:00***: object: ((Object(name='10 μM primer_F', quantity=3.2, init_content='', labware={'id': 2, 'name': 'Unknown'}, unit='μL'), []), 3)***2025-02-25 07:16:59.300600+00:00***: place: 3***2025-02-25 07:16:59.300730+00:00***: object: ((Object(name='10 μM primer_R', quantity=3.2, init_content='', labware={'id': 2, 'name': 'Unknown'}, unit='μL'), []), 4)***2025-02-25 07:16:59.300937+00:00***: place: 4***2025-02-25 07:16:59.301143+00:00***: object: ((Object(name='PCR MIX', quantity=2000, init_content='', labware={'id': 2, 'name': 'Unknown'}, unit='μL'), []), 5)***2025-02-25 07:16:59.301288+00:00***: place: 5***2025-02-25 07:16:59.301458+00:00***: object: ((Object(name='15 ml tube', quantity=0, init_content='', labware={'id': 3, 'name': 'Unknown'}, unit='tube'), []), 7)***2025-02-25 07:16:59.301636+00:00***: place: 7***2025-02-25 07:16:59.301809+00:00***: object: ((Object(name='reaction plate', quantity=1, init_content='', labware={'id': 2, 'name': 'Unknown'}, unit='plate'), []), 6)***2025-02-25 07:16:59.301938+00:00***: place: 6***2025-02-25 07:16:59.302114+00:00***: ***Station info*** from***2025-02-25 07:16:59.302232+00:00***: ||||
+|----|----|----|
+|void|void|void|
+|15 ml tube:15 ml tube|void|void|
+|10 μM primer_R:10 μM primer_R|PCR MIX:PCR MIX|reaction plate:reaction plate|
+|1.5 ml tube:1.5 ml tube|96 well PCR plate:96 well PCR plate|10 μM primer_F:10 μM primer_F|
+***2025-02-25 07:16:59.302365+00:00***: ***Station info*** to***2025-02-25 07:16:59.302496+00:00***: relative_restriction: test_case/relative_restriction_init_content/ng_position1.json***2025-02-25 07:16:59.302719+00:00***: []***2025-02-25 07:16:59.303201+00:00***: ************ Check-chan result ***************2025-02-25 07:16:59.303341+00:00***: object_list: [(Object(name='1.5 ml tube', quantity=1, init_content='', labware={'id': 1, 'name': 'Unknown'}, unit='tube'), []), (Object(name='96 well PCR plate', quantity=1, init_content='', labware={'id': 2, 'name': 'Unknown'}, unit='plate'), []), (Object(name='10 μM primer_F', quantity=3.2, init_content='', labware={'id': 2, 'name': 'Unknown'}, unit='μL'), []), (Object(name='10 μM primer_R', quantity=3.2, init_content='', labware={'id': 2, 'name': 'Unknown'}, unit='μL'), []), (Object(name='PCR MIX', quantity=2000, init_content='', labware={'id': 2, 'name': 'Unknown'}, unit='μL'), []), (Object(name='15 ml tube', quantity=0, init_content='', labware={'id': 3, 'name': 'Unknown'}, unit='tube'), []), (Object(name='reaction plate', quantity=1, init_content='', labware={'id': 2, 'name': 'Unknown'}, unit='plate'), [])]***2025-02-25 07:16:59.303549+00:00***: haichi: [((Object(name='1.5 ml tube', quantity=1, init_content='', labware={'id': 1, 'name': 'Unknown'}, unit='tube'), []), 1), ((Object(name='96 well PCR plate', quantity=1, init_content='', labware={'id': 2, 'name': 'Unknown'}, unit='plate'), []), 2), ((Object(name='10 μM primer_F', quantity=3.2, init_content='', labware={'id': 2, 'name': 'Unknown'}, unit='μL'), []), 3), ((Object(name='10 μM primer_R', quantity=3.2, init_content='', labware={'id': 2, 'name': 'Unknown'}, unit='μL'), []), 4), ((Object(name='PCR MIX', quantity=2000, init_content='', labware={'id': 2, 'name': 'Unknown'}, unit='μL'), []), 5), ((Object(name='15 ml tube', quantity=0, init_content='', labware={'id': 3, 'name': 'Unknown'}, unit='tube'), []), 7), ((Object(name='reaction plate', quantity=1, init_content='', labware={'id': 2, 'name': 'Unknown'}, unit='plate'), []), 8)]***2025-02-25 07:16:59.303751+00:00***: object: ((Object(name='1.5 ml tube', quantity=1, init_content='', labware={'id': 1, 'name': 'Unknown'}, unit='tube'), []), 1)***2025-02-25 07:16:59.304023+00:00***: place: 1***2025-02-25 07:16:59.304211+00:00***: object: ((Object(name='96 well PCR plate', quantity=1, init_content='', labware={'id': 2, 'name': 'Unknown'}, unit='plate'), []), 2)***2025-02-25 07:16:59.304359+00:00***: place: 2***2025-02-25 07:16:59.304516+00:00***: object: ((Object(name='10 μM primer_F', quantity=3.2, init_content='', labware={'id': 2, 'name': 'Unknown'}, unit='μL'), []), 3)***2025-02-25 07:16:59.304618+00:00***: place: 3***2025-02-25 07:16:59.304764+00:00***: object: ((Object(name='10 μM primer_R', quantity=3.2, init_content='', labware={'id': 2, 'name': 'Unknown'}, unit='μL'), []), 4)***2025-02-25 07:16:59.304883+00:00***: place: 4***2025-02-25 07:16:59.305172+00:00***: object: ((Object(name='PCR MIX', quantity=2000, init_content='', labware={'id': 2, 'name': 'Unknown'}, unit='μL'), []), 5)***2025-02-25 07:16:59.305503+00:00***: place: 5***2025-02-25 07:16:59.305752+00:00***: object: ((Object(name='15 ml tube', quantity=0, init_content='', labware={'id': 3, 'name': 'Unknown'}, unit='tube'), []), 7)***2025-02-25 07:16:59.305890+00:00***: place: 7***2025-02-25 07:16:59.306132+00:00***: object: ((Object(name='reaction plate', quantity=1, init_content='', labware={'id': 2, 'name': 'Unknown'}, unit='plate'), []), 8)***2025-02-25 07:16:59.306447+00:00***: place: 8***2025-02-25 07:16:59.306739+00:00***: ***Station info*** from***2025-02-25 07:16:59.307036+00:00***: ||||
+|----|----|----|
+|void|void|void|
+|15 ml tube:15 ml tube|reaction plate:reaction plate|void|
+|10 μM primer_R:10 μM primer_R|PCR MIX:PCR MIX|void|
+|1.5 ml tube:1.5 ml tube|96 well PCR plate:96 well PCR plate|10 μM primer_F:10 μM primer_F|
+***2025-02-25 07:16:59.307226+00:00***: ***Station info*** to***2025-02-25 07:16:59.307430+00:00***: relative_restriction: test_case/relative_restriction_init_content/ng_position1.json***2025-02-25 07:16:59.307871+00:00***: []***2025-02-25 07:16:59.308444+00:00***: ************ Check-chan result ***************2025-02-25 07:16:59.308611+00:00***: object_list: [(Object(name='1.5 ml tube', quantity=1, init_content='', labware={'id': 1, 'name': 'Unknown'}, unit='tube'), []), (Object(name='96 well PCR plate', quantity=1, init_content='', labware={'id': 2, 'name': 'Unknown'}, unit='plate'), []), (Object(name='10 μM primer_F', quantity=3.2, init_content='', labware={'id': 2, 'name': 'Unknown'}, unit='μL'), []), (Object(name='10 μM primer_R', quantity=3.2, init_content='', labware={'id': 2, 'name': 'Unknown'}, unit='μL'), []), (Object(name='PCR MIX', quantity=2000, init_content='', labware={'id': 2, 'name': 'Unknown'}, unit='μL'), []), (Object(name='15 ml tube', quantity=0, init_content='', labware={'id': 3, 'name': 'Unknown'}, unit='tube'), []), (Object(name='reaction plate', quantity=1, init_content='', labware={'id': 2, 'name': 'Unknown'}, unit='plate'), [])]***2025-02-25 07:16:59.308868+00:00***: haichi: [((Object(name='1.5 ml tube', quantity=1, init_content='', labware={'id': 1, 'name': 'Unknown'}, unit='tube'), []), 1), ((Object(name='96 well PCR plate', quantity=1, init_content='', labware={'id': 2, 'name': 'Unknown'}, unit='plate'), []), 2), ((Object(name='10 μM primer_F', quantity=3.2, init_content='', labware={'id': 2, 'name': 'Unknown'}, unit='μL'), []), 3), ((Object(name='10 μM primer_R', quantity=3.2, init_content='', labware={'id': 2, 'name': 'Unknown'}, unit='μL'), []), 4), ((Object(name='PCR MIX', quantity=2000, init_content='', labware={'id': 2, 'name': 'Unknown'}, unit='μL'), []), 5), ((Object(name='15 ml tube', quantity=0, init_content='', labware={'id': 3, 'name': 'Unknown'}, unit='tube'), []), 7), ((Object(name='reaction plate', quantity=1, init_content='', labware={'id': 2, 'name': 'Unknown'}, unit='plate'), []), 9)]***2025-02-25 07:16:59.309136+00:00***: object: ((Object(name='1.5 ml tube', quantity=1, init_content='', labware={'id': 1, 'name': 'Unknown'}, unit='tube'), []), 1)***2025-02-25 07:16:59.309454+00:00***: place: 1***2025-02-25 07:16:59.309621+00:00***: object: ((Object(name='96 well PCR plate', quantity=1, init_content='', labware={'id': 2, 'name': 'Unknown'}, unit='plate'), []), 2)***2025-02-25 07:16:59.309830+00:00***: place: 2***2025-02-25 07:16:59.310046+00:00***: object: ((Object(name='10 μM primer_F', quantity=3.2, init_content='', labware={'id': 2, 'name': 'Unknown'}, unit='μL'), []), 3)***2025-02-25 07:16:59.310406+00:00***: place: 3***2025-02-25 07:16:59.310646+00:00***: object: ((Object(name='10 μM primer_R', quantity=3.2, init_content='', labware={'id': 2, 'name': 'Unknown'}, unit='μL'), []), 4)***2025-02-25 07:16:59.310828+00:00***: place: 4***2025-02-25 07:16:59.311074+00:00***: object: ((Object(name='PCR MIX', quantity=2000, init_content='', labware={'id': 2, 'name': 'Unknown'}, unit='μL'), []), 5)***2025-02-25 07:16:59.311269+00:00***: place: 5***2025-02-25 07:16:59.311445+00:00***: object: ((Object(name='15 ml tube', quantity=0, init_content='', labware={'id': 3, 'name': 'Unknown'}, unit='tube'), []), 7)***2025-02-25 07:16:59.311650+00:00***: place: 7***2025-02-25 07:16:59.311860+00:00***: object: ((Object(name='reaction plate', quantity=1, init_content='', labware={'id': 2, 'name': 'Unknown'}, unit='plate'), []), 9)***2025-02-25 07:16:59.312203+00:00***: place: 9***2025-02-25 07:16:59.312385+00:00***: ***Station info*** from***2025-02-25 07:16:59.312542+00:00***: ||||
+|----|----|----|
+|void|void|void|
+|15 ml tube:15 ml tube|void|reaction plate:reaction plate|
+|10 μM primer_R:10 μM primer_R|PCR MIX:PCR MIX|void|
+|1.5 ml tube:1.5 ml tube|96 well PCR plate:96 well PCR plate|10 μM primer_F:10 μM primer_F|
+***2025-02-25 07:16:59.312688+00:00***: ***Station info*** to***2025-02-25 07:16:59.312898+00:00***: relative_restriction: test_case/relative_restriction_init_content/ng_position1.json***2025-02-25 07:16:59.313148+00:00***: []***2025-02-25 07:16:59.313698+00:00***: ************ Check-chan result ***************2025-02-25 07:16:59.313882+00:00***: object_list: [(Object(name='1.5 ml tube', quantity=1, init_content='', labware={'id': 1, 'name': 'Unknown'}, unit='tube'), []), (Object(name='96 well PCR plate', quantity=1, init_content='', labware={'id': 2, 'name': 'Unknown'}, unit='plate'), []), (Object(name='10 μM primer_F', quantity=3.2, init_content='', labware={'id': 2, 'name': 'Unknown'}, unit='μL'), []), (Object(name='10 μM primer_R', quantity=3.2, init_content='', labware={'id': 2, 'name': 'Unknown'}, unit='μL'), []), (Object(name='PCR MIX', quantity=2000, init_content='', labware={'id': 2, 'name': 'Unknown'}, unit='μL'), []), (Object(name='15 ml tube', quantity=0, init_content='', labware={'id': 3, 'name': 'Unknown'}, unit='tube'), []), (Object(name='reaction plate', quantity=1, init_content='', labware={'id': 2, 'name': 'Unknown'}, unit='plate'), [])]***2025-02-25 07:16:59.314107+00:00***: haichi: [((Object(name='1.5 ml tube', quantity=1, init_content='', labware={'id': 1, 'name': 'Unknown'}, unit='tube'), []), 1), ((Object(name='96 well PCR plate', quantity=1, init_content='', labware={'id': 2, 'name': 'Unknown'}, unit='plate'), []), 2), ((Object(name='10 μM primer_F', quantity=3.2, init_content='', labware={'id': 2, 'name': 'Unknown'}, unit='μL'), []), 3), ((Object(name='10 μM primer_R', quantity=3.2, init_content='', labware={'id': 2, 'name': 'Unknown'}, unit='μL'), []), 4), ((Object(name='PCR MIX', quantity=2000, init_content='', labware={'id': 2, 'name': 'Unknown'}, unit='μL'), []), 5), ((Object(name='15 ml tube', quantity=0, init_content='', labware={'id': 3, 'name': 'Unknown'}, unit='tube'), []), 7), ((Object(name='reaction plate', quantity=1, init_content='', labware={'id': 2, 'name': 'Unknown'}, unit='plate'), []), 10)]***2025-02-25 07:16:59.314306+00:00***: object: ((Object(name='1.5 ml tube', quantity=1, init_content='', labware={'id': 1, 'name': 'Unknown'}, unit='tube'), []), 1)***2025-02-25 07:16:59.314445+00:00***: place: 1***2025-02-25 07:16:59.314650+00:00***: object: ((Object(name='96 well PCR plate', quantity=1, init_content='', labware={'id': 2, 'name': 'Unknown'}, unit='plate'), []), 2)***2025-02-25 07:16:59.314799+00:00***: place: 2***2025-02-25 07:16:59.314981+00:00***: object: ((Object(name='10 μM primer_F', quantity=3.2, init_content='', labware={'id': 2, 'name': 'Unknown'}, unit='μL'), []), 3)***2025-02-25 07:16:59.315281+00:00***: place: 3***2025-02-25 07:16:59.315447+00:00***: object: ((Object(name='10 μM primer_R', quantity=3.2, init_content='', labware={'id': 2, 'name': 'Unknown'}, unit='μL'), []), 4)***2025-02-25 07:16:59.315640+00:00***: place: 4***2025-02-25 07:16:59.315786+00:00***: object: ((Object(name='PCR MIX', quantity=2000, init_content='', labware={'id': 2, 'name': 'Unknown'}, unit='μL'), []), 5)***2025-02-25 07:16:59.315909+00:00***: place: 5***2025-02-25 07:16:59.316014+00:00***: object: ((Object(name='15 ml tube', quantity=0, init_content='', labware={'id': 3, 'name': 'Unknown'}, unit='tube'), []), 7)***2025-02-25 07:16:59.316105+00:00***: place: 7***2025-02-25 07:16:59.316221+00:00***: object: ((Object(name='reaction plate', quantity=1, init_content='', labware={'id': 2, 'name': 'Unknown'}, unit='plate'), []), 10)***2025-02-25 07:16:59.316329+00:00***: place: 10***2025-02-25 07:16:59.316423+00:00***: ***Station info*** from***2025-02-25 07:16:59.316510+00:00***: ||||
+|----|----|----|
+|reaction plate:reaction plate|void|void|
+|15 ml tube:15 ml tube|void|void|
+|10 μM primer_R:10 μM primer_R|PCR MIX:PCR MIX|void|
+|1.5 ml tube:1.5 ml tube|96 well PCR plate:96 well PCR plate|10 μM primer_F:10 μM primer_F|
+***2025-02-25 07:16:59.316595+00:00***: ***Station info*** to***2025-02-25 07:16:59.316696+00:00***: relative_restriction: test_case/relative_restriction_init_content/ng_position1.json***2025-02-25 07:16:59.316840+00:00***: []***2025-02-25 07:17:05.458166+00:00***: *********************************************************2025-02-25 07:17:05.463219+00:00***: save initial position of objects as txt file: qPCR_ozaki_modified2025-02-25/2025_02_25_13_35_10_f618e960-b55c-4093-b09d-640f770c6e9a/iteration_8/representative_initial_position.txt***2025-02-25 07:17:05.463608+00:00***: *********************************************************2025-02-25 07:17:05.463903+00:00***: OK: [((Object(name='1.5 ml tube', quantity=1, init_content='', labware={'id': 1, 'name': 'Unknown'}, unit='tube'), []), 1), ((Object(name='96 well PCR plate', quantity=1, init_content='', labware={'id': 2, 'name': 'Unknown'}, unit='plate'), []), 2), ((Object(name='10 μM primer_F', quantity=3.2, init_content='', labware={'id': 2, 'name': 'Unknown'}, unit='μL'), []), 3), ((Object(name='10 μM primer_R', quantity=3.2, init_content='', labware={'id': 2, 'name': 'Unknown'}, unit='μL'), []), 4), ((Object(name='PCR MIX', quantity=2000, init_content='', labware={'id': 2, 'name': 'Unknown'}, unit='μL'), []), 5), ((Object(name='15 ml tube', quantity=0, init_content='', labware={'id': 3, 'name': 'Unknown'}, unit='tube'), []), 7), ((Object(name='reaction plate', quantity=1, init_content='', labware={'id': 2, 'name': 'Unknown'}, unit='plate'), []), 10)]***2025-02-25 07:17:05.464125+00:00***: Generate 骨子スクリプト from 
+~~~~~~~~~~
+QPCR
+QuantStudio 6 Proで測定するサンプルprepを行う
+1サンプルあってそれぞれ13プライマー x duplicate(3)で試験するイメージ
+NTCは13プライマー x duplicate(3)用意する
+その他、PrimerなしのTemplateのみを1 x duplicate(3)用意する
+
+
+Input：試薬類の容器はチューブまたはプレート
+1 sample DNAs			300 μL
+water					300 μL
+10 μM primer_F			各10 μL
+10 μM primer_R			各10 μL
+PCR MIX				2000 μL
+96 well PCR  plate			1 plate
+その他液体混合に必要なチューブまたはプレートなど
+output
+sample DNA, primer, PCR MIXの混合溶液が入った96 well PCR plate x 1
+procedure
+1. PCR MIXを137.6 μLずつ13個に分注する
+2. PCR MIXが入ったチューブに10 μM primer_F1-13を3.2 μL添加する
+3. PCR MIXが入ったチューブに10 μM primer_R1-13を3.2 μL添加する
+4. PCR MIXとprimerをピペッティングで混合する
+5. templateのみ用のPCR MIXを86 μL分注する
+6. templateのみ用のPCR MIXにwaterを4 μL添加する
+7. templateのみ用のPCR MIXとwaterをピペッティングで混合する
+8. サンプル DNAまたはwater をreaction plateに5 μLずつアプライする
+下記plate mapの列を埋めていくイメージ
+9. PCR MIXとprimerの混合溶液を10 μLずつreaction plateにアプライする
+下記plate mapの行を埋めていくイメージ
+plate map
+81 well使用する
+S_n = sample_n
+今回はヒト標準cDNA1つ
+NTC = no template control：水＝ネガティブコントロール（全primerについて置く）
+P_m = primer set_m：forward primerとreverse primerのセット
+今回は13種類
+Templateのみも置く
+OT-2のピペット
+20 μLと300 μL 
+
+Note: 
+10 μMprimer_Fと10 μM primer_Rを 1つのCorning 96 Well Plate 360 µL Flatを用いて同じウェルプレート上に準備する
+1 sample DNAsやwaterなど、同じ容器で保存できるものはまとめた名称をつけたプレートでできるだけまとめて用意する。
+PCRMixは15 mLに準備せよ
+
+~~~~~~~~~~***2025-02-25 07:17:05.464504+00:00***: ************ Code-chan for 骨子スクリプト result ***************2025-02-25 07:17:05.464748+00:00***: replace_word: ___processflow___ is not in the prompt.***2025-02-25 07:18:22.243699+00:00***: python_script_path: qPCR_ozaki_modified2025-02-25/2025_02_25_13_35_10_f618e960-b55c-4093-b09d-640f770c6e9a/iteration_8/code_chan/骨子スクリプト.py***2025-02-25 07:18:22.244069+00:00***: ************ Code-chan result ***************2025-02-25 07:18:22.244277+00:00***: replace_word: ___processflow___ is not in the prompt.***2025-02-25 07:18:22.245183+00:00***: get_OT2_with_haichi_based_on_骨子_script prompt: 
+We have the following Opentrons OT2 script. This script describes the position of the labware (Station) as __place_{i}__.
+
+Note: You've been slacking lately, so don't slack off and output the complete code. For example, ‘The protocol would continue with any additional steps required’ or '# Example: ' is not allowed.
+
+Skeleton script:
+
+python
+from opentrons import protocol_api
+
+metadata = {
+    'protocolName': 'QPCR Sample Preparation for QuantStudio 6 Pro',
+    'author': 'Assistant',
+    'description': 'Prepare QPCR samples with primers and template DNA on a 96-well plate',
+    'apiLevel': '2.9'
+}
+
+def run(protocol: protocol_api.ProtocolContext):
+
+    # Labware
+    tip_rack_20 = protocol.load_labware('opentrons_96_tiprack_20ul', '__place_1__')
+    tip_rack_300 = protocol.load_labware('opentrons_96_tiprack_300ul', '__place_2__')
+
+    p20 = protocol.load_instrument('p20_single_gen2', 'left', tip_racks=[tip_rack_20])
+    p300 = protocol.load_instrument('p300_single_gen2', 'right', tip_racks=[tip_rack_300])
+
+    # Primer plate (10 μM primer_F and primer_R in the same plate)
+    primer_plate = protocol.load_labware('corning_96_wellplate_360ul_flat', '__place_3__')
+
+    # PCR MIX in a 15 mL conical tube
+    PCR_mix_tube = protocol.load_labware('opentrons_15_tuberack_falcon_15ml_conical', '__place_4__')
+
+    # PCR MIX distribution plate (for mixing PCR MIX with primers)
+    pcr_mix_dest = protocol.load_labware('corning_96_wellplate_360ul_flat', '__place_5__')
+
+    # Sample DNA and water in tube rack
+    sample_plate = protocol.load_labware('opentrons_24_tuberack_eppendorf_1.5ml_safelock_snapcap', '__place_6__')
+
+    # 96-well PCR reaction plate
+    reaction_plate = protocol.load_labware('biorad_96_wellplate_200ul_pcr', '__place_7__')
+
+    # Reagents location
+    sample_DNA = sample_plate.wells_by_name()['A1']  # Sample DNA
+    water = sample_plate.wells_by_name()['A2']       # Nuclease-free water
+    PCR_mix = PCR_mix_tube.wells_by_name()['A1']     # PCR MIX in 15 mL conical tube
+
+    # Primer locations in primer_plate
+    primer_F_wells = [primer_plate.wells_by_name()['A' + str(i+1)] for i in range(13)]  # A1-A13
+    primer_R_wells = [primer_plate.wells_by_name()['B' + str(i+1)] for i in range(13)]  # B1-B13
+
+    # PCR MIX + primer mixture wells in pcr_mix_dest
+    pcr_mix_primer_wells = [pcr_mix_dest.wells_by_name()['A' + str(i+1)] for i in range(13)]  # A1-A13
+
+    # Template-only PCR MIX in well A14
+    template_only_mix_well = pcr_mix_dest.wells_by_name()['A14']
+
+    # Step 1: Distribute 137.6 μL of PCR MIX into 13 wells
+    for dest_well in pcr_mix_primer_wells:
+        p300.transfer(137.6, PCR_mix, dest_well, new_tip='always')
+
+    # Step 2 and 3: Add 3.2 μL of primer_F and primer_R to each PCR MIX well
+    for i in range(13):
+        p20.transfer(3.2, primer_F_wells[i], pcr_mix_primer_wells[i], mix_after=(3, 10), new_tip='always')
+        p20.transfer(3.2, primer_R_wells[i], pcr_mix_primer_wells[i], mix_after=(3, 10), new_tip='always')
+
+    # Step 4: Mix PCR MIX and primers by pipetting up and down
+    for well in pcr_mix_primer_wells:
+        p300.pick_up_tip()
+        p300.mix(5, 100, well)
+        p300.blow_out(well.top())
+        p300.drop_tip()
+
+    # Step 5: Prepare PCR MIX for template-only control, add 86 μL to well A14
+    p300.transfer(86, PCR_mix, template_only_mix_well, new_tip='always')
+
+    # Step 6: Add 4 μL of water to template-only PCR MIX
+    p20.transfer(4, water, template_only_mix_well, mix_after=(3, 10), new_tip='always')
+
+    # Step 7: Mix PCR MIX and water by pipetting up and down
+    p300.pick_up_tip()
+    p300.mix(5, 50, template_only_mix_well)
+    p300.blow_out(template_only_mix_well.top())
+    p300.drop_tip()
+
+    # Step 8: Apply 5 μL of sample DNA or water to reaction plate
+
+    # Prepare lists of wells for sample DNA and NTC
+    sample_wells = []
+    ntc_wells = []
+    template_only_wells = []
+
+    # Map reaction_plate wells for sample DNA and NTC
+    sample_well_names = []
+    ntc_well_names = []
+    for i in range(13):
+        # Sample DNA wells (triplicates)
+        for j in range(3):
+            row = chr(65 + (i * 3 + j) // 12)  # Rows A-H
+            col = (i * 3 + j) % 12 + 1
+            well_name = f"{row}{col}"
+            sample_well_names.append(well_name)
+            sample_wells.append(reaction_plate.wells_by_name()[well_name])
+        # NTC wells (triplicates)
+        for j in range(3):
+            row = chr(65 + ((i * 3 + j + 39) // 12))  # Continue from where sample wells end
+            col = (i * 3 + j + 39) % 12 + 1
+            well_name = f"{row}{col}"
+            ntc_well_names.append(well_name)
+            ntc_wells.append(reaction_plate.wells_by_name()[well_name])
+
+    # Template-only wells (C1-C3)
+    template_only_well_names = ['C1', 'C2', 'C3']
+    template_only_wells = [reaction_plate.wells_by_name()[well_name] for well_name in template_only_well_names]
+
+    # Step 8: Apply 5 μL of sample DNA to sample wells
+    for well in sample_wells:
+        p20.transfer(5, sample_DNA, well, new_tip='always')
+
+    # Apply 5 μL of water to NTC wells
+    for well in ntc_wells:
+        p20.transfer(5, water, well, new_tip='always')
+
+    # Apply 5 μL of sample DNA to template-only wells
+    for well in template_only_wells:
+        p20.transfer(5, sample_DNA, well, new_tip='always')
+
+    # Step 9: Apply 10 μL of PCR MIX and primer mixture to reaction plate
+
+    # For sample wells, corresponding to primer sets
+    index = 0
+    for i in range(13):
+        source_well = pcr_mix_primer_wells[i]
+        for _ in range(3):  # Triplicates
+            dest_well = sample_wells[index]
+            p20.transfer(10, source_well, dest_well, mix_after=(3, 15), new_tip='always')
+            index += 1
+
+    # For NTC wells, use same PCR MIX + primers
+    index = 0
+    for i in range(13):
+        source_well = pcr_mix_primer_wells[i]
+        for _ in range(3):  # Triplicates
+            dest_well = ntc_wells[index]
+            p20.transfer(10, source_well, dest_well, mix_after=(3, 15), new_tip='always')
+            index += 1
+
+    # For template-only wells, add 10 μL of PCR MIX + water
+    for well in template_only_wells:
+        p20.transfer(10, template_only_mix_well, well, mix_after=(3, 15), new_tip='always')
+
+Please generate a script where __place_{i}__ is replaced with the correct position based on the following labware placement information.
+
+Placement information:
+
+markdown
+[[[{"name": "1.5 ml tube", "quantity": 1, "init_content": "", "labware": {"id": 1, "name": "Unknown"}, "unit": "tube"}, []], 1], [[{"name": "96 well PCR plate", "quantity": 1, "init_content": "", "labware": {"id": 2, "name": "Unknown"}, "unit": "plate"}, []], 2], [[{"name": "10 \u03bcM primer_F", "quantity": 3.2, "init_content": "", "labware": {"id": 2, "name": "Unknown"}, "unit": "\u03bcL"}, []], 3], [[{"name": "10 \u03bcM primer_R", "quantity": 3.2, "init_content": "", "labware": {"id": 2, "name": "Unknown"}, "unit": "\u03bcL"}, []], 4], [[{"name": "PCR MIX", "quantity": 2000, "init_content": "", "labware": {"id": 2, "name": "Unknown"}, "unit": "\u03bcL"}, []], 5], [[{"name": "15 ml tube", "quantity": 0, "init_content": "", "labware": {"id": 3, "name": "Unknown"}, "unit": "tube"}, []], 7], [[{"name": "reaction plate", "quantity": 1, "init_content": "", "labware": {"id": 2, "name": "Unknown"}, "unit": "plate"}, []], 10]]
+Please reply with the Python script where __place_{i}__ has been replaced with the correct locations. If there is missing information in the placement details required to fill in __place_{i}__ in the skeleton script, you may supplement it as necessary. However, do not modify the placement information.
+***2025-02-25 07:19:40.716366+00:00***: python_script_path: qPCR_ozaki_modified2025-02-25/2025_02_25_13_35_10_f618e960-b55c-4093-b09d-640f770c6e9a/iteration_8/code_chan/最終スクリプト.py***2025-02-25 07:19:40.716671+00:00***: Errorがでたので骨子スクリプトを再生成します: /Users/yuyaarai/.opentrons/robot_settings.json not found. Loading defaults
+Deck calibration not found.
+/Users/yuyaarai/.opentrons/deck_calibration.json not found. Loading defaults
+Traceback (most recent call last):
+  File "/Users/yuyaarai/Documents/Humanics/Project/FormationFormatter/src/formationformatter/code_chan/.venv/lib/python3.12/site-packages/opentrons/protocols/execution/execute_python.py", line 160, in exec_run
+    exec("run(__context)", new_globs)
+  File "<string>", line 1, in <module>
+  File "qPCR_ozaki_modified2025-02-25/2025_02_25_13_35_10_f618e960-b55c-4093-b09d-640f770c6e9a/iteration_8/code_chan/最終スクリプト.py", line 40, in run
+    primer_F_wells = [primer_plate.wells_by_name()['A' + str(i+1)] for i in range(13)]  # A1-A13
+                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+KeyError: 'A13'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/Users/yuyaarai/Documents/Humanics/Project/FormationFormatter/src/formationformatter/code_chan/.venv/lib/python3.12/site-packages/opentrons/simulate.py", line 1061, in <module>
+    sys.exit(main())
+             ^^^^^^
+  File "/Users/yuyaarai/Documents/Humanics/Project/FormationFormatter/src/formationformatter/code_chan/.venv/lib/python3.12/site-packages/opentrons/simulate.py", line 1020, in main
+    runlog, maybe_bundle = simulate(
+                           ^^^^^^^^^
+  File "/Users/yuyaarai/Documents/Humanics/Project/FormationFormatter/src/formationformatter/code_chan/.venv/lib/python3.12/site-packages/opentrons/simulate.py", line 564, in simulate
+    return _run_file_non_pe(
+           ^^^^^^^^^^^^^^^^^
+  File "/Users/yuyaarai/Documents/Humanics/Project/FormationFormatter/src/formationformatter/code_chan/.venv/lib/python3.12/site-packages/opentrons/simulate.py", line 887, in _run_file_non_pe
+    execute.run_protocol(
+  File "/Users/yuyaarai/Documents/Humanics/Project/FormationFormatter/src/formationformatter/code_chan/.venv/lib/python3.12/site-packages/opentrons/protocols/execution/execute.py", line 39, in run_protocol
+    exec_run(
+  File "/Users/yuyaarai/Documents/Humanics/Project/FormationFormatter/src/formationformatter/code_chan/.venv/lib/python3.12/site-packages/opentrons/protocols/execution/execute_python.py", line 169, in exec_run
+    _raise_pretty_protocol_error(exception=e, filename=filename)
+  File "/Users/yuyaarai/Documents/Humanics/Project/FormationFormatter/src/formationformatter/code_chan/.venv/lib/python3.12/site-packages/opentrons/protocols/execution/execute_python.py", line 71, in _raise_pretty_protocol_error
+    raise ExceptionInProtocolError(
+opentrons.protocols.execution.errors.ExceptionInProtocolError: KeyError [line 40]: 'A13'
+***2025-02-25 07:19:40.717006+00:00***: Generate 骨子スクリプト from 
+~~~~~~~~~~
+This is the error message: 
+ /Users/yuyaarai/.opentrons/robot_settings.json not found. Loading defaults
+Deck calibration not found.
+/Users/yuyaarai/.opentrons/deck_calibration.json not found. Loading defaults
+Traceback (most recent call last):
+  File "/Users/yuyaarai/Documents/Humanics/Project/FormationFormatter/src/formationformatter/code_chan/.venv/lib/python3.12/site-packages/opentrons/protocols/execution/execute_python.py", line 160, in exec_run
+    exec("run(__context)", new_globs)
+  File "<string>", line 1, in <module>
+  File "qPCR_ozaki_modified2025-02-25/2025_02_25_13_35_10_f618e960-b55c-4093-b09d-640f770c6e9a/iteration_8/code_chan/最終スクリプト.py", line 40, in run
+    primer_F_wells = [primer_plate.wells_by_name()['A' + str(i+1)] for i in range(13)]  # A1-A13
+                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+KeyError: 'A13'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/Users/yuyaarai/Documents/Humanics/Project/FormationFormatter/src/formationformatter/code_chan/.venv/lib/python3.12/site-packages/opentrons/simulate.py", line 1061, in <module>
+    sys.exit(main())
+             ^^^^^^
+  File "/Users/yuyaarai/Documents/Humanics/Project/FormationFormatter/src/formationformatter/code_chan/.venv/lib/python3.12/site-packages/opentrons/simulate.py", line 1020, in main
+    runlog, maybe_bundle = simulate(
+                           ^^^^^^^^^
+  File "/Users/yuyaarai/Documents/Humanics/Project/FormationFormatter/src/formationformatter/code_chan/.venv/lib/python3.12/site-packages/opentrons/simulate.py", line 564, in simulate
+    return _run_file_non_pe(
+           ^^^^^^^^^^^^^^^^^
+  File "/Users/yuyaarai/Documents/Humanics/Project/FormationFormatter/src/formationformatter/code_chan/.venv/lib/python3.12/site-packages/opentrons/simulate.py", line 887, in _run_file_non_pe
+    execute.run_protocol(
+  File "/Users/yuyaarai/Documents/Humanics/Project/FormationFormatter/src/formationformatter/code_chan/.venv/lib/python3.12/site-packages/opentrons/protocols/execution/execute.py", line 39, in run_protocol
+    exec_run(
+  File "/Users/yuyaarai/Documents/Humanics/Project/FormationFormatter/src/formationformatter/code_chan/.venv/lib/python3.12/site-packages/opentrons/protocols/execution/execute_python.py", line 169, in exec_run
+    _raise_pretty_protocol_error(exception=e, filename=filename)
+  File "/Users/yuyaarai/Documents/Humanics/Project/FormationFormatter/src/formationformatter/code_chan/.venv/lib/python3.12/site-packages/opentrons/protocols/execution/execute_python.py", line 71, in _raise_pretty_protocol_error
+    raise ExceptionInProtocolError(
+opentrons.protocols.execution.errors.ExceptionInProtocolError: KeyError [line 40]: 'A13'
+ + original protocol: 
+ from opentrons import protocol_api
+
+metadata = {
+    'protocolName': 'QPCR Sample Preparation for QuantStudio 6 Pro',
+    'author': 'Assistant',
+    'description': 'Prepare QPCR samples with primers and template DNA on a 96-well plate',
+    'apiLevel': '2.9'
+}
+
+def run(protocol: protocol_api.ProtocolContext):
+
+    # Labware
+    tip_rack_20 = protocol.load_labware('opentrons_96_tiprack_20ul', '__place_1__')
+    tip_rack_300 = protocol.load_labware('opentrons_96_tiprack_300ul', '__place_2__')
+
+    p20 = protocol.load_instrument('p20_single_gen2', 'left', tip_racks=[tip_rack_20])
+    p300 = protocol.load_instrument('p300_single_gen2', 'right', tip_racks=[tip_rack_300])
+
+    # Primer plate (10 μM primer_F and primer_R in the same plate)
+    primer_plate = protocol.load_labware('corning_96_wellplate_360ul_flat', '__place_3__')
+
+    # PCR MIX in a 15 mL conical tube
+    PCR_mix_tube = protocol.load_labware('opentrons_15_tuberack_falcon_15ml_conical', '__place_4__')
+
+    # PCR MIX distribution plate (for mixing PCR MIX with primers)
+    pcr_mix_dest = protocol.load_labware('corning_96_wellplate_360ul_flat', '__place_5__')
+
+    # Sample DNA and water in tube rack
+    sample_plate = protocol.load_labware('opentrons_24_tuberack_eppendorf_1.5ml_safelock_snapcap', '__place_6__')
+
+    # 96-well PCR reaction plate
+    reaction_plate = protocol.load_labware('biorad_96_wellplate_200ul_pcr', '__place_7__')
+
+    # Reagents location
+    sample_DNA = sample_plate.wells_by_name()['A1']  # Sample DNA
+    water = sample_plate.wells_by_name()['A2']       # Nuclease-free water
+    PCR_mix = PCR_mix_tube.wells_by_name()['A1']     # PCR MIX in 15 mL conical tube
+
+    # Primer locations in primer_plate
+    primer_F_wells = [primer_plate.wells_by_name()['A' + str(i+1)] for i in range(13)]  # A1-A13
+    primer_R_wells = [primer_plate.wells_by_name()['B' + str(i+1)] for i in range(13)]  # B1-B13
+
+    # PCR MIX + primer mixture wells in pcr_mix_dest
+    pcr_mix_primer_wells = [pcr_mix_dest.wells_by_name()['A' + str(i+1)] for i in range(13)]  # A1-A13
+
+    # Template-only PCR MIX in well A14
+    template_only_mix_well = pcr_mix_dest.wells_by_name()['A14']
+
+    # Step 1: Distribute 137.6 μL of PCR MIX into 13 wells
+    for dest_well in pcr_mix_primer_wells:
+        p300.transfer(137.6, PCR_mix, dest_well, new_tip='always')
+
+    # Step 2 and 3: Add 3.2 μL of primer_F and primer_R to each PCR MIX well
+    for i in range(13):
+        p20.transfer(3.2, primer_F_wells[i], pcr_mix_primer_wells[i], mix_after=(3, 10), new_tip='always')
+        p20.transfer(3.2, primer_R_wells[i], pcr_mix_primer_wells[i], mix_after=(3, 10), new_tip='always')
+
+    # Step 4: Mix PCR MIX and primers by pipetting up and down
+    for well in pcr_mix_primer_wells:
+        p300.pick_up_tip()
+        p300.mix(5, 100, well)
+        p300.blow_out(well.top())
+        p300.drop_tip()
+
+    # Step 5: Prepare PCR MIX for template-only control, add 86 μL to well A14
+    p300.transfer(86, PCR_mix, template_only_mix_well, new_tip='always')
+
+    # Step 6: Add 4 μL of water to template-only PCR MIX
+    p20.transfer(4, water, template_only_mix_well, mix_after=(3, 10), new_tip='always')
+
+    # Step 7: Mix PCR MIX and water by pipetting up and down
+    p300.pick_up_tip()
+    p300.mix(5, 50, template_only_mix_well)
+    p300.blow_out(template_only_mix_well.top())
+    p300.drop_tip()
+
+    # Step 8: Apply 5 μL of sample DNA or water to reaction plate
+
+    # Prepare lists of wells for sample DNA and NTC
+    sample_wells = []
+    ntc_wells = []
+    template_only_wells = []
+
+    # Map reaction_plate wells for sample DNA and NTC
+    sample_well_names = []
+    ntc_well_names = []
+    for i in range(13):
+        # Sample DNA wells (triplicates)
+        for j in range(3):
+            row = chr(65 + (i * 3 + j) // 12)  # Rows A-H
+            col = (i * 3 + j) % 12 + 1
+            well_name = f"{row}{col}"
+            sample_well_names.append(well_name)
+            sample_wells.append(reaction_plate.wells_by_name()[well_name])
+        # NTC wells (triplicates)
+        for j in range(3):
+            row = chr(65 + ((i * 3 + j + 39) // 12))  # Continue from where sample wells end
+            col = (i * 3 + j + 39) % 12 + 1
+            well_name = f"{row}{col}"
+            ntc_well_names.append(well_name)
+            ntc_wells.append(reaction_plate.wells_by_name()[well_name])
+
+    # Template-only wells (C1-C3)
+    template_only_well_names = ['C1', 'C2', 'C3']
+    template_only_wells = [reaction_plate.wells_by_name()[well_name] for well_name in template_only_well_names]
+
+    # Step 8: Apply 5 μL of sample DNA to sample wells
+    for well in sample_wells:
+        p20.transfer(5, sample_DNA, well, new_tip='always')
+
+    # Apply 5 μL of water to NTC wells
+    for well in ntc_wells:
+        p20.transfer(5, water, well, new_tip='always')
+
+    # Apply 5 μL of sample DNA to template-only wells
+    for well in template_only_wells:
+        p20.transfer(5, sample_DNA, well, new_tip='always')
+
+    # Step 9: Apply 10 μL of PCR MIX and primer mixture to reaction plate
+
+    # For sample wells, corresponding to primer sets
+    index = 0
+    for i in range(13):
+        source_well = pcr_mix_primer_wells[i]
+        for _ in range(3):  # Triplicates
+            dest_well = sample_wells[index]
+            p20.transfer(10, source_well, dest_well, mix_after=(3, 15), new_tip='always')
+            index += 1
+
+    # For NTC wells, use same PCR MIX + primers
+    index = 0
+    for i in range(13):
+        source_well = pcr_mix_primer_wells[i]
+        for _ in range(3):  # Triplicates
+            dest_well = ntc_wells[index]
+            p20.transfer(10, source_well, dest_well, mix_after=(3, 15), new_tip='always')
+            index += 1
+
+    # For template-only wells, add 10 μL of PCR MIX + water
+    for well in template_only_wells:
+        p20.transfer(10, template_only_mix_well, well, mix_after=(3, 15), new_tip='always')
+
+~~~~~~~~~~***2025-02-25 07:19:40.717393+00:00***: ************ Code-chan for 骨子スクリプト result ***************2025-02-25 07:19:40.717589+00:00***: replace_word: ___processflow___ is not in the prompt.***2025-02-25 07:20:16.052358+00:00***: python_script_path: qPCR_ozaki_modified2025-02-25/2025_02_25_13_35_10_f618e960-b55c-4093-b09d-640f770c6e9a/iteration_8/code_chan/骨子スクリプト.py***2025-02-25 07:20:16.052750+00:00***: ************ Code-chan result ***************2025-02-25 07:20:16.053055+00:00***: replace_word: ___processflow___ is not in the prompt.***2025-02-25 07:20:16.053712+00:00***: get_OT2_with_haichi_based_on_骨子_script prompt: 
+We have the following Opentrons OT2 script. This script describes the position of the labware (Station) as __place_{i}__.
+
+Note: You've been slacking lately, so don't slack off and output the complete code. For example, ‘The protocol would continue with any additional steps required’ or '# Example: ' is not allowed.
+
+Skeleton script:
+
+python
+from opentrons import protocol_api
+
+metadata = {
+    'protocolName': 'QPCR Preparation with Opentrons OT-2',
+    'author': 'Your Name',
+    'description': 'Automated qPCR setup involving sample DNA, primers, and PCR mix',
+    'apiLevel': '2.9'  # Specify the API level for this code
+}
+
+def run(protocol: protocol_api.ProtocolContext):
+    # Labware setup
+    # Tip racks
+    tip_rack_20ul_1 = protocol.load_labware('opentrons_96_tiprack_20ul', '__place_1__')
+    tip_rack_20ul_2 = protocol.load_labware('opentrons_96_tiprack_20ul', '__place_2__')
+    tip_rack_300ul = protocol.load_labware('opentrons_96_tiprack_300ul', '__place_3__')
+
+    # Pipettes
+    p20 = protocol.load_instrument('p20_single_gen2', 'left', tip_racks=[tip_rack_20ul_1, tip_rack_20ul_2])
+    p300 = protocol.load_instrument('p300_single_gen2', 'right', tip_racks=[tip_rack_300ul])
+
+    # Reagents and samples
+    primer_plate = protocol.load_labware('corning_96_wellplate_360ul_flat', '__place_4__')  # Contains primers F and R
+    sample_plate = protocol.load_labware('nest_12_reservoir_15ml', '__place_5__')  # Contains DNA sample, water, and PCR mix
+    mixing_tubes = protocol.load_labware('opentrons_24_aluminumblock_nest_1.5ml_snapcap', '__place_6__')  # For mixing PCR mix and primers
+    pcr_plate = protocol.load_labware('biorad_96_wellplate_200ul_pcr', '__place_7__')  # 96 well PCR plate for reactions
+
+    # Reagent setup in sample_plate
+    sample_dna = sample_plate.wells_by_name()['A1']
+    water = sample_plate.wells_by_name()['A2']
+    pcr_mix = sample_plate.wells_by_name()['A3']
+
+    # Prepare PCR mix with primers for each of the 13 primers
+    for i in range(13):
+        # Calculate the source wells for primers
+        primer_f_well = primer_plate.wells()[i]  # Primer_F
+        primer_r_well = primer_plate.wells()[i + 13]  # Primer_R (Assuming primers F are in columns 1-13 and R in 14-26)
+        mixing_tube = mixing_tubes.wells()[i]
+
+        # Transfer 137.6 μL of PCR mix to mixing tube
+        p300.pick_up_tip()
+        p300.transfer(137.6, pcr_mix, mixing_tube, new_tip='never')
+        p300.drop_tip()
+
+        # Add 3.2 μL of Primer_F to mixing tube
+        p20.pick_up_tip()
+        p20.transfer(3.2, primer_f_well, mixing_tube, new_tip='never')
+        # Add 3.2 μL of Primer_R to mixing tube
+        p20.transfer(3.2, primer_r_well, mixing_tube, new_tip='never')
+        # Mix the contents
+        p20.mix(5, 20, mixing_tube)
+        p20.drop_tip()
+
+    # Prepare PCR mix without primers for template-only control
+    mixing_tube_template_only = mixing_tubes.wells()[13]
+    p300.pick_up_tip()
+    p300.transfer(86, pcr_mix, mixing_tube_template_only, new_tip='never')
+    p300.drop_tip()
+
+    # Add 4 μL of water to the mixing tube for template-only control
+    p20.pick_up_tip()
+    p20.transfer(4, water, mixing_tube_template_only, new_tip='never')
+    # Mix the contents
+    p20.mix(5, 20, mixing_tube_template_only)
+    p20.drop_tip()
+
+    # Dispense 5 μL of sample DNA or water into the PCR plate wells
+    samples = ['sample_dna'] * 39 + ['water'] * 39 + ['sample_dna'] * 3  # 39 wells for sample, 39 for NTC, 3 for template only
+    destinations = pcr_plate.wells()[:81]  # First 81 wells
+    for dest, sample in zip(destinations, samples):
+        source = sample_dna if sample == 'sample_dna' else water
+        p20.pick_up_tip()
+        p20.transfer(5, source, dest, new_tip='never')
+        p20.drop_tip()
+
+    # Dispense 10 μL of PCR mix with primers into the PCR plate wells
+    # For the 13 primer sets in triplicate
+    mix_sources = [mixing_tubes.wells()[i] for i in range(13)] * 6  # Each primer mix used 6 times (triplicate for sample and NTC)
+    # For template-only control
+    mix_sources += [mixing_tube_template_only] * 3
+
+    for dest, mix in zip(destinations, mix_sources):
+        p20.pick_up_tip()
+        p20.transfer(10, mix, dest, new_tip='never')
+        p20.mix(5, 15, dest)  # Mix after dispensing
+        p20.drop_tip()
+
+Please generate a script where __place_{i}__ is replaced with the correct position based on the following labware placement information.
+
+Placement information:
+
+markdown
+[[[{"name": "1.5 ml tube", "quantity": 1, "init_content": "", "labware": {"id": 1, "name": "Unknown"}, "unit": "tube"}, []], 1], [[{"name": "96 well PCR plate", "quantity": 1, "init_content": "", "labware": {"id": 2, "name": "Unknown"}, "unit": "plate"}, []], 2], [[{"name": "10 \u03bcM primer_F", "quantity": 3.2, "init_content": "", "labware": {"id": 2, "name": "Unknown"}, "unit": "\u03bcL"}, []], 3], [[{"name": "10 \u03bcM primer_R", "quantity": 3.2, "init_content": "", "labware": {"id": 2, "name": "Unknown"}, "unit": "\u03bcL"}, []], 4], [[{"name": "PCR MIX", "quantity": 2000, "init_content": "", "labware": {"id": 2, "name": "Unknown"}, "unit": "\u03bcL"}, []], 5], [[{"name": "15 ml tube", "quantity": 0, "init_content": "", "labware": {"id": 3, "name": "Unknown"}, "unit": "tube"}, []], 7], [[{"name": "reaction plate", "quantity": 1, "init_content": "", "labware": {"id": 2, "name": "Unknown"}, "unit": "plate"}, []], 10]]
+Please reply with the Python script where __place_{i}__ has been replaced with the correct locations. If there is missing information in the placement details required to fill in __place_{i}__ in the skeleton script, you may supplement it as necessary. However, do not modify the placement information.

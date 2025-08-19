@@ -1,0 +1,16 @@
+
+IHC
+Wash cells with xx mL of PBS (-).
+Fix cells in xx mL of 15% paraformaldehyde for 1 hr at RT (approximately 25 °C).
+Remove PFA and add xx mL of PBS (-), then store at 4 °C.
+After removing the solutions, treat cells with 50 µL/well of 0.2% Triton X-100/PBS (-).
+Incubate for 30 min at RT.
+Wash with xx mL of PBS (-).
+Block with 50 µL of Blocking One (03953–95, Nacalai Tesque Inc, Japan) for 1 hr at RT.
+After removal of the solutions, stain cells at 4 °C overnight in 50 µL of the 1st antibody diluent (rabbit anti-ZO-1, 61–7300, Thermo Fisher Scientific Inc, MA, USA; anti-MITF, mouse anti-MiTF, ab80651, Abcam plc., Britain; antibody diluent, S2022, Agilent Technologies Inc, USA).
+Remove solutions, wash cells with xx mL of PBS (-).
+Stain at RT for 1 hr in 50 µL of the 2nd antibody diluent (Alexa Fluor 546 Goat Anti-mouse IgG, A-11030, Thermo Fisher Scientific Inc, MA, USA; Alexa Fluor 488 Goat Anti-rabbit IgG, A-11034, Thermo Fisher Scientific Inc, MA, USA; antibody diluent, S2022, Agilent Technologies Inc, USA) with DAPI (1 µg/mL, D1206, Thermo Fisher Scientific Inc, MA, USA).
+Remove solutions, wash with xx mL of PBS (-).
+Add 50 µL of PBS (-).
+Acquire images of immunohistochemistry samples using an IX73 inverted microscope (Olympus, Japan).
+      

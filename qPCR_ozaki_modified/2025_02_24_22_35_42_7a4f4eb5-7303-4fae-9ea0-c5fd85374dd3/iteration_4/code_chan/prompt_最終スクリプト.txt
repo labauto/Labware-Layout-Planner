@@ -1,0 +1,146 @@
+
+We have the following Opentrons OT2 script. This script describes the position of the labware (Station) as __place_{i}__.
+
+Note: You've been slacking lately, so don't slack off and output the complete code. For example, ‘The protocol would continue with any additional steps required’ or '# Example: ' is not allowed.
+
+Skeleton script:
+
+python
+from opentrons import protocol_api
+
+metadata = {
+    'protocolName': 'QPCR Sample Prep for QuantStudio 6 Pro',
+    'author': 'Your Name',
+    'description': 'Prepare QPCR samples with one sample DNA and 13 primer sets in triplicates including controls',
+    'apiLevel': '2.9'  # Make sure to use the correct API level
+}
+
+def run(protocol: protocol_api.ProtocolContext):
+    # Labware setup with placeholder positions
+    # Load tip racks
+    tip_rack_300 = protocol.load_labware('opentrons_96_tiprack_300ul', '__place_1__')
+    tip_rack_20 = protocol.load_labware('opentrons_96_tiprack_20ul', '__place_2__')
+    
+    # Load tube rack containing PCR MIX, sample DNA, water
+    tube_rack = protocol.load_labware('opentrons_24_tuberack_nest_1.5ml_snapcap', '__place_3__')
+    pcr_mix = tube_rack.wells_by_name()['A1']
+    sample_dna = tube_rack.wells_by_name()['B1']
+    water = tube_rack.wells_by_name()['C1']
+    
+    # Load primers plate (assuming 96 well plate)
+    primers_plate = protocol.load_labware('nest_96_wellplate_100ul_pcr_full_skirt', '__place_4__')
+    
+    # Load PCR MIX aliquot tubes
+    pcr_mix_tubes = protocol.load_labware('opentrons_24_tuberack_nest_1.5ml_snapcap', '__place_5__')
+    
+    # Load the 96-well PCR reaction plate
+    reaction_plate = protocol.load_labware('nest_96_wellplate_100ul_pcr_full_skirt', '__place_6__')
+    
+    # Instruments
+    p300 = protocol.load_instrument('p300_single', 'left', tip_racks=[tip_rack_300])
+    p20 = protocol.load_instrument('p20_single_gen2', 'right', tip_racks=[tip_rack_20])
+    
+    # Step 1: Aliquot PCR MIX to 13 tubes (137.6 μL each)
+    for i in range(13):
+        dest_tube = pcr_mix_tubes.wells()[i]
+        p300.pick_up_tip()
+        p300.transfer(137.6, pcr_mix, dest_tube, new_tip='never')
+        p300.drop_tip()
+        
+    # Step 2: Add 10 μM primer_F (3.2 μL) to PCR MIX tubes
+    for i in range(13):
+        dest_tube = pcr_mix_tubes.wells()[i]
+        primer_f = primers_plate.wells()[i]
+        p20.pick_up_tip()
+        p20.transfer(3.2, primer_f, dest_tube, mix_after=(3, 20), new_tip='never')
+        p20.drop_tip()
+        
+    # Step 3: Add 10 μM primer_R (3.2 μL) to PCR MIX tubes
+    for i in range(13):
+        dest_tube = pcr_mix_tubes.wells()[i]
+        primer_r = primers_plate.wells()[i+13]
+        p20.pick_up_tip()
+        p20.transfer(3.2, primer_r, dest_tube, mix_after=(3, 20), new_tip='never')
+        p20.drop_tip()
+    
+    # Step 4: Mix PCR MIX and primers (already mixed in the previous steps)
+    
+    # Step 5: Aliquot PCR MIX for template-only control (86 μL)
+    template_only_tube = pcr_mix_tubes.wells_by_name()['D1']
+    p300.pick_up_tip()
+    p300.transfer(86, pcr_mix, template_only_tube, new_tip='never')
+    p300.drop_tip()
+    
+    # Step 6: Add water (4 μL) to template-only PCR MIX
+    p20.pick_up_tip()
+    p20.transfer(4, water, template_only_tube, mix_after=(3, 20), new_tip='never')
+    p20.drop_tip()
+    
+    # Step 7: Mix PCR MIX and water (already mixed in the previous step)
+    
+    # Step 8: Dispense sample DNA or water into reaction plate (5 μL each)
+    # Sample wells for sample DNA (triplicates for each primer)
+    sample_wells = []
+    for i in range(13):
+        for replicate in range(3):
+            well_index = i*3 + replicate
+            sample_wells.append(reaction_plate.wells()[well_index])
+    
+    # Dispense sample DNA (5 μL) into sample wells
+    p20.pick_up_tip()
+    for well in sample_wells:
+        p20.transfer(5, sample_dna, well, new_tip='never')
+    p20.drop_tip()
+    
+    # NTC wells (triplicates for each primer)
+    ntc_wells = []
+    for i in range(13):
+        for replicate in range(3):
+            well_index = 39 + i*3 + replicate
+            ntc_wells.append(reaction_plate.wells()[well_index])
+    
+    # Dispense water (5 μL) into NTC wells
+    p20.pick_up_tip()
+    for well in ntc_wells:
+        p20.transfer(5, water, well, new_tip='never')
+    p20.drop_tip()
+    
+    # Template-only control wells (3 wells)
+    template_only_wells = [reaction_plate.wells()[78], reaction_plate.wells()[79], reaction_plate.wells()[80]]
+    
+    # Dispense sample DNA (5 μL) into template-only wells
+    p20.pick_up_tip()
+    for well in template_only_wells:
+        p20.transfer(5, sample_dna, well, new_tip='never')
+    p20.drop_tip()
+    
+    # Step 9: Dispense PCR MIX and primer mixes into reaction plate (10 μL each)
+    # For sample wells
+    for i in range(13):
+        source_tube = pcr_mix_tubes.wells()[i]
+        wells = [reaction_plate.wells()[i*3 + j] for j in range(3)]
+        p20.pick_up_tip()
+        p20.transfer(10, source_tube, wells, new_tip='never')
+        p20.drop_tip()
+    
+    # For NTC wells
+    for i in range(13):
+        source_tube = pcr_mix_tubes.wells()[i]
+        wells = [reaction_plate.wells()[39 + i*3 + j] for j in range(3)]
+        p20.pick_up_tip()
+        p20.transfer(10, source_tube, wells, new_tip='never')
+        p20.drop_tip()
+    
+    # For template-only control wells
+    source_tube = template_only_tube
+    p20.pick_up_tip()
+    p20.transfer(10, source_tube, template_only_wells, new_tip='never')
+    p20.drop_tip()
+
+Please generate a script where __place_{i}__ is replaced with the correct position based on the following labware placement information.
+
+Placement information:
+
+markdown
+[[[{"name": "1 sample DNAs", "quantity": 300, "init_content": "", "labware": {"id": 3, "name": "Unknown"}, "unit": "\u03bcL"}, []], 1], [[{"name": "water", "quantity": 300, "init_content": "", "labware": {"id": 3, "name": "Unknown"}, "unit": "\u03bcL"}, []], 2], [[{"name": "10 \u03bcM primer_F", "quantity": 130, "init_content": "", "labware": {"id": 3, "name": "Unknown"}, "unit": "\u03bcL"}, []], 3], [[{"name": "10 \u03bcM primer_R", "quantity": 130, "init_content": "", "labware": {"id": 3, "name": "Unknown"}, "unit": "\u03bcL"}, []], 4], [[{"name": "PCR MIX", "quantity": 2000, "init_content": "", "labware": {"id": 3, "name": "Unknown"}, "unit": "\u03bcL"}, []], 5], [[{"name": "96 well PCR plate", "quantity": 1, "init_content": "", "labware": {"id": 3, "name": "Unknown"}, "unit": "plate"}, []], 7], [[{"name": "empty tube", "quantity": 0, "init_content": "", "labware": {"id": 3, "name": "Unknown"}, "unit": ""}, []], 10]]
+Please reply with the Python script where __place_{i}__ has been replaced with the correct locations. If there is missing information in the placement details required to fill in __place_{i}__ in the skeleton script, you may supplement it as necessary. However, do not modify the placement information.
